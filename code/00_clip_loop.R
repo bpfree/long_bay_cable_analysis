@@ -1,6 +1,6 @@
-#########################################################
-### 0. Spatial extent calculations -- Marine Cadastre ###
-#########################################################
+##################################################
+### 0. Data layer clip loop -- Marine Cadastre ###
+##################################################
 
 # Clear environment
 rm(list = ls())
@@ -60,15 +60,6 @@ data_gpkg <- "data/b_intermediate_data/carl.gpkg"
 sf::st_layers(dsn = study_region,
               do_count = T)
 
-## top 10 layer names
-sf::st_layers(dsn = marine_cadastre_gdb,
-              do_count = T)[[1]][1:10]
-
-## all layers
-### ***Note: if not all rows are printed (and you see something like: 
-###          "reached 'max' / getOption("max.print") -- omitted 495 rows"
-###          then type into console options(max.print = 500). This should
-###          print out all results 70 (rows) * 5 (fields) = 350
 sf::st_layers(dsn = marine_cadastre_gdb,
               do_count = T)
 
