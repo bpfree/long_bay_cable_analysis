@@ -89,7 +89,7 @@ length(vector)
 #####################################
 
 # parameters
-# set the coordinate reference system that data should become (WGS84: https://epsg.io/4326)
+# set the coordinate reference system that data should become (NAD83 / Conus Albers: https://epsg.io/5070)
 crs <- "EPSG:5070"
 
 # cat(crs(study_area))
@@ -131,6 +131,7 @@ for(i in 1:length(vector)){ # use length(sf::st_layers(dsn = marine_cadastre_gdb
                               layer = sf::st_layers(marine_cadastre_gdb)[[1]][i]) %>%
         # reproject data to match study region coordinate reference system
         sf::st_transform(x = .,
+                         # coordinate reference system (EPSG:5070, NAD83 / Conus Albers)
                          crs = crs) %>%
         # clip the data to the study region
         rmapshaper::ms_clip(target = .,
