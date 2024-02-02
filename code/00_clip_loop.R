@@ -112,7 +112,7 @@ for(i in 1:length(vector)){ # use length(sf::st_layers(dsn = marine_cadastre_gdb
   #          such a data layer, the code uses try(), which will continue the code even if an error gets
   #          generated. See ?try() for more information about the function. silent = F will show error
   
-  # ignore 21 / 59
+  # ignore 21 / 59 / 63
   # skip analysis when i is equal to 21, 59, or 63
   if((i == 21 || i == 59 || i == 63)){
     # print message saying why skipped
