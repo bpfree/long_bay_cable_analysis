@@ -6,3 +6,4 @@
 # ignore data that are too large
 data/a_raw_data/Carolinas_Database.gdb
 data/a_raw_data/Carolinas_Marine_Cadastre.gdb
+data/a_raw_data/VA_data_mining_20240104.gdb
