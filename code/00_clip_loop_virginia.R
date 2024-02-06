@@ -104,7 +104,12 @@ for(i in 1:length(vector)){ # use length(sf::st_layers(dsn = marine_cadastre_gdb
   #          generated. See ?try() for more information about the function. silent = F will show error
   
   # ignore
-  # skip analysis when i is equal to 103, 113, 137, 140
+  # skip analysis when i is equal to 103, 113, 137, 140, and 142
+  ## 103 = CB_ESIP_2016
+  ## 113 = CB_ESI_BIRDS_2016
+  ## 137 = CB_ESI_POLITICAL_POLY_2016
+  ## 140 = CB_ESI_NAT_HAZARD_POLYS_2016
+  ## 142 = CB_ESI_HYDROP_2016
   if((i == 103 || i == 113 || i == 137 || i == 140 || i == 142)){
     # print message saying why skipped
     print(paste("Skip interation", i, "for it cannot get completed due to taking too much memory"), sep = "/")
