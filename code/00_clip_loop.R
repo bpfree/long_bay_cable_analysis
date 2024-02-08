@@ -405,7 +405,7 @@ for(i in 1:length(vector)){ # use length(sf::st_layers(dsn = marine_cadastre_gdb
   
   # ignore 
   # skip analysis when i is equal to 63
-  if((i == 63)){
+  if(i == 63){
     # print message saying why skipped
     print(paste("Skip interation", i, "for it cannot get completed due to taking too much memory "), sep = "/")
     # go to next iteration
@@ -423,4 +423,4 @@ sf::st_layers(dsn = data_gpkg,
 #####################################
 
 # calculate end time and print time difference
-print(Sys.time() - start) # print how long it takes to calculateError: cannot create a crs from an object of class standardGeneric
+print(Sys.time() - start) # print how long it takes to calculate clip all data
