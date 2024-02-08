@@ -110,38 +110,40 @@ for(i in 1:length(vector)){ # use length(sf::st_layers(dsn = marine_cadastre_gdb
   ## 137 = CB_ESI_POLITICAL_POLY_2016
   ## 140 = CB_ESI_NAT_HAZARD_POLYS_2016
   ## 142 = CB_ESI_HYDROP_2016
-  if((i == 103 || i == 113 || i == 137 || i == 140 || i == 142)){
+  if(i == 103 || i == 113 || i == 137 || i == 140 || i == 142){
     # print message saying why skipped
-    print(paste("Skip interation", i, "for it cannot get completed due to taking too much memory"), sep = "/")
+    print(paste("Skip interation", i, "for these data are located in the Chesapeake Bay and are outside the study region"), sep = "/")
     # go to next iteration
     next
   }
   
-  data_name <- paste(sf::st_layers(dsn = virginia_gdb,
-                                   do_count = T)[[1]][i], "clip", sep = "_")
-  
-  # load data and clip
-  try(data_set <- sf::st_read(dsn = virginia_gdb,
-                              layer = sf::st_layers(virginia_gdb)[[1]][i]) %>%
-        # reproject data to match study region coordinate reference system
-        sf::st_transform(x = .,
-                         # coordinate reference system (EPSG:5070, NAD83 / Conus Albers)
-                         crs = crs) %>%
-        # clip the data to the study region
-        rmapshaper::ms_clip(target = .,
-                            clip = study_area), silent = F)
-  
-  # give the data layer name to the generic data_set object
-  try(assign(data_name, data_set), silent = F)
-  
-  # export data to geopackage
-  try(sf::st_write(obj = data_set, dsn = data_gpkg, layer = paste(data_name), append = F), silent = F)
-  
-  # remove the current data set
-  try(rm(data_set), silent = F)
-  
-  # print how long it takes to calculate
-  print(paste("Iteration", i, "of", length(vector), "takes", Sys.time() - start2, units(Sys.time() - start2), "to complete creating and adding", data_name, "data to dataframe", sep = " "))
+  if(!(i == 103 || i == 113 || i == 137 || i == 140 || i == 142)){
+    data_name <- paste(sf::st_layers(dsn = virginia_gdb,
+                                     do_count = T)[[1]][i], "clip", sep = "_")
+    
+    # load data and clip
+    try(data_set <- sf::st_read(dsn = virginia_gdb,
+                                layer = sf::st_layers(virginia_gdb)[[1]][i]) %>%
+          # reproject data to match study region coordinate reference system
+          sf::st_transform(x = .,
+                           # coordinate reference system (EPSG:5070, NAD83 / Conus Albers)
+                           crs = crs) %>%
+          # clip the data to the study region
+          rmapshaper::ms_clip(target = .,
+                              clip = study_area), silent = F)
+    
+    # give the data layer name to the generic data_set object
+    try(assign(data_name, data_set), silent = F)
+    
+    # export data to geopackage
+    try(sf::st_write(obj = data_set, dsn = data_gpkg, layer = paste(data_name), append = F), silent = F)
+    
+    # remove the current data set
+    try(rm(data_set), silent = F)
+    
+    # print how long it takes to calculate
+    print(paste("Iteration", i, "of", length(vector), "takes", Sys.time() - start2, units(Sys.time() - start2), "to complete creating and adding", data_name, "data to dataframe", sep = " "))
+  }
 }
 
 #####################################
@@ -154,4 +156,4 @@ sf::st_layers(dsn = data_gpkg,
 #####################################
 
 # calculate end time and print time difference
-print(Sys.time() - start) # print how long it takes to calculateError: cannot create a crs from an object of class standardGeneric
+print(Sys.time() - start) # print how long it takes to calculate clip all data
