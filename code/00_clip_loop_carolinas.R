@@ -1,5 +1,5 @@
 ###########################################
-### 0. Data layer clip loop -- Virginia ###
+### 0. Data layer clip loop -- Carolinas ###
 ###########################################
 
 # Clear environment
