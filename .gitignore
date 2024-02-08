@@ -7,5 +7,6 @@
 data/a_raw_data/Carolinas_Database.gdb
 data/a_raw_data/Carolinas_Marine_Cadastre.gdb
 data/a_raw_data/VA_data_mining_20240104.gdb
+data/a_raw_data/Carolinas.gdb
 
 data/b_intermediate_data/carolinas.gpkg
