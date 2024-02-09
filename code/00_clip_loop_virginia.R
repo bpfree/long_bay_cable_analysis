@@ -67,13 +67,16 @@ sf::st_layers(dsn = virginia_gdb,
 vector <- which(!is.na(sf::st_layers(dsn = virginia_gdb,
                                      do_count = T)$geomtype == "NA"))
 
+## inspect data layer number (will help in the for loop if not all vector datasets are sequential)
+vector
+
 ### alternative to find rasters use which(is.na(sf::st_layers(dsn = marine_cadastre_gdb, do_count = T)$geomtype == "NA"))
 
-## see length of data layers (70 data layers)
+## see length of data layers (186 data layers)
 length(sf::st_layers(dsn = virginia_gdb,
                      do_count = T)[[1]])
 
-## see length of vector data layers (70 data layers)
+## see length of vector data layers (163 data layers)
 length(vector)
 
 #####################################
