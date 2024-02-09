@@ -262,9 +262,9 @@ for(i in 1:length(vector)){ # use length(sf::st_layers(dsn = marine_cadastre_gdb
   ## 114 = NC_2022_Integrated_Report_Polygons__Parameter_Assessment_
   ## 238 = NC_ESI_NAT_HAZARD_POLY_2016
   ## 381 = AISVesselTracks2022
-  ## 441 - 451 = North Carolina south 2 sea level rise
-  ## 452 - 453 = 
-  ## 462 - 473 = South Carolina central sea level rise
+  ## 441 - 451 = North Carolina south 2 sea level rise (0 - 10 ft)
+  ## 452 - 453 = South Carolina north sea level rise (0 - 1 ft)
+  ## 462 - 473 = South Carolina central sea level rise (0 - 10 ft)
   if(i == 29 || i == 90 || i == 113 || i == 114 || i == 238 || i == 239 || i == 240 || i == 381 ||
      i == 441 || i == 442 || i == 443 || i == 444 || i == 445 || i == 446 || i == 447 || i == 448 || i == 449 || i == 450 || i == 451 ||
      i == 452 || i == 453 || 
