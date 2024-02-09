@@ -72,11 +72,11 @@ vector
 
 ### alternative to find rasters use which(is.na(sf::st_layers(dsn = marine_cadastre_gdb, do_count = T)$geomtype == "NA"))
 
-## see length of data layers (70 data layers)
+## see length of data layers (549 data layers)
 length(sf::st_layers(dsn = carolinas_extra_gdb,
                      do_count = T)[[1]])
 
-## see length of vector data layers (70 data layers)
+## see length of vector data layers (119 data layers)
 length(vector)
 
 #####################################
