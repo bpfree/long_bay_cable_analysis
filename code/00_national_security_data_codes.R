@@ -71,22 +71,22 @@ national_security_geopackage <- "data/a_raw_data/national_security.gpkg"
 military_installations <- sf::st_read(dsn = military_installations_gdb,
                                       layer = sf::st_layers(dsn = military_installations_gdb)[[1]][2])
 
-# danger zones and restricted areas
+## danger zones and restricted areas
 danger_zones <- sf::st_read(dsn = danger_zones_gpkg,
                             layer = sf::st_layers(dsn = danger_zones_gpkg)[[1]][1])
 
-# formerly used defense sites
+## formerly used defense sites
 fuds <- sf::st_read(dsn = fuds_gpkg,
                     layer = sf::st_layers(dsn = fuds_gpkg)[[1]][1])
 
-# military submarine transit lines
+## military submarine transit lines
 military_submarine <- sf::st_read(dsn = military_submarine_gpkg,
                                   layer = sf::st_layers(dsn = military_submarine_gpkg)[[1]][1])
 
-# military collection
-## military ship shock boxes
-## military regulated airspace
-## military special use airspace
+## military collection
+### military ship shock boxes
+### military regulated airspace
+### military special use airspace
 military_shock <- sf::st_read(dsn = military_collection_gpkg,
                               layer = sf::st_layers(dsn = military_collection_gpkg)[[1]][4])
 military_regulated_air <- sf::st_read(dsn = military_collection_gpkg,
