@@ -15,13 +15,13 @@ data_subdirectories <- c("a_raw_data",
                          "g_uncertainty_data",
                          "zz_miscellaneous")
 
-# # designate submodel directories
-# submodels <- c("national_security",
-#                "industry_navigation",
-#                "fishing_aquaculture",
-#                "natural_resources",
-#                "cultural_resources",
-#                "metocean_other")
+# designate submodel directories
+data_submodels <- c("national_security",
+                    "industry_navigation",
+                    "fishing_aquaculture",
+                    "natural_resources",
+                    "cultural_resources",
+                    "metocean_other")
 
 #####################################
 
@@ -30,10 +30,28 @@ for (i in 1:length(data_subdirectories)){
   subdirectories <- dir.create(paste0("data/", data_subdirectories[i]))
 }
 
+# create submodels within raw data directory
+for (i in 1:length(data_submodels)){
+  submodels <- dir.create(paste0("data/a_raw_data/", data_submodels[i]))
+}
+
 #####################################
 
 # create code directory
 code_dir <- dir.create("code")
+
+# designate submodel code subdirectories
+code_submodels <- c("00_national_security",
+                    "00_industry_navigation",
+                    "00_fishing_aquaculture",
+                    "00_natural_resources",
+                    "00_cultural_resources",
+                    "00_metocean_other")
+
+# create submodels within code directory
+for (i in 1:length(code_submodels)){
+  submodels_code <- dir.create(paste0("code/", code_submodels[i]))
+}
 
 #####################################
 
