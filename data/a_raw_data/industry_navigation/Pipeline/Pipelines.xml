@@ -1,0 +1,1546 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>Department of Commerce (DOC), National Oceanic and Atmospheric Administration (NOAA), National Ocean Service (NOS), Office for Coastal Management (OCM); Bureau of Ocean Energy Management (BOEM)</origin>
+				<pubdate>20180530</pubdate>
+				<title>Pipelines</title>
+				<geoform>vector digital data</geoform>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>This data set contains the locations of oil and gas pipelines in the Unites States Offshore Outer Continental Shelf. The areas found in Alaska were calculated NAD 1983 Alaska Albers Equal Area Conic. All data in the layer is projected into WGS 1984 World Mercator.</abstract>
+			<purpose>To show locations of oil and gas pipelines from the Bureau of Safety and Environmental Enforcement, BOEM, and coastal states with available offshore pipeline data. As well as, to support coastal and ocean planning and other activities pursuant to the Energy Policy Act, Coastal Zone Management Act, Magnuson-Stevens Fishery Conservation and Management Act, National Environmental Policy Act, Rivers and Harbors Act and the Submerged Lands Act.</purpose>
+			<supplinf>This product is a combination of BOEM/BSEE pipelines along with available coastal state data for offshore pipelines.</supplinf>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<rngdates>
+					<begdate>20040101</begdate>
+					<enddate>20180501</enddate>
+				</rngdates>
+			</timeinfo>
+			<current>ground condition</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>As needed</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-152.154460</westbc>
+				<eastbc>-68.811756</eastbc>
+				<northbc>70.490307</northbc>
+				<southbc>25.394850</southbc>
+			</bounding>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>Pipelines</themekey>
+				<themekey>Pacific</themekey>
+				<themekey>Oceans</themekey>
+				<themekey>Oil and Gas</themekey>
+				<themekey>BSEE</themekey>
+				<themekey>NOAA</themekey>
+				<themekey>BOEM</themekey>
+				<themekey>Utilities &amp; Communication</themekey>
+				<themekey>Planning</themekey>
+			</theme>
+			<theme>
+				<themekt>ISO 19115 Topic Categories</themekt>
+				<themekey>planningCadastre</themekey>
+				<themekey>oceans</themekey>
+				<themekey>utilitiesCommunication</themekey>
+			</theme>
+		</keywords>
+		<accconst>BOEM, NOAA, BSEE</accconst>
+		<useconst>These data are intended for coastal and ocean use planning. Not for navigation. http://www.marinecadastre.gov/about/disclaimer.html Please check sources, scale, accuracy, currentness and other available information. Please confirm that you are using the most recent copy of both data and metadata.</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Office for Coastal Management</cntorg>
+					<cntper>NOAA Office for Coastal Management</cntper>
+				</cntorgp>
+				<cntpos>MarineCadastre.gov Data Steward</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical</addrtype>
+					<address>2234 South Hobson Ave</address>
+					<city>North Charleston</city>
+					<state>SC</state>
+					<postal>29405-2413</postal>
+				</cntaddr>
+				<cntvoice>843-740-1202</cntvoice>
+				<cntemail>coastal.info@noaa.gov</cntemail>
+			</cntinfo>
+		</ptcontac>
+		<datacred>NOAA Office for Coastal Management, BOEM, BSEE, Alaska, California, Texas, Louisiana, Alabama, Mississippi.</datacred>
+		<native> Version 6.2 (Build 9200); Esri ArcGIS 10.4.1.5713</native>
+	</idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr>No formal attribute accuracy test was conducted. The attributes in this dataset are believed to be accurate.</attraccr>
+		</attracc>
+		<logic>These data are believed to be logically consistent. Geometry is topologically clean. During quality control, attributes were checked to ensure that they fell within the expected ranges or had expected/valid values. Text attribute values were checked for spelling and usage consistency. No topology tests were conducted.</logic>
+		<complete>Data from the authoritative sources (identified through open source research) is assumed to be correct and accurate. Spatial and attribute properties are believed to be complete, although attribute information has been simplified. Geometric thresholds from original data are preserved. No tests have been completed for exhaustiveness. Metadata for source data was very hard to come by and not readily available.</complete>
+		<posacc>
+			<horizpa>
+				<horizpar>All records were verified to occur within the spatial domain of the feature class/shapefile. Maximum scale of intended use is 1:80,000.</horizpar>
+			</horizpa>
+		</posacc>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Mississippi State - MARIS</origin>
+						<pubdate>20120106</pubdate>
+						<title>MS_Natural_Gas_Pipelines</title>
+						<othercit>Pipelines in Mississippi state waters - NAD_1983</othercit>
+						<onlink>http://www.maris.state.ms.us/HTM/DownloadData/Statewide.html</onlink>
+					</citeinfo>
+				</srccite>
+				<typesrc>onLine</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>20120106</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>ground condition</srccurr>
+				</srctime>
+				<srccitea>MS_Natural_Gas_Pipelines</srccitea>
+				<srccontr>Polyline shapefile of Mississippi pipeline data.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>NOAA Office for Coastal Management</origin>
+						<pubdate>20180501</pubdate>
+						<title>Emmy_oil.shp , Emmy_oil_and_low_pressure_gas.shp , Emmy_water_and_high_pressure_gas.shp , Esther_gas.shp , Esther_oil.shp , Eva_gas.shp , Eva_oil.shp , Holly_gas.shp , Holly_oil.shp , Holly_Power_Cable.shp , &amp; spps tent gas.shp</title>
+						<othercit>Pipelines in California state waters - NAD_1983_StatePlane_California_VI_FIPS_0406_Feet</othercit>
+					</citeinfo>
+				</srccite>
+				<typesrc>onLine</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>20180501</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>ground condition</srccurr>
+				</srctime>
+				<srccitea>Emmy_oil.shp , Emmy_oil_and_low_pressure_gas.shp , Emmy_water_and_high_pressure_gas.shp , Esther_gas.shp , Esther_oil.shp , Eva_gas.shp , Eva_oil.shp , Holly_gas.shp , Holly_oil.shp , Holly_Power_Cable.shp , &amp; spps tent gas.shp</srccitea>
+				<srccontr>Polyline shapefiles of California pipeline data.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>TEXAS NATURAL RESOURCES INFORMATION SYSTEM</origin>
+						<pubdate>20141201</pubdate>
+						<title>ME.shp</title>
+						<othercit>Pipelines in Texas state waters - WGS_1984_Web_Mercator_Auxiliary_Sphere</othercit>
+						<onlink>https://tnris.org/data-catalog/entry/glo-pipelines-and-miscellaneous-easements/</onlink>
+					</citeinfo>
+				</srccite>
+				<typesrc>onLine</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>20141201</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>ground condition</srccurr>
+				</srctime>
+				<srccitea>ME.shp</srccitea>
+				<srccontr>Polyline shapefile of pipeline data.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>US Energy Information Administration</origin>
+						<pubdate>20180101</pubdate>
+						<title>NaturalGas_Pipelines_US_201804.shp &amp; PetroleumProduct_Pipelines_US_201801</title>
+						<othercit>Pipelines in USA federal waters - NAD_1983</othercit>
+						<onlink>https://www.eia.gov/maps/layer_info-m.php</onlink>
+					</citeinfo>
+				</srccite>
+				<typesrc>onLine</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>20180101</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>ground condition</srccurr>
+				</srctime>
+				<srccitea>NaturalGas_Pipelines_US_201804.shp &amp; PetroleumProduct_Pipelines_US_201801</srccitea>
+				<srccontr>Polyline shapefiles of pipeline data.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>State of Alabama</origin>
+						<pubdate>20120106</pubdate>
+						<title>Offshore_pipelines</title>
+						<othercit>Pipelines in Alabama state waters - WGS_1984_Web_Mercator_Auxiliary_Sphere</othercit>
+						<onlink>https://map.ogb.state.al.us/ogbmaps/rest/services</onlink>
+						<onlink>https://map.ogb.state.al.us/ogbmaps/rest/services/OGB/map/MapServer/29</onlink>
+					</citeinfo>
+				</srccite>
+				<typesrc>onLine</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>20120106</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>ground condition</srccurr>
+				</srctime>
+				<srccitea>Offshore_pipelines</srccitea>
+				<srccontr>Polyline shapefile of Alabama pipeline data.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>NOAA Office for Coastal Management</origin>
+						<pubdate>20180501</pubdate>
+						<title>LAPipelinesfromTIMS.shp</title>
+						<othercit>Pipelines in Louisiana state waters - NAD_1983</othercit>
+					</citeinfo>
+				</srccite>
+				<typesrc>onLine</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>20180501</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>ground condition</srccurr>
+				</srctime>
+				<srccitea>LAPipelinesfromTIMS.shp</srccitea>
+				<srccontr>Polyline shapefile of Louisiana pipeline data.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Alaska Department of Natural Resources - Information Resource Management</origin>
+						<pubdate>20180417</pubdate>
+						<title>mv_infra_pipeline_ln , Alaska Pipelines 1:63,360</title>
+						<othercit>This data depicts pipeline locations in Alaska state waters as digitized primarily from 1:24,000, 1:63,360, and 1:250,000 USGS quadrangles. The source document that represented the newest information and best geographic location was used to capture the data. All infrastructure from the primary source document was digitized and then supplemented with the information from other source documents for additional or updated infrastructure or attributes - Alaska Albers Equal Area</othercit>
+					</citeinfo>
+				</srccite>
+				<typesrc>onLine</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>20180417</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>ground condition</srccurr>
+				</srctime>
+				<srccitea>mv_infra_pipeline_ln</srccitea>
+				<srccontr>Polyline shapefile of Alaska pipeline data.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>BOEM &amp; BSEE</origin>
+						<pubdate>20110801</pubdate>
+						<title>BOEM_Pacific_Pipelines_2011-08 &amp; ppl_arcs</title>
+						<othercit>Official BOEM &amp; BSEE OCS Pipelines for USA Pacific federal waters</othercit>
+						<onlink>http://metadata.boem.gov/geospatial/OCSpipelines-GOMR-NAD27.xml</onlink>
+						<onlink>http://www.boem.gov/Oil-and-Gas-Energy-Program/Mapping-and-Data/Pacific-files/pc_pipe(2).aspx</onlink>
+					</citeinfo>
+				</srccite>
+				<typesrc>onLine</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>20110801</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>BOEM_Pacific_Pipelines_2011-08 &amp; ppl_arcs</srccitea>
+				<srccontr>Polyline shapefiles of pipeline data.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>BOEM &amp; BSEE</origin>
+						<pubdate>20141224</pubdate>
+						<title>ppl_arcs, OCSpipelines-GOMR-NAD27</title>
+						<othercit>Official BOEM &amp; BSEE OCS Pipelines for USA Gulf of Mexico federal waters</othercit>
+						<onlink>http://metadata.boem.gov/geospatial/OCSpipelines-GOMR-NAD27.xml</onlink>
+						<onlink>https://www.data.boem.gov/Mapping/Files/ppl_arcs.zip</onlink>
+					</citeinfo>
+				</srccite>
+				<typesrc>None</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>20141224</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>Outer Continental Shelf Oil and Natural Gas Pipelines - Gulf of Mexico Region NAD 27</srccitea>
+				<srccontr>Polyline shapefiles of pipeline data.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Department of Commerce (DOC), National Oceanic and Atmospheric Administration (NOAA), National Ocean Service (NOS), Coastal Services Center (CSC)</origin>
+						<pubdate>20130308</pubdate>
+						<title>USA States, Territories, Outlying and Associated Areas</title>
+						<othercit>NOAA's Ocean Service, Coastal Services Center (CSC)</othercit>
+						<onlink>http://www.csc.noaa.gov/digitalcoast/</onlink>
+					</citeinfo>
+				</srccite>
+				<typesrc>vector digital data</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>20130308</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>USAStateTerritoriesAssociatedAreas</srccitea>
+				<srccontr>Vector digital data of USA States, Territories, Outlying and Associated Areas used to clip the Pipelines Feature class.
+				</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Bureau of Ocean Energy Management, Mapping and Boundary Branch, Branch Chief</origin>
+						<origin>NOAA Office for Coastal Management</origin>
+						<pubdate>20180411</pubdate>
+						<title>Federal and State Waters</title>
+					</citeinfo>
+				</srccite>
+				<typesrc>downloadable data</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>20180601</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>ground condition</srccurr>
+				</srctime>
+				<srccitea>FederalAndStateWaters</srccitea>
+				<srccontr>State and Federal waters within the Economic Exclusion Zone of the United States feature class used to clip source datasets.</srccontr>
+			</srcinfo>
+			<procstep>
+				<procdesc>Once the conflicting data has been edited &amp; remove pipelines that already existed you will be left with pipelines to add to the Pipelines feature class, which can be completed with the Merge tool or utilizing the Editor tool. The Pipelines feature class now has all pipelines added into the attributes.</procdesc>
+				<procdate>20180524</procdate>
+				<proccont>
+					<cntinfo>
+						<cntperp>
+							<cntper>Quantum Spatial Inc</cntper>
+						</cntperp>
+						<cntpos>E-GIS Data Manager</cntpos>
+						<cntaddr>
+							<addrtype>mailing and physical</addrtype>
+							<address>10033 MLK St N, Suite 200</address>
+							<city>St. Petersburg</city>
+							<state>FL</state>
+							<postal>33716</postal>
+						</cntaddr>
+						<cntvoice>727-576-9500</cntvoice>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep>
+				<procdesc>Create Status_Descrpt &amp; Prod_Descrpt attributes and fill in the information required using the Select by Attribute feature in the table to select for the status code or product code that is provided by BOEM/BSEE. https://www.data.bsee.gov/Main/HtmlPage.aspx?page=pipelineMastersFields#Prod%20Code</procdesc>
+				<procdate>20180524</procdate>
+				<proccont>
+					<cntinfo>
+						<cntperp>
+							<cntper>Quantum Spatial Inc</cntper>
+						</cntperp>
+						<cntpos>E-GIS Data Manager</cntpos>
+						<cntaddr>
+							<addrtype>mailing and physical</addrtype>
+							<address>10033 MLK St N, Suite 200</address>
+							<city>St. Petersburg</city>
+							<state>FL</state>
+							<postal>33716</postal>
+						</cntaddr>
+						<cntvoice>727-576-9500</cntvoice>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep>
+				<procdesc>Copy all data in the BOEM_MC_Pipelines dataset and save as a new Pipelines feature class. Starting with California, individually confirm Emmy_oil.shp , Emmy_oil_and_low_pressure_gas.shp , Emmy_water_and_high_pressure_gas.shp , Esther_gas.shp , Esther_oil.shp , Eva_gas.shp , Eva_oil.shp , Holly_gas.shp , Holly_oil.shp , Holly_Power_Cable.shp , &amp; spps tent gas.shp attributes were not present in BOEM data and added to the Pipelines feature class using the Editor.</procdesc>
+				<procdate>20180524</procdate>
+				<proccont>
+					<cntinfo>
+						<cntorgp>
+							<cntorg>Quantum Spatial Inc</cntorg>
+						</cntorgp>
+						<cntpos>E-GIS Data Manager</cntpos>
+						<cntaddr>
+							<addrtype>physical</addrtype>
+							<address>10033 MLK Street N, Suite 200</address>
+							<city>St. Petersburg</city>
+							<state>Florida</state>
+							<postal>33716</postal>
+							<country>US</country>
+						</cntaddr>
+						<cntvoice>(727) 576-9500</cntvoice>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep>
+				<procdesc>Merged the BOEM_Pacific_Pipelines_2011-08 &amp; ppl_arcs projected layers into one layer called BOEM_MC_Pipelines.</procdesc>
+				<procdate>20180524</procdate>
+				<proccont>
+					<cntinfo>
+						<cntorgp>
+							<cntorg>Quantum Spatial Inc</cntorg>
+						</cntorgp>
+						<cntpos>E-GIS Data Manager</cntpos>
+						<cntaddr>
+							<addrtype>physical</addrtype>
+							<address>10033 MLK Street N, Suite 200</address>
+							<city>St. Petersburg</city>
+							<state>Florida</state>
+							<postal>33716</postal>
+							<country>US</country>
+						</cntaddr>
+						<cntvoice>(727) 576-9500</cntvoice>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep>
+				<procdesc>Utilizing the select by location for all other layers individually NaturalGas_Pipelines_US_201804_project_erase , PetroleumProduct_Pipelines_US_201801_project_erase, ME_project_erase, mv_infra_pipeline_ln_project_erase , MS_Natural_Gas_Pipelines_project_erase , LAPipelinesfromTIMS_project_erase, Offshore_pipelines_project_erase select the attributes that intersect with the Pipelines feature class &amp; export this data with a naming convention that ends in layername_Conflict &amp; add this back to your map. Reselect the data that intersects the Pipelines using the Select by location and reverse the selection so that you have all of the pipelines that are not currently present in the Pipelines feature class, using the Editor copy the data into Pipelines feature class.</procdesc>
+				<procdate>20180524</procdate>
+				<proccont>
+					<cntinfo>
+						<cntorgp>
+							<cntorg>Quantum Spatial Inc</cntorg>
+						</cntorgp>
+						<cntpos>E-GIS Data Manager</cntpos>
+						<cntaddr>
+							<addrtype>physical</addrtype>
+							<address>10033 MLK Street N, Suite 200</address>
+							<city>St. Petersburg</city>
+							<state>Florida</state>
+							<postal>33716</postal>
+							<country>US</country>
+						</cntaddr>
+						<cntvoice>(727) 576-9500</cntvoice>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep>
+				<procdesc>Create attributes STATUS_CODE, PPL_SIZE_CODE, PROD_CODE, SDE_COMPANY for each layer and populate using the information available from each layer assuring that schema is matching to the BOEM/BSEE layers - https://www.data.bsee.gov/Main/HtmlPage.aspx?page=pipelineMastersFields#Prod%20Code . Turn off attributes in the fields tab that will not be needed moving forward for all 20 data layers/deleted empty attributes so that when exported only the important attributes move forward.</procdesc>
+				<procdate>20180524</procdate>
+				<proccont>
+					<cntinfo>
+						<cntorgp>
+							<cntorg>Quantum Spatial Inc</cntorg>
+						</cntorgp>
+						<cntpos>E-GIS Data Manager</cntpos>
+						<cntaddr>
+							<addrtype>physical</addrtype>
+							<address>10033 MLK Street N, Suite 200</address>
+							<city>St. Petersburg</city>
+							<state>Florida</state>
+							<postal>33716</postal>
+							<country>US</country>
+						</cntaddr>
+						<cntvoice>(727) 576-9500</cntvoice>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep>
+				<procdesc>Project all source layers into WGS_1984_World_Mercator &amp; erase any pipelines that fall on land using the USAStateTerritoriesAssociatedAreas feature class with the FederalAndStateWaters layer removed from it to assure pipelines falling in State Waters were captured. Each layer was named with "_project" after it was properly projected and the layers that had to have space erased had "_erase" after this step was completed.</procdesc>
+				<procdate>20180524</procdate>
+				<proccont>
+					<cntinfo>
+						<cntorgp>
+							<cntorg>Quantum Spatial Inc</cntorg>
+						</cntorgp>
+						<cntpos>E-GIS Data Manager</cntpos>
+						<cntaddr>
+							<addrtype>physical</addrtype>
+							<address>10033 MLK Street N, Suite 200</address>
+							<city>St. Petersburg</city>
+							<state>Florida</state>
+							<postal>33716</postal>
+							<country>US</country>
+						</cntaddr>
+						<cntvoice>(727) 576-9500</cntvoice>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep>
+				<procdesc>Create the Length attribute and utilize the calculate geometry function and calculate the length in meters. Select the Alaska data, export &amp; project into Alaska Albers Equal Area &amp; calculate the length in meters within this projection. Take the Alaska Equal Area length calculations for each attribute and replace them in the proper place in the Pipeline feature class. The calculations for the Alaska data will be from Albers Equal Area, but the layer and data are still projected into World_Mercator.</procdesc>
+				<procdate>20180524</procdate>
+				<proccont>
+					<cntinfo>
+						<cntperp>
+							<cntper>Quantum Spatial Inc</cntper>
+						</cntperp>
+						<cntpos>E-GIS Data Manager</cntpos>
+						<cntaddr>
+							<addrtype>mailing and physical</addrtype>
+							<address>10033 MLK St N, Suite 200</address>
+							<city>St. Petersburg</city>
+							<state>FL</state>
+							<postal>33716</postal>
+						</cntaddr>
+						<cntvoice>727-576-9500</cntvoice>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep>
+				<procdesc>The Pipelines feature class with now have all data that was not conflicting from all layers present. Go through each "layername_Conflicting" data set utilizing the Editor tool and remove any pipelines that you can confirm are already present in the Pipelines feature class. Utilize the STATUS_CODE, PPL_SIZE_CODE, PROD_CODE,&amp; SDE_COMPANY attributes that you already filled out to see if the data is truly already present. If a pipeline did not have information available &amp; a N/A was filled in it will not be possible to determine if this line has already been gathered so it should be left in.</procdesc>
+				<procdate>20180524</procdate>
+				<proccont>
+					<cntinfo>
+						<cntperp>
+							<cntper>Quantum Spatial Inc</cntper>
+						</cntperp>
+						<cntpos>E-GIS Data Manager</cntpos>
+						<cntaddr>
+							<addrtype>mailing and physical</addrtype>
+							<address>10033 MLK St N, Suite 200</address>
+							<city>St. Petersburg</city>
+							<state>FL</state>
+							<postal>33716</postal>
+						</cntaddr>
+						<cntvoice>727-576-9500</cntvoice>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep>
+				<procdesc>Cleaned up attributes to read more clearly. Set attribute alias.</procdesc>
+				<procdate>20180525</procdate>
+				<proccont>
+					<cntinfo>
+						<cntperp>
+							<cntper>Quantum Spatial Inc</cntper>
+						</cntperp>
+						<cntpos>E-GIS Data Manager</cntpos>
+						<cntaddr>
+							<addrtype>mailing and physical</addrtype>
+							<address>10033 MLK St N, Suite 200</address>
+							<city>St. Petersburg</city>
+							<state>FL</state>
+							<postal>33716</postal>
+						</cntaddr>
+						<cntvoice>727-576-9500</cntvoice>
+					</cntinfo>
+				</proccont>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct>Vector</direct>
+		<ptvctinf>
+			<sdtsterm>
+				<sdtstype>String</sdtstype>
+				<ptvctcnt>21642</ptvctcnt>
+			</sdtsterm>
+		</ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<mapproj>
+					<mapprojn>WGS 1984 World Mercator</mapprojn>
+					<mercator>
+						<stdparll>0.0</stdparll>
+						<longcm>0.0</longcm>
+						<feast>0.0</feast>
+						<fnorth>0.0</fnorth>
+					</mercator>
+				</mapproj>
+				<planci>
+					<plance>coordinate pair</plance>
+					<coordrep>
+						<absres>0.0001</absres>
+						<ordres>0.0001</ordres>
+					</coordrep>
+					<plandu>meter</plandu>
+				</planci>
+			</planar>
+			<geodetic>
+				<horizdn>D WGS 1984</horizdn>
+				<ellips>WGS 1984</ellips>
+				<semiaxis>6378137.0</semiaxis>
+				<denflat>298.257223563</denflat>
+			</geodetic>
+		</horizsys>
+	</spref>
+	<eainfo>
+		<detailed>
+			<enttyp>
+				<enttypl>Pipelines</enttypl>
+				<enttypd>A collection of attributes for USA oil and gas pipelines.</enttypd>
+				<enttypds>NOAA</enttypds>
+			</enttyp>
+			<attr>
+				<attrlabl>OBJECTID</attrlabl>
+				<attrdef>Internal feature number.</attrdef>
+				<attrdefs>Esri</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>SDE_COMPAN</attrlabl>
+				<attrdef>The company on file for owning the pipeline.</attrdef>
+				<attrdefs>NOAA</attrdefs>
+				<attrdomv>
+					<udom>A string of characters representing the company name.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>PPL_SIZE_CODE</attrlabl>
+				<attrdef>Pipeline diameter size in inches.</attrdef>
+				<attrdefs>NOAA</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>0.5</edomv>
+						<edomvd>1/2-inch pipe</edomvd>
+						<edomvds>U.S. Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>0.75</edomv>
+						<edomvd>3/4-inch pipe</edomvd>
+						<edomvds>U.S. Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>01</edomv>
+						<edomvd>1"</edomvd>
+						<edomvds>U.S. Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>01-02</edomv>
+						<edomvd>1" TO 2 7/8"</edomvd>
+						<edomvds>U.S. Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>01-03</edomv>
+						<edomvd>1" TO 3 1/2"</edomvd>
+						<edomvds>U.S. Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>02</edomv>
+						<edomvd>2 1/2" OR 2 7/8"</edomvd>
+						<edomvds>U.S. Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>02-01</edomv>
+						<edomvd>(2 1/2" OR 2 7/8") TO 1"</edomvd>
+						<edomvds>U.S. Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>02-03</edomv>
+						<edomvd>(2 1/2" OR 2 7/8") TO 3"</edomvd>
+						<edomvds>U.S. Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>02-04</edomv>
+						<edomvd>(2 1/2" OR 2 7/8") TO 4"</edomvd>
+						<edomvds>U.S. Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>02-06</edomv>
+						<edomvd>2" to 6"</edomvd>
+						<edomvds>U.S. Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>03</edomv>
+						<edomvd>3 1/2"</edomvd>
+						<edomvds>U.S. Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>03-01</edomv>
+						<edomvd>3 1/2" TO 1"</edomvd>
+						<edomvds>U.S. Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>03-02</edomv>
+						<edomvd>3 1/2" TO (2 1/2" OR 2 7/8")</edomvd>
+						<edomvds>U.S. Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>03-04</edomv>
+						<edomvd>3 1/2" TO 4"</edomvd>
+						<edomvds>U.S. Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>03-06</edomv>
+						<edomvd>3 1/2" TO 6 5/8"</edomvd>
+						<edomvds>U.S. Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>04</edomv>
+						<edomvd>4"</edomvd>
+						<edomvds>U.S. Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>04-02</edomv>
+						<edomvd>4" TO (2 1/2" OR 2 7/8")</edomvd>
+						<edomvds>U.S. Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>04-03</edomv>
+						<edomvd>4" TO 3 1/2"</edomvd>
+						<edomvds>U.S. Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>04-06</edomv>
+						<edomvd>4" TO 6 5/8"</edomvd>
+						<edomvds>U.S. Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>05</edomv>
+						<edomvd>5"</edomvd>
+						<edomvds>U.S. Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>06</edomv>
+						<edomvd>6 5/8"</edomvd>
+						<edomvds>U.S. Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>06-03</edomv>
+						<edomvd>6 5/8" TO 3 1/2"</edomvd>
+						<edomvds>U.S. Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>06-04</edomv>
+						<edomvd>6 5/8" TO 4"</edomvd>
+						<edomvds>U.S. Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>06-08</edomv>
+						<edomvd>6 5/8" TO 8 5/8"</edomvd>
+						<edomvds>U.S. Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>07</edomv>
+						<edomvd>special 7-inch pipe</edomvd>
+						<edomvds>U.S. Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>08</edomv>
+						<edomvd>8 5/8"</edomvd>
+						<edomvds>U.S. Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>08-06</edomv>
+						<edomvd>8 5/8" TO 6 5/8"</edomvd>
+						<edomvds>U.S. Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>08-10</edomv>
+						<edomvd>8 5/8" TO 10 3/4"</edomvd>
+						<edomvds>U.S. Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>08-12</edomv>
+						<edomvd>8 5/8" to 12 3/4"</edomvd>
+						<edomvds>U.S. Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>10</edomv>
+						<edomvd>10 3/4"</edomvd>
+						<edomvds>U.S. Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>10-08</edomv>
+						<edomvd>10 3/4" TO 8 5/8"</edomvd>
+						<edomvds>U.S. Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>10-12</edomv>
+						<edomvd>10 3/4" TO 12 3/4"</edomvd>
+						<edomvds>U.S. Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>12</edomv>
+						<edomvd>12"</edomvd>
+						<edomvds>U.S. Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>12-10</edomv>
+						<edomvd>12 3/4" TO 10 3/4"</edomvd>
+						<edomvds>U.S. Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>12-14</edomv>
+						<edomvd>12 3/4" TO 14"</edomvd>
+						<edomvds>U.S. Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>14</edomv>
+						<edomvd>14"</edomvd>
+						<edomvds>U.S. Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>14-10</edomv>
+						<edomvd>14" TO 10 3/4"</edomvd>
+						<edomvds>U.S. Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>14-12</edomv>
+						<edomvd>14" TO 12 3/4"</edomvd>
+						<edomvds>U.S. Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>14-16</edomv>
+						<edomvd>14" TO 16"</edomvd>
+						<edomvds>U.S. Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>16</edomv>
+						<edomvd>16"</edomvd>
+						<edomvds>U.S. Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>16-14</edomv>
+						<edomvd>16" TO 14"</edomvd>
+						<edomvds>U.S. Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>16-18</edomv>
+						<edomvd>16" TO 18"</edomvd>
+						<edomvds>U.S. Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>18</edomv>
+						<edomvd>18"</edomvd>
+						<edomvds>U.S. Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>18-16</edomv>
+						<edomvd>18" TO 16"</edomvd>
+						<edomvds>U.S. Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>18-20</edomv>
+						<edomvd>18" TO 20"</edomvd>
+						<edomvds>U.S. Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>20</edomv>
+						<edomvd>20"</edomvd>
+						<edomvds>U.S. Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>20-18</edomv>
+						<edomvd>20" TO 18"</edomvd>
+						<edomvds>U.S. Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>20-24</edomv>
+						<edomvd>20" TO 24"</edomvd>
+						<edomvds>U.S. Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>22</edomv>
+						<edomvd>22"</edomvd>
+						<edomvds>U.S. Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>24</edomv>
+						<edomvd>24"</edomvd>
+						<edomvds>U.S. Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>24-20</edomv>
+						<edomvd>24" TO 20"</edomvd>
+						<edomvds>U.S. Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>24-26</edomv>
+						<edomvd>24" TO 26"</edomvd>
+						<edomvds>U.S. Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>24-30</edomv>
+						<edomvd>24" TO 30"</edomvd>
+						<edomvds>U.S. Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>26</edomv>
+						<edomvd>26"</edomvd>
+						<edomvds>U.S. Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>26-24</edomv>
+						<edomvd>26" TO 24"</edomvd>
+						<edomvds>U.S. Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>26-30</edomv>
+						<edomvd>26" TO 30"</edomvd>
+						<edomvds>U.S. Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>28</edomv>
+						<edomvd>28"</edomvd>
+						<edomvds>U.S. Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>30</edomv>
+						<edomvd>30"</edomvd>
+						<edomvds>U.S. Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>30-24</edomv>
+						<edomvd>30" TO 24"</edomvd>
+						<edomvds>U.S. Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>30-26</edomv>
+						<edomvd>30" TO 26"</edomvd>
+						<edomvds>U.S. Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>36</edomv>
+						<edomvd>36"</edomvd>
+						<edomvds>U.S. Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>42</edomv>
+						<edomvd>42"</edomvd>
+						<edomvds>U.S. Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>48</edomv>
+						<edomvd>48"</edomvd>
+						<edomvds>U.S. Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>54</edomv>
+						<edomvd>54"</edomvd>
+						<edomvds>U.S. Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>STATUS_COD</attrlabl>
+				<attrdef>The status of the pipeline.</attrdef>
+				<attrdefs>NOAA</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>A/C</edomv>
+						<edomvd>ABANDONED AND COMBINED</edomvd>
+						<edomvds>U.S. Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>ABN</edomv>
+						<edomvd>ABANDONED</edomvd>
+						<edomvds>U.S. Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>ACT</edomv>
+						<edomvd>ACTIVE</edomvd>
+						<edomvds>U.S. Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>CNCL</edomv>
+						<edomvd>CANCELLED</edomvd>
+						<edomvds>U.S. Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>COMB</edomv>
+						<edomvd>COMBINED</edomvd>
+						<edomvds>U.S. Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>O/C</edomv>
+						<edomvd>OUT AND COMBINED</edomvd>
+						<edomvds>U.S. Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>OUT</edomv>
+						<edomvd>OUT OF SERVICE</edomvd>
+						<edomvds>U.S. Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>PABN</edomv>
+						<edomvd>PROPOSE ABANDONMENT</edomvd>
+						<edomvds>U.S. Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>PREM</edomv>
+						<edomvd>PROPOSE REMOVAL</edomvd>
+						<edomvds>U.S. Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>PROP</edomv>
+						<edomvd>PROPOSED</edomvd>
+						<edomvds>U.S. Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>R/A</edomv>
+						<edomvd>RELINQUISHED AND ABANDONED</edomvd>
+						<edomvds>U.S. Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>R/C</edomv>
+						<edomvd>RELINQUISHED AND COMBINED</edomvd>
+						<edomvds>U.S. Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>RELQ</edomv>
+						<edomvd>RELINQUISHED</edomvd>
+						<edomvds>U.S. Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Length</attrlabl>
+				<attrdef>The length of the pipeline section, in meters, calculated withing ArcMap.</attrdef>
+				<attrdefs>NOAA</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>999999999999</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Shape_Length</attrlabl>
+				<attrdef>Length of feature in internal units.</attrdef>
+				<attrdefs>Esri</attrdefs>
+				<attrdomv>
+					<udom>Positive real numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Prod_Descpt</attrlabl>
+				<attrdef>The description of the product code for the type of product found within the pipeline.</attrdef>
+				<attrdefs>NOAA</attrdefs>
+				<attrdomv>
+					<udom>A sentence describing the product type within the pipeline.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Status_Descpt</attrlabl>
+				<attrdef>The description of the status code for the status of the pipeline.</attrdef>
+				<attrdefs>NOAA</attrdefs>
+				<attrdomv>
+					<udom>A sentence describing the most current status of the pipeline.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>PROD_CODE</attrlabl>
+				<attrdef>The product flowing through the pipeline.</attrdef>
+				<attrdefs>NOAA</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>ACID</edomv>
+						<edomvd>ACID</edomvd>
+						<edomvds>U.S Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>AIR</edomv>
+						<edomvd>PNEUMATIC</edomvd>
+						<edomvds>U.S Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>BLGH</edomv>
+						<edomvd>BULK GAS WITH TRACE LEVELS OF HYDROGEN SULFIDE</edomvd>
+						<edomvds>U.S Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>BLKG</edomv>
+						<edomvd>BULK GAS - FULL WELL STREAM PRODUCTION FROM GAS WELL(S) PRIO</edomvd>
+						<edomvds>U.S Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>BLKO</edomv>
+						<edomvd>BULK OIL - FULL WELL STREAM PRODUCTION FROM OIL WELL(S) PRIO</edomvd>
+						<edomvds>U.S Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>BLOH</edomv>
+						<edomvd>BULK OIL WITH TRACE LEVELS OF HYDROGEN SULFIDE</edomvd>
+						<edomvds>U.S Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>CBLC</edomv>
+						<edomvd>A NON-UMBILICAL CABLE SUCH AS FIBER OPTIC/COMMUNICATIONS</edomvd>
+						<edomvds>U.S Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>CBLP</edomv>
+						<edomvd>POWER CABLE</edomvd>
+						<edomvds>U.S Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>CBLR</edomv>
+						<edomvd>RENEWABLE ENERGY POWER CABLE</edomvd>
+						<edomvds>U.S Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>CHEM</edomv>
+						<edomvd>CORROSION INHIBITOR OR OTHER CHEMICALS</edomvd>
+						<edomvds>U.S Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>CO2</edomv>
+						<edomvd>CARBON DIOXIDE (SUPPORT ACTIVITY LEASE)</edomvd>
+						<edomvds>U.S Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>COND</edomv>
+						<edomvd>CONDENSATE OR DISTILLATE TRANSPORTED DOWNSTREAM OF FIRST PRO</edomvd>
+						<edomvds>U.S Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>CSNG</edomv>
+						<edomvd>PIPELINE USED AS A PROTECTIVE CASING (CSNG) FOR ANOTHER PIPELINE.</edomvd>
+						<edomvds>U.S Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>FLG</edomv>
+						<edomvd>FLARE GAS</edomvd>
+						<edomvds>U.S Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>G/C</edomv>
+						<edomvd>GAS AND CONDENSATE SERVICE AFTER FIRST PROCESSING</edomvd>
+						<edomvds>U.S Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>G/CH</edomv>
+						<edomvd>GAS AND CONDENSATE (H2S)</edomvd>
+						<edomvds>U.S Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>G/O</edomv>
+						<edomvd>GAS AND OIL SERVICE AFTER FIRST PROCESSING</edomvd>
+						<edomvds>U.S Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>G/OH</edomv>
+						<edomvd>GAS AND OIL (H2S)</edomvd>
+						<edomvds>U.S Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>GAS</edomv>
+						<edomvd>GAS TRANSPORTED AFTER FIRST PROCESSING</edomvd>
+						<edomvds>U.S Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>GASH</edomv>
+						<edomvd>PROCESSED GAS WITH TRACE LEVELS OF HYDROGEN SULFIDE</edomvd>
+						<edomvds>U.S Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>H2O</edomv>
+						<edomvd>WATER</edomvd>
+						<edomvds>U.S Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>INJ</edomv>
+						<edomvd>GAS INJECTION</edomvd>
+						<edomvds>U.S Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>LGER</edomv>
+						<edomvd>LIQUID GAS ENHANCED RECOVERY</edomvd>
+						<edomvds>U.S Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>LIFT</edomv>
+						<edomvd>GAS LIFT</edomvd>
+						<edomvds>U.S Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>LPRO</edomv>
+						<edomvd>LIQUID PROPANE</edomvd>
+						<edomvds>U.S Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>METH</edomv>
+						<edomvd>METHANOL / GLYCOL</edomvd>
+						<edomvds>U.S Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>NGER</edomv>
+						<edomvd>NATURAL GAS ENHANCED RECOVERY</edomvd>
+						<edomvds>U.S Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>NGL</edomv>
+						<edomvd>Natural Gas Liquids</edomvd>
+						<edomvds>U.S Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>O/W</edomv>
+						<edomvd>OIL AND WATER TRANSPORTED AFTER FIRST PROCESSING</edomvd>
+						<edomvds>U.S Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>OIL</edomv>
+						<edomvd>OIL TRANSPORTED AFTER FIRST PROCESSING</edomvd>
+						<edomvds>U.S Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>OILH</edomv>
+						<edomvd>PROCESSED OIL WITH TRACE LEVELS OF HYDROGEN SULFIDE</edomvd>
+						<edomvds>U.S Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>PWTR</edomv>
+						<edomvd>PRESSURIZED WATER (RENEWABLE ENERGY)</edomvd>
+						<edomvds>U.S Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>SERV</edomv>
+						<edomvd>SERVICE OR UTILITY LINE USED FOR PIGGING AND PIPELINE MAINTE</edomvd>
+						<edomvds>U.S Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>SPLY</edomv>
+						<edomvd>SUPPLY GAS</edomvd>
+						<edomvds>U.S Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>SPRE</edomv>
+						<edomvd>SPARE</edomvd>
+						<edomvds>U.S Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>SULF</edomv>
+						<edomvd>LIQUIFIED SULPHUR OR SLURRIED SULPHER</edomvd>
+						<edomvds>U.S Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>TEST</edomv>
+						<edomvd>TEST</edomvd>
+						<edomvds>U.S Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>TOW</edomv>
+						<edomvd>TOW ROUTE ONLY - NOT A PIPELINE</edomvd>
+						<edomvds>U.S Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>UBEH</edomv>
+						<edomvd>ELECTRO /HYDRAULIC UMBILICAL</edomvd>
+						<edomvds>U.S Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>UMB</edomv>
+						<edomvd>UMBILICAL LINE - USUALLY INCLUDES PNEUMATIC OR HYDRAULIC CONT</edomvd>
+						<edomvds>U.S Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>UMBC</edomv>
+						<edomvd>CHEMICAL UMBILICAL</edomvd>
+						<edomvds>U.S Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>UMBE</edomv>
+						<edomvd>ELECTRICAL UMBILICAL</edomvd>
+						<edomvds>U.S Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>UMBH</edomv>
+						<edomvd>HYDRAULIC UMBILICAL.</edomvd>
+						<edomvds>U.S Department of the Interior, BOEM</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Shape</attrlabl>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+		</detailed>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>NOAA Office for Coastal Management</cntorg>
+				</cntorgp>
+				<cntpos>Data Steward</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical</addrtype>
+					<address>2234 South Hobson Ave</address>
+					<city>North Charleston</city>
+					<state>SC</state>
+					<postal>29405-2413</postal>
+					<country>US</country>
+				</cntaddr>
+				<cntvoice>843-740-1202</cntvoice>
+				<cntemail>coastal.info@noaa.gov</cntemail>
+			</cntinfo>
+		</distrib>
+		<distliab>See access and use constraints information.</distliab>
+	</distinfo>
+	<metainfo>
+		<metd>20180612</metd>
+		<metc>
+			<cntinfo>
+				<cntperp>
+					<cntper>Quantum Spatial Inc</cntper>
+				</cntperp>
+				<cntpos>E-GIS Data Manager</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical</addrtype>
+					<address>10033 MLK St N, Suite 200</address>
+					<city>St. Petersburg</city>
+					<state>FL</state>
+					<postal>33716</postal>
+				</cntaddr>
+				<cntvoice>727-576-9500</cntvoice>
+			</cntinfo>
+		</metc>
+		<metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<mettc>local time</mettc>
+	</metainfo>
+</metadata>

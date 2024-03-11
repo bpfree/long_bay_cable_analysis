@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Department of Commerce (DOC), National Oceanic and Atmospheric Administration (NOAA), National Ocean Service (NOS), Office for Coastal Management (OCM); Bureau of Ocean Energy Management (BOEM)</origin>
+        <pubdate>20170724</pubdate>
+        <title>Substations</title>
+        <geoform>vector digital data</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This feature class represents known electric power substations within the continental US and Puerto Rico that are located within 20 miles of the coastline. Substations are facilities and equipment that switch, transform, or regulate electric voltage. This data set includes taps, a location where power on a transmission line is tapped by another transmission line. Many large rivers and bays hydrologically related to coastal waters were considered part of the coastline to make this data set as detailed and complete as possible. Therefore, applicable substations as far inland as Washington D.C., for example, are included. This data set is currently incomplete; data for Alaska, Hawaii and all of the US sovereign territories (except Puerto Rico) was not available at the time of creation. Although data for Puerto Rico is present, it dates from before the 2017 hurricane season, so the current validity is questionable. This product will be updated as new data becomes available.</abstract>
+      <purpose>To support coastal and ocean planning and other activities pursuant to the Energy Policy Act, Coastal Zone Management Act, Magnuson-Stevens Fishery Conservation and Management Act, National Environmental Policy Act, Rivers and Harbors Act and the Submerged Lands Act. </purpose>
+      <supplinf>This product is a subset of that produced by Oak Ridge National Laboratory (Resource Provider) - substations located more than 20 miles from the coast were excluded. Substations outside United States sovereign lands were also excluded.
+</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>2014</begdate>
+          <enddate>20170701</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-129.980235</westbc>
+        <eastbc>-64.925635</eastbc>
+        <northbc>55.947638</northbc>
+        <southbc>17.947394</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>intelligenceMilitary</themekey>
+        <themekey>location</themekey>
+        <themekey>oceans</themekey>
+        <themekey>planningCadastre</themekey>
+        <themekey>society</themekey>
+        <themekey>structure</themekey>
+        <themekey>utilitiesCommunication</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Substation</themekey>
+        <themekey>Electricity</themekey>
+        <themekey>Grid</themekey>
+        <themekey>Coastal</themekey>
+        <themekey>Infrastructure</themekey>
+        <themekey>Energy</themekey>
+        <themekey>Tap</themekey>
+        <themekey>Transmission</themekey>
+        <themekey>Voltage</themekey>
+        <themekey>Power</themekey>
+        <themekey>Kilovolts</themekey>
+        <themekey>Transformer</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>These data are intended for coastal and ocean planning. Not for navigational use. http://www.marinecadastre.gov/about/disclaimer.html</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Office for Coastal Management</cntorg>
+          <cntper>NOAA Office for Coastal Management</cntper>
+        </cntorgp>
+        <cntpos>MarineCadastre.gov Data Steward</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>2234 South Hobson Ave </address>
+          <city>North Charleston</city>
+          <state>SC</state>
+          <postal>29405-2413</postal>
+        </cntaddr>
+        <cntvoice>843-740-1202</cntvoice>
+        <cntemail>coastal.info@noaa.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>Oak Ridge National Laboratory (ORNL) Geographic Information Science and Technology (GIST) Group, NOAA Office for Coastal Management</datacred>
+    <native> Windows 10.1, Version 6.2 (Build 9200); Esri ArcGIS 10.4.1.5713</native>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>No formal attribute accuracy test was conducted. The attributes in this dataset are believed to be accurate.</attraccr>
+    </attracc>
+    <logic>These data are believed to be logically consistent. Geometry is topologically clean. During quality control, attributes were checked to ensure that they fell within the expected ranges or had expected/valid values. Text attribute values were checked for spelling and usage consistency. No topology tests were conducted. </logic>
+    <complete>Data from the authoritative sources (identified through open source research) is assumed to be correct and accurate. Spatial and attribute properties are believed to be complete, although attribute information has been simplified. Geometric thresholds from original data are preserved. No tests have been completed for exhaustiveness.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>All records were verified to occur within the spatial domain of the feature class/shapefile. Maximum scale of intended use is 1:80,000.</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Department of Homeland Security</origin>
+            <pubdate>20170724</pubdate>
+            <title>Electric_Substations</title>
+            <othercit>Continuously updated point vector dataset of all electrical substations in the United States, plus Puerto Rico created by the Oak Rigde National Laboratory</othercit>
+            <onlink>https://hifld-geoplatform.opendata.arcgis.com/datasets/electric-substations</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20170724</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>Electric_Substations</srccitea>
+        <srccontr>Continuously updated point vector dataset of all electrical substations in the United States, plus Puerto Rico.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>NOAA OCS</origin>
+            <pubdate>20180208</pubdate>
+            <title>USSubmergedLands</title>
+            <onlink>ftp://coast.noaa.gov/pub/Legis-Atlas/FederalGeoregulations/USStateSubmergedLands.zip</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>onLine</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20180208</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>USSubmergedLands</srccitea>
+        <srccontr>Polygon vector file depicting coastal and waters controlled by states as per the Submerged Lands Act. Utilized in this context as a source depicting the coastline of the USA.
+</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>Project all source layers into WGS_1984_World_Mercator.</procdesc>
+        <procdate>20180411</procdate>
+        <proctime>010000</proctime>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Quantum Spatial Inc</cntorg>
+            </cntorgp>
+            <cntpos>E-GIS Data Manager </cntpos>
+            <cntaddr>
+              <addrtype>physical</addrtype>
+              <address>10033 MLK Street N, Suite 200 </address>
+              <city>St. Petersburg </city>
+              <state>Florida</state>
+              <postal>33716</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntvoice>(727) 576-9500</cntvoice>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Use "select by location" to remove all substations located more than 20 miles from the coastline.
+Use "select by attribute" to remove all substations located outside the USA.</procdesc>
+        <procdate>20180411</procdate>
+        <proctime>020000</proctime>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Quantum Spatial Inc</cntorg>
+            </cntorgp>
+            <cntpos>E-GIS Data Manager </cntpos>
+            <cntaddr>
+              <addrtype>physical</addrtype>
+              <address>10033 MLK Street N, Suite 200 </address>
+              <city>St. Petersburg </city>
+              <state>Florida</state>
+              <postal>33716</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntvoice>(727) 576-9500</cntvoice>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Remove superfluous attributes and rename remaining attributes as directed.</procdesc>
+        <procdate>20180411</procdate>
+        <proctime>030000</proctime>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Quantum Spatial Inc</cntorg>
+            </cntorgp>
+            <cntpos>E-GIS Data Manager </cntpos>
+            <cntaddr>
+              <addrtype>physical</addrtype>
+              <address>10033 MLK Street N, Suite 200 </address>
+              <city>St. Petersburg </city>
+              <state>Florida</state>
+              <postal>33716</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntvoice>(727) 576-9500</cntvoice>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Entity point</sdtstype>
+        <ptvctcnt>10923</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>WGS 1984 World Mercator</mapprojn>
+          <mercator>
+            <stdparll>0.0</stdparll>
+            <longcm>0.0</longcm>
+            <feast>0.0</feast>
+            <fnorth>0.0</fnorth>
+          </mercator>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0001</absres>
+            <ordres>0.0001</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D WGS 1984</horizdn>
+        <ellips>WGS 1984</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Substations</enttypl>
+        <enttypd>Substations</enttypd>
+        <enttypds>Oak Ridge National Laboratory</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ID</attrlabl>
+        <attrdef>Unique identification number assigned to the substation.</attrdef>
+        <attrdefs>Oak Ridge National Laboratory</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>107668</rdommin>
+            <rdommax>308091</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NAME</attrlabl>
+        <attrdef>Local designator for the substation.</attrdef>
+        <attrdefs>Substation's operating utility company</attrdefs>
+        <attrdomv>
+          <udom>Local designator for the substation.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CITY</attrlabl>
+        <attrdef>City nearest the substation, or which the substation is located within.</attrdef>
+        <attrdefs>Oak Ridge National Laboratory</attrdefs>
+        <attrdomv>
+          <udom>City nearest the substation, or which the substation is located within.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>STATE</attrlabl>
+        <attrdef>State where substation is located.</attrdef>
+        <attrdefs>Oak Ridge National Laboratory</attrdefs>
+        <attrdomv>
+          <udom>State where substation is located.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ZIPCODE</attrlabl>
+        <attrdef>Zip code where substation is located.</attrdef>
+        <attrdefs>Oak Ridge National Laboratory</attrdefs>
+        <attrdomv>
+          <udom>Zip code where substation is located.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LINES</attrlabl>
+        <attrdef>Number of transmission lines (or estimate) associated with the substation.</attrdef>
+        <attrdefs>Oak Ridge National Laboratory</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>27</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MAX_VOLT</attrlabl>
+        <attrdef>Maximum voltage of the transmission lines associated with the substation.</attrdef>
+        <attrdefs>Oak Ridge National Laboratory</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>500</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MIN_VOLT</attrlabl>
+        <attrdef>Minimum voltage of the transmission lines associated with the substation.</attrdef>
+        <attrdefs>Oak Ridge National Laboratory</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>500</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>METHOD</attrlabl>
+        <attrdef>How the data point was obtained.</attrdef>
+        <attrdefs>Oak Ridge National Laboratory</attrdefs>
+        <attrdomv>
+          <udom>How the data point was obtained.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SOURCE</attrlabl>
+        <attrdef>The source of the data point.</attrdef>
+        <attrdefs>Oak Ridge National Laboratory</attrdefs>
+        <attrdomv>
+          <udom>The source of the data point. Usually a web address.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>NOAA Office for Coastal Management</cntorg>
+          <cntper>NOAA Office for Coastal Management</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>2234 South Hobson Ave</address>
+          <city>North Charleston</city>
+          <state>SC</state>
+          <postal>29405</postal>
+        </cntaddr>
+        <cntvoice>843-740-1202</cntvoice>
+        <cntemail>coastal.info@noaa.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>See access and use constraints information.</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20180430</metd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Quantum Spatial Inc</cntper>
+        </cntperp>
+        <cntpos>E-GIS Data Manager</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>10033 MLK St N, Suite 200</address>
+          <city>Saint Petersburg</city>
+          <state>FL</state>
+          <postal>33716</postal>
+        </cntaddr>
+        <cntvoice>727-576-9500</cntvoice>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

@@ -1,0 +1,646 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Department of Commerce (DOC), National Oceanic and Atmospheric Administration (NOAA), National Ocean Service (NOS), Office for Coastal Management (OCM); Bureau of Ocean Energy Management (BOEM)</origin>
+        <pubdate>20180817</pubdate>
+        <title>Surficial Sediment Classification</title>
+        <geoform>vector digital data</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This data layer is a point coverage of known sediment samplings within the United State Economic Exclusion Zone (EEZ). The data comprising this layer were sourced from two U.S. Geological Survey databases (usSEABED and the East Coast Sediment Texture Database) as well as the NOAA Electronic Navigation Charts. There are many scientifically accepted sediment classification schemes in use today, and the wide variety represented in the data sources used in this product dictated the generalized attributes utilized herein. Additional details regarding the standardization of the data can be found in the data processing and attribute definitions sections of this document. In many cases, additional details such as Munsell coloration, grain size, and composition are available in the raw data from the source. Interested parties are encouraged to seek further information from the source of the data listed in the attribute table and further described in the sources section of this document.
+</abstract>
+      <purpose>To support coastal and ocean planning and other activities pursuant to the Energy Policy Act, Coastal Zone Management Act, Magnuson-Stevens Fishery Conservation and Management Act, National Environmental Policy Act, Rivers and Harbors Act and the Submerged Lands Act.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20180817</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-179.982331</westbc>
+        <eastbc>179.935255</eastbc>
+        <northbc>73.063461</northbc>
+        <southbc>-14.373513</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>oceans</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>geology</themekey>
+        <themekey>sand</themekey>
+        <themekey>East Coast Sediment Texture Database</themekey>
+        <themekey>usSEABED</themekey>
+        <themekey>ECSTDB</themekey>
+        <themekey>seabed</themekey>
+        <themekey>seafloor</themekey>
+        <themekey>sediment data</themekey>
+        <themekey>texture</themekey>
+        <themekey>bottom type</themekey>
+        <themekey>U.S. Geological Survey</themekey>
+        <themekey>USGS</themekey>
+        <themekey>sediment</themekey>
+        <themekey>National Oceanic and Atmospheric Administration</themekey>
+        <themekey>NOAA</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>National</placekey>
+        <placekey>United States</placekey>
+        <placekey>Gulf of Mexico</placekey>
+        <placekey>Pacific</placekey>
+        <placekey>Atlantic</placekey>
+        <placekey>Caribbean Sea</placekey>
+        <placekey>United States Territories</placekey>
+        <placekey>United States Exclusive Economic Zone</placekey>
+        <placekey>EEZ</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>These data are intended for coastal and ocean use planning. Not for navigation.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>NOAA Office for Coastal Management</cntorg>
+          <cntper>Data Steward</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>2234 S Hobson Ave</address>
+          <city>Charleston</city>
+          <state>SC</state>
+          <postal>29405</postal>
+        </cntaddr>
+        <cntvoice>843.740.1202</cntvoice>
+        <cntemail>coastal.info@noaa.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>U.S. Geological Survey, NOAA Office for Coastal Management</datacred>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.4.1.5713</native>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Accuracy of each attribute is dependent on the accuracy of the lineage data.</attraccr>
+    </attracc>
+    <logic>These data are believed to be logically consistent. Geometry is topologically clean.</logic>
+    <complete>Spatial and attribute properties are believed to be complete, although attribute information has been simplified. Geometric thresholds from original data are preserved. No tests have been completed for exhaustiveness.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Maximum scale of intended use is 1:80,000.</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Geological Survey</origin>
+            <pubdate>2006</pubdate>
+            <title>PAC_EXT: usSEABED EXTracted data for the entire U.S. Pacific Coast</title>
+            <edition>1.0</edition>
+            <geoform>vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Pacific Science Center, Santa Cruz, CA</pubplace>
+              <publish>U.S. Geological Survey, Coastal and Marine Geology Program</publish>
+            </pubinfo>
+            <onlink>http://pubs.usgs.gov/ds/2006/182/data/pac_ext.zip</onlink>
+            <onlink>http://pubs.usgs.gov/ds/2006/182/data_cata.html</onlink>
+            <lworkcit>
+              <citeinfo>
+                <origin>Jane A. Reid</origin>
+                <origin>Jamey M. Reid</origin>
+                <origin>Chris J. Jenkins</origin>
+                <origin>Mark Zimmermann</origin>
+                <origin>S.Jeffress Williams</origin>
+                <origin>Michael E. Field</origin>
+                <pubdate>2006</pubdate>
+                <title>usSEABED: Pacific Coast Offshore Surficial-Sediment Data Release</title>
+                <serinfo>
+                  <sername>Data Series</sername>
+                  <issue>182</issue>
+                </serinfo>
+                <pubinfo>
+                  <pubplace>Pacific Science Center, Santa Cruz, CA</pubplace>
+                  <publish>U.S. Geological Survey, Coastal and Marine Geology Program</publish>
+                </pubinfo>
+                <onlink>http://pubs.usgs.gov/ds/2006/182/index.html</onlink>
+              </citeinfo>
+            </lworkcit>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2006</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>usSEABED (PAC_EXT)</srccitea>
+        <srccontr>Pacific coast sediment samples</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Geological Survey</origin>
+            <origin>University of Colorado</origin>
+            <pubdate>2006</pubdate>
+            <title>GMX_EXT: usSEABED EXTracted data for the entire U.S. Gulf of Mexico and Caribbean (Puerto Rico and U.S. Virgin Islands)</title>
+            <edition>1.0</edition>
+            <geoform>vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Woods Hole Science Center, Woods Hole, MA</pubplace>
+              <publish>U.S. Geological Survey, Coastal and Marine Geology Program</publish>
+            </pubinfo>
+            <onlink>http://pubs.usgs.gov/ds/2006/146/data/gmx_ext.zip</onlink>
+            <onlink>http://pubs.usgs.gov/ds/2006/146/htmldocs/data_cata.htm&gt;</onlink>
+            <lworkcit>
+              <citeinfo>
+                <origin>B.J. Buczkowski</origin>
+                <origin>J.A. Reid</origin>
+                <origin>C.J. Jenkins</origin>
+                <origin>J.M. Reid</origin>
+                <origin>S.J. Williams</origin>
+                <origin>J.G. Flocks</origin>
+                <pubdate>2006</pubdate>
+                <title>usSEABED: Gulf of Mexico and Caribbean (Puerto Rico and U.S. Virgin Islands) Offshore Surficial Sediment Data Release</title>
+                <serinfo>
+                  <sername>Data Series</sername>
+                  <issue>146</issue>
+                </serinfo>
+                <pubinfo>
+                  <pubplace>Woods Hole Science Center, Woods Hole, MA</pubplace>
+                  <publish>U.S. Geological Survey, Coastal and Marine Geology Program</publish>
+                </pubinfo>
+                <onlink>http://pubs.usgs.gov/ds/2006/146/</onlink>
+              </citeinfo>
+            </lworkcit>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2006</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>usSEABED (GMX_EXT)</srccitea>
+        <srccontr>Gulf of Mexico sediment samples</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Geological Survey</origin>
+            <pubdate>2014</pubdate>
+            <title>ECSTDB2014.shp: U.S. Geological Survey East Coast Sediment Texture Database (2014)</title>
+            <edition>3.0</edition>
+            <geoform>vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Woods Hole Coastal and Marine Science Center, Woods Hole, MA</pubplace>
+              <publish>U.S. Geological Survey, Coastal and Marine Geology Program</publish>
+            </pubinfo>
+            <othercit>http://pubs.usgs.gov/of/2005/1001/htmldocs/datacatalog.htm</othercit>
+            <onlink>http://pubs.usgs.gov/of/2005/1001/data/surficial_sediments/ecstdb2014.zip</onlink>
+            <lworkcit>
+              <citeinfo>
+                <origin>L.J. Poppe</origin>
+                <origin>K.Y. McMullen</origin>
+                <origin>S.J. Williams</origin>
+                <origin>V.F. Paskevich</origin>
+                <pubdate>2014</pubdate>
+                <title>ECSTDB2014.shp: U.S. Geological Survey East Coast Sediment Texture Database (2014)</title>
+                <serinfo>
+                  <sername>Open-File Report</sername>
+                  <issue>2005-1001</issue>
+                </serinfo>
+              </citeinfo>
+            </lworkcit>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2014</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>ECSTDB</srccitea>
+        <srccontr>Atlantic and US East Coast sediment samples</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Bureau of Ocean Energy Management, Mapping and Boundary Branch, Branch Chief</origin>
+            <origin>NOAA Office for Coastal Management</origin>
+            <pubdate>20180411</pubdate>
+            <title>Federal and State Waters</title>
+          </citeinfo>
+        </srccite>
+        <typesrc>downloadable data</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20180601</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>FederalAndStateWaters</srccitea>
+        <srccontr>State and Federal waters within the Economic Exclusion Zone of the United States feature class used to clip source datasets.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>NOAA Office of Coastal Management (OCM)</origin>
+            <pubdate>Unknown</pubdate>
+            <title>NOAA ENC Direct layers: Approach_Seabed_Area_point, Berthing_Seabed_Area_point, Coastal_Seabed_Area_point, General_Seabed_Area_point, Harbour_Seabed_Area_point, Overview_Seabed_Area_point</title>
+            <geoform>vector digital data</geoform>
+            <onlink>http://encdirect.noaa.gov/</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>Unknown</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>ENC</srccitea>
+        <srccontr>Source of data, all of USA and Sovereign Territories</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>Project all source data into World Mercator</procdesc>
+        <procdate>20180807</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Quantum Spatial, Inc.</cntorg>
+            </cntorgp>
+            <cntpos>E-GIS Data Manager</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>10033 MLK St N, Suite 200</address>
+              <city>St. Petersburg</city>
+              <state>FL</state>
+              <postal>33716</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntvoice>727-576-9500</cntvoice>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Select and delete all features that are completely outside the EEZ</procdesc>
+        <procdate>20180808</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Quantum Spatial, Inc.</cntorg>
+            </cntorgp>
+            <cntpos>E-GIS Data Manager</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>10033 MLK St N, Suite 200</address>
+              <city>St. Petersburg</city>
+              <state>FL</state>
+              <postal>33716</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntvoice>727-576-9500</cntvoice>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Merge all ENC feature classes into one</procdesc>
+        <procdate>20180809</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Quantum Spatial, Inc.</cntorg>
+            </cntorgp>
+            <cntpos>E-GIS Data Manager</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>10033 MLK St N, Suite 200</address>
+              <city>St. Petersburg</city>
+              <state>FL</state>
+              <postal>33716</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntvoice>727-576-9500</cntvoice>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Identify ENC duplicates via topology. Delete one feature if category (NATSUR) attribute is the same in both features, or if one is NULL. Otherwise, mark as exception.</procdesc>
+        <procdate>20180810</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Quantum Spatial, Inc.</cntorg>
+            </cntorgp>
+            <cntpos>E-GIS Data Manager</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>10033 MLK St N, Suite 200</address>
+              <city>St. Petersburg</city>
+              <state>FL</state>
+              <postal>33716</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntvoice>727-576-9500</cntvoice>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Create and populate SampleDepth field as shown: Layer - (raw attribute) - (processing steps). ENC - attribute created and populated with "Surface" for all records. ECSTDB - T_DEPTH and B_DEPTH - add new field called "SampleDepth", convert X_DEPTH fields to text and divide by 100 to convert to meters, Concatenate text fields into SampleDepth with " to " between and " meters" at end, select by attribute to replace entries with at least one "-9999" value to "Unknown", select by attribute and replace entries where T_DEPTH and B_DEPTH are equal with "(depth) meters", select by attribute and replace any "0" values with "Surface". PAC_EXT and GMX_EXT - SAMPLETOP and SAMPLEBASE - follow same processing steps as ECSTDB, with exception of dividing by 100 (measurements are already in meters in these datasets).</procdesc>
+        <procdate>20180811</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Quantum Spatial, Inc.</cntorg>
+            </cntorgp>
+            <cntpos>E-GIS Data Manager</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>10033 MLK St N, Suite 200</address>
+              <city>St. Petersburg</city>
+              <state>FL</state>
+              <postal>33716</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntvoice>727-576-9500</cntvoice>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Crosswalk schemas from each source into new schema as shown: Layer - (raw attribute that crosswalked to Source) - (raw attribute that crosswalked to Classification) - (raw attribute that crosswalked to AdditionalDescription). ENC - Appropriate portion of SORIND - NATSUR - NATQUA. ECSTDB - created field and populated with "USGS, East Coast Sediment Texture DataBase" - CLASSIFICATION - LITHOLOGY. PAC_EXT and GMX_EXT - created field and populated with "USGS, usSEABED" - SHEPARDCOD - FOLKCODE.</procdesc>
+        <procdate>20180812</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Quantum Spatial, Inc.</cntorg>
+            </cntorgp>
+            <cntpos>E-GIS Data Manager</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>10033 MLK St N, Suite 200</address>
+              <city>St. Petersburg</city>
+              <state>FL</state>
+              <postal>33716</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntvoice>727-576-9500</cntvoice>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Merge all Feature classes together</procdesc>
+        <procdate>20180813</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Quantum Spatial, Inc.</cntorg>
+            </cntorgp>
+            <cntpos>E-GIS Data Manager</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>10033 MLK St N, Suite 200</address>
+              <city>St. Petersburg</city>
+              <state>FL</state>
+              <postal>33716</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntvoice>727-576-9500</cntvoice>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Delete all records that lack a meaningful value in both Classification and Description.</procdesc>
+        <procdate>20180814</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Quantum Spatial, Inc.</cntorg>
+            </cntorgp>
+            <cntpos>E-GIS Data Manager</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>10033 MLK St N, Suite 200</address>
+              <city>St. Petersburg</city>
+              <state>FL</state>
+              <postal>33716</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntvoice>727-576-9500</cntvoice>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Delete duplicate features (identical Shape (location) and Classification)</procdesc>
+        <procdate>20180815</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Quantum Spatial, Inc.</cntorg>
+            </cntorgp>
+            <cntpos>E-GIS Data Manager</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>10033 MLK St N, Suite 200</address>
+              <city>St. Petersburg</city>
+              <state>FL</state>
+              <postal>33716</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntvoice>727-576-9500</cntvoice>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Point</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Entity point</sdtstype>
+        <ptvctcnt>172839</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>WGS 1984 World Mercator </mapprojn>
+          <mercator>
+            <stdparll>0.0</stdparll>
+            <longcm>0.0</longcm>
+            <feast>0.0</feast>
+            <fnorth>0.0</fnorth>
+          </mercator>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0001</absres>
+            <ordres>0.0001</ordres>
+          </coordrep>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D WGS 1984</horizdn>
+        <ellips>WGS 1984</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>SurficialSedimentClassification</enttypl>
+        <enttypd>Surficial Sediment Classification</enttypd>
+        <enttypds>NOAA Office for Coastal Management</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Source</attrlabl>
+        <attrdef>Source of the data point. Chart number or graph/report reference have been captured for ENC data points</attrdef>
+        <attrdefs>NOAA Office for Coastal Management</attrdefs>
+        <attrdomv>
+          <udom>Alphanumeric characters</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Classification</attrlabl>
+        <attrdef>Classification of the sample as described in the source data. Note: this field represents multiple classification schemes. Please see the processing steps section of this document and consult the source data for additional information on sample classification.</attrdef>
+        <attrdefs>NOAA Office for Coastal Management</attrdefs>
+        <attrdomv>
+          <udom>Alphanumeric characters</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AdditionalDescription</attrlabl>
+        <attrdef>Additional Description. This field holds diverse types of information which support and expand upon the Classification field. Please see the processing steps section of this document and consult the source data for additional information on source attribution.</attrdef>
+        <attrdefs>NOAA Office for Coastal Management</attrdefs>
+        <attrdomv>
+          <udom>Alphanumeric characters</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SampleDepth</attrlabl>
+        <attrdef>Sample Depth. Depth below the sediment-water interface at which the sample was collected (in meters).</attrdef>
+        <attrdefs>USGS</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Surface</edomv>
+            <edomvd>Sediment sample collected at the sediment-water interface</edomvd>
+            <edomvds>NOAA Office for Coastal Management</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Unknown</edomv>
+            <edomvd>Sediment sample taken at an unknown depth or range of depths below the sediment-water interface</edomvd>
+            <edomvds>USGS, NOAA Office for Coastal Management</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>X meters</edomv>
+            <edomvd>Sediment sample taken X meters below the sediment-water interface</edomvd>
+            <edomvds>USGS</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>X to X meters</edomv>
+            <edomvd>Sediment sample taken from a range of X to X meters below the sediment-water interface</edomvd>
+            <edomvds>USGS</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Office for Coastal Management (OCM)</cntorg>
+          <cntper>NOAA Office for Coastal Management</cntper>
+        </cntorgp>
+        <cntpos>Data Steward</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>2234 South Hobson Ave</address>
+          <city>North Charleston</city>
+          <state>SC</state>
+          <postal>29405-2413</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>843-740-1202</cntvoice>
+        <cntemail>coastal.info@noaa.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>See access and use constraints information.</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20180817</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Quantum Spatial, Inc.</cntorg>
+        </cntorgp>
+        <cntpos>E-GIS Data Manager</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>10033 MLK Street N, Suite 200</address>
+          <city>St. Petersburg</city>
+          <state>FL</state>
+          <postal>33716</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>727-576-9500</cntvoice>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>

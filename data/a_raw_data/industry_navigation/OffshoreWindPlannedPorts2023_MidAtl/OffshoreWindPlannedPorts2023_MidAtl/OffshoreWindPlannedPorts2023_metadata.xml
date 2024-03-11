@@ -1,0 +1,219 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <pubdate>20231207</pubdate>
+        <title>Offshore Wind Planned Ports in the Mid-Atlantic (2023)</title>
+        <edition>202312</edition>
+        <geoform>vector digital data</geoform>
+        <othercit>These data are as of December 2023</othercit>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This map shows the locations of port facilities that are currently in use or planned for offshore wind development in the Mid-Atlantic region. Users can click each point to learn about the port’s status (e.g., Operational, Permitting, Construction), location, associated offshore wind projects, infrastructure assets, contact information and additional information. This dataset was last updated in December 2023.</abstract>
+      <purpose>To map the offshore wind ports in the Mid-Atlantic region for visualization on the Mid-Atlantic Ocean Data Portal.</purpose>
+      <supplinf>- Source: This information has been compiled by the Mid-Atlantic Regional Council on the Ocean (MARCO) from public records.
+
+- Note: If you have updates or corrections, please contact the Portal team at portal@midatlanticocean.org.
+
+- Caveats: At the time of publishing, the current status of each port has been identified. As further information and updates become available, this map layer will be updated to keep this information current.
+
+- Metadata documentation publisher: This document was composed by the MARCO Portal to serve as unofficial metadata for Portal purposes. If you have updates or corrections, please contact the Portal team at portal@midatlanticocean.org.
+
+
+</supplinf>
+    </descript>
+    <spdom>
+      <bounding>
+        <westbc>-76.486278</westbc>
+        <eastbc>-71.935346</eastbc>
+        <northbc>42.603325</northbc>
+        <southbc>36.857187</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>oceans</themekey>
+        <themekey>utilitiesCommunication</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>ports</themekey>
+        <themekey>offshore wind</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>Disclaimer: Data are supplied 'as-is' without warranty of any kind. While efforts have been made to ensure that these data are accurate and reliable within the state of the art, The Mid-Atlantic Ocean Data Portal cannot assume liability for any damages, or misrepresentations, caused by any inaccuracies in the data. The Portal makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty. Any maps, publications, reports or any other type of document produced as a result of utilizing this data will credit the original map author(s) as listed as well as the Mid-Atlantic Ocean Data Portal.</useconst>
+    <datacred>This information has been compiled by the Mid-Atlantic Regional Council on the Ocean (MARCO) from public records.</datacred>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.8.1.14362</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Entity point</sdtstype>
+        <ptvctcnt>15</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres>8.9831528411952133e-09</latres>
+        <longres>8.9831528411952133e-09</longres>
+        <geogunit>Decimal Degrees</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Offshore Wind PlannedPorts 2023</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>OBJECTID_1</attrlabl>
+        <attrdef>Unique ID</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Port_Name</attrlabl>
+        <attrdef>Name of the port</attrdef>
+        <attrdefs>MARCO</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>City</attrlabl>
+        <attrdef>Location</attrdef>
+        <attrdefs>MARCO</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>State</attrlabl>
+        <attrdef>Location</attrdef>
+        <attrdefs>MARCO</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Lat_Lon</attrlabl>
+        <attrdef>Location's latitude/longitude coordinates (decimal degrees)</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Lat_DD</attrlabl>
+        <attrdef>Location's latitude coordinate (decimal degrees)</attrdef>
+        <attrdefs>MARCO</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Lon_DD</attrlabl>
+        <attrdef>Location's longitude coordinate (decimal degrees)</attrdef>
+        <attrdefs>MARCO</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>OSW_Phase</attrlabl>
+        <attrdef>This is the phase of construction of the port</attrdef>
+        <attrdefs>MARCO</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Port_Status</attrlabl>
+        <attrdef>What phase of construction or completion the port is in</attrdef>
+        <attrdefs>MARCO</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Associated_OSW_Projects</attrlabl>
+        <attrdef>This is the name of the project associated with the individual port.</attrdef>
+        <attrdefs>MARCO</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Construction, Operation and Maintenance</edomv>
+          </edom>
+          <edom>
+            <edomv>Construction, Supply Chain</edomv>
+          </edom>
+          <edom>
+            <edomv>Operation and Maintenance</edomv>
+          </edom>
+          <edom>
+            <edomv>Supply Chain</edomv>
+          </edom>
+          <edom>
+            <edomv>Supply Chain and Construction</edomv>
+          </edom>
+          <edom>
+            <edomv>Supply Chain, Construction/Pre-Assembly</edomv>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Infrastructure_Assets</attrlabl>
+        <attrdef>Intermodal assets in the vicinity, such as rail and deep draft vessel access.</attrdef>
+        <attrdefs>MARCO</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Workforce_Assets</attrlabl>
+        <attrdef>Port-specific training and workforce development programs.</attrdef>
+        <attrdefs>MARCO</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Funding_Sources</attrlabl>
+        <attrdef>What level of government has funded the construction of the port or whether it
+is funded by the private developer.</attrdef>
+        <attrdefs>MARCO</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Owner_Operator</attrlabl>
+        <attrdef>This is the name of the owner of the port.</attrdef>
+        <attrdefs>MARCO</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Owner_Operator_Address</attrlabl>
+        <attrdef>When available, the address of the port owner/operator is provided.</attrdef>
+        <attrdefs>MARCO</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Owner_Operator_Contact</attrlabl>
+        <attrdef>When available, a contact for the port owner/operator is provided.</attrdef>
+        <attrdefs>MARCO</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Website</attrlabl>
+        <attrdef>This is the website of the developer and/or port.</attrdef>
+        <attrdefs>MARCO</attrdefs>
+      </attr>
+    </detailed>
+  </eainfo>
+  <metainfo>
+    <metd>20231207</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Mid-Atlantic Regional Council on the Ocean</cntorg>
+          <cntper>Janet Reimer</cntper>
+        </cntorgp>
+        <cntemail> jreimer@midatlanticocean.org</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metac>Disclaimer: Data are supplied 'as-is' without warranty of any kind. While efforts have been made to ensure that these data are accurate and reliable within the state of the art, The Mid-Atlantic Ocean Data Portal cannot assume liability for any damages, or misrepresentations, caused by any inaccuracies in the data. The Portal makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty. Any maps, publications, reports or any other type of document produced as a result of utilizing this data will credit the original map author(s) as listed as well as the Mid-Atlantic Ocean Data Portal.</metac>
+    <metuc>These data are intended for visualization on the Mid-Atlantic Ocean Data Portal.</metuc>
+  </metainfo>
+</metadata>

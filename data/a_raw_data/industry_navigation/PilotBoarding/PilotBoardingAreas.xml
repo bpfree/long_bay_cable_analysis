@@ -1,0 +1,529 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Department of Commerce (DOC), National Oceanic and Atmospheric Administration (NOAA), National Ocean Service (NOS), Office for Coastal Management (OCM)</origin>
+        <pubdate>20180629</pubdate>
+        <title>Pilot Boarding Areas</title>
+        <geoform>vector digital data</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Pilot boarding areas are locations at sea where pilots familiar with local waters board incoming vessels to navigate their passage to a destination port. Pilotage is compulsory for foreign vessels and U.S. vessels under register in foreign trade with specific draft characteristics. Individual ports may have additional pilotage regulations (see the applicable United States Coast Pilot for additional information). This dataset is one of two related feature classes which should be used in tandem. The sister dataset, of point geometry, is titled Pilot Boarding Stations. It represents point locations depicted on NOAA navigational charts or described in United States Coastal Pilots where pilots rendezvous with ships. In contrast, Pilot Boarding Areas are more general vicinities depicted on NOAA navigational charts. Pilots can rendezvous with ships anywhere within a Pilot Boarding Area.This dataset does not contain information regarding the hazards and considerations necessary to approach each port. </abstract>
+      <purpose>To support coastal and ocean planning and other activities pursuant to the Energy Policy Act, Coastal Zone Management Act, Magnuson-Stevens Fishery Conservation and Management Act, National Environmental Policy Act, Rivers and Harbors Act and the Submerged Lands Act.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20180629</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-123.400581</westbc>
+        <eastbc>-64.918304</eastbc>
+        <northbc>48.169267</northbc>
+        <southbc>18.288465</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>oceans</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Pilot</themekey>
+        <themekey>Pilotage</themekey>
+        <themekey>Pilot boarding</themekey>
+        <themekey>Ports</themekey>
+        <themekey>Marine cadastre</themekey>
+        <themekey>Marine spatial planning</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>United States, USA</placekey>
+        <placekey>Coastal Waters</placekey>
+        <placekey>Atlantic</placekey>
+        <placekey>Gulf of Mexico</placekey>
+        <placekey>Pacific</placekey>
+        <placekey>Alaskan waters</placekey>
+        <placekey>United States Sovereign Territories</placekey>
+      </place>
+    </keywords>
+    <accconst>None.</accconst>
+    <useconst>These data are intended for coastal and ocean use planning. Not for navigation. http://www.marinecadastre.gov/about/disclaimer.html</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>NOAA Office for Coastal Management</cntorg>
+          <cntper>Data Steward</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>2234 South Hobson Ave</address>
+          <city>North Charleston</city>
+          <state>SC</state>
+          <postal>29405-2413</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>843-740-1202</cntvoice>
+        <cntemail>coastal.info@noaa.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>NOAA</datacred>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.4.1.5713</native>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>The attributes in this dataset are believed to be accurate.</attraccr>
+    </attracc>
+    <logic>These data are believed to be logically consistent. Geometry is topologically clean.</logic>
+    <complete>Spatial and attribute properties are believed to be complete, although attribute information has been simplified. Geometric thresholds from original data are preserved. No tests have been completed for exhaustiveness.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Maximum scale of intended use is 1:80,000.</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Department of Commerce (DOC), National Oceanic and Atmospheric Administration (NOAA), National Ocean Service (NOS), Office of Coast Survey (OCS)</origin>
+            <pubdate>20130913</pubdate>
+            <title>Maritime Limits and Boundaries of United States of America</title>
+            <othercit>https://nauticalcharts.noaa.gov/data/us-maritime-limits-and-boundaries.html</othercit>
+            <onlink>http://maritimeboundaries.noaa.gov/downloads/USMaritimeLimitsAndBoundariesSHP.zip</onlink>
+            <onlink>http://maritimeboundaries.noaa.gov/arcgis/rest/services/MaritimeBoundaries/US_Maritime_Limits_Boundaries/MapServer/</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>downloadable data</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20180601</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>EEZ</srccitea>
+        <srccontr>Exclusive Economic Zone of the United States.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>NOAA, Office of Coast Survey</origin>
+            <pubdate>2018</pubdate>
+            <title>Coast Pilot volumes 1-9</title>
+            <geoform>pdf document</geoform>
+            <pubinfo>
+              <pubplace>Silverspring, MD</pubplace>
+              <publish>DOC, NOAA, Nautical Data Branch</publish>
+            </pubinfo>
+            <onlink>https://nauticalcharts.noaa.gov/publications/coast-pilot/index.html</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2018</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>Coast Pilot</srccitea>
+        <srccontr>The United States Coast Pilot consists of a series of nautical books that cover a variety of information important to navigators of coastal and intracoastal waters and the Great Lakes. Issued in nine volumes, they contain supplemental information that is difficult to portray on a nautical chart. In this case, the coast pilots were used to fill in the Pilot_Boat and Boat_Description fields. On occasion, they also described Pilot Boarding Areas not depicted in the ENC data.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>NOS Special Projects</origin>
+            <pubdate>20110101</pubdate>
+            <title>RNC/NOAA_RNC</title>
+            <geoform>Image server</geoform>
+            <pubinfo>
+              <pubplace>unknown</pubplace>
+              <publish>NOAA, Office of Coast Survey</publish>
+            </pubinfo>
+            <onlink>https://seamlessrnc.nauticalcharts.noaa.gov/arcgis/rest/services/RNC/NOAA_RNC/ImageServer</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20110101</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>RNC</srccitea>
+        <srccontr>The seamless RNC image server was used to confirm features in the ENC dataset and to aid in determining the position of features described in the Coast Pilots.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>NOAA ENC Direct to GIS Technical Contact, NOAA, NOS, OCS</origin>
+            <pubdate>20161029</pubdate>
+            <title>(multiple, see details below)</title>
+            <othercit>The following layers were downloaded from ENCDirect: Approach_pilot_boarding_place_area, Coastal_pilot_boarding_place_area, General_pilot_boarding_place_area, Harbor_pilot_boarding_place_area</othercit>
+            <onlink>https://encdirect.noaa.gov/</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>onLine</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20161029</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>ENC direct</srccitea>
+        <srccontr>NOAA’s ENC Direct to GIS allows users to display, query, and download all available base editions of NOAA ENC data in a variety of GIS/CAD formats, using web mapping service technology. Nautical chart features contained within a NOAA ENC provide a detailed representation of the U.S. coastal and marine environment. The data, updated weekly, is organized using S-57 object classes.</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>Download and project ENC data files into Web Mercator for comparison to the Seamless RNC server.</procdesc>
+        <procdate>20180625</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Quantum Spatial, Inc.</cntorg>
+            </cntorgp>
+            <cntpos>E-GIS Data Manager</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>10033 MLK St N, Suite 200</address>
+              <city>St. Petersburg</city>
+              <state>FL</state>
+              <postal>33716</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntvoice>-727-576-9500</cntvoice>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Compare ENC direct and seamless RNC sources, removing duplicates and ensuring that features are represented in the correct geometry</procdesc>
+        <procdate>20180626</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Quantum Spatial, Inc.</cntorg>
+            </cntorgp>
+            <cntpos>E-GIS Data Manager</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>10033 MLK St N, Suite 200</address>
+              <city>St. Petersburg</city>
+              <state>FL</state>
+              <postal>33716</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntvoice>-727-576-9500</cntvoice>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Merge all ENC polygon layers into a single feature class</procdesc>
+        <procdate>20180627</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Quantum Spatial, Inc.</cntorg>
+            </cntorgp>
+            <cntpos>E-GIS Data Manager</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>10033 MLK St N, Suite 200</address>
+              <city>St. Petersburg</city>
+              <state>FL</state>
+              <postal>33716</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntvoice>-727-576-9500</cntvoice>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Remove superfluous attributes. Crosswalk existing attributes to match final schema.</procdesc>
+        <procdate>20180628</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Quantum Spatial, Inc.</cntorg>
+            </cntorgp>
+            <cntpos>E-GIS Data Manager</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>10033 MLK St N, Suite 200</address>
+              <city>St. Petersburg</city>
+              <state>FL</state>
+              <postal>33716</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntvoice>-727-576-9500</cntvoice>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Extract relevant information from Coast Pilots to update attribution of existing features. Also, utilize the seamless RNC as a guide to add additional features described in the Coast Pilots that aren't already represented in the ENC feature class</procdesc>
+        <procdate>20180629</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Quantum Spatial, Inc.</cntorg>
+            </cntorgp>
+            <cntpos>E-GIS Data Manager</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>10033 MLK St N, Suite 200</address>
+              <city>St. Petersburg</city>
+              <state>FL</state>
+              <postal>33716</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntvoice>-727-576-9500</cntvoice>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Project into World Mercator for display</procdesc>
+        <procdate>20180630</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Quantum Spatial, Inc.</cntorg>
+            </cntorgp>
+            <cntpos>E-GIS Data Manager</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>10033 MLK St N, Suite 200</address>
+              <city>St. Petersburg</city>
+              <state>FL</state>
+              <postal>33716</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntvoice>-727-576-9500</cntvoice>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>30</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>WGS 1984 World Mercator</mapprojn>
+          <mercator>
+            <stdparll>0.0</stdparll>
+            <longcm>0.0</longcm>
+            <feast>0.0</feast>
+            <fnorth>0.0</fnorth>
+          </mercator>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0001</absres>
+            <ordres>0.0001</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D WGS 1984</horizdn>
+        <ellips>WGS 1984</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>PilotBoardingAreas</enttypl>
+        <enttypd>Pilot Boarding Areas</enttypd>
+        <enttypds>NOAA Office for Coastal Management</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Name</attrlabl>
+        <attrdef>Name by which the feature is known</attrdef>
+        <attrdefs>NOAA OCM</attrdefs>
+        <attrdomv>
+          <udom>Alphanumeric characters</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Description</attrlabl>
+        <attrdef>Location and restrictions given by the Coast Pilot</attrdef>
+        <attrdefs>NOAA OCM</attrdefs>
+        <attrdomv>
+          <udom>Alphanumeric characters</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Pilot_Boat</attrlabl>
+        <attrdef>Name of the vessel used by the pilots as given by the Coast Pilot</attrdef>
+        <attrdefs>NOAA OCM</attrdefs>
+        <attrdomv>
+          <udom>Alphanumeric characters</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Boat_Description</attrlabl>
+        <attrdef>Description of the vessel used by the pilots as given by the Coast Pilot</attrdef>
+        <attrdefs>NOAA OCM</attrdefs>
+        <attrdomv>
+          <udom>Alphanumeric characters</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Source</attrlabl>
+        <attrdef>Source of the data point</attrdef>
+        <attrdefs>NOAA OCM</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Chart (5 numbers)</edomv>
+            <edomvd>NOAA navigational chart number</edomvd>
+            <edomvds>NOAA ENC Direct to GIS Technical Contact, NOAA, NOS, OCS</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Coast Pilot (number)</edomv>
+            <edomvd>Coast Pilot volume</edomvd>
+            <edomvds>NOAA OCM</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>L-(numbers/numbers)</edomv>
+            <edomvd>NOAA internal documentation number referencing a specific unpublished letter</edomvd>
+            <edomvds>NOAA ENC Direct to GIS Technical Contact, NOAA, NOS, OCS</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Pilot_Disposition</attrlabl>
+        <attrdef>Location of the pilot and pilot boat when on duty but not engaged</attrdef>
+        <attrdefs>NOAA ENC Direct to GIS Technical Contact, NOAA, NOS, OCS</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Standing-by on station</edomv>
+            <edomvd>Pilot vessel is underway with an available pilot onboard in or near the Pilot Boarding Area</edomvd>
+            <edomvds>NOAA ENC Direct to GIS Technical Contact, NOAA, NOS, OCS</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Launches upon request</edomv>
+            <edomvd>Available pilot is onshore and will lauch the pilot boat if called upon</edomvd>
+            <edomvds>NOAA ENC Direct to GIS Technical Contact, NOAA, NOS, OCS</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Length</attrlabl>
+        <attrdef>Length of feature in internal units.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Area</attrlabl>
+        <attrdef>Area of feature in internal units squared.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Source Date</attrlabl>
+        <attrdef>Date the source reports recording the feature in Esri date format. Note that in cases where the month and/or day are unknown, a value of "01" is automaticaly entered</attrdef>
+        <attrdefs>NOAA ENC Direct to GIS Technical Contact, NOAA, NOS, OCS</attrdefs>
+        <attrdomv>
+          <udom>date in Esri date format</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Office for Coastal Management (OCM)</cntorg>
+          <cntper>NOAA Office for Coastal Management</cntper>
+        </cntorgp>
+        <cntpos>Data Steward</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>2234 South Hobson Ave</address>
+          <city>North Charleston</city>
+          <state>SC</state>
+          <postal>29405-2413</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>843-740-1202</cntvoice>
+        <cntemail>coastal.info@noaa.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>See access and use constraints information.</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20180629</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Quantum Spatial, Inc.</cntorg>
+        </cntorgp>
+        <cntpos>E-GIS Data Manager</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>10033 MLK Street N, Suite 200</address>
+          <city>St. Petersburg</city>
+          <state>FL</state>
+          <postal>33716</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>727-576-9500</cntvoice>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>

@@ -1,0 +1,341 @@
+"","site","lon","lat","V7","V9","V11","V13","V15"
+"1","32301",-105.199722,-9.899722,"M","SOUTH PACIFIC","Y","N","PERU"
+"2","32302",-85.1,-18,"M","TOGA 2","Y","N","PERU"
+"3","41001",-72.661667,34.683333,"M","150 NM East of Cape HATTERAS","Y","Y","AGACA"
+"4","41002",-75.36,32.318889,"M","S HATTERAS - 250 NM East of Charleston, SC","Y","Y","AGACA"
+"5","41003",-80.399722,30.3,"M","NORTH FLORIDA","Y","N","AFL"
+"6","41004",-79.1,32.5,"M","EDISTO - 41 NM Southeast of Charleston, SC","Y","Y","AGACA"
+"7","41005",-79.699722,31.699722,"M","GEORGIA","Y","N","AGACA"
+"8","41006",-77.323333,29.335,"M","E DAYTONA, FL","Y","N","AFL"
+"9","41007",-76.5,34.199722,"M","CAPE HATTERAS, NC","Y","N","AGACA"
+"10","41008",-80.870556,31.402222,"M","GRAYS REEF - 40 NM Southeast of Savannah, GA","Y","Y","AGACA"
+"11","41009",-80.165278,28.500833,"M","CANAVERAL 20 NM East of Cape Canaveral, FL","Y","Y","AFL"
+"12","41010",-78.478611,28.952778,"M","CANAVERAL EAST 120NM East of Cape Canaveral","Y","Y","AFL"
+"13","41011",-80.1,28.199722,"M","DAYTONA BEACH, FL","Y","N","AFL"
+"14","41012",-80.533333,30.041389,"M","St. Augustine, FL 40NM ENE of St Augustine, FL.","N","Y","AFL"
+"15","41013",-77.583333,33.478611,"M","Frying Pan Shoals, NC","N","Y","AGACA"
+"16","41015",-75.25,35.416667,"M","OUTER BANKS","Y","N","AGACA"
+"17","41016",-76.521667,24.636667,"M","EXUMA SOUND, BA","Y","N","CAR"
+"18","41017",-75.1,35.416667,"M","CAPE HATTERAS, NC","Y","N","AGACA"
+"19","41018",-75,15,"M","CARIBBEAN","Y","N","CAR"
+"20","41021",-80.848611,31.921389,"M","Olympic Northeast","Y","N","AGACA"
+"21","41022",-80.858611,31.888056,"M","Olympic Southwest","Y","N","AGACA"
+"22","41023",-80.926111,31.92,"M","Olympic Southwest","Y","N","AGACA"
+"23","41025",-75.4019445,35.006111,"M","Diamond Shoals (Red Buoy)","N","Y","AGACA"
+"24","41035",-77.28,34.476,"M","Onslow Bay Inner, NC","Y","Y","AGACA"
+"25","41036",-76.952,34.206,"M","Onslow Bay Outer, NC","Y","Y","AGACA"
+"26","41040",-53.021667,14.499722,"M","West Atlantic","N","Y","AW"
+"27","41041",-45.996667,14.506667,"M","Middle Atlantic","N","Y","AW"
+"28","41043",-64.966,21.061,"M","South Western Atlantic","Y","Y","AW"
+"29","41044",-58.695,21.652,"M","South Atlantic","Y","Y","AW"
+"30","41046",-70.863,23.836,"M","E Bahamas","Y","Y","AW"
+"31","41047",-71.491,27.469,"M","NE Bahamas","Y","Y","AW"
+"32","41048",-69.649,31.978,"M","W Bahamas","Y","Y","AW"
+"33","41049",-63,27.5,"M","Atlantic (South)","Y","Y","AW"
+"34","42001",-89.658333,25.841667,"M","MID GULF 180 nm South of Southwest Pass, LA.","Y","Y","WGM"
+"35","42002",-94.416667,25.166667,"M","W GULF 240 nm South-Southeast of Sabine, TX.","Y","Y","WGM"
+"36","42003",-85.913889,26.008889,"M","E GULF 260 nm South of Panama City, FL","Y","Y","EGM"
+"37","42004",-85.5,27.5,"M","GULF OF MEXICO","Y","N","EGM"
+"38","42005",-85.899722,30,"M","GULF OF MEXICO","Y","N","EGM"
+"39","42006",-96,26.5,"M","GULF OF MEXICO","Y","N","WGM"
+"40","42007",-88.769444,30.090278,"M","BILOXI 22 nm South-Southeast of Biloxi, MS.","Y","Y","EGM"
+"41","42008",-95.3,28.699722,"M","GULF OF MEXICO","Y","N","WGM"
+"42","42009",-87.5,29.3,"M","GULF OF MEXICO","Y","N","EGM"
+"43","42010",-93.399722,29.699722,"M","GULF OF MEXICO","Y","N","WGM"
+"44","42011",-93.5,29.6,"M","GULF OF MEXICO","Y","N","WGM"
+"45","42012",-87.1,29.899722,"M","GULF OF MEXICO","Y","N","EGM"
+"46","42014",-87.399722,29.3,"M","GULF OF MEXICO","N","N","EGM"
+"47","42015",-88.199722,30.199722,"M","GULF OF MEXICO","Y","N","EGM"
+"48","42016",-88.178333,30.083333,"M","GULF OF MEXICO","Y","N","EGM"
+"49","42017",-90.899722,27.899722,"M","GULF OF MEXICO","Y","N","WGM"
+"50","42018",-88.199722,30,"M","GULF OF MEXICO","Y","N","EGM"
+"51","42019",-95.36,27.913056,"M","Freeport, TX. 60 NM South of Freeport, TX.","Y","Y","WGM"
+"52","42020",-96.696389,26.944167,"M","Corpus Christi, TX. 50NM Southeast of Corpus Christi, TX.","Y","Y","WGM"
+"53","42025",-80.451667,24.939444,"M","MOLASSES REEF, FL","Y","N","FLS"
+"54","42035",-94.408333,29.246389,"M","GALVESTON  22NM East of Galveston, TX.","Y","Y","WGM"
+"55","42036",-84.510278,28.506111,"M","W. TAMPA  106NM West Northwest of Tampa, FL","Y","Y","EGM"
+"56","42037",-81.381111,24.507778,"M","GULF OF MEXICO","Y","N","FLS"
+"57","42038",-92.575278,27.42,"M","North Mid Gulf of Mexico","N","Y","WGM"
+"58","42039",-86.021389,28.793889,"M","PENSACOLA - 115NM East Southeast of Pensacola, FL","Y","Y","EGM"
+"59","42040",-88.213611,29.184722,"M","MOBILE SOUTH 64 nm South of Dauphin Island, AL","Y","Y","EGM"
+"60","42041",-90.462222,27.503889,"M","North Mid Gulf 110NM South of Grand Isle, LA","N","Y","WGM"
+"61","42053",-88.504167,29.550833,"M","Pascagoula South","N","N","EGM"
+"62","42054",-87.730556,26,"M","East Gulf","Y","Y","EGM"
+"63","42055",-94.045833,22.017222,"M","Bay of Campeche","N","Y","WGM"
+"64","42056",-85.058889,19.874167,"M","Yucatan Basin","N","Y","CAR"
+"65","42057",-80,15,"M","Western Caribbean","N","N","CAR"
+"66","42058",-74.992778,14.977778,"M","Central Caribbean","N","Y","CAR"
+"67","42059",-67.472,15.054,"M","Eastern Caribbean","Y","Y","CAR"
+"68","42060",-63.5,16.5,"M","Eastern Caribbean","Y","Y","CAR"
+"69","42065",-75.064,14.927,"M","Central Caribbean","N","Y","CAR"
+"70","42080",-81.934,24.396,"M","Offshore Sand Key, FL","Y","Y","FLS"
+"71","42107",-88.899722,30.1,"M","GULF OF MEXICO","N","N","EGM"
+"72","44001",-73.648889,38.368333,"M","CAPE MAY, NJ (EB-05)","Y","N","AM"
+"73","44002",-73,40.1,"M","LONG BRANCH, NJ","N","N","ANE"
+"74","44003",-68.5,40.8,"M","NANTUCKET, MA","Y","N","ANE"
+"75","44004",-70.529167,38.465833,"M","HOTEL 200NM East of Cape May,NJ","Y","Y","AM"
+"76","44005",-69.163333,43.186667,"M","GULF OF MAINE 78 NM EAST OF PORTSMOUTH,NH","Y","Y","ANE"
+"77","44006",-75.498611,36.2675,"M","KITTY HAWK, NC","Y","N","AM"
+"78","44007",-70.144444,43.531389,"M","PORTLAND 12 NM Southeast of Portland,ME","Y","Y","ANE"
+"79","44008",-69.431389,40.5,"M","NANTUCKET 54NM Southeast of Nantucket","Y","Y","ANE"
+"80","44009",-74.7019445,38.463611,"M","DELAWARE BAY 26 NM Southeast of Cape May, NJ","Y","Y","AM"
+"81","44010",-74.9819445,36.0125,"M","VIRGINIA BEACH, VA","Y","N","AM"
+"82","44011",-66.623889,41.107778,"M","GEORGES BANK 170 NM East of Hyannis, MA","Y","Y","ANE"
+"83","44012",-74.58,38.79,"M","FIVE FATHOM","Y","N","AM"
+"84","44013",-70.691389,42.353889,"M","BOSTON 16 NM East of Boston, MA","Y","Y","ANE"
+"85","44014",-74.836389,36.611111,"M","VIRGINIA BEACH 64 NM East of Virginia Beach, VA","Y","Y","AM"
+"86","44015",-73.398333,37.483333,"M","CAPE CHARLES, VA","Y","N","AM"
+"87","44017",-71.998611,40.698056,"M","23 Nautical Miles Southwest of Montauk Point, NY","N","Y","ANE"
+"88","44018",-69.294444,41.258611,"M","SE Cape Cod 10NM East of Nantucket, MA","N","Y","ANE"
+"89","44019",-75.166389,36.416389,"M","MIDDLE ATLANTIC","Y","N","AM"
+"90","44020",-70.186,41.443,"M","NANTUCKET SOUND","Y","Y","ANE"
+"91","44023",-74.391111,37.535278,"M","CHINCOTEAGUE, VA","Y","N","AM"
+"92","44025",-73.166389,40.250278,"M","LONG ISLAND 33 NM South of Islip, NY","Y","Y","ANE"
+"93","44026",-73.484167,36.021389,"M","NW ATLANTIC","Y","N","AM"
+"94","44027",-67.314444,44.2725,"M","Jonesport, Maine","N","Y","ANE"
+"95","44028",-71.085,41.396389,"M","Buzzards Bay::Y::N::ANE
+44065::40.369::-73.703::M::Entrance to New York Harbor::Y::Y::ANE
+44066::39.583::-72.601::M::Texas Tower #4::Y::Y::ANE
+44070::41.392::-71.004::M::Buzzards Bay MA. Offshore::Y::N::ANE
+45001::48.071944::-87.776389::M::MID SUPERIOR 60NM North Northeast Hancock, MI::Y::Y::GL
+45002::45.328611::-86.416667::M::N MICHIGAN- Halfway between North Manitou and Washington Islands.::Y::Y::GL
+45003::45.350278::-82.838056::M::N HURON 37NM Northeast of Alpena, MI.::Y::Y::GL
+45004::47.571944::-86.549722::M::E SUPERIOR 200NM East Northeast of Hancock, MI::Y::Y::GL
+45005::41.676667::-82.398333::M::W ERIE 28NM Northwest of Cleveland, OH::Y::Y::GL
+45006::47.348056::-89.825::M::W SUPERIOR 48NM North of Ironwood, MI::Y::Y::GL
+45007::42.675556::-87.025::M::S MICHIGAN 43NM East Southeast of Milwaukee, WI::Y::Y::GL
+45008::44.275::-82.415::M::S HURON 43NM East of Oscoda, MI::Y::Y::GL
+45009::41.6::-82::M::GREAT LAKES::Y::N::GL
+45010::43.000556::-87.800556::M::GREAT LAKES::Y::N::GL
+45011::43.025::-86.275::M::Grand Haven Michigan::N::N::GL
+45012::43.620833::-77.406389::M::Lake Ontario Buoy - 20NM North Northeast of Rochester, NY::N::Y::GL
+46001::56.295556::-148.171944::M::GULF OF AK 88NM South of Kodiak, AK::Y::Y::AKW
+46002::42.5775::-130.359722::M::OREGON - 275NM West of Coos Bay OR.::Y::Y::NEP
+46003::51.831389::-155.850278::M::S ALEUTIANS::Y::N::AKW
+46004::50.899722::-135.899722::M::Middle Nomad::Y::N::NEP
+46005::46.05::-131.017778::M::WASHINGTON 315NM West of Aberdeen, WA::Y::Y::NEP
+46006::40.799722::-137.479444::M::SE PAPA - 600NM West of Eureka, CA.::Y::Y::NEPC
+46007::59.199722::-152.7::M::N PACIFIC::Y::N::AKW
+46008::57.1::-151.7::M::GULF OF ALASKA::Y::N::AKW
+46009::60.199722::-146.8::M::GULF OF ALASKA::Y::N::AKE
+46010::46.18::-124.18::M::COLUMBIA::Y::N::NEP
+46011::34.879722::-120.868889::M::SANTA MARIA - 21 NM Northwest of Point Arguello, CA::Y::Y::NEPC
+46012::37.360556::-122.881389::M::HALF MOON BAY - 24NM South Southwest of San Francisco, CA::Y::Y::NEPC
+46013::38.225::-123.316667::M::Bodega Bay - 48NM North Northwest of San Francisco, CA.::Y::Y::NEPC
+46014::39.216111::-123.971111::M::PT ARENA - 19NM North of Point Arena, CA.::Y::Y::NEPC
+46015::42.746667::-124.846944::M::Port Orford - 16 NM West of Port Orford, OR::N::Y::NEP
+46016::63.3::-170.3::M::BERING SEA::Y::N::AKW
+46017::60.3::-172.3::M::BERING SEA::Y::N::AKW
+46018::60.3::-177::M::BERING SEA::Y::N::AKW
+46019::57.199722::-170.3::M::BERING SEA::Y::N::AKW
+46020::55.899722::-168::M::GULF OF ALASKA::Y::N::AKW
+46021::57.699722::-160::M::GULF OF ALASKA::Y::N::AKW
+46022::40.781389::-124.541667::M::EEL RIVER - 17NM West-Southwest of Eureka, CA.::Y::Y::NEPC
+46023::34.703333::-120.956944::M::PT ARGUELLO - 17NM West Northwest of Point Arguello, CA::Y::Y::NEPC
+46024::32.8::-119.5::M::N PACIFIC::Y::N::NEPC
+46025::33.745833::-119.075556::M::Santa Monica Basin - 33NM West Southwest of Santa Monica, CA::Y::Y::NEPC
+46026::37.758889::-122.833333::M::SAN FRANCISCO - 18NM West of San Francisco, CA.::Y::Y::NEPC
+46027::41.850278::-124.381111::M::ST GEORGES - 8NM West Northwest of Crescent City, CA::Y::Y::NEPC
+46028::35.736944::-121.888611::M::CAPE SAN MARTIN - 55NM West Northwest of Morro Bay, CA.::Y::Y::NEPC
+46029::46.143889::-124.511667::M::COL RIVER BAR - 78NM South Southwest of Aberdeen, WA::Y::Y::NEP
+46030::40.422778::-124.525278::M::BLUNTS REEF::Y::Y::NEPC
+46031::55.5::-161.699722::M::GULF OF ALASKA::Y::N::AKW
+46032::54.199722::-165.8::M::GULF OF ALASKA::Y::N::AKW
+46033::55.8::-159.8::M::NORTH PACIFIC::Y::N::AKW
+46034::55.1::-163.1::M::NORTH PACIFIC::Y::N::AKW
+46035::57.050556::-177.576389::M::BERING SEA 310 NM North of Adak, AL::Y::Y::AKW
+46036::48.3::-133.899722::M::South Nomad::Y::N::NEP
+46037::48.3::-133.8::M::BRITISH COLUMBIA::Y::N::NEP
+46038::41.899722::-124.399722::M::CAPE MENDOCINO, CA::Y::N::NEPC
+46039::48.199722::-123.399722::M::SEATTLE, WA::Y::N::NEP
+46040::44.780833::-124.301667::M::CAPE FOULWEATHER, OR::Y::N::NEP
+46041::47.336111::-124.747222::M::CAPE ELIZABETH- 45NM West of Aberdeen, WA::Y::Y::NEP
+46042::36.753056::-122.4225::M::MONTEREY - 27NM West of Monterey Bay, CA.::Y::Y::NEPC
+46043::46.899722::-124.199722::M::PORTLAND, OR::Y::N::NEP
+46045::33.838611::-118.446667::M::REDONDO BEACH::Y::N::NEPC
+46047::32.433333::-119.533056::M::TANNER BANKS - 121NM West of San Deigo, CA::Y::Y::NEPC
+46048::32.897222::-117.874444::M::SAN CLEMENTE IS::Y::N::NEPC
+46050::44.626944::-124.502778::M::STONEWALL BANKS - 20NM West of Newport, OR::Y::Y::NEP
+46051::34.479444::-120.694722::M::Harvest Experiment Platform::Y::N::NEPC
+46053::34.236111::-119.846111::M::SANTA BARB E - 12NM Southwest of San Barbara, CA::Y::Y::NEPC
+46054::34.266944::-120.438333::M::SANTA BARARAB W 38 NM West of Santa Barbara, CA::Y::Y::NEPC
+46059::37.993889::-129.946389::M::CALIFORNIA - 357NM West of San Francisco, CA.::Y::Y::NEPC
+46060::60.587778::-146.832778::M::West Orca Bay 36NM South Southwest of Valdez, AK::Y::Y::AKE
+46061::60.217778::-146.825::M::Seal Rocks 55NM South of Valdez, AK::Y::Y::AKE
+46062::35.100833::-121.01::M::Pt. San Luis, CA - 18 NM South Southwest of Morro Bay, CA.::Y::Y::NEPC
+46063::34.276389::-120.665278::M::Pt.Conception, CA - 50NM West of Santa Barbara, CA.::Y::Y::NEPC
+46066::52.695833::-154.983611::M::S Aleutians 380NM Southwest of Kodiak, AK::N::Y::AKW
+46069::33.65::-120.2::M::South Santa Rosa Island, CA::N::Y::NEPC
+46070::55.003::175.284::M::S.W. Bering Sea::Y::Y::AKW
+46071::51.17::179.001667::M::Western Aleutians::N::Y::AKW
+46072::51.626667::-172.156944::M::Central Aleutians 230NM Southwest of Dutch Harbor::Y::Y::AKW
+46073::54.941667::-172.028889::M::Southeast Bering Sea::N::Y::AKW
+46075::53.925556::-160.806389::M::Shumagin Islands::N::Y::AKW
+46076::59.499444::-147.999722::M::Cape Cleare, AK::N::Y::AKE
+46077::57.892::-154.291::M::Shelikof Strait, AK::Y::N::AKW
+46078::56.053611::-152.450833::M::Albatross Banks::N::Y::AKW
+46079::59.048333::-152.227222::M::Barren Island::N::Y::AKW
+46080::58.002222::-150.008889::M::Northwest Gulf 57NM West of Kodiak, AK::N::N::AKW
+46081::60.796389::-148.281111::M::Western Prince William Sound::N::Y::AKW
+46082::59.685::-143.421111::M::Cape Suckling 84NM Southeast of Cordova, AK::N::Y::AKE
+46083::58.259167::-138.005556::M::Fairweather Grounds 92NM Southeast of Yakutat, AK::N::Y::AKE
+46084::56.593056::-136.162222::M::Cape Edgecumbe Buoy::N::Y::AKE
+46085::55.855::-142.559::M::Central Gulf of Alaska Buoy::Y::Y::AKE
+46086::32.498333::-117.999167::M::San Clemente Basin::N::Y::NEPC
+46087::48.493611::-124.727222::M::Neah Bay, WA (Traffic Separation Lighted Buoy JA)::N::Y::NEP
+46088::48.333333::-123.166389::M::New Dungeness, WA (Hein Bank)::N::Y::NEP
+46089::45.881389::-125.766389::M::Tillamook, OR::N::Y::NEP
+46105::59.049::-152.224::M::South Cook Inlet AK::Y::Y::AKW
+46106::59.760::-152.090::M::Central Cook Inlet AK::Y::Y::AKW
+46107::59.925::-147.992::M::Montague Strait::Y::N::AKE
+46114::36.710::-122.342::M::West Monterey Bay, CA::Y::N::NEPC
+46125::33.699722::-119.1::M::LOS ANGELES, CA::N::N::NEPC
+46a35::56.961667::-177.733333::M::BERING SEA::N::N::AKW
+46a47::32.686389::-119.589167::M::SAN NICOLAS IS::N::N::NEPC
+46b23::34.713889::-120.966667::M::D PT ARGUELLO, CA (ADCP)::N::N::NEPC
+46b54::34.268889::-120.448333::M::SANTA BARB W::N::N::NEPC
+46b62::35.100833::-121.01::M::PT. SAN LUIS, CA (ADCP)::N::N::NEPC
+48011::67.581667::-164.185::M::Red Dog Mine::Y::Y::AKW
+51000::23.546::-154.056::M::Northern Hawaii::Y::Y::HI
+51001::23.431944::-162.207778::M::NW HAWAII 170NM West Northwest of Kauai Island::Y::Y::HI
+51002::17.143056::-157.785278::M::SW HAWAII 215NM South SouthWest of Hilo, HI::Y::Y::HI
+51003::19.163889::-160.740278::M::W HAWAII205NM Southwest of Honolulu, HI::Y::Y::HI
+51004::17.5225::-152.480833::M::SE HAWAII 20NM Southeast of Hilo, HI::Y::Y::HI
+51005::20.399722::-156.1::M::HAWAII ISLANDS::Y::N::HI
+51026::21.351667::-156.931667::M::Northern Molokai::Y::N::HI
+51027::20.45::-157.131667::M::HAWAIIAN ISLANDS::Y::N::HI
+51028::-0.02::-153.87::M::Christmas Island DWA::Y::Y::HI
+51100::23.558::-153.900::M::Northern Hawaii::Y::Y::HI
+51101::24.321::-162.058::M::NW Hawaii::Y::Y::HI
+52009::13.729444::144.667778::M::W GUAM::Y::N::WP
+91204::9.9::139.7::C::Ulithi Is., Caroline::Y::N::WP
+91222::18.127778::145.770833::C::Pagan Is.,Mariana::Y::N::WP
+91251::11.430556::162.351389::C::Enewetak, MarShall::Y::N::WP
+91328::8.6::149.668056::C::Ulul Atoll, Caroline::Y::N::WP
+91338::5.278889::153.652222::C::Satawan Atoll, Caro.::Y::N::WP
+91343::7.629167::155.163056::C::Oroluk, Caroline::Y::N::WP
+91352::6.2125::160.696111::C::Pingelap, Caroline::Y::N::WP
+91353::6.2125::160.696111::C::PINGELAP ATOLL CAROL.::N::N::WP
+91355::5.355556::162.959722::C::Kosrae, Caroline::N::N::WP
+91365::8.929167::165.746667::C::Ujae Atoll, Marshall::Y::N::WP
+91374::8.7::171.2::C::Maloelap, Marshall::Y::N::WP
+91377::6.101389::172.101389::C::Mili, Marshalls Is.::Y::N::WP
+91411::8.3::137.5::C::Ngulu Atoll, Caroline::Y::N::WP
+91442::4.6::168.7::C::Ebon Atoll, Caroline::Y::N::WP
+1801589::37.360556::-122.881389::ENV::SD 1073 - 24NM South Southwest of San Francisco, CA (Site of 46012)::Y::Y::NEPC
+aban6::44.333333::-75.933333::C::Alexandria Bay, NY::Y::Y::GL
+alrf1::24.899722::-80.6::C::Alligator Reef::Y::N::FLS
+alsn6::40.45::-73.8::C::Ambrose Light, NY::Y::Y::ANE
+amaa2::58.915::-151.951667::C::East Amatuli Station Light, AK::N::Y::AKW
+auga2::59.378333::-153.348333::C::Augustine Island, AK::N::Y::AKW
+blia2::60.84::-146.88::C::Bligh Reef Light, AK::Y::Y::AKE
+burl1::28.905::-89.428333::C::Southwest Pass, LA::Y::Y::WGM
+busl1::27.883056::-90.901389::C::Bullwinkle Block 65::Y::N::WGM
+buzm3::41.396667::-71.033333::C::Buzzards Bay, MA::Y::Y::ANE
+caro3::43.341667::-124.375::C::Cape Arago, OR::Y::Y::NEP
+cdrf1::29.136111::-83.029167::C::Cedar Key, FL::Y::Y::EGM
+chlv2::36.905::-75.713333::C::Chesapeake Light, VA::Y::Y::AM
+clkn7::34.621667::-76.525::C::Cape Lookout, NC::Y::Y::AGACA
+csbf1::29.671667::-85.356667::C::Cape San Blas, FL::Y::Y::EGM
+dbln6::42.493333::-79.353333::C::Dunkirk, NY::Y::Y::GL
+desw1::47.675::-124.485::C::Destruction Is., WA::Y::Y::NEP
+disw3::47.08::-90.728333::C::Devils Island, WI::Y::Y::GL
+dpia1::30.248333::-88.073333::C::Dauphin Island, AL::Y::Y::EGM
+drfa2::60.553333::-152.136667::C::Drift River Terminal, AK::N::Y::AKW
+dryf1::24.638333::-82.861667::C::Dry Tortugas, FL::Y::Y::EGM
+dsln7::35.153333::-75.296667::C::Diamond Shls Lt., NC::Y::Y::AGACA
+ducn7::36.184167::-75.745278::C::Duck Pier, NC::Y::Y::AM
+eb01::35::-72::ENV::KITTY HAWK, NC::Y::N::AGACA
+eb02::27.5::-88::ENV::G. MEXI & NE PACIFIC::N::N::EGM
+eb02::47::-130.9::ENV::G. MEXI & NE PACIFIC::N::N::NEP
+eb03::56::-147.899722::ENV::GULF OF ALASKA::N::N::AKW
+eb04::26::-90::ENV::GULF OF MEXICO::N::N::WGM
+eb05::30.4::-80.1::ENV::NORTH FLORIDA::N::N::AFL
+eb07::39::-70::ENV::NORTH ATLANTIC::N::N::AM
+eb10::27.5::-88::ENV::GULF OF MEXICO::Y::N::EGM
+eb12::26::-94::ENV::GULF OF MEXICO::N::N::WGM
+eb13::32.305::-75.255::ENV::NW ATLANTIC::N::N::AGACA
+eb15::32.305833::-75.255833::ENV::NW ATLANTIC::N::N::AGACA
+eb16::42.522778::-130.016944::ENV::NORTH PACIFIC::N::N::NEP
+eb17::52.199722::-155.799722::ENV::ALEUTIAN IS::N::N::AKW
+eb19::51::-136::ENV::VANCOUVER, BC::N::N::NEP
+eb20::41.099722::-137.799722::ENV::NW PACIFIC::N::N::NEPC
+eb21::46::-131::ENV::NE PACIFIC::N::N::NEP
+eb31::27::-86::ENV::GULF OF MEXICO::Y::N::EGM
+eb32::27::-84.3::ENV::GULF OF MEXICO::Y::N::EGM
+eb33::58.5::-141::ENV::GULF OF ALASKA::Y::N::AKE
+eb34::40.099722::-73::ENV::LONG BRANCH, NJ::N::N::ANE
+eb35::55.299722::-157::ENV::GULF OF ALASKA::Y::N::AKW
+eb36::26::-84.8::ENV::GULF OF MEXICO::Y::N::EGM
+eb39::59.2::-152.7::ENV::COOK INLET, AK::N::N::AKW
+eb41::38.699722::-73.6::ENV::NEW YORK BIGHT::N::N::AM
+eb43::59.8::-142::ENV::GULF OF ALASKA::Y::N::AKE
+eb44::26::-86::ENV::GULF OF MEXICO::N::N::EGM
+eb45::60.199722::-146.799722::ENV::PRIN. WIL. SOUNDS, AK::N::N::AKE
+eb52::26::-83.8::ENV::G. MEXI & NY BIGHT::Y::N::EGM
+eb52::38.39::-74.3::ENV::G. MEXI & NY BIGHT::Y::N::AM
+eb53::29.8::-88.3::ENV::GULF OF MEXICO::Y::N::EGM
+eb61::28.5::-90.877778::ENV::GULF OF MEXICO::Y::N::WGM
+eb62::29::-85.6::ENV::GULF OF MEXICO::Y::N::EGM
+eb63::40.8::-68.5::ENV::NW ATL, NEW ENGLAND::N::N::ANE
+eb70::59.529722::-142.25::ENV::GULF OF ALASKA::Y::N::AKE
+eb71::26::-93.5::ENV::GULF OF MEXICO::N::N::WGM
+eb72::57.099722::-151.7::ENV::KODIAK, AK::N::N::AKW
+enip2::11.37::162.35::C::ENEWETAK MARSHALLS::N::N::WP
+farp2::8.595278::144.554167::C::Faraulep, Carolines Island::Y::N::WP
+fbis1::32.685::-79.888333::C::Folly Island, SC::Y::Y::AGACA
+ffia2::57.271667::-133.63::C::Five Finger, AK::Y::Y::AKE
+fila2::59.331667::-151.995::C::Flat Island Light, AK::N::Y::AKW
+fpsn7::33.485::-77.59::C::Frying Pan Shoals, NC::Y::Y::AGACA
+fwyf1::25.590278::-80.096667::C::Fowey Rocks, FL::Y::Y::FLS
+gbcl1::27.8::-93.133333::C::Garden Banks::Y::N::WGM
+gdil1::29.266667::-89.956667::C::Grand Isle, LA::Y::Y::WGM
+glln6::43.888333::-76.448333::C::Galloo Island, NY::Y::Y::GL
+iosn3::42.966667::-70.623333::C::Isle of Shoals, NH::Y::Y::ANE
+kosp2::5.355556::162.959722::C::KOSRAE, I., CAROLINES::N::N::WP
+ktnf1::29.817222::-83.591667::C::Keaton Beach, FL::Y::Y::EGM
+lkwf1::26.611667::-80.033333::C::Lake Worth, FL::Y::Y::AFL
+lmbv4::19.594::-96.379::C::La Mancha Beach, Mexico::Y::Y::WGM
+lnel1::28.2::-89.1::C::Lena::Y::N::WGM
+lonf1::24.843333::-80.861667::C::Long Key, FL::Y::Y::FLS
+lpoi1::48.060556::-116.5::C::Lake Pend Oreille, ID::N::Y::NEP
+lscm4::42.465::-82.755::C::Lake St Clair, MI::N::Y::GL
+mdrm1::43.968333::-68.128333::C::Mt Desert Rock, ME::Y::Y::ANE
+mism1::43.783333::-68.855::C::Matinicus Rock, ME::Y::Y::ANE
+mlip2::6.101667::172.605::C::MILI, MARSHALLS IS.::N::N::WP
+mlrf1::25.01::-80.38::C::Molasses Reef, FL::N::Y::FLS
+mpcl1::29.403333::-88.596667::C::Main Pass::Y::N::EGM
+mrka2::61.081667::-146.661667::C::Middle Rock Light, AK::N::Y::AKE
+nwpo3::44.613333::-124.066667::C::Newport, OR::Y::Y::NEP
+orkp2::7.629167::155.163056::C::OROLUK ATOLL, C.::N::N::WP
+pagp2::18.1::145.8::C::PAGAN I. MARIANAS::N::N::WP
+pila2::59.741667::-149.47::C::Pilot Rock, AK::N::Y::AKW
+pilm4::48.223333::-88.366667::C::Passage Island, MI::Y::Y::GL
+plsf1::24.693::-82.773::C::Pulaski Shoal Light, FL::Y::Y::FLS
+pota2::61.06::-146.7::C::Potato Point, AK::Y::Y::AKE
+ptac1::38.955::-123.74::C::Point Arena, CA::Y::Y::NEPC
+ptat2::27.828333::-97.05::C::Port Aransas, TX::Y::Y::WGM
+ptgc1::34.576667::-120.648333::C::Point Arguello, CA::Y::Y::NEPC
+roam4::47.866667::-89.313333::C::Rock of Ages, MI::Y::Y::GL
+sacv4::19.174::-96.093::C::Sacrifice Island, Mexico::Y::Y::WGM
+sanf1::24.456944::-81.878333::C::Sand Key, FL::Y::Y::FLS
+sauf1::29.856667::-81.265::C::St. Augustine, FL::Y::Y::AFL
+sbio1::41.628333::-82.841667::C::South Bass Island, OH::Y::Y::GL
+sgnw3::43.75::-87.691667::C::Sheboygan, WI::Y::Y::GL
+sgof1::29.408333::-84.858333::C::Tyndall AFB Tower C(N4), FL::N::Y::EGM
+sisw1::48.318333::-122.843333::C::Smith Island, WA::Y::Y::NEP
+sjlf1::30.399722::-81.399722::C::St. Johns Light","Y","N","AFL"
+"96","smkf1",-81.11,24.626667,"C","Sombrero Key, FL","Y","Y","FLS"
+"97","spgf1",-78.994444,26.704444,"C","Settlement Point, GBI","Y","Y","AFL"
+"98","srst2",-94.05,29.67,"C","Sabine, TX","Y","Y","WGM"
+"99","stdm4",-87.225,47.183333,"C","Stannard Rock, MI","Y","Y","GL"
+"100","supn6",-75.8,44.466667,"C","Superior Shoals, NY","Y","Y","GL"
+"101","svls1",-80.683333,31.95,"C","Savannah Light, GA","","N","AGACA"
+"102","thin6",-75.983333,44.3,"C","Thousand I. Brdg., NY","Y","Y","GL"
+"103","tplm2",-76.436667,38.898333,"C","Thomas Point, MD","Y","Y","AM"
+"104","ttiw1",-124.735,48.391667,"C","Tatoosh Island, WA","Y","Y","NEP"
+"105","ujap2",165.746667,8.921667,"C","UJAE ATOLL, MARSHALLS","","N","WP"
+"106","venf1",-82.45,27.07,"C","Venice, FL","Y","Y","EGM"
+"107","verv4",-96.113,19.202,"C","Veracruz Harbor, Mexico","Y","Y","WGM"
+"108","wpow1",-122.435833,47.662222,"C","West Point, WA","Y","Y","NEP"
+"109","xerb1",-73.5,36.5,"C","VIRGINIA BEACH, VA","Y","N","AM"

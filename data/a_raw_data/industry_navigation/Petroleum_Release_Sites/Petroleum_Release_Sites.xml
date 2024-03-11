@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <title>Petroleum Releases</title>
+                <onlink>https://apps.deq.virginia.gov/arcgis/rest/services/public/EDMA/MapServer/104</onlink>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>The Virginia DEQ Petroleum Storage Tank Program provides various customer services to the Virginia community and other interested parties graphical information for petroleum release sites. Leaks and/or spills of petroleum and/or regulated substances into the environment are reported to DEQ. After a release is reported, DEQ staff work with the tank owner/operator to characterize and clean up the release. The GIS layer shows confirmed petroleum releases reported to DEQ.</abstract>
+        </descript>
+        <keywords>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>Petroleum</themekey>
+                <themekey>Releases</themekey>
+                <themekey>Tanks</themekey>
+                <themekey>Spills</themekey>
+            </theme>
+        </keywords>
+        <accconst>None</accconst>
+        <useconst>None</useconst>
+        <datacred>VA DEQ  - Petroleum Remediation Program</datacred>
+    </idinfo>
+    <metainfo>
+        <metd>20201111</metd>
+        <metc>
+            <cntinfo>
+                <!--no contact person or organization name available-->
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>

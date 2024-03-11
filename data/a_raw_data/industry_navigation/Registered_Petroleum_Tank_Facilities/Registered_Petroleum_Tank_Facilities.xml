@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <title>Registered Petroleum Tank Facilities</title>
+                <onlink>https://apps.deq.virginia.gov/arcgis/rest/services/public/EDMA/MapServer/102</onlink>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>The Virginia DEQ Petroleum Storage Tank Program provides various customer services to the Virginia community and other interested parties graphical information for Aboveground Storage Tank (AST) and Underground Storage Tank (UST) Regulated Facilities.  DEQ petroleum tank program develops regulations and coordinates the statewide effort to maintain compliance with the AST/UST requirements. The DEQ staff conducts AST/UST compliance inspections of regulated tanks in a cooperative effort with the regulated community to protect human health and the environment.  The GIS layer shows AST/UST Tank Facilities registered with DEQ.</abstract>
+        </descript>
+        <keywords>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>Tank</themekey>
+                <themekey>Tanks</themekey>
+                <themekey>Registered</themekey>
+                <themekey>Petroleum</themekey>
+                <themekey>Tank Facilities</themekey>
+            </theme>
+        </keywords>
+        <accconst>None</accconst>
+        <useconst>None</useconst>
+        <datacred>VA DEQ - Petroleum Tanks Program</datacred>
+    </idinfo>
+    <metainfo>
+        <metd>20201111</metd>
+        <metc>
+            <cntinfo>
+                <!--no contact person or organization name available-->
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>
