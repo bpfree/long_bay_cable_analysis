@@ -20,7 +20,7 @@ data/a_raw_data/industry_navigation/industry_navigation.gpkg
 ## cultural resourcs
 data/a_raw_data/cultural_resources/ChesapeakeBay_2016_GDB
 data/a_raw_data/cultural_resources/NCarolina_2016_GDB
-data/a_raw_data/cultural_resources/NCHPO_GISdata/NCHPOpoints*
+data/a_raw_data/cultural_resources/NCHPO_GISdata/?NCHPOpoints
 
 
 
