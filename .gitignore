@@ -21,8 +21,9 @@ data/a_raw_data/industry_navigation/industry_navigation.gpkg
 data/a_raw_data/cultural_resources/ChesapeakeBay_2016_GDB
 data/a_raw_data/cultural_resources/NCarolina_2016_GDB
 data/a_raw_data/cultural_resources/NCHPO_GISdata/?NCHPOpoints
-
-
+data/a_raw_data/cultural_resources/nps_historic
+data/a_raw_data/cultural_resources/nps_nrhp_points
+data/a_raw_data/cultural_resources/SCarolina_2015_GDB
 
 # miscellaneous geodatabases
 data/a_raw_data/Carolinas_Database.gdb
