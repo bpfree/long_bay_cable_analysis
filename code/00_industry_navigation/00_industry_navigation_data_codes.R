@@ -33,6 +33,7 @@ pacman::p_load(docxtractr,
                rgeos,
                rmapshaper,
                rnaturalearth, # use devtools::install_github("ropenscilabs/rnaturalearth") if packages does not install properly
+               RSQLite,
                sf,
                sp,
                stringr,
@@ -54,7 +55,6 @@ submodel <- "ns"
 data_dir <- "data/a_raw_data/industry_navigation"
 
 list.files(data_dir)
-
 
 ## industry and navigation submodel geopackage
 industry_navigation_geopackage <- "data/a_raw_data/industry_navigation/industry_navigation.gpkg"
@@ -256,6 +256,20 @@ passive_acoustic_sc_line <- sf::st_read(dsn = paste(data_dir, "ProposedPassiveAc
                                         layer = sf::st_layers(paste(data_dir, "ProposedPassiveAcousticNetwork/ProposedPassiveAcousticNetwork/ProposedPassiveAcousticNetwork.gdb", sep = "/"))[[1]][15])
 passive_acoustic_sc_point <- sf::st_read(dsn = paste(data_dir, "ProposedPassiveAcousticNetwork/ProposedPassiveAcousticNetwork/ProposedPassiveAcousticNetwork.gdb", sep = "/"),
                                          layer = sf::st_layers(paste(data_dir, "ProposedPassiveAcousticNetwork/ProposedPassiveAcousticNetwork/ProposedPassiveAcousticNetwork.gdb", sep = "/"))[[1]][16])
+
+# ais_tracks_sqlite <- paste(data_dir, "AISVesselTracks2022/AISVesselTracks2022/AISVesselTracks2022.sqlite", sep = "/")
+# dbcon <- dbConnect(dbDriver("SQLite"), ais_tracks_sqlite)
+# dbListTables(dbcon)
+# track_fields <- dbListFields(dbcon, "AISVesselTracks2022")
+# track_fields
+# geom_fields <- dbListFields(dbcon, "st_spindex__AISVesselTracks2022_Shape")
+# geom_fields
+# test <- dbListFields(dbcon, "st_spindex__AISVesselTracks2022_Shape_rowid")
+# test
+
+tracks = dbReadTable(dbcon, "AISVesselTracks2022")
+track_geom = dbReadTable(dbcon, "st_spindex__AISVesselTracks2022_Shape")
+geom <- dbReadTable(dbcon, "st_geometry_columns")
 
 # ais_tracks_sqlite <- sf::st_read(dsn = paste(data_dir, "AISVesselTracks2022/AISVesselTracks2022/AISVesselTracks2022.sqlite", sep = "/"),
 #                                  layer = sf::st_layers(paste(data_dir, "AISVesselTracks2022/AISVesselTracks2022/AISVesselTracks2022.sqlite", sep = "/")))
