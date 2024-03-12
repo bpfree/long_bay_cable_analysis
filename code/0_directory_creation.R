@@ -18,7 +18,7 @@ data_subdirectories <- c("a_raw_data",
 # designate submodel directories
 data_submodels <- c("national_security",
                     "industry_navigation",
-                    "fishing_aquaculture",
+                    "fisheries_aquaculture",
                     "natural_resources",
                     "cultural_resources",
                     "metocean_other")
@@ -43,7 +43,7 @@ code_dir <- dir.create("code")
 # designate submodel code subdirectories
 code_submodels <- c("00_national_security",
                     "00_industry_navigation",
-                    "00_fishing_aquaculture",
+                    "00_fisheries_aquaculture",
                     "00_natural_resources",
                     "00_cultural_resources",
                     "00_metocean_other")
