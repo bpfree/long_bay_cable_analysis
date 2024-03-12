@@ -17,6 +17,9 @@ data/a_raw_data/industry_navigation/SCarolina_2015_GDB
 ### submodel raw data
 data/a_raw_data/industry_navigation/industry_navigation.gpkg
 
+## cultural resourcs
+
+
 data/a_raw_data/Carolinas_Database.gdb
 data/a_raw_data/Carolinas_Marine_Cadastre.gdb
 data/a_raw_data/VA_data_mining_20240104.gdb
