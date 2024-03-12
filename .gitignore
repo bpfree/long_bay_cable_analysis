@@ -18,8 +18,13 @@ data/a_raw_data/industry_navigation/SCarolina_2015_GDB
 data/a_raw_data/industry_navigation/industry_navigation.gpkg
 
 ## cultural resourcs
+data/a_raw_data/cultural_resources/ChesapeakeBay_2016_GDB
+data/a_raw_data/cultural_resources/NCarolina_2016_GDB
+data/a_raw_data/cultural_resources/NCHPO_GISdata/NCHPOpoints*
 
 
+
+# miscellaneous geodatabases
 data/a_raw_data/Carolinas_Database.gdb
 data/a_raw_data/Carolinas_Marine_Cadastre.gdb
 data/a_raw_data/VA_data_mining_20240104.gdb
