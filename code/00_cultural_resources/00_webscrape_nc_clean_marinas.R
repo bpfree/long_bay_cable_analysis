@@ -121,7 +121,7 @@ Sys.sleep(3)
 
 #####################################
 
-# Click "Download" for the geodatabase to get those data
+# Click "Download" for the geopackage to get those data
 ## data are in a shadow form, so need to use shadowr package
 shadow_rd <- shadowr::shadow(remDr)
 Sys.sleep(3)

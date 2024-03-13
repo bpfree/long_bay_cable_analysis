@@ -121,7 +121,7 @@ Sys.sleep(3)
 
 #####################################
 
-# Click "Download" for the geodatabase to get those data
+# Click "Download" for the shapefile to get those data
 ## data are in a shadow form, so need to use shadowr package
 shadow_rd <- shadowr::shadow(remDr)
 Sys.sleep(3)
@@ -137,7 +137,7 @@ Sys.sleep(5)
 
 ### generate latest data
 shapefile_latest_data <- shadowr::find_elements(shadow_rd, 'calcite-dropdown-item')
-### click the option for the latest data for the geodatabase
+### click the option for the latest data for the shapefile
 shapefile_latest_data[[5]]$clickElement()
 #### data take time to generate so need to have system have the the time to download before closing
 Sys.sleep(45)

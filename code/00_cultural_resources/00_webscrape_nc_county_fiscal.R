@@ -121,7 +121,7 @@ Sys.sleep(3)
 
 #####################################
 
-# Click "Download" for the geodatabase to get those data
+# Click "Download" for the shapefile to get those data
 ## data are in a shadow form, so need to use shadowr package
 shadow_rd <- shadowr::shadow(remDr)
 Sys.sleep(3)
@@ -131,16 +131,16 @@ shapefile_panel_button <- shadowr::find_elements(shadow_rd, 'calcite-button')
 
 ### shapefile is the third dataset (after CSV, KML -- and before GeoJSON)
 #### ***note: for some reason the first element is nothing, the second element
-####          is for the CSV, hence the 4th element is for the geodatabase
+####          is for the CSV, hence the 4th element is for the shapefile
 shapefile_panel_button[[4]]$clickElement()
 Sys.sleep(3)
 
 ### generate latest data
 shapefile_latest_data <- shadowr::find_elements(shadow_rd, 'calcite-dropdown-item')
-### click the option for the latest data for the geodatabase
-shapefile_latest_data[[5]]$clickElement()
+### click the option for the download file previously generated for the shapefile
+shapefile_latest_data[[6]]$clickElement()
 #### data take time to generate so need to have system have the the time to download before closing
-Sys.sleep(45)
+Sys.sleep(20)
 
 #####################################
 
@@ -152,26 +152,26 @@ rD$server$stop()
 #####################################
 
 # Move data to correct directory
-file.rename(from=file.path(download_dir, "NC_DEQ_s_Potentially_Underserved_Block_Groups_2019.zip"),  # Make default download directory flexible
+file.rename(from=file.path(download_dir, "County_Fiscal_Stress_2019.zip"),  # Make default download directory flexible
             # send to the raw data directory
-            to=file.path(data_dir, "underserved_blocks.zip"))
+            to=file.path(data_dir, "County_Fiscal_Stress_2019.zip"))
 
 #####################################
 
 # Unzip the data
 ## grab text before ".zip" and keep only text before that
-new_dir_name <- sub(".zip", "", "underserved_blocks.zip")
+new_dir_name <- sub(".zip", "", "County_Fiscal_Stress_2019.zip")
 
 ## create new directory for data
 new_dir <- file.path(data_dir, new_dir_name)
 
 ## unzip the file
-unzip(zipfile = file.path(data_dir, "underserved_blocks.zip"),
+unzip(zipfile = file.path(data_dir, "County_Fiscal_Stress_2019.zip"),
       # export file to the new data directory
       exdir = new_dir)
 
 ## remove original zipped file
-file.remove(file.path(data_dir, "underserved_blocks.zip"))
+file.remove(file.path(data_dir, "County_Fiscal_Stress_2019.zip"))
 
 #####################################
 #####################################

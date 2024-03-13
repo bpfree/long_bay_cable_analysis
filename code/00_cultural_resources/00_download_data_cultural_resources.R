@@ -82,7 +82,7 @@ data_download_function <- function(download_list, data_dir){
     
     # Download the data
     if (!file.exists(file)) {
-      options(timeout=1000)
+      options(timeout=100000)
       # download the file from the URL
       download.file(url = url,
                     # place the downloaded file in the data directory
@@ -187,15 +187,20 @@ va_habitat_permits <- "https://webapps.mrc.virginia.gov/public/maps/kml/Habitat2
 #### 4.) recreational boater density
 recreation <- "https://www.northeastoceandata.org/files/metadata/Themes/Recreation.zip"
 
-### coastal recreation
-#### 1.) shore-based activities
-#### 2.) wildlife and sightseeing activities
-#### 3.) underwater activities
-#### 4.) surface water activities
+### shore-based activities
 coastal_recreation <- "https://portal.midatlanticocean.org/static/data_manager/data-download/Zip_Files/Recreation/CoastalRecSurvey/REG_Shore_PUG_final.zip"
 
 ### Chesapeake Bay socio-economic and political data
 cb_esi <- "https://response.restoration.noaa.gov/sites/default/files/esimaps/gisdata/ChesapeakeBay_2016_GDB.zip"
+
+### wildlife and sightseeing activities
+wildlife_recreation <- "https://portal.midatlanticocean.org/static/data_manager/data-download/Zip_Files/Recreation/CoastalRecSurvey/REG_Sightseeing_PUG_final.zip"
+
+#### underwater activities
+underwater_recreation <- "https://portal.midatlanticocean.org/static/data_manager/data-download/Zip_Files/Recreation/CoastalRecSurvey/REG_Underwater_PUG_final.zip"
+
+### surface water activities
+surface_recreation <- "https://portal.midatlanticocean.org/static/data_manager/data-download/Zip_Files/Recreation/CoastalRecSurvey/REG_Surfacewater_PUG_final.zip"
 
 ### National Park Service historic places
 nps_historic <- "https://irma.nps.gov/DataStore/DownloadFile/682786"
@@ -233,6 +238,10 @@ download_list <- c(
 
   cb_esi,
 
+  wildlife_recreation,
+  underwater_recreation,
+  surface_recreation,
+
   nps_historic,
 
   lighthouses,
@@ -248,6 +257,16 @@ data_download_function(download_list, data_dir)
 #####################################
 
 # list all files in data directory
+list.files(data_dir)
+
+#####################################
+#####################################
+
+file.rename(from = file.path(data_dir, list.files(data_dir,
+                                                  # get the Southeast_Blueprint directory
+                                                  pattern = "Southeast_Blueprint")),
+            to = file.path(data_dir, "Southeast_Blueprint"))
+
 list.files(data_dir)
 
 #####################################
