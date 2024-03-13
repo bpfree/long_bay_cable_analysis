@@ -1,6 +1,6 @@
-###################################################
-### 0. Download Data -- industry and navigation ###
-###################################################
+################################################
+### 0. Data Codes -- industry and navigation ###
+################################################
 
 # clear environment
 rm(list = ls())
@@ -267,9 +267,9 @@ passive_acoustic_sc_point <- sf::st_read(dsn = paste(data_dir, "ProposedPassiveA
 # test <- dbListFields(dbcon, "st_spindex__AISVesselTracks2022_Shape_rowid")
 # test
 
-tracks = dbReadTable(dbcon, "AISVesselTracks2022")
-track_geom = dbReadTable(dbcon, "st_spindex__AISVesselTracks2022_Shape")
-geom <- dbReadTable(dbcon, "st_geometry_columns")
+# tracks = dbReadTable(dbcon, "AISVesselTracks2022")
+# track_geom = dbReadTable(dbcon, "st_spindex__AISVesselTracks2022_Shape")
+# geom <- dbReadTable(dbcon, "st_geometry_columns")
 
 # ais_tracks_sqlite <- sf::st_read(dsn = paste(data_dir, "AISVesselTracks2022/AISVesselTracks2022/AISVesselTracks2022.sqlite", sep = "/"),
 #                                  layer = sf::st_layers(paste(data_dir, "AISVesselTracks2022/AISVesselTracks2022/AISVesselTracks2022.sqlite", sep = "/")))
