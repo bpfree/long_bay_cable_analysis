@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <title>County Fiscal Stress 2019</title>
+                <onlink>https://apps.deq.virginia.gov/arcgis/rest/services/public/EDMA/MapServer/302</onlink>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>Polygon layer representing the Fiscal Stress of Virginia's Cities and Counties. Data from VA Dept of Housing and Community Development and Virginia Admin Boundaries Dataset (VGIN).</abstract>
+            <purpose>Polygon layer representing the Fiscal Stress of Virginia's Cities and Counties. Data from VA Dept of Housing and Community Development and Virginia Admin Boundaries Dataset (VGIN).</purpose>
+        </descript>
+        <keywords>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>Fiscal</themekey>
+                <themekey>Stress</themekey>
+                <themekey>2019</themekey>
+            </theme>
+        </keywords>
+        <accconst>Other Constraints</accconst>
+        <useconst>None</useconst>
+        <datacred>VA DHCD and VGIN</datacred>
+    </idinfo>
+    <metainfo>
+        <metd>20211101</metd>
+        <metc>
+            <cntinfo>
+                <!--no contact person or organization name available-->
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>
