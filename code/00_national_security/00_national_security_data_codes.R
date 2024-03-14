@@ -129,6 +129,12 @@ data_order <- seq(from = 1,
                   to = length(data),
                   by = 1)
 
+## add extra "0" when needed to make all numbers three digits
+for(i in 1:length(data_order)){
+  data_order[i] <- ifelse(nchar(data_order[i]) < 2, paste0("00", data_order[i]),
+                          ifelse(nchar(data_order[i]) == 2, paste0("0", data_order[i]), data_order[i]))
+}
+
 #####################################
 #####################################
 
@@ -152,3 +158,9 @@ for(i in seq_along(data)){
   # export the dataset
   sf::st_write(obj = dataset, dsn = national_security_geopackage, layer = data_code[i], append = F)
 }
+
+#####################################
+#####################################
+
+# calculate end time and print time difference
+print(Sys.time() - start) # print how long it takes to calculate
