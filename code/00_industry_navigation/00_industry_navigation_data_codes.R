@@ -55,6 +55,7 @@ submodel <- "ns"
 data_dir <- "data/a_raw_data/industry_navigation"
 
 list.files(data_dir)
+list.dirs(data_dir, recursive = TRUE)
 
 ## industry and navigation submodel geopackage
 industry_navigation_geopackage <- "data/a_raw_data/industry_navigation/industry_navigation.gpkg"
