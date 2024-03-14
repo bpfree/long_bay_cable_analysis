@@ -257,6 +257,9 @@ passive_acoustic_sc_line <- sf::st_read(dsn = paste(data_dir, "ProposedPassiveAc
 passive_acoustic_sc_point <- sf::st_read(dsn = paste(data_dir, "ProposedPassiveAcousticNetwork/ProposedPassiveAcousticNetwork/ProposedPassiveAcousticNetwork.gdb", sep = "/"),
                                          layer = sf::st_layers(paste(data_dir, "ProposedPassiveAcousticNetwork/ProposedPassiveAcousticNetwork/ProposedPassiveAcousticNetwork.gdb", sep = "/"))[[1]][16])
 
+ais_tracks <- sf::st_read(dsn = file.path(data_dir, "ais_tracks_2022.gdb"),
+                          layer = sf::st_layers(file.path(data_dir, "ais_tracks_2022.gdb"))[[1]][1])
+
 # ais_tracks_sqlite <- paste(data_dir, "AISVesselTracks2022/AISVesselTracks2022/AISVesselTracks2022.sqlite", sep = "/")
 # dbcon <- dbConnect(dbDriver("SQLite"), ais_tracks_sqlite)
 # dbListTables(dbcon)
@@ -468,7 +471,7 @@ data <- list(oil_gas_lease,
              passive_acoustic_sc_line,
              passive_acoustic_sc_point,
              
-             # ais_tracks_sqlite,
+             ais_tracks,
              
              right_whale,
              
