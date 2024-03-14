@@ -55,6 +55,7 @@ submodel <- "cr"
 data_dir <- "data/a_raw_data/cultural_resources"
 
 list.files(data_dir)
+list.dirs(data_dir, recursive = TRUE)
 
 ## cultural resources submodel geopackage
 cultural_resources_geopackage <- "data/a_raw_data/cultural_resources/cultural_resources.gpkg"
