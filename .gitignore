@@ -19,7 +19,14 @@ data/a_raw_data/industry_navigation/ais_tracks_2022.gdb
 ### submodel raw data
 data/a_raw_data/industry_navigation/industry_navigation.gpkg
 
-## cultural resourcs
+## fisheries and aquaculture
+### raw data
+data/a_raw_data/fisheries_aquaculture/CommercialFishLandingSummary
+
+### submodel raw data
+data/a_raw_data/fisheries_aquaculture/fisheries_aquaculture.gpkg
+
+## cultural resources
 ### raw data
 data/a_raw_data/cultural_resources/ChesapeakeBay_2016_GDB
 data/a_raw_data/cultural_resources/NCarolina_2016_GDB
