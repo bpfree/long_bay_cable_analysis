@@ -87,7 +87,7 @@ nc_crab <- sf::st_read(dsn = file.path(data_dir, "crab_trawl_line/Crab Trawl Lin
 shrimp_vms <- sf::st_read(dsn = file.path(data_dir, "shrimp_vms/shrimp_vms.shp"))
 
 ## South Carolina shrimp landings
-sc_shrimp_landings <- sf::st_read(dsn = file.path(data_dir, "shrimp_landings_south_carolina/shrimp_landings_south_carolina.shp"))
+sc_shrimp_landings <- sf::st_read(dsn = file.path(data_dir, "sc_shrimp/shrimp_landings_south_carolina.shp"))
 
 ## aquaculture
 aquaculture <- sf::st_read(dsn = file.path(data_dir, "aquaculture/aquaculture.gpkg"),
@@ -101,10 +101,10 @@ commercial_fish <- sf::st_read(dsn = file.path(data_dir, "CommercialFishLandingS
 fish_landings_area_code <- sf::st_read(dsn = file.path(data_dir, "fish_landings/fish_landings.shp"))
 
 ## ACCSP fish landings (latitude and species)
-fish_landings_species <- sf::st_read(dsn = file.path(data_dir, "accsp_fish_landings_by_latitude_and_species/accsp_fish_landings_by_latitude_and_species.shp"))
+fish_landings_species <- sf::st_read(dsn = file.path(data_dir, "fish_landings_lat_spp/accsp_fish_landings_by_latitude_and_species.shp"))
 
 ## North Carolina shrimp landings
-nc_shrimp <- sf::st_read(dsn = file.path(data_dir, "north_carolina_shrimp_landings/north_carolina_shrimp_landings.shp"))
+nc_shrimp <- sf::st_read(dsn = file.path(data_dir, "nc_shrimp/north_carolina_shrimp_landings.shp"))
 
 #####################################
 #####################################
