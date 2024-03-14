@@ -109,6 +109,25 @@ data_download_function <- function(download_list, data_dir){
       file.remove(file.path(data_dir, file))
     }
     
+    if (grepl(".kmz", file)){
+      
+      ## Virginia habitat permit applications (2023)
+      file.rename(from=file.path(data_dir, file),  # Make default download directory flexible
+                  # send to the raw data directory
+                  to=file.path(data_dir, paste0(sub(".kmz", "", file), ".zip")))
+      
+      unzip(zipfile = file.path(data_dir, paste0(sub(".kmz", "", file), ".zip")),
+            # export file to the new data directory
+            exdir = data_dir)
+      
+      file.rename(from=file.path(data_dir, "doc.kml"),  # Make default download directory flexible
+                  # send to the raw data directory
+                  to=file.path(data_dir, paste0(sub(".kmz", "", file), ".kml")))
+      
+      ## remove original zipped file
+      file.remove(file.path(data_dir, paste0(sub(".kmz", "", file), ".zip")))
+    }
+    
     dir <- file.path(data_dir, new_dir_name)
   }
 }
@@ -125,15 +144,27 @@ data_dir <- "data/a_raw_data/fisheries_aquaculture"
 
 # download data
 ## fisheries and aquaculture
+### Virginia public clamming grounds
+clams <- "https://webapps.mrc.virginia.gov/public/maps/kml/Clams.kmz"
 
+### Virginia public Baylor grounds
+baylor <- "https://webapps.mrc.virginia.gov/public/maps/kml/Baylor.kmz"
+
+### aquaculture
+aquaculture <- "https://marinecadastre.gov/downloads/data/mc/Aquaculture.zip"
+
+### commercial fishing landing summary
+commercial_fish <- "https://marinecadastre.gov/downloads/data/mc/CommercialFishLandingSummary.zip"
 
 #####################################
 #####################################
 
 # Download list
-download_list <- c(
+download_list <- c(clams,
+                   baylor,
+                   aquaculture,
+                   commercial_fish)
   
-)
 
 data_download_function(download_list, data_dir)
 
@@ -142,10 +173,6 @@ data_download_function(download_list, data_dir)
 
 # list all files in data directory
 list.files(data_dir)
-
-#####################################
-
-
 
 #####################################
 #####################################
