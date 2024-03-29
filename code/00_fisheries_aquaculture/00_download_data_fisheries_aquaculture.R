@@ -206,7 +206,7 @@ data_download_function <- function(download_list, data_dir){
     
     if (grepl(".kmz", file)){
       
-      ## Virginia habitat permit applications (2023)
+      ## clam grounds
       file.rename(from=file.path(data_dir, file),  # Make default download directory flexible
                   # send to the raw data directory
                   to=file.path(data_dir, paste0(sub(".kmz", "", file), ".zip")))
