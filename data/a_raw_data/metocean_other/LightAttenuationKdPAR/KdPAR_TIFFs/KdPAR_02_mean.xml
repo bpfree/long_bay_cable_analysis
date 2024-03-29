@@ -1,0 +1,717 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+  <Esri>
+    <CreaDate>20180829</CreaDate>
+    <CreaTime>16094900</CreaTime>
+    <ArcGISFormat>1.0</ArcGISFormat>
+  </Esri>
+  <mdLang>
+    <languageCode value="eng" />
+  </mdLang>
+  <mdChar>
+    <CharSetCd value="004" />
+  </mdChar>
+  <mdHrLv>
+    <ScopeCd value="005" />
+  </mdHrLv>
+  <mdContact>
+    <rpIndName>MarineCadastre.gov Data Steward</rpIndName>
+    <rpOrgName>Office for Coastal Management</rpOrgName>
+    <rpPosName>MarineCadastre.gov Data Steward</rpPosName>
+    <rpCntInfo>
+      <cntPhone>
+        <voiceNum>843.740.1202</voiceNum>
+      </cntPhone>
+      <cntAddress addressType="both">
+        <delPoint>2234 South Hobson Avenue</delPoint>
+        <city>Charleston</city>
+        <adminArea>SC</adminArea>
+        <postCode>29405-2413</postCode>
+        <eMailAdd>coastal.info@noaa.gov</eMailAdd>
+      </cntAddress>
+    </rpCntInfo>
+    <role>
+      <RoleCd value="007" />
+    </role>
+  </mdContact>
+  <mdDateSt>20180829</mdDateSt>
+  <mdStanName>ArcGIS Metadata</mdStanName>
+  <mdStanVer>1.0</mdStanVer>
+  <spatRepInfo>
+    <Georect>
+      <numDims>2</numDims>
+      <axisDimension type="001">
+        <dimSize>1747</dimSize>
+      </axisDimension>
+      <axisDimension type="002">
+        <dimSize>1821</dimSize>
+      </axisDimension>
+      <cellGeo>
+        <CellGeoCd value="002" />
+      </cellGeo>
+    </Georect>
+  </spatRepInfo>
+  <dataIdInfo>
+    <idCitation>
+      <resTitle>KdPAR_annual_mean.tif</resTitle>
+      <date>
+        <pubDate date="inapplicable" />
+      </date>
+      <citRespParty>
+        <rpOrgName>Department of Commerce (DOC), National Oceanic and Atmospheric Administration (NOAA) National Ocean Service (NOS), Office for Coastal Management (OCM)<!-- WARNING: translation from FGDC is ambiguous, this may require correction --></rpOrgName>
+        <role>
+          <RoleCd value="006" />
+        </role>
+      </citRespParty>
+      <citRespParty>
+        <rpOrgName>Department of Commerce (DOC), National Oceanic and Atmospheric Administration (NOAA) National Ocean Service (NOS), National Centers for Coastal Ocean Science (NCCOS)<!-- WARNING: translation from FGDC is ambiguous, this may require correction --></rpOrgName>
+        <role>
+          <RoleCd value="006" />
+        </role>
+      </citRespParty>
+      <citRespParty>
+        <rpOrgName>Department of Commerce (DOC), National Oceanic and Atmospheric Administration (NOAA) National Environmental Satellite, Data, and Information Services (NESDIS), Center for Satellite Applications and Research (STAR)<!-- WARNING: translation from FGDC is ambiguous, this may require correction --></rpOrgName>
+        <role>
+          <RoleCd value="006" />
+        </role>
+      </citRespParty>
+      <presForm>
+        <PresFormCd value="005" />
+      </presForm>
+      <presForm>
+        <fgdcGeoform>remote-sensing image</fgdcGeoform>
+      </presForm>
+    </idCitation>
+    <idAbs>This dataset represents monthly and annual averages of percentage light reaching at 1 m depth relative to surface light (KdPAR). The units are in percentage (%) as surface light reaching at 1 m depth derived from raw dataset. Wave band is 400-700 nm or Photosynthetic Active Radiation (PAR). Raw data available monthly from Jan 1, 2010, to Dec 31, 2017, with a spatial resolution of 4 km x 4 km. The monthly and annual means are summarized for the time period 2010-2017. Data provided by NESDIS Center for Satellite Applications and Research (STAR). Raw dataset collected by NASA satellite SUOMI National Polar-orbiting Partnership (NPP) using Visible Infrared Imaging Radiometer (VIIRS). Citation: SeungHyun Son, Menghua Wang., 2015: Diffuse attenuation coefficient of the photosynthetically available radiation Kd(PAR) for global open ocean and coastal waters. Remote Sensing of Environment, Volume 159, 15 March 2015, Pages 250-258.</idAbs>
+    <idPurp>To support coastal and ocean planning and other activities pursuant to the Energy Policy Act, Coastal Zone Management Act, Magnuson-Stevens Fishery Conservation and Management Act, National Environmental Policy Act, Rivers and Harbors Act and the Submerged Lands Act.</idPurp>
+    <idStatus>
+      <ProgCd value="001" />
+    </idStatus>
+    <idPoC>
+      <rpIndName>MarineCadastre.gov Data Steward</rpIndName>
+      <rpOrgName>Office for Coastal Management</rpOrgName>
+      <rpPosName>MarineCadastre.gov Data Steward</rpPosName>
+      <rpCntInfo>
+        <cntPhone>
+          <voiceNum>843.740.1202</voiceNum>
+        </cntPhone>
+        <cntAddress addressType="both">
+          <delPoint>2234 South Hobson Avenue</delPoint>
+          <city>Charleston</city>
+          <adminArea>SC</adminArea>
+          <postCode>29405-2413</postCode>
+          <eMailAdd>coastal.info@noaa.gov</eMailAdd>
+        </cntAddress>
+      </rpCntInfo>
+      <role>
+        <RoleCd value="007" />
+      </role>
+    </idPoC>
+    <resMaint>
+      <maintFreq>
+        <MaintFreqCd value="009" />
+      </maintFreq>
+    </resMaint>
+    <placeKeys>
+      <keyword>United States, Atlantic, Pacific, national</keyword>
+    </placeKeys>
+    <themeKeys>
+      <keyword>renewable energy planning</keyword>
+      <keyword>coastal energy planning</keyword>
+      <keyword>ocean energy planning</keyword>
+      <keyword>offshore energy planning</keyword>
+      <keyword>national</keyword>
+      <keyword>marine spatial planning</keyword>
+      <keyword>United States</keyword>
+      <keyword>environment</keyword>
+      <keyword>environmental</keyword>
+      <keyword>alternative energy planning</keyword>
+      <keyword>planningCadastre</keyword>
+      <keyword>oceans</keyword>
+      <keyword>biology</keyword>
+      <keyword>marine cadastre</keyword>
+      <keyword>environmental energy planning</keyword>
+      <keyword>water column features</keyword>
+      <keyword>farming</keyword>
+      <keyword>water quality features</keyword>
+    </themeKeys>
+    <searchKeys>
+      <keyword>renewable energy planning</keyword>
+      <keyword>coastal energy planning</keyword>
+      <keyword>ocean energy planning</keyword>
+      <keyword>offshore energy planning</keyword>
+      <keyword>national</keyword>
+      <keyword>marine spatial planning</keyword>
+      <keyword>United States</keyword>
+      <keyword>environment</keyword>
+      <keyword>environmental</keyword>
+      <keyword>alternative energy planning</keyword>
+      <keyword>planningCadastre</keyword>
+      <keyword>oceans</keyword>
+      <keyword>biology</keyword>
+      <keyword>marine cadastre</keyword>
+      <keyword>environmental energy planning</keyword>
+      <keyword>water column features</keyword>
+      <keyword>United States, Atlantic, Pacific, national</keyword>
+      <keyword>farming</keyword>
+      <keyword>water quality features</keyword>
+    </searchKeys>
+    <resConst>
+      <LegConsts>
+        <useLimit>NOAA makes no warranties or representations whatsoever regarding the availability, quality, accuracy, content, completeness or suitability for the user's needs of such information. The services, information, and data made available on the Marine Cadastre web site are provided "as is" without warranties of any kind. These data are intended for coastal and ocean use planning. Not for navigation. http://www.marinecadastre.gov/about/disclaimer.html</useLimit>
+      </LegConsts>
+    </resConst>
+    <dataLang>
+      <languageCode value="eng" />
+    </dataLang>
+    <tpCat>
+      <TopicCatCd value="014" />
+    </tpCat>
+    <tpCat>
+      <TopicCatCd value="015" />
+    </tpCat>
+    <tpCat>
+      <TopicCatCd value="001" />
+    </tpCat>
+    <tpCat>
+      <TopicCatCd value="007" />
+    </tpCat>
+    <envirDesc>Version 6.2 (Build 9200) ; Esri ArcGIS 10.5.1.7333</envirDesc>
+    <dataExt>
+      <exDesc>ground condition</exDesc>
+      <tempEle>
+        <TempExtent>
+          <exTemp>
+            <TM_Instant>
+              <tmPosition date="unknown" />
+            </TM_Instant>
+          </exTemp>
+        </TempExtent>
+      </tempEle>
+    </dataExt>
+    <dataExt>
+      <geoEle>
+        <GeoBndBox>
+          <westBL>-179.46878</westBL>
+          <eastBL>-59.60593</eastBL>
+          <southBL>-0.310977</southBL>
+          <northBL>74.70777</northBL>
+        </GeoBndBox>
+      </geoEle>
+    </dataExt>
+  </dataIdInfo>
+  <distInfo>
+    <distributor>
+      <distorCont>
+        <rpIndName>MarineCadastre.gov Data Steward</rpIndName>
+        <rpOrgName>Office for Coastal Management</rpOrgName>
+        <rpPosName>MarineCadastre.gov Data Steward</rpPosName>
+        <rpCntInfo>
+          <cntPhone>
+            <voiceNum>843.740.1202</voiceNum>
+          </cntPhone>
+          <cntAddress addressType="both">
+            <delPoint>2234 South Hobson Avenue</delPoint>
+            <city>Charleston</city>
+            <adminArea>SC</adminArea>
+            <postCode>29405-2413</postCode>
+            <eMailAdd>coastal.info@noaa.gov</eMailAdd>
+          </cntAddress>
+        </rpCntInfo>
+        <role>
+          <RoleCd value="005" />
+        </role>
+      </distorCont>
+    </distributor>
+    <distTranOps>
+      <onLineSrc>
+        <linkage>https://coast.noaa.gov/</linkage>
+      </onLineSrc>
+      <onLineSrc>
+        <linkage>https://coast.noaa.gov/arcgis/rest/services/OceanReportingTool</linkage>
+      </onLineSrc>
+      <onLineSrc>
+        <linkage>ftp://ftp.coast.noaa.gov/pub/MSP/ORT/</linkage>
+      </onLineSrc>
+    </distTranOps>
+  </distInfo>
+  <dqInfo>
+    <dqScope>
+      <scpLvl>
+        <ScopeCd value="005" />
+      </scpLvl>
+    </dqScope>
+    <report type="DQTopConsis">
+      <evalMethDesc>These data are believed to be logically consistent. Geometry is topologically clean.</evalMethDesc>
+    </report>
+    <report type="DQConcConsis">
+      <measDesc>These data are believed to be logically consistent. Geometry is topologically clean.</measDesc>
+    </report>
+    <report type="DQCompOm">
+      <measDesc>Spatial and attribute properties are believed to be complete, although attribute information has been simplified. Geometric thresholds from original data are preserved. No tests have been completed for exhaustiveness.</measDesc>
+    </report>
+    <report type="DQQuanAttAcc">
+      <measDesc>The attributes in this dataset are believed to be accurate.</measDesc>
+    </report>
+    <report type="DQAbsExtPosAcc" dimension="horizontal">
+      <measDesc>Maximum scale of intended use is 1:80,000.</measDesc>
+    </report>
+    <dataLineage>
+      <prcStep>
+        <stepDesc>(1) To process the data, satellite water-leaving radiance (an atmospherically corrected quantity) is calculated, and then Kd490 calculated from water-leaving radiance. (2) KdPAR generated from Kd490 using a conversion equation for clear and turbid waters separately using weighting scheme. (3) Daily composites calculated from hourly datasets (750 m spatial resolution). (4) The daily composite averages re-binned into 4 km-grid daily composites. The 4 km daily composites binned into monthly composite averages. (5) KdPAR values used to calculate light the bottom seafloor using solar irradiance. (6) Radiance at 1m depth calculated. (7) Ratio of radiance at 1 m and solar radiance (corrected) provide percentage light reaching at 1 m depth. (8) Data filtered using low pass filter to filter out outliers. (9) Data clipped to remove 'no data' regions or data artifacts. Data also clipped to U.S. EEZ boundary. (10) Data projected to WGS 1984 World Mercator (WKID: 3395).</stepDesc>
+        <stepDateTm>2018-08-01</stepDateTm>
+        <stepProc>
+          <rpOrgName>NOAA NCCOS Coastal Aquaculture Siting and Sustainability (CASS)</rpOrgName>
+          <rpCntInfo>
+            <cntPhone>
+              <voiceNum>252.728.8797</voiceNum>
+            </cntPhone>
+            <cntAddress addressType="both">
+              <delPoint>101 Pivers Island Road</delPoint>
+              <city>Beaufort</city>
+              <adminArea>NC</adminArea>
+              <postCode>28516</postCode>
+            </cntAddress>
+          </rpCntInfo>
+          <role>
+            <RoleCd value="009" />
+          </role>
+        </stepProc>
+      </prcStep>
+      <dataSource>
+        <srcDesc>Monthly and Annual Summaries for Percentage Light Reaching at 1m Depth (KdPAR)</srcDesc>
+        <srcMedName>
+          <MedNameCd value="015" />
+        </srcMedName>
+        <srcCitatn>
+          <resTitle>Monthly and Annual Summaries for Percentage Light Reaching at 1m Depth (KdPAR)</resTitle>
+          <resAltTitle>Unknown</resAltTitle>
+          <date>
+            <pubDate date="unknown" />
+          </date>
+          <citRespParty>
+            <rpOrgName>Department of Commerce (DOC), National Oceanic and Atmospheric Administration (NOAA) National Environmental Satellite, Data, and Information Services (NESDIS), Center for Satellite Applications and Research (STAR)<!-- WARNING: translation from FGDC is ambiguous, this may require correction --></rpOrgName>
+            <role>
+              <RoleCd value="006" />
+            </role>
+          </citRespParty>
+          <citOnlineRes>
+            <linkage>Unknown</linkage>
+          </citOnlineRes>
+        </srcCitatn>
+        <srcExt>
+          <exDesc>ground condition</exDesc>
+          <tempEle>
+            <TempExtent>
+              <exTemp>
+                <TM_Instant>
+                  <tmPosition>2018-08-01</tmPosition>
+                </TM_Instant>
+              </exTemp>
+            </TempExtent>
+          </tempEle>
+        </srcExt>
+      </dataSource>
+    </dataLineage>
+  </dqInfo>
+  <eainfo>
+    <detailed Name="KdPAR_02_mean.tif.vat">
+      <enttyp>
+        <enttypl>KdPAR_02_mean.tif.vat</enttypl>
+        <enttypt>Table</enttypt>
+        <enttypc>99</enttypc>
+      </enttyp>
+      <attr>
+        <attrlabl>Count</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>OID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Value</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <Binary>
+    <Enclosure>
+      <Descript>original metadata</Descript>
+      <Data SourceMetadata="yes" OriginalFileName="source_metadata.xml" SourceMetadataDigest="ac40f388b75a2d71226e46e624e78f1" EsriPropertyType="Base64" SourceMetadataSchema="fgdc">PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxtZXRhZGF0YT4NCiAgPGlk
+aW5mbz4NCiAgICA8Y2l0YXRpb24+DQogICAgICA8Y2l0ZWluZm8+DQogICAgICAgIDxvcmlnaW4+
+RGVwYXJ0bWVudCBvZiBDb21tZXJjZSAoRE9DKSwgTmF0aW9uYWwgT2NlYW5pYyBhbmQgQXRtb3Nw
+aGVyaWMgQWRtaW5pc3RyYXRpb24gKE5PQUEpIE5hdGlvbmFsIEVudmlyb25tZW50YWwgU2F0ZWxs
+aXRlLCBEYXRhLCBhbmQgSW5mb3JtYXRpb24gU2VydmljZXMgKE5FU0RJUyksIENlbnRlciBmb3Ig
+U2F0ZWxsaXRlIEFwcGxpY2F0aW9ucyBhbmQgUmVzZWFyY2ggKFNUQVIpPC9vcmlnaW4+DQogICAg
+ICAgIDxvcmlnaW4+RGVwYXJ0bWVudCBvZiBDb21tZXJjZSAoRE9DKSwgTmF0aW9uYWwgT2NlYW5p
+YyBhbmQgQXRtb3NwaGVyaWMgQWRtaW5pc3RyYXRpb24gKE5PQUEpIE5hdGlvbmFsIE9jZWFuIFNl
+cnZpY2UgKE5PUyksIE5hdGlvbmFsIENlbnRlcnMgZm9yIENvYXN0YWwgT2NlYW4gU2NpZW5jZSAo
+TkNDT1MpPC9vcmlnaW4+DQogICAgICAgIDxvcmlnaW4+RGVwYXJ0bWVudCBvZiBDb21tZXJjZSAo
+RE9DKSwgTmF0aW9uYWwgT2NlYW5pYyBhbmQgQXRtb3NwaGVyaWMgQWRtaW5pc3RyYXRpb24gKE5P
+QUEpIE5hdGlvbmFsIE9jZWFuIFNlcnZpY2UgKE5PUyksIE9mZmljZSBmb3IgQ29hc3RhbCBNYW5h
+Z2VtZW50IChPQ00pPC9vcmlnaW4+DQogICAgICAgIDxwdWJkYXRlPlVucHVibGlzaGVkIG1hdGVy
+aWFsPC9wdWJkYXRlPg0KICAgICAgICA8dGl0bGU+S2RQQVJfYW5udWFsX21lYW4udGlmPC90aXRs
+ZT4NCiAgICAgICAgPGdlb2Zvcm0+cmVtb3RlLXNlbnNpbmcgaW1hZ2U8L2dlb2Zvcm0+DQogICAg
+ICAgIDxvbmxpbms+ZnRwOi8vZnRwLmNvYXN0Lm5vYWEuZ292L3B1Yi9NU1AvT1JULzwvb25saW5r
+Pg0KICAgICAgICA8b25saW5rPmh0dHBzOi8vY29hc3Qubm9hYS5nb3YvYXJjZ2lzL3Jlc3Qvc2Vy
+dmljZXMvT2NlYW5SZXBvcnRpbmdUb29sPC9vbmxpbms+DQogICAgICAgIDxvbmxpbms+aHR0cHM6
+Ly9jb2FzdC5ub2FhLmdvdi88L29ubGluaz4NCiAgICAgIDwvY2l0ZWluZm8+DQogICAgPC9jaXRh
+dGlvbj4NCiAgICA8ZGVzY3JpcHQ+DQogICAgICA8YWJzdHJhY3Q+VGhpcyBkYXRhc2V0IHJlcHJl
+c2VudHMgbW9udGhseSBhbmQgYW5udWFsIGF2ZXJhZ2VzIG9mIHBlcmNlbnRhZ2UgbGlnaHQgcmVh
+Y2hpbmcgYXQgMSBtIGRlcHRoIHJlbGF0aXZlIHRvIHN1cmZhY2UgbGlnaHQgKEtkUEFSKS4gVGhl
+IHVuaXRzIGFyZSBpbiBwZXJjZW50YWdlICglKSBhcyBzdXJmYWNlIGxpZ2h0IHJlYWNoaW5nIGF0
+IDEgbSBkZXB0aCBkZXJpdmVkIGZyb20gcmF3IGRhdGFzZXQuIFdhdmUgYmFuZCBpcyA0MDAtNzAw
+IG5tIG9yIFBob3Rvc3ludGhldGljIEFjdGl2ZSBSYWRpYXRpb24gKFBBUikuIFJhdyBkYXRhIGF2
+YWlsYWJsZSBtb250aGx5IGZyb20gSmFuIDEsIDIwMTAsIHRvIERlYyAzMSwgMjAxNywgd2l0aCBh
+IHNwYXRpYWwgcmVzb2x1dGlvbiBvZiA0IGttIHggNCBrbS4gVGhlIG1vbnRobHkgYW5kIGFubnVh
+bCBtZWFucyBhcmUgc3VtbWFyaXplZCBmb3IgdGhlIHRpbWUgcGVyaW9kIDIwMTAtMjAxNy4gRGF0
+YSBwcm92aWRlZCBieSBORVNESVMgQ2VudGVyIGZvciBTYXRlbGxpdGUgQXBwbGljYXRpb25zIGFu
+ZCBSZXNlYXJjaCAoU1RBUikuIFJhdyBkYXRhc2V0IGNvbGxlY3RlZCBieSBOQVNBIHNhdGVsbGl0
+ZSBTVU9NSSBOYXRpb25hbCBQb2xhci1vcmJpdGluZyBQYXJ0bmVyc2hpcCAoTlBQKSB1c2luZyBW
+aXNpYmxlIEluZnJhcmVkIEltYWdpbmcgUmFkaW9tZXRlciAoVklJUlMpLiBDaXRhdGlvbjogU2V1
+bmdIeXVuIFNvbiwgTWVuZ2h1YSBXYW5nLiwgMjAxNTogRGlmZnVzZSBhdHRlbnVhdGlvbiBjb2Vm
+ZmljaWVudCBvZiB0aGUgcGhvdG9zeW50aGV0aWNhbGx5IGF2YWlsYWJsZSByYWRpYXRpb24gS2Qo
+UEFSKSBmb3IgZ2xvYmFsIG9wZW4gb2NlYW4gYW5kIGNvYXN0YWwgd2F0ZXJzLiBSZW1vdGUgU2Vu
+c2luZyBvZiBFbnZpcm9ubWVudCwgVm9sdW1lIDE1OSwgMTUgTWFyY2ggMjAxNSwgUGFnZXMgMjUw
+LTI1OC48L2Fic3RyYWN0Pg0KICAgICAgPHB1cnBvc2U+VG8gc3VwcG9ydCBjb2FzdGFsIGFuZCBv
+Y2VhbiBwbGFubmluZyBhbmQgb3RoZXIgYWN0aXZpdGllcyBwdXJzdWFudCB0byB0aGUgRW5lcmd5
+IFBvbGljeSBBY3QsIENvYXN0YWwgWm9uZSBNYW5hZ2VtZW50IEFjdCwgTWFnbnVzb24tU3RldmVu
+cyBGaXNoZXJ5IENvbnNlcnZhdGlvbiBhbmQgTWFuYWdlbWVudCBBY3QsIE5hdGlvbmFsIEVudmly
+b25tZW50YWwgUG9saWN5IEFjdCwgUml2ZXJzIGFuZCBIYXJib3JzIEFjdCBhbmQgdGhlIFN1Ym1l
+cmdlZCBMYW5kcyBBY3QuPC9wdXJwb3NlPg0KICAgIDwvZGVzY3JpcHQ+DQogICAgPHRpbWVwZXJk
+Pg0KICAgICAgPHRpbWVpbmZvPg0KICAgICAgICA8c25nZGF0ZT4NCiAgICAgICAgICA8Y2FsZGF0
+ZT5Vbmtub3duPC9jYWxkYXRlPg0KICAgICAgICA8L3NuZ2RhdGU+DQogICAgICA8L3RpbWVpbmZv
+Pg0KICAgICAgPGN1cnJlbnQ+Z3JvdW5kIGNvbmRpdGlvbjwvY3VycmVudD4NCiAgICA8L3RpbWVw
+ZXJkPg0KICAgIDxzdGF0dXM+DQogICAgICA8cHJvZ3Jlc3M+Q29tcGxldGU8L3Byb2dyZXNzPg0K
+ICAgICAgPHVwZGF0ZT5BcyBuZWVkZWQ8L3VwZGF0ZT4NCiAgICA8L3N0YXR1cz4NCiAgICA8c3Bk
+b20+DQogICAgICA8Ym91bmRpbmc+DQogICAgICAgIDx3ZXN0YmM+LTE3OS40Njg3ODA8L3dlc3Ri
+Yz4NCiAgICAgICAgPGVhc3RiYz4tNTkuNjA1OTMwPC9lYXN0YmM+DQogICAgICAgIDxub3J0aGJj
+Pjc0LjcwNzc3MDwvbm9ydGhiYz4NCiAgICAgICAgPHNvdXRoYmM+LTAuMzEwOTc3PC9zb3V0aGJj
+Pg0KICAgICAgPC9ib3VuZGluZz4NCiAgICA8L3NwZG9tPg0KICAgIDxrZXl3b3Jkcz4NCiAgICAg
+IDx0aGVtZT4NCiAgICAgICAgPHRoZW1la3Q+Tm9uZTwvdGhlbWVrdD4NCiAgICAgICAgPHRoZW1l
+a2V5Pm1hcmluZSBjYWRhc3RyZTwvdGhlbWVrZXk+DQogICAgICAgIDx0aGVtZWtleT5tYXJpbmUg
+c3BhdGlhbCBwbGFubmluZzwvdGhlbWVrZXk+DQogICAgICAgIDx0aGVtZWtleT5lbnZpcm9ubWVu
+dGFsPC90aGVtZWtleT4NCiAgICAgICAgPHRoZW1la2V5Pm9jZWFuczwvdGhlbWVrZXk+DQogICAg
+ICAgIDx0aGVtZWtleT5lbnZpcm9ubWVudDwvdGhlbWVrZXk+DQogICAgICAgIDx0aGVtZWtleT5m
+YXJtaW5nPC90aGVtZWtleT4NCiAgICAgICAgPHRoZW1la2V5PnBsYW5uaW5nQ2FkYXN0cmU8L3Ro
+ZW1la2V5Pg0KICAgICAgICA8dGhlbWVrZXk+VW5pdGVkIFN0YXRlczwvdGhlbWVrZXk+DQogICAg
+ICAgIDx0aGVtZWtleT5uYXRpb25hbDwvdGhlbWVrZXk+DQogICAgICAgIDx0aGVtZWtleT5hbHRl
+cm5hdGl2ZSBlbmVyZ3kgcGxhbm5pbmc8L3RoZW1la2V5Pg0KICAgICAgICA8dGhlbWVrZXk+Y29h
+c3RhbCBlbmVyZ3kgcGxhbm5pbmc8L3RoZW1la2V5Pg0KICAgICAgICA8dGhlbWVrZXk+ZW52aXJv
+bm1lbnRhbCBlbmVyZ3kgcGxhbm5pbmc8L3RoZW1la2V5Pg0KICAgICAgICA8dGhlbWVrZXk+b2Nl
+YW4gZW5lcmd5IHBsYW5uaW5nPC90aGVtZWtleT4NCiAgICAgICAgPHRoZW1la2V5Pm9mZnNob3Jl
+IGVuZXJneSBwbGFubmluZzwvdGhlbWVrZXk+DQogICAgICAgIDx0aGVtZWtleT5yZW5ld2FibGUg
+ZW5lcmd5IHBsYW5uaW5nPC90aGVtZWtleT4NCiAgICAgICAgPHRoZW1la2V5PndhdGVyIGNvbHVt
+biBmZWF0dXJlczwvdGhlbWVrZXk+DQogICAgICAgIDx0aGVtZWtleT53YXRlciBxdWFsaXR5IGZl
+YXR1cmVzPC90aGVtZWtleT4NCiAgICAgICAgPHRoZW1la2V5PmJpb2xvZ3k8L3RoZW1la2V5Pg0K
+ICAgICAgPC90aGVtZT4NCiAgICAgIDxwbGFjZT4NCiAgICAgICAgPHBsYWNla3Q+Tm9uZTwvcGxh
+Y2VrdD4NCiAgICAgICAgPHBsYWNla2V5PlVuaXRlZCBTdGF0ZXMsIEF0bGFudGljLCBQYWNpZmlj
+LCBuYXRpb25hbDwvcGxhY2VrZXk+DQogICAgICA8L3BsYWNlPg0KICAgIDwva2V5d29yZHM+DQog
+ICAgPGFjY2NvbnN0Pk5vbmU8L2FjY2NvbnN0Pg0KICAgIDx1c2Vjb25zdD5Ob25lPC91c2Vjb25z
+dD4NCiAgICA8cHRjb250YWM+DQogICAgICA8Y250aW5mbz4NCiAgICAgICAgPGNudG9yZ3A+DQog
+ICAgICAgICAgPGNudG9yZz5PZmZpY2UgZm9yIENvYXN0YWwgTWFuYWdlbWVudDwvY250b3JnPg0K
+ICAgICAgICAgIDxjbnRwZXI+TWFyaW5lQ2FkYXN0cmUuZ292IERhdGEgU3Rld2FyZDwvY250cGVy
+Pg0KICAgICAgICA8L2NudG9yZ3A+DQogICAgICAgIDxjbnRwb3M+TWFyaW5lQ2FkYXN0cmUuZ292
+IERhdGEgU3Rld2FyZDwvY250cG9zPg0KICAgICAgICA8Y250YWRkcj4NCiAgICAgICAgICA8YWRk
+cnR5cGU+bWFpbGluZyBhbmQgcGh5c2ljYWw8L2FkZHJ0eXBlPg0KICAgICAgICAgIDxhZGRyZXNz
+PjIyMzQgU291dGggSG9ic29uIEF2ZW51ZTwvYWRkcmVzcz4NCiAgICAgICAgICA8Y2l0eT5DaGFy
+bGVzdG9uPC9jaXR5Pg0KICAgICAgICAgIDxzdGF0ZT5TQzwvc3RhdGU+DQogICAgICAgICAgPHBv
+c3RhbD4yOTQwNS0yNDEzPC9wb3N0YWw+DQogICAgICAgIDwvY250YWRkcj4NCiAgICAgICAgPGNu
+dHZvaWNlPjg0My43NDAuMTIwMjwvY250dm9pY2U+DQogICAgICAgIDxjbnRlbWFpbD5jb2FzdGFs
+LmluZm9Abm9hYS5nb3Y8L2NudGVtYWlsPg0KICAgICAgPC9jbnRpbmZvPg0KICAgIDwvcHRjb250
+YWM+DQogICAgPG5hdGl2ZT4gVmVyc2lvbiA2LjIgKEJ1aWxkIDkyMDApIDsgRXNyaSBBcmNHSVMg
+MTAuNS4xLjczMzM8L25hdGl2ZT4NCiAgPC9pZGluZm8+DQogIDxkYXRhcXVhbD4NCiAgICA8YXR0
+cmFjYz4NCiAgICAgIDxhdHRyYWNjcj5UaGUgYXR0cmlidXRlcyBpbiB0aGlzIGRhdGFzZXQgYXJl
+IGJlbGlldmVkIHRvIGJlIGFjY3VyYXRlLjwvYXR0cmFjY3I+DQogICAgPC9hdHRyYWNjPg0KICAg
+IDxsb2dpYz5UaGVzZSBkYXRhIGFyZSBiZWxpZXZlZCB0byBiZSBsb2dpY2FsbHkgY29uc2lzdGVu
+dC4gR2VvbWV0cnkgaXMgdG9wb2xvZ2ljYWxseSBjbGVhbi48L2xvZ2ljPg0KICAgIDxjb21wbGV0
+ZT5TcGF0aWFsIGFuZCBhdHRyaWJ1dGUgcHJvcGVydGllcyBhcmUgYmVsaWV2ZWQgdG8gYmUgY29t
+cGxldGUsIGFsdGhvdWdoIGF0dHJpYnV0ZSBpbmZvcm1hdGlvbiBoYXMgYmVlbiBzaW1wbGlmaWVk
+LiBHZW9tZXRyaWMgdGhyZXNob2xkcyBmcm9tIG9yaWdpbmFsIGRhdGEgYXJlIHByZXNlcnZlZC4g
+Tm8gdGVzdHMgaGF2ZSBiZWVuIGNvbXBsZXRlZCBmb3IgZXhoYXVzdGl2ZW5lc3MuPC9jb21wbGV0
+ZT4NCiAgICA8cG9zYWNjPg0KICAgICAgPGhvcml6cGE+DQogICAgICAgIDxob3JpenBhcj5NYXhp
+bXVtIHNjYWxlIG9mIGludGVuZGVkIHVzZSBpcyAxOjgwLDAwMC48L2hvcml6cGFyPg0KICAgICAg
+PC9ob3JpenBhPg0KICAgIDwvcG9zYWNjPg0KICAgIDxsaW5lYWdlPg0KICAgICAgPHNyY2luZm8+
+DQogICAgICAgIDxzcmNjaXRlPg0KICAgICAgICAgIDxjaXRlaW5mbz4NCiAgICAgICAgICAgIDxv
+cmlnaW4+RGVwYXJ0bWVudCBvZiBDb21tZXJjZSAoRE9DKSwgTmF0aW9uYWwgT2NlYW5pYyBhbmQg
+QXRtb3NwaGVyaWMgQWRtaW5pc3RyYXRpb24gKE5PQUEpIE5hdGlvbmFsIEVudmlyb25tZW50YWwg
+U2F0ZWxsaXRlLCBEYXRhLCBhbmQgSW5mb3JtYXRpb24gU2VydmljZXMgKE5FU0RJUyksIENlbnRl
+ciBmb3IgU2F0ZWxsaXRlIEFwcGxpY2F0aW9ucyBhbmQgUmVzZWFyY2ggKFNUQVIpPC9vcmlnaW4+
+DQogICAgICAgICAgICA8cHViZGF0ZT5Vbmtub3duPC9wdWJkYXRlPg0KICAgICAgICAgICAgPHRp
+dGxlPk1vbnRobHkgYW5kIEFubnVhbCBTdW1tYXJpZXMgZm9yIFBlcmNlbnRhZ2UgTGlnaHQgUmVh
+Y2hpbmcgYXQgMW0gRGVwdGggKEtkUEFSKTwvdGl0bGU+DQogICAgICAgICAgICA8b25saW5rPlVu
+a25vd248L29ubGluaz4NCiAgICAgICAgICA8L2NpdGVpbmZvPg0KICAgICAgICA8L3NyY2NpdGU+
+DQogICAgICAgIDx0eXBlc3JjPm9ubGluZTwvdHlwZXNyYz4NCiAgICAgICAgPHNyY3RpbWU+DQog
+ICAgICAgICAgPHRpbWVpbmZvPg0KICAgICAgICAgICAgPHNuZ2RhdGU+DQogICAgICAgICAgICAg
+IDxjYWxkYXRlPjIwMTgwODwvY2FsZGF0ZT4NCiAgICAgICAgICAgIDwvc25nZGF0ZT4NCiAgICAg
+ICAgICA8L3RpbWVpbmZvPg0KICAgICAgICAgIDxzcmNjdXJyPmdyb3VuZCBjb25kaXRpb248L3Ny
+Y2N1cnI+DQogICAgICAgIDwvc3JjdGltZT4NCiAgICAgICAgPHNyY2NpdGVhPlVua25vd248L3Ny
+Y2NpdGVhPg0KICAgICAgICA8c3JjY29udHI+TW9udGhseSBhbmQgQW5udWFsIFN1bW1hcmllcyBm
+b3IgUGVyY2VudGFnZSBMaWdodCBSZWFjaGluZyBhdCAxbSBEZXB0aCAoS2RQQVIpPC9zcmNjb250
+cj4NCiAgICAgIDwvc3JjaW5mbz4NCiAgICAgIDxwcm9jc3RlcD4NCiAgICAgICAgPHByb2NkZXNj
+PigxKSBUbyBwcm9jZXNzIHRoZSBkYXRhLCBzYXRlbGxpdGUgd2F0ZXItbGVhdmluZyByYWRpYW5j
+ZSAoYW4gYXRtb3NwaGVyaWNhbGx5IGNvcnJlY3RlZCBxdWFudGl0eSkgaXMgY2FsY3VsYXRlZCwg
+YW5kIHRoZW4gS2Q0OTAgY2FsY3VsYXRlZCBmcm9tIHdhdGVyLWxlYXZpbmcgcmFkaWFuY2UuDQoo
+MikgS2RQQVIgZ2VuZXJhdGVkIGZyb20gS2Q0OTAgdXNpbmcgYSBjb252ZXJzaW9uIGVxdWF0aW9u
+IGZvciBjbGVhciBhbmQgdHVyYmlkIHdhdGVycyBzZXBhcmF0ZWx5IHVzaW5nIHdlaWdodGluZyBz
+Y2hlbWUuDQooMykgRGFpbHkgY29tcG9zaXRlcyBjYWxjdWxhdGVkIGZyb20gaG91cmx5IGRhdGFz
+ZXRzICg3NTAgbSBzcGF0aWFsIHJlc29sdXRpb24pLg0KKDQpIFRoZSBkYWlseSBjb21wb3NpdGUg
+YXZlcmFnZXMgcmUtYmlubmVkIGludG8gNCBrbS1ncmlkIGRhaWx5IGNvbXBvc2l0ZXMuIFRoZSA0
+IGttIGRhaWx5IGNvbXBvc2l0ZXMgYmlubmVkIGludG8gbW9udGhseSBjb21wb3NpdGUgYXZlcmFn
+ZXMuDQooNSkgS2RQQVIgdmFsdWVzIHVzZWQgdG8gY2FsY3VsYXRlIGxpZ2h0IHRoZSBib3R0b20g
+c2VhZmxvb3IgdXNpbmcgc29sYXIgaXJyYWRpYW5jZS4NCig2KSBSYWRpYW5jZSBhdCAxbSBkZXB0
+aCBjYWxjdWxhdGVkLg0KKDcpIFJhdGlvIG9mIHJhZGlhbmNlIGF0IDEgbSBhbmQgc29sYXIgcmFk
+aWFuY2UgKGNvcnJlY3RlZCkgcHJvdmlkZSBwZXJjZW50YWdlIGxpZ2h0IHJlYWNoaW5nIGF0IDEg
+bSBkZXB0aC4NCig4KSBEYXRhIGZpbHRlcmVkIHVzaW5nIGxvdyBwYXNzIGZpbHRlciB0byBmaWx0
+ZXIgb3V0IG91dGxpZXJzLiANCig5KSBEYXRhIGNsaXBwZWQgdG8gcmVtb3ZlICdubyBkYXRhJyBy
+ZWdpb25zIG9yIGRhdGEgYXJ0aWZhY3RzLiBEYXRhIGFsc28gY2xpcHBlZCB0byBVLlMuIEVFWiBi
+b3VuZGFyeS4NCigxMCkgRGF0YSBwcm9qZWN0ZWQgdG8gV0dTIDE5ODQgV29ybGQgTWVyY2F0b3Ig
+KFdLSUQ6IDMzOTUpLjwvcHJvY2Rlc2M+DQogICAgICAgIDxwcm9jZGF0ZT4yMDE4MDg8L3Byb2Nk
+YXRlPg0KICAgICAgICA8cHJvY2NvbnQ+DQogICAgICAgICAgPGNudGluZm8+DQogICAgICAgICAg
+ICA8Y250b3JncD4NCiAgICAgICAgICAgICAgPGNudG9yZz5OT0FBIE5DQ09TIENvYXN0YWwgQXF1
+YWN1bHR1cmUgU2l0aW5nIGFuZCBTdXN0YWluYWJpbGl0eSAoQ0FTUyk8L2NudG9yZz4NCiAgICAg
+ICAgICAgIDwvY250b3JncD4NCiAgICAgICAgICAgIDxjbnRhZGRyPg0KICAgICAgICAgICAgICA8
+YWRkcnR5cGU+bWFpbGluZyBhbmQgcGh5c2ljYWw8L2FkZHJ0eXBlPg0KICAgICAgICAgICAgICA8
+YWRkcmVzcz4xMDEgUGl2ZXJzIElzbGFuZCBSb2FkPC9hZGRyZXNzPg0KICAgICAgICAgICAgICA8
+Y2l0eT5CZWF1Zm9ydDwvY2l0eT4NCiAgICAgICAgICAgICAgPHN0YXRlPk5DPC9zdGF0ZT4NCiAg
+ICAgICAgICAgICAgPHBvc3RhbD4yODUxNjwvcG9zdGFsPg0KICAgICAgICAgICAgPC9jbnRhZGRy
+Pg0KICAgICAgICAgICAgPGNudHZvaWNlPjI1Mi43MjguODc5NzwvY250dm9pY2U+DQogICAgICAg
+ICAgPC9jbnRpbmZvPg0KICAgICAgICA8L3Byb2Njb250Pg0KICAgICAgPC9wcm9jc3RlcD4NCiAg
+ICA8L2xpbmVhZ2U+DQogIDwvZGF0YXF1YWw+DQogIDxzcGRvaW5mbz4NCiAgICA8ZGlyZWN0PlJh
+c3RlcjwvZGlyZWN0Pg0KICAgIDxyYXN0aW5mbz4NCiAgICAgIDxyYXN0dHlwZT5QaXhlbDwvcmFz
+dHR5cGU+DQogICAgICA8cm93Y291bnQ+MTc0Nzwvcm93Y291bnQ+DQogICAgICA8Y29sY291bnQ+
+MTgyMTwvY29sY291bnQ+DQogICAgPC9yYXN0aW5mbz4NCiAgPC9zcGRvaW5mbz4NCiAgPHNwcmVm
+Pg0KICAgIDxob3JpenN5cz4NCiAgICAgIDxwbGFuYXI+DQogICAgICAgIDxwbGFuY2k+DQogICAg
+ICAgICAgPHBsYW5jZT5jb29yZGluYXRlIHBhaXI8L3BsYW5jZT4NCiAgICAgICAgICA8Y29vcmRy
+ZXA+DQogICAgICAgICAgICA8YWJzcmVzPjAuMDAwMDAwMDA2NzA1MzY5NTkyOTA3NTc1PC9hYnNy
+ZXM+DQogICAgICAgICAgICA8b3JkcmVzPjAuMDAwMDAwMDA2NzA1MzY5NTkyOTA3NTc1PC9vcmRy
+ZXM+DQogICAgICAgICAgPC9jb29yZHJlcD4NCiAgICAgICAgICA8cGxhbmR1Pm1ldGVyPC9wbGFu
+ZHU+DQogICAgICAgIDwvcGxhbmNpPg0KICAgICAgPC9wbGFuYXI+DQogICAgICA8Z2VvZGV0aWM+
+DQogICAgICAgIDxob3JpemRuPkQgV0dTIDE5ODQ8L2hvcml6ZG4+DQogICAgICAgIDxlbGxpcHM+
+V0dTIDE5ODQ8L2VsbGlwcz4NCiAgICAgICAgPHNlbWlheGlzPjYzNzgxMzcuMDwvc2VtaWF4aXM+
+DQogICAgICAgIDxkZW5mbGF0PjI5OC4yNTcyMjM1NjM8L2RlbmZsYXQ+DQogICAgICA8L2dlb2Rl
+dGljPg0KICAgIDwvaG9yaXpzeXM+DQogIDwvc3ByZWY+DQogIDxkaXN0aW5mbz4NCiAgICA8ZGlz
+dHJpYj4NCiAgICAgIDxjbnRpbmZvPg0KICAgICAgICA8Y250b3JncD4NCiAgICAgICAgICA8Y250
+b3JnPk9mZmljZSBmb3IgQ29hc3RhbCBNYW5hZ2VtZW50PC9jbnRvcmc+DQogICAgICAgICAgPGNu
+dHBlcj5NYXJpbmVDYWRhc3RyZS5nb3YgRGF0YSBTdGV3YXJkPC9jbnRwZXI+DQogICAgICAgIDwv
+Y250b3JncD4NCiAgICAgICAgPGNudHBvcz5NYXJpbmVDYWRhc3RyZS5nb3YgRGF0YSBTdGV3YXJk
+PC9jbnRwb3M+DQogICAgICAgIDxjbnRhZGRyPg0KICAgICAgICAgIDxhZGRydHlwZT5tYWlsaW5n
+IGFuZCBwaHlzaWNhbDwvYWRkcnR5cGU+DQogICAgICAgICAgPGFkZHJlc3M+MjIzNCBTb3V0aCBI
+b2Jzb24gQXZlbnVlPC9hZGRyZXNzPg0KICAgICAgICAgIDxjaXR5PkNoYXJsZXN0b248L2NpdHk+
+DQogICAgICAgICAgPHN0YXRlPlNDPC9zdGF0ZT4NCiAgICAgICAgICA8cG9zdGFsPjI5NDA1LTI0
+MTM8L3Bvc3RhbD4NCiAgICAgICAgPC9jbnRhZGRyPg0KICAgICAgICA8Y250dm9pY2U+ODQzLjc0
+MC4xMjAyPC9jbnR2b2ljZT4NCiAgICAgICAgPGNudGVtYWlsPmNvYXN0YWwuaW5mb0Bub2FhLmdv
+djwvY250ZW1haWw+DQogICAgICA8L2NudGluZm8+DQogICAgPC9kaXN0cmliPg0KICAgIDxkaXN0
+bGlhYj5OT0FBIG1ha2VzIG5vIHdhcnJhbnRpZXMgb3IgcmVwcmVzZW50YXRpb25zIHdoYXRzb2V2
+ZXIgcmVnYXJkaW5nIHRoZSBhdmFpbGFiaWxpdHksIHF1YWxpdHksIGFjY3VyYWN5LCBjb250ZW50
+LCBjb21wbGV0ZW5lc3Mgb3Igc3VpdGFiaWxpdHkgZm9yIHRoZSB1c2VyJ3MgbmVlZHMgb2Ygc3Vj
+aCBpbmZvcm1hdGlvbi4gVGhlIHNlcnZpY2VzLCBpbmZvcm1hdGlvbiwgYW5kIGRhdGEgbWFkZSBh
+dmFpbGFibGUgb24gdGhlIE1hcmluZSBDYWRhc3RyZSB3ZWIgc2l0ZSBhcmUgcHJvdmlkZWQgImFz
+IGlzIiB3aXRob3V0IHdhcnJhbnRpZXMgb2YgYW55IGtpbmQuIFRoZXNlIGRhdGEgYXJlIGludGVu
+ZGVkIGZvciBjb2FzdGFsIGFuZCBvY2VhbiB1c2UgcGxhbm5pbmcuIE5vdCBmb3IgbmF2aWdhdGlv
+bi4gaHR0cDovL3d3dy5tYXJpbmVjYWRhc3RyZS5nb3YvYWJvdXQvZGlzY2xhaW1lci5odG1sPC9k
+aXN0bGlhYj4NCiAgPC9kaXN0aW5mbz4NCiAgPG1ldGFpbmZvPg0KICAgIDxtZXRkPjIwMTgwODI5
+PC9tZXRkPg0KICAgIDxtZXRjPg0KICAgICAgPGNudGluZm8+DQogICAgICAgIDxjbnRvcmdwPg0K
+ICAgICAgICAgIDxjbnRvcmc+T2ZmaWNlIGZvciBDb2FzdGFsIE1hbmFnZW1lbnQ8L2NudG9yZz4N
+CiAgICAgICAgICA8Y250cGVyPk1hcmluZUNhZGFzdHJlLmdvdiBEYXRhIFN0ZXdhcmQ8L2NudHBl
+cj4NCiAgICAgICAgPC9jbnRvcmdwPg0KICAgICAgICA8Y250cG9zPk1hcmluZUNhZGFzdHJlLmdv
+diBEYXRhIFN0ZXdhcmQ8L2NudHBvcz4NCiAgICAgICAgPGNudGFkZHI+DQogICAgICAgICAgPGFk
+ZHJ0eXBlPm1haWxpbmcgYW5kIHBoeXNpY2FsPC9hZGRydHlwZT4NCiAgICAgICAgICA8YWRkcmVz
+cz4yMjM0IFNvdXRoIEhvYnNvbiBBdmVudWU8L2FkZHJlc3M+DQogICAgICAgICAgPGNpdHk+Q2hh
+cmxlc3RvbjwvY2l0eT4NCiAgICAgICAgICA8c3RhdGU+U0M8L3N0YXRlPg0KICAgICAgICAgIDxw
+b3N0YWw+Mjk0MDUtMjQxMzwvcG9zdGFsPg0KICAgICAgICA8L2NudGFkZHI+DQogICAgICAgIDxj
+bnR2b2ljZT44NDMuNzQwLjEyMDI8L2NudHZvaWNlPg0KICAgICAgICA8Y250ZW1haWw+Y29hc3Rh
+bC5pbmZvQG5vYWEuZ292PC9jbnRlbWFpbD4NCiAgICAgIDwvY250aW5mbz4NCiAgICA8L21ldGM+
+DQogICAgPG1ldHN0ZG4+RkdEQyBDb250ZW50IFN0YW5kYXJkIGZvciBEaWdpdGFsIEdlb3NwYXRp
+YWwgTWV0YWRhdGE8L21ldHN0ZG4+DQogICAgPG1ldHN0ZHY+RkdEQy1TVEQtMDAxLTE5OTg8L21l
+dHN0ZHY+DQogICAgPG1ldHRjPmxvY2FsIHRpbWU8L21ldHRjPg0KICA8L21ldGFpbmZvPg0KICA8
+ZGF0YUlkSW5mbz4NCiAgICA8ZW52aXJEZXNjIFN5bmM9IlRSVUUiPiBWZXJzaW9uIDYuMiAoQnVp
+bGQgOTIwMCkgOyBFc3JpIEFyY0dJUyAxMC41LjEuNzMzMzwvZW52aXJEZXNjPg0KICAgIDxkYXRh
+TGFuZz4NCiAgICAgIDxsYW5ndWFnZUNvZGUgdmFsdWU9ImVuZyIgU3luYz0iVFJVRSIgLz4NCiAg
+ICAgIDxjb3VudHJ5Q29kZSB2YWx1ZT0iVVNBIiBTeW5jPSJUUlVFIiAvPg0KICAgIDwvZGF0YUxh
+bmc+DQogICAgPGlkQ2l0YXRpb24+DQogICAgICA8cmVzVGl0bGUgU3luYz0iVFJVRSI+S2RQQVJf
+MDJfbWVhbi50aWY8L3Jlc1RpdGxlPg0KICAgICAgPHByZXNGb3JtPg0KICAgICAgICA8UHJlc0Zv
+cm1DZCB2YWx1ZT0iMDA1IiBTeW5jPSJUUlVFIiAvPg0KICAgICAgPC9wcmVzRm9ybT4NCiAgICA8
+L2lkQ2l0YXRpb24+DQogICAgPHNwYXRScFR5cGU+DQogICAgICA8U3BhdFJlcFR5cENkIHZhbHVl
+PSIwMDIiIFN5bmM9IlRSVUUiIC8+DQogICAgPC9zcGF0UnBUeXBlPg0KICAgIDxkYXRhRXh0Pg0K
+ICAgICAgPGdlb0VsZT4NCiAgICAgICAgPEdlb0JuZEJveCBlc3JpRXh0ZW50VHlwZT0ic2VhcmNo
+Ij4NCiAgICAgICAgICA8ZXhUeXBlQ29kZSBTeW5jPSJUUlVFIj4xPC9leFR5cGVDb2RlPg0KICAg
+ICAgICAgIDx3ZXN0QkwgU3luYz0iVFJVRSI+LTE3OS40Njg3ODA8L3dlc3RCTD4NCiAgICAgICAg
+ICA8ZWFzdEJMIFN5bmM9IlRSVUUiPi01OS42MDU5MzA8L2Vhc3RCTD4NCiAgICAgICAgICA8bm9y
+dGhCTCBTeW5jPSJUUlVFIj43NC43MDc3NzA8L25vcnRoQkw+DQogICAgICAgICAgPHNvdXRoQkwg
+U3luYz0iVFJVRSI+LTAuMzEwOTc3PC9zb3V0aEJMPg0KICAgICAgICA8L0dlb0JuZEJveD4NCiAg
+ICAgIDwvZ2VvRWxlPg0KICAgIDwvZGF0YUV4dD4NCiAgICA8aWRQdXJwPlRvIHN1cHBvcnQgY29h
+c3RhbCBhbmQgb2NlYW4gcGxhbm5pbmcgYW5kIG90aGVyIGFjdGl2aXRpZXMgcHVyc3VhbnQgdG8g
+dGhlIEVuZXJneSBQb2xpY3kgQWN0LCBDb2FzdGFsIFpvbmUgTWFuYWdlbWVudCBBY3QsIE1hZ251
+c29uLVN0ZXZlbnMgRmlzaGVyeSBDb25zZXJ2YXRpb24gYW5kIE1hbmFnZW1lbnQgQWN0LCBOYXRp
+b25hbCBFbnZpcm9ubWVudGFsIFBvbGljeSBBY3QsIFJpdmVycyBhbmQgSGFyYm9ycyBBY3QgYW5k
+IHRoZSBTdWJtZXJnZWQgTGFuZHMgQWN0LjwvaWRQdXJwPg0KICAgIDxpZEFicz5UaGlzIGRhdGFz
+ZXQgcmVwcmVzZW50cyBtb250aGx5IGFuZCBhbm51YWwgYXZlcmFnZXMgb2YgcGVyY2VudGFnZSBs
+aWdodCByZWFjaGluZyBhdCAxIG0gZGVwdGggcmVsYXRpdmUgdG8gc3VyZmFjZSBsaWdodCAoS2RQ
+QVIpLiBUaGUgdW5pdHMgYXJlIGluIHBlcmNlbnRhZ2UgKCUpIGFzIHN1cmZhY2UgbGlnaHQgcmVh
+Y2hpbmcgYXQgMSBtIGRlcHRoIGRlcml2ZWQgZnJvbSByYXcgZGF0YXNldC4gV2F2ZSBiYW5kIGlz
+IDQwMC03MDAgbm0gb3IgUGhvdG9zeW50aGV0aWMgQWN0aXZlIFJhZGlhdGlvbiAoUEFSKS4gUmF3
+IGRhdGEgYXZhaWxhYmxlIG1vbnRobHkgZnJvbSBKYW4gMSwgMjAxMCwgdG8gRGVjIDMxLCAyMDE3
+LCB3aXRoIGEgc3BhdGlhbCByZXNvbHV0aW9uIG9mIDQga20geCA0IGttLiBUaGUgbW9udGhseSBh
+bmQgYW5udWFsIG1lYW5zIGFyZSBzdW1tYXJpemVkIGZvciB0aGUgdGltZSBwZXJpb2QgMjAxMC0y
+MDE3LiBEYXRhIHByb3ZpZGVkIGJ5IE5FU0RJUyBDZW50ZXIgZm9yIFNhdGVsbGl0ZSBBcHBsaWNh
+dGlvbnMgYW5kIFJlc2VhcmNoIChTVEFSKS4gUmF3IGRhdGFzZXQgY29sbGVjdGVkIGJ5IE5BU0Eg
+c2F0ZWxsaXRlIFNVT01JIE5hdGlvbmFsIFBvbGFyLW9yYml0aW5nIFBhcnRuZXJzaGlwIChOUFAp
+IHVzaW5nIFZpc2libGUgSW5mcmFyZWQgSW1hZ2luZyBSYWRpb21ldGVyIChWSUlSUykuIENpdGF0
+aW9uOiBTZXVuZ0h5dW4gU29uLCBNZW5naHVhIFdhbmcuLCAyMDE1OiBEaWZmdXNlIGF0dGVudWF0
+aW9uIGNvZWZmaWNpZW50IG9mIHRoZSBwaG90b3N5bnRoZXRpY2FsbHkgYXZhaWxhYmxlIHJhZGlh
+dGlvbiBLZChQQVIpIGZvciBnbG9iYWwgb3BlbiBvY2VhbiBhbmQgY29hc3RhbCB3YXRlcnMuIFJl
+bW90ZSBTZW5zaW5nIG9mIEVudmlyb25tZW50LCBWb2x1bWUgMTU5LCAxNSBNYXJjaCAyMDE1LCBQ
+YWdlcyAyNTAtMjU4LjwvaWRBYnM+DQogICAgPHNlYXJjaEtleXM+DQogICAgICA8a2V5d29yZD5t
+YXJpbmUgY2FkYXN0cmU8L2tleXdvcmQ+DQogICAgICA8a2V5d29yZD5tYXJpbmUgc3BhdGlhbCBw
+bGFubmluZzwva2V5d29yZD4NCiAgICAgIDxrZXl3b3JkPmVudmlyb25tZW50YWw8L2tleXdvcmQ+
+DQogICAgICA8a2V5d29yZD5vY2VhbnM8L2tleXdvcmQ+DQogICAgICA8a2V5d29yZD5lbnZpcm9u
+bWVudDwva2V5d29yZD4NCiAgICAgIDxrZXl3b3JkPmZhcm1pbmc8L2tleXdvcmQ+DQogICAgICA8
+a2V5d29yZD5wbGFubmluZ0NhZGFzdHJlPC9rZXl3b3JkPg0KICAgICAgPGtleXdvcmQ+VW5pdGVk
+IFN0YXRlczwva2V5d29yZD4NCiAgICAgIDxrZXl3b3JkPm5hdGlvbmFsPC9rZXl3b3JkPg0KICAg
+ICAgPGtleXdvcmQ+YWx0ZXJuYXRpdmUgZW5lcmd5IHBsYW5uaW5nPC9rZXl3b3JkPg0KICAgICAg
+PGtleXdvcmQ+Y29hc3RhbCBlbmVyZ3kgcGxhbm5pbmc8L2tleXdvcmQ+DQogICAgICA8a2V5d29y
+ZD5lbnZpcm9ubWVudGFsIGVuZXJneSBwbGFubmluZzwva2V5d29yZD4NCiAgICAgIDxrZXl3b3Jk
+Pm9jZWFuIGVuZXJneSBwbGFubmluZzwva2V5d29yZD4NCiAgICAgIDxrZXl3b3JkPm9mZnNob3Jl
+IGVuZXJneSBwbGFubmluZzwva2V5d29yZD4NCiAgICAgIDxrZXl3b3JkPnJlbmV3YWJsZSBlbmVy
+Z3kgcGxhbm5pbmc8L2tleXdvcmQ+DQogICAgICA8a2V5d29yZD53YXRlciBjb2x1bW4gZmVhdHVy
+ZXM8L2tleXdvcmQ+DQogICAgICA8a2V5d29yZD53YXRlciBxdWFsaXR5IGZlYXR1cmVzPC9rZXl3
+b3JkPg0KICAgICAgPGtleXdvcmQ+YmlvbG9neTwva2V5d29yZD4NCiAgICA8L3NlYXJjaEtleXM+
+DQogICAgPHJlc0NvbnN0Pg0KICAgICAgPENvbnN0cz4NCiAgICAgICAgPHVzZUxpbWl0Pk5vbmU8
+L3VzZUxpbWl0Pg0KICAgICAgPC9Db25zdHM+DQogICAgPC9yZXNDb25zdD4NCiAgPC9kYXRhSWRJ
+bmZvPg0KICA8bWRMYW5nPg0KICAgIDxsYW5ndWFnZUNvZGUgdmFsdWU9ImVuZyIgU3luYz0iVFJV
+RSIgLz4NCiAgICA8Y291bnRyeUNvZGUgdmFsdWU9IlVTQSIgU3luYz0iVFJVRSIgLz4NCiAgPC9t
+ZExhbmc+DQogIDxFc3JpPg0KICAgIDxEYXRhUHJvcGVydGllcz4NCiAgICAgIDxpdGVtUHJvcHM+
+DQogICAgICAgIDxpdGVtTmFtZSBTeW5jPSJUUlVFIj5LZFBBUl8wMl9tZWFuLnRpZjwvaXRlbU5h
+bWU+DQogICAgICAgIDxpdGVtTG9jYXRpb24+DQogICAgICAgICAgPGxpbmthZ2UgU3luYz0iVFJV
+RSI+ZmlsZTovL1I6XENBUEVTX0FxdWFjdWx0dXJlXFByb2plY3RzXEZZMTdcUHJvamVjdHNcMDE5
+X0FSUEFFXE9SVF9kYXRhXE9jZWFub2dyYXBoaWNcS2RQQVJcS2RQQVJfRGF0YV9QYWNrYWdlXEtk
+UEFSX1RJRkZzXEtkUEFSXzAyX21lYW4udGlmPC9saW5rYWdlPg0KICAgICAgICAgIDxwcm90b2Nv
+bCBTeW5jPSJUUlVFIj5Mb2NhbCBBcmVhIE5ldHdvcms8L3Byb3RvY29sPg0KICAgICAgICA8L2l0
+ZW1Mb2NhdGlvbj4NCiAgICAgICAgPGltc0NvbnRlbnRUeXBlIFN5bmM9IlRSVUUiPjAwMjwvaW1z
+Q29udGVudFR5cGU+DQogICAgICAgIDxuYXRpdmVFeHRCb3g+DQogICAgICAgICAgPHdlc3RCTCBT
+eW5jPSJUUlVFIj4tMTk5NzgzNzMuMjAxMzEyPC93ZXN0Qkw+DQogICAgICAgICAgPGVhc3RCTCBT
+eW5jPSJUUlVFIj4tNjYzNTMwMS44MTk0NjA8L2Vhc3RCTD4NCiAgICAgICAgICA8c291dGhCTCBT
+eW5jPSJUUlVFIj4tMzQzODYuMjMxMjg5PC9zb3V0aEJMPg0KICAgICAgICAgIDxub3J0aEJMIFN5
+bmM9IlRSVUUiPjEyNzY2NDYyLjU5MDI5MTwvbm9ydGhCTD4NCiAgICAgICAgICA8ZXhUeXBlQ29k
+ZSBTeW5jPSJUUlVFIj4xPC9leFR5cGVDb2RlPg0KICAgICAgICA8L25hdGl2ZUV4dEJveD4NCiAg
+ICAgIDwvaXRlbVByb3BzPg0KICAgICAgPGNvb3JkUmVmPg0KICAgICAgICA8dHlwZSBTeW5jPSJU
+UlVFIj5Qcm9qZWN0ZWQ8L3R5cGU+DQogICAgICAgIDxnZW9nY3NuIFN5bmM9IlRSVUUiPkdDU19X
+R1NfMTk4NDwvZ2VvZ2Nzbj4NCiAgICAgICAgPGNzVW5pdHMgU3luYz0iVFJVRSI+TGluZWFyIFVu
+aXQ6IE1ldGVyICgxLjAwMDAwMCk8L2NzVW5pdHM+DQogICAgICAgIDxwcm9qY3NuIFN5bmM9IlRS
+VUUiPldHU18xOTg0X1dvcmxkX01lcmNhdG9yPC9wcm9qY3NuPg0KICAgICAgICA8cGVYbWwgU3lu
+Yz0iVFJVRSI+Jmx0O1Byb2plY3RlZENvb3JkaW5hdGVTeXN0ZW0geHNpOnR5cGU9J3R5cGVuczpQ
+cm9qZWN0ZWRDb29yZGluYXRlU3lzdGVtJyB4bWxuczp4c2k9J2h0dHA6Ly93d3cudzMub3JnLzIw
+MDEvWE1MU2NoZW1hLWluc3RhbmNlJyB4bWxuczp4cz0naHR0cDovL3d3dy53My5vcmcvMjAwMS9Y
+TUxTY2hlbWEnIHhtbG5zOnR5cGVucz0naHR0cDovL3d3dy5lc3JpLmNvbS9zY2hlbWFzL0FyY0dJ
+Uy8xMC41JyZndDsmbHQ7V0tUJmd0O1BST0pDU1smYW1wO3F1b3Q7V0dTXzE5ODRfV29ybGRfTWVy
+Y2F0b3ImYW1wO3F1b3Q7LEdFT0dDU1smYW1wO3F1b3Q7R0NTX1dHU18xOTg0JmFtcDtxdW90OyxE
+QVRVTVsmYW1wO3F1b3Q7RF9XR1NfMTk4NCZhbXA7cXVvdDssU1BIRVJPSURbJmFtcDtxdW90O1dH
+U18xOTg0JmFtcDtxdW90Oyw2Mzc4MTM3LjAsMjk4LjI1NzIyMzU2M11dLFBSSU1FTVsmYW1wO3F1
+b3Q7R3JlZW53aWNoJmFtcDtxdW90OywwLjBdLFVOSVRbJmFtcDtxdW90O0RlZ3JlZSZhbXA7cXVv
+dDssMC4wMTc0NTMyOTI1MTk5NDMzXV0sUFJPSkVDVElPTlsmYW1wO3F1b3Q7TWVyY2F0b3ImYW1w
+O3F1b3Q7XSxQQVJBTUVURVJbJmFtcDtxdW90O0ZhbHNlX0Vhc3RpbmcmYW1wO3F1b3Q7LDAuMF0s
+UEFSQU1FVEVSWyZhbXA7cXVvdDtGYWxzZV9Ob3J0aGluZyZhbXA7cXVvdDssMC4wXSxQQVJBTUVU
+RVJbJmFtcDtxdW90O0NlbnRyYWxfTWVyaWRpYW4mYW1wO3F1b3Q7LDAuMF0sUEFSQU1FVEVSWyZh
+bXA7cXVvdDtTdGFuZGFyZF9QYXJhbGxlbF8xJmFtcDtxdW90OywwLjBdLFVOSVRbJmFtcDtxdW90
+O01ldGVyJmFtcDtxdW90OywxLjBdLEFVVEhPUklUWVsmYW1wO3F1b3Q7RVBTRyZhbXA7cXVvdDss
+MzM5NV1dJmx0Oy9XS1QmZ3Q7Jmx0O1hPcmlnaW4mZ3Q7LTIwMDM3NzAwJmx0Oy9YT3JpZ2luJmd0
+OyZsdDtZT3JpZ2luJmd0Oy0zMDE5ODMwMCZsdDsvWU9yaWdpbiZndDsmbHQ7WFlTY2FsZSZndDsx
+NDkxMzQyMTAuNDQ3OTU1NTImbHQ7L1hZU2NhbGUmZ3Q7Jmx0O1pPcmlnaW4mZ3Q7LTEwMDAwMCZs
+dDsvWk9yaWdpbiZndDsmbHQ7WlNjYWxlJmd0OzEwMDAwJmx0Oy9aU2NhbGUmZ3Q7Jmx0O01Pcmln
+aW4mZ3Q7LTEwMDAwMCZsdDsvTU9yaWdpbiZndDsmbHQ7TVNjYWxlJmd0OzEwMDAwJmx0Oy9NU2Nh
+bGUmZ3Q7Jmx0O1hZVG9sZXJhbmNlJmd0OzAuMDAxJmx0Oy9YWVRvbGVyYW5jZSZndDsmbHQ7WlRv
+bGVyYW5jZSZndDswLjAwMSZsdDsvWlRvbGVyYW5jZSZndDsmbHQ7TVRvbGVyYW5jZSZndDswLjAw
+MSZsdDsvTVRvbGVyYW5jZSZndDsmbHQ7SGlnaFByZWNpc2lvbiZndDt0cnVlJmx0Oy9IaWdoUHJl
+Y2lzaW9uJmd0OyZsdDtXS0lEJmd0OzMzOTUmbHQ7L1dLSUQmZ3Q7Jmx0O0xhdGVzdFdLSUQmZ3Q7
+MzM5NSZsdDsvTGF0ZXN0V0tJRCZndDsmbHQ7L1Byb2plY3RlZENvb3JkaW5hdGVTeXN0ZW0mZ3Q7
+PC9wZVhtbD4NCiAgICAgIDwvY29vcmRSZWY+DQogICAgICA8UmFzdGVyUHJvcGVydGllcz4NCiAg
+ICAgICAgPEdlbmVyYWw+DQogICAgICAgICAgPFBpeGVsRGVwdGggU3luYz0iVFJVRSI+MzI8L1Bp
+eGVsRGVwdGg+DQogICAgICAgICAgPEhhc0NvbG9ybWFwIFN5bmM9IlRSVUUiPkZBTFNFPC9IYXND
+b2xvcm1hcD4NCiAgICAgICAgICA8Q29tcHJlc3Npb25UeXBlIFN5bmM9IlRSVUUiPkxaVzwvQ29t
+cHJlc3Npb25UeXBlPg0KICAgICAgICAgIDxOdW1CYW5kcyBTeW5jPSJUUlVFIj4xPC9OdW1CYW5k
+cz4NCiAgICAgICAgICA8Rm9ybWF0IFN5bmM9IlRSVUUiPlRJRkY8L0Zvcm1hdD4NCiAgICAgICAg
+ICA8SGFzUHlyYW1pZHMgU3luYz0iVFJVRSI+VFJVRTwvSGFzUHlyYW1pZHM+DQogICAgICAgICAg
+PFNvdXJjZVR5cGUgU3luYz0iVFJVRSI+ZGlzY3JldGU8L1NvdXJjZVR5cGU+DQogICAgICAgICAg
+PFBpeGVsVHlwZSBTeW5jPSJUUlVFIj51bnNpZ25lZCBpbnRlZ2VyPC9QaXhlbFR5cGU+DQogICAg
+ICAgICAgPE5vRGF0YVZhbHVlIFN5bmM9IlRSVUUiPjIuMTQ3NDgzNmUrMDA5PC9Ob0RhdGFWYWx1
+ZT4NCiAgICAgICAgPC9HZW5lcmFsPg0KICAgICAgPC9SYXN0ZXJQcm9wZXJ0aWVzPg0KICAgIDwv
+RGF0YVByb3BlcnRpZXM+DQogICAgPFN5bmNEYXRlPjIwMTgwODI5PC9TeW5jRGF0ZT4NCiAgICA8
+U3luY1RpbWU+MTYwOTQ4MDA8L1N5bmNUaW1lPg0KICAgIDxNb2REYXRlPjIwMTgwODI5PC9Nb2RE
+YXRlPg0KICAgIDxNb2RUaW1lPjE2MDk0ODAwPC9Nb2RUaW1lPg0KICAgIDxzY2FsZVJhbmdlPg0K
+ICAgICAgPG1pblNjYWxlPjE1MDAwMDAwMDwvbWluU2NhbGU+DQogICAgICA8bWF4U2NhbGU+NTAw
+MDwvbWF4U2NhbGU+DQogICAgPC9zY2FsZVJhbmdlPg0KICAgIDxBcmNHSVNQcm9maWxlPkZHREM8
+L0FyY0dJU1Byb2ZpbGU+DQogIDwvRXNyaT4NCiAgPGRpc3RJbmZvPg0KICAgIDxkaXN0Rm9ybWF0
+Pg0KICAgICAgPGZvcm1hdE5hbWUgU3luYz0iVFJVRSI+UmFzdGVyIERhdGFzZXQ8L2Zvcm1hdE5h
+bWU+DQogICAgPC9kaXN0Rm9ybWF0Pg0KICA8L2Rpc3RJbmZvPg0KICA8bWRIckx2Pg0KICAgIDxT
+Y29wZUNkIHZhbHVlPSIwMDUiIFN5bmM9IlRSVUUiIC8+DQogIDwvbWRIckx2Pg0KICA8bWRIckx2
+TmFtZSBTeW5jPSJUUlVFIj5kYXRhc2V0PC9tZEhyTHZOYW1lPg0KICA8cmVmU3lzSW5mbz4NCiAg
+ICA8UmVmU3lzdGVtPg0KICAgICAgPHJlZlN5c0lEPg0KICAgICAgICA8aWRlbnRDb2RlIGNvZGU9
+IjMzOTUiIFN5bmM9IlRSVUUiIC8+DQogICAgICAgIDxpZENvZGVTcGFjZSBTeW5jPSJUUlVFIj5F
+UFNHPC9pZENvZGVTcGFjZT4NCiAgICAgICAgPGlkVmVyc2lvbiBTeW5jPSJUUlVFIj42LjEwLjIo
+OS4zLjAuMCk8L2lkVmVyc2lvbj4NCiAgICAgIDwvcmVmU3lzSUQ+DQogICAgPC9SZWZTeXN0ZW0+
+DQogIDwvcmVmU3lzSW5mbz4NCiAgPHNwYXRSZXBJbmZvPg0KICAgIDxHZW9yZWN0Pg0KICAgICAg
+PGNlbGxHZW8+DQogICAgICAgIDxDZWxsR2VvQ2QgU3luYz0iVFJVRSIgdmFsdWU9IjAwMiIgLz4N
+CiAgICAgIDwvY2VsbEdlbz4NCiAgICAgIDxudW1EaW1zIFN5bmM9IlRSVUUiPjI8L251bURpbXM+
+DQogICAgICA8dHJhblBhcmFBdiBTeW5jPSJUUlVFIj4xPC90cmFuUGFyYUF2Pg0KICAgICAgPGNo
+a1B0QXYgU3luYz0iVFJVRSI+MDwvY2hrUHRBdj4NCiAgICAgIDxjb3JuZXJQdHM+DQogICAgICAg
+IDxwb3MgU3luYz0iVFJVRSI+LTE5OTc4MzczLjIwMTMxMiAtMzQzODYuMjMxMjg5PC9wb3M+DQog
+ICAgICA8L2Nvcm5lclB0cz4NCiAgICAgIDxjb3JuZXJQdHM+DQogICAgICAgIDxwb3MgU3luYz0i
+VFJVRSI+LTE5OTc4MzczLjIwMTMxMiAxMjc2NjQ2Mi41OTAyOTE8L3Bvcz4NCiAgICAgIDwvY29y
+bmVyUHRzPg0KICAgICAgPGNvcm5lclB0cz4NCiAgICAgICAgPHBvcyBTeW5jPSJUUlVFIj4tNjYz
+NTMwMS44MTk0NjAgMTI3NjY0NjIuNTkwMjkxPC9wb3M+DQogICAgICA8L2Nvcm5lclB0cz4NCiAg
+ICAgIDxjb3JuZXJQdHM+DQogICAgICAgIDxwb3MgU3luYz0iVFJVRSI+LTY2MzUzMDEuODE5NDYw
+IC0zNDM4Ni4yMzEyODk8L3Bvcz4NCiAgICAgIDwvY29ybmVyUHRzPg0KICAgICAgPGNlbnRlclB0
+Pg0KICAgICAgICA8cG9zIFN5bmM9IlRSVUUiPi0xMzMwNjgzNy41MTAzODYgNjM2NjAzOC4xNzk1
+MDE8L3Bvcz4NCiAgICAgIDwvY2VudGVyUHQ+DQogICAgICA8YXhpc0RpbWVuc2lvbiB0eXBlPSIw
+MDIiPg0KICAgICAgICA8ZGltU2l6ZSBTeW5jPSJUUlVFIj4xODIxPC9kaW1TaXplPg0KICAgICAg
+ICA8ZGltUmVzb2w+DQogICAgICAgICAgPHZhbHVlIFN5bmM9IlRSVUUiIHVvbT0ibSI+NzMyNy4z
+MzE4OTY8L3ZhbHVlPg0KICAgICAgICA8L2RpbVJlc29sPg0KICAgICAgPC9heGlzRGltZW5zaW9u
+Pg0KICAgICAgPGF4aXNEaW1lbnNpb24gdHlwZT0iMDAxIj4NCiAgICAgICAgPGRpbVNpemUgU3lu
+Yz0iVFJVRSI+MTc0NzwvZGltU2l6ZT4NCiAgICAgICAgPGRpbVJlc29sPg0KICAgICAgICAgIDx2
+YWx1ZSBTeW5jPSJUUlVFIiB1b209Im0iPjczMjcuMzMxODk2PC92YWx1ZT4NCiAgICAgICAgPC9k
+aW1SZXNvbD4NCiAgICAgIDwvYXhpc0RpbWVuc2lvbj4NCiAgICAgIDxwdEluUGl4ZWw+DQogICAg
+ICAgIDxQaXhPcmllbnRDZCBTeW5jPSJUUlVFIiB2YWx1ZT0iMDAxIiAvPg0KICAgICAgPC9wdElu
+UGl4ZWw+DQogICAgPC9HZW9yZWN0Pg0KICA8L3NwYXRSZXBJbmZvPg0KICA8Y29udEluZm8+DQog
+ICAgPENvdkRlc2MgeG1sbnM6ZXNyaT0iaHR0cDovL3d3dy5lc3JpLmNvbS9tZXRhZGF0YS8iPg0K
+ICAgICAgPGNvbnRlbnRUeXA+DQogICAgICAgIDxDb250ZW50VHlwQ2QgU3luYz0iVFJVRSIgdmFs
+dWU9IjAwMiIgLz4NCiAgICAgIDwvY29udGVudFR5cD4NCiAgICAgIDxjb3ZEaW0+DQogICAgICAg
+IDxCYW5kPg0KICAgICAgICAgIDxkaW1EZXNjcnAgU3luYz0iVFJVRSI+QmFuZF8xPC9kaW1EZXNj
+cnA+DQogICAgICAgICAgPG1heFZhbCBTeW5jPSJUUlVFIj45OC4wMDAwMDA8L21heFZhbD4NCiAg
+ICAgICAgICA8bWluVmFsIFN5bmM9IlRSVUUiPjAuMDAwMDAwPC9taW5WYWw+DQogICAgICAgICAg
+PGJpdHNQZXJWYWwgU3luYz0iVFJVRSI+MzI8L2JpdHNQZXJWYWw+DQogICAgICAgICAgPHZhbFVu
+aXQ+DQogICAgICAgICAgICA8VU9NIHR5cGU9Imxlbmd0aCIgLz4NCiAgICAgICAgICA8L3ZhbFVu
+aXQ+DQogICAgICAgIDwvQmFuZD4NCiAgICAgIDwvY292RGltPg0KICAgIDwvQ292RGVzYz4NCiAg
+PC9jb250SW5mbz4NCiAgPG1kRGF0ZVN0IFN5bmM9IlRSVUUiPjIwMTgwODI5PC9tZERhdGVTdD4N
+CiAgPGVhaW5mbz4NCiAgICA8ZGV0YWlsZWQgTmFtZT0iS2RQQVJfMDJfbWVhbi50aWYudmF0Ij4N
+CiAgICAgIDxlbnR0eXA+DQogICAgICAgIDxlbnR0eXBsIFN5bmM9IlRSVUUiPktkUEFSXzAyX21l
+YW4udGlmLnZhdDwvZW50dHlwbD4NCiAgICAgICAgPGVudHR5cHQgU3luYz0iVFJVRSI+VGFibGU8
+L2VudHR5cHQ+DQogICAgICAgIDxlbnR0eXBjIFN5bmM9IlRSVUUiPjk5PC9lbnR0eXBjPg0KICAg
+ICAgPC9lbnR0eXA+DQogICAgICA8YXR0cj4NCiAgICAgICAgPGF0dHJsYWJsIFN5bmM9IlRSVUUi
+Pk9JRDwvYXR0cmxhYmw+DQogICAgICAgIDxhdHRhbGlhcyBTeW5jPSJUUlVFIj5PSUQ8L2F0dGFs
+aWFzPg0KICAgICAgICA8YXR0cnR5cGUgU3luYz0iVFJVRSI+T0lEPC9hdHRydHlwZT4NCiAgICAg
+ICAgPGF0dHdpZHRoIFN5bmM9IlRSVUUiPjQ8L2F0dHdpZHRoPg0KICAgICAgICA8YXRwcmVjaXMg
+U3luYz0iVFJVRSI+MDwvYXRwcmVjaXM+DQogICAgICAgIDxhdHRzY2FsZSBTeW5jPSJUUlVFIj4w
+PC9hdHRzY2FsZT4NCiAgICAgICAgPGF0dHJkZWYgU3luYz0iVFJVRSI+SW50ZXJuYWwgZmVhdHVy
+ZSBudW1iZXIuPC9hdHRyZGVmPg0KICAgICAgICA8YXR0cmRlZnMgU3luYz0iVFJVRSI+RXNyaTwv
+YXR0cmRlZnM+DQogICAgICAgIDxhdHRyZG9tdj4NCiAgICAgICAgICA8dWRvbSBTeW5jPSJUUlVF
+Ij5TZXF1ZW50aWFsIHVuaXF1ZSB3aG9sZSBudW1iZXJzIHRoYXQgYXJlIGF1dG9tYXRpY2FsbHkg
+Z2VuZXJhdGVkLjwvdWRvbT4NCiAgICAgICAgPC9hdHRyZG9tdj4NCiAgICAgIDwvYXR0cj4NCiAg
+ICAgIDxhdHRyPg0KICAgICAgICA8YXR0cmxhYmwgU3luYz0iVFJVRSI+VmFsdWU8L2F0dHJsYWJs
+Pg0KICAgICAgICA8YXR0YWxpYXMgU3luYz0iVFJVRSI+VmFsdWU8L2F0dGFsaWFzPg0KICAgICAg
+ICA8YXR0cnR5cGUgU3luYz0iVFJVRSI+SW50ZWdlcjwvYXR0cnR5cGU+DQogICAgICAgIDxhdHR3
+aWR0aCBTeW5jPSJUUlVFIj4xMDwvYXR0d2lkdGg+DQogICAgICAgIDxhdHByZWNpcyBTeW5jPSJU
+UlVFIj4xMDwvYXRwcmVjaXM+DQogICAgICAgIDxhdHRzY2FsZSBTeW5jPSJUUlVFIj4wPC9hdHRz
+Y2FsZT4NCiAgICAgIDwvYXR0cj4NCiAgICAgIDxhdHRyPg0KICAgICAgICA8YXR0cmxhYmwgU3lu
+Yz0iVFJVRSI+Q291bnQ8L2F0dHJsYWJsPg0KICAgICAgICA8YXR0YWxpYXMgU3luYz0iVFJVRSI+
+Q291bnQ8L2F0dGFsaWFzPg0KICAgICAgICA8YXR0cnR5cGUgU3luYz0iVFJVRSI+RG91YmxlPC9h
+dHRydHlwZT4NCiAgICAgICAgPGF0dHdpZHRoIFN5bmM9IlRSVUUiPjE5PC9hdHR3aWR0aD4NCiAg
+ICAgICAgPGF0cHJlY2lzIFN5bmM9IlRSVUUiPjA8L2F0cHJlY2lzPg0KICAgICAgICA8YXR0c2Nh
+bGUgU3luYz0iVFJVRSI+MDwvYXR0c2NhbGU+DQogICAgICA8L2F0dHI+DQogICAgPC9kZXRhaWxl
+ZD4NCiAgPC9lYWluZm8+DQo8L21ldGFkYXRhPg==</Data>
+    </Enclosure>
+  </Binary>
+</metadata>

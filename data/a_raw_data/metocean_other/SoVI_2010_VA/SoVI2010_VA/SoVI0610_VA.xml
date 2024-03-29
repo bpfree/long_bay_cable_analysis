@@ -1,0 +1,1124 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Hazards &amp; Vulnerability Research Institute, Chris Emrich, Research</origin>
+        <pubdate>20140115</pubdate>
+        <title>SoVI0610_VA</title>
+        <edition>SoVI06-10</edition>
+        <geoform>vector digital data</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The Social Vulnerability Index (SoVI®) 2006-10 measures the social vulnerability of U.S. counties to environmental hazards. The index is a comparative metric that facilitates the examination of the differences in social vulnerability among counties. SoVI® is a valuable tool for policy makers and practitioners. It graphically illustrates the geographic variation in social vulnerability. It shows where there is uneven capacity for preparedness and response and where resources might be used most effectively to reduce the pre-existing vulnerability. SoVI® also is useful as an indicator in determining the differential recovery from disasters.The index synthesizes 27 socioeconomic variables, which the research literature suggests contribute to reduction in a community’s ability to prepare for, respond to, and recover from hazards. SoVI® data sources include primarily those from the United States Census Bureau.The data are compiled and processed by the Hazards and Vulnerability Research Institute at the University of South Carolina. The data are standardized and placed into a principal components analysis to reduce the initial set of variables into a smaller set of statistically optimized components. Adjustments are made to the components’ cardinality (positive (+) or negative (-)) to insure that positive component loadings are associated with increased vulnerability, and negative component loadings are associated with decreased vulnerability. Once the cardinalities of the components are determined, the components are added together to determine the numerical social vulnerability score for each county.SoVI® 2006-10 marks a change in the formulation of the SoVI® metric from earlier versions. New directions in the theory and practice of vulnerability science emphasize the constraints of family structure, language barriers, vehicle availability, medical disabilities, and healthcare access in the preparation for and response to disasters, thus necessitating the inclusion of such factors in SoVI®. Extensive testing of earlier conceptualizations of SoVI®, in addition to the introduction of the U.S. Census Bureau’s five-year American Community Survey (ACS) estimates, warrants changes to the SoVI® recipe, resulting in a more robust metric. These changes, pioneered with the ACS-based SoVI® 2005-09 carry over to SoVI® 2006-10, which combines the best data available from both the 2010 U.S. Decennial Census and five-year estimates from the 2006-2010 ACS.</abstract>
+      <purpose>The Social Vulnerability Index (SoVI®) 2006-10 measures the social vulnerability of U.S. counties to environmental hazards. The index is a comparative metric that facilitates the examination of the differences in social vulnerability among counties. SoVI® is a valuable tool for policy makers and practitioners. It graphically illustrates the geographic variation in social vulnerability. It shows where there is uneven capacity for preparedness and response and where resources might be used most effectively to reduce the pre-existing vulnerability. SoVI® also is useful as an indicator in determining the differential recovery from disasters.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>20060101</begdate>
+          <enddate>20101231</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>SoVI® 06-10 uses the best data available from both the 2010 U.S. Decennial Census and five-year estimates from the 2006-2010 ACS.</current>
+    </timeperd>
+    <status>
+      <progress>In work</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-83.675395</westbc>
+        <eastbc>-74.936698</eastbc>
+        <northbc>39.988087</northbc>
+        <southbc>35.635428</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Social Vulnerability to Environmental Hazards</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>planningCadastre</themekey>
+        <themekey>society</themekey>
+      </theme>
+      <temporal>
+        <tempkt>None</tempkt>
+        <tempkey>Uses Census 2010 and ACS 06-10 (5 Year Estimates)</tempkey>
+      </temporal>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>This product is free to use by non-profit organizations, academics, researchers, and students, and the federal government.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Hazards &amp; Vulnerability Research Institute</cntorg>
+          <cntper>Chris Emrich</cntper>
+        </cntorgp>
+        <cntpos>Research</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>709 Bull Street, Rm 311</address>
+          <city>Columbia</city>
+          <state>South Carolina</state>
+          <postal>29210</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>803-777-1699</cntvoice>
+        <cntemail>cogeoghvri@mailbox.sc.edu</cntemail>
+        <hours>M-F, 9-4</hours>
+      </cntinfo>
+    </ptcontac>
+    <datacred>"Hazards &amp; Vulnerability Research Institute (2014). The Social Vulnerability Index, SoVI®, Version 06-10. Columbia, SC: University of South Carolina. Available from http://www.sovius.org "</datacred>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.0.3348</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>1902</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>North America Albers Equal Area Conic</mapprojn>
+          <albers>
+            <stdparll>20.0</stdparll>
+            <stdparll>60.0</stdparll>
+            <longcm>-96.0</longcm>
+            <latprjo>40.0</latprjo>
+            <feast>0.0</feast>
+            <fnorth>0.0</fnorth>
+          </albers>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0001</absres>
+            <ordres>0.0001</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>SoVI0610_VA</enttypl>
+        <enttypd>a collection of geographic features with the same geometry type, attributes, and spatial reference</enttypd>
+        <enttypds>ESRI</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>ZQNRRES</attrlabl>
+        <attrdef>Z-score of QNRRES</attrdef>
+        <attrdefs>http://webra.cas.sc.edu/hvri/products/sovi_details_2006.aspx</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-0.312805</rdommin>
+            <rdommax>60.076796</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PERCAP</attrlabl>
+        <attrdef>Per Capita Income</attrdef>
+        <attrdefs>http://webra.cas.sc.edu/hvri/products/sovi_details_2006.aspx</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>63.26</rdommin>
+            <rdommax>99892.53</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>QPOVTY</attrlabl>
+        <attrdef>Percent Poverty</attrdef>
+        <attrdefs>http://webra.cas.sc.edu/hvri/products/sovi_details_2006.aspx</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FUNCSTAT10</attrlabl>
+        <attrdef>2010 Census functional status</attrdef>
+        <attrdefs>US Census</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>S</edomv>
+            <edomvd>Statistical entity</edomvd>
+            <edomvds>US Census</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ZQUNOCCHU</attrlabl>
+        <attrdef>Z-score of QUNOCCHU</attrdef>
+        <attrdefs>http://webra.cas.sc.edu/hvri/products/sovi_details_2006.aspx</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-1.13827</rdommin>
+            <rdommax>9.254617</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ZQED12LES</attrlabl>
+        <attrdef>Z-score of QED12LES</attrdef>
+        <attrdefs>http://webra.cas.sc.edu/hvri/products/sovi_details_2006.aspx</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-1.293784</rdommin>
+            <rdommax>6.990771</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FAC4_1</attrlabl>
+        <attrdef>Factor 4</attrdef>
+        <attrdefs>VA SoVI Readme</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-5.36253</rdommin>
+            <rdommax>11.61037</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MEDAGE</attrlabl>
+        <attrdef>Median Age</attrdef>
+        <attrdefs>http://webra.cas.sc.edu/hvri/products/sovi_details_2006.aspx</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>4.5</rdommin>
+            <rdommax>84.5</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Area_sqmi</attrlabl>
+        <attrdef>area in square miles</attrdef>
+        <attrdefs>US Census</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>999999999999</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>STATEFP10_1</attrlabl>
+        <attrdef>2010 Census state</attrdef>
+        <attrdefs>US Census</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>55</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>QFAM</attrlabl>
+        <attrdef>Percent of Children Living in Married Couple Families</attrdef>
+        <attrdefs>http://webra.cas.sc.edu/hvri/products/sovi_details_2006.aspx</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>UNIGUE_ID</attrlabl>
+        <attrdef>unique identifier</attrdef>
+        <attrdefs>US Census</attrdefs>
+        <attrdomv>
+          <udom>unique identifier</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>QSSBEN</attrlabl>
+        <attrdef>Percent Social Security Beneficiaries</attrdef>
+        <attrdefs>http://webra.cas.sc.edu/hvri/products/sovi_details_2006.aspx</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>QASIAN</attrlabl>
+        <attrdef>Percent Asian</attrdef>
+        <attrdefs>http://webra.cas.sc.edu/hvri/products/sovi_details_2006.aspx</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MDGRENT</attrlabl>
+        <attrdef>Median Gross Rent</attrdef>
+        <attrdefs>http://webra.cas.sc.edu/hvri/products/sovi_details_2006.aspx</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>2000</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NAMELSAD10</attrlabl>
+        <attrdef>2010 Census name &amp; translated legal/statistical area description for urban area</attrdef>
+        <attrdefs>US Census</attrdefs>
+        <attrdomv>
+          <udom>place name</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ZQHISP</attrlabl>
+        <attrdef>Z-score of QHISP</attrdef>
+        <attrdefs>http://webra.cas.sc.edu/hvri/products/sovi_details_2006.aspx</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-0.73283</rdommin>
+            <rdommax>4.067705</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ZQFAM</attrlabl>
+        <attrdef>Z-score of QFAM</attrdef>
+        <attrdefs>http://webra.cas.sc.edu/hvri/products/sovi_details_2006.aspx</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-3.174675</rdommin>
+            <rdommax>1.47654</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FAC5_1</attrlabl>
+        <attrdef>Factor 5</attrdef>
+        <attrdefs>VA SoVI Readme</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-2.32093</rdommin>
+            <rdommax>8.19422</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ZQBLACK</attrlabl>
+        <attrdef>Z-score of QBLACK</attrdef>
+        <attrdefs>http://webra.cas.sc.edu/hvri/products/sovi_details_2006.aspx</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-0.619744</rdommin>
+            <rdommax>3.867805</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>QMOHO</attrlabl>
+        <attrdef>Percent Mobile Homes</attrdef>
+        <attrdefs>http://webra.cas.sc.edu/hvri/products/sovi_details_2006.aspx</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Lat</attrlabl>
+        <attrdef>latitude</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-90</rdommin>
+            <rdommax>90</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>QESL</attrlabl>
+        <attrdef>Percent Speaking English as a Second Language with Limited English Proficiency</attrdef>
+        <attrdefs>http://webra.cas.sc.edu/hvri/products/sovi_details_2006.aspx</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>QNOAUTO</attrlabl>
+        <attrdef>Percent of Housing Unites with No Car</attrdef>
+        <attrdefs>http://webra.cas.sc.edu/hvri/products/sovi_details_2006.aspx</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Long</attrlabl>
+        <attrdef>longitude</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-180</rdommin>
+            <rdommax>180</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>QEXTRACT</attrlabl>
+        <attrdef>Percent Employment in Extractive Industries</attrdef>
+        <attrdefs>http://webra.cas.sc.edu/hvri/products/sovi_details_2006.aspx</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>83.46</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>QFHH</attrlabl>
+        <attrdef>Percent Female Headed Households</attrdef>
+        <attrdefs>http://webra.cas.sc.edu/hvri/products/sovi_details_2006.aspx</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>QNRRES</attrlabl>
+        <attrdef>Percent of Population Living in Nursing and Skilled-Nursing Facilities</attrdef>
+        <attrdefs>http://webra.cas.sc.edu/hvri/products/sovi_details_2006.aspx</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>98.57</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>OID</attrlabl>
+        <attrdef>object ID</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>object identifier</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>QCVLUN</attrlabl>
+        <attrdef>Percent Civilian Unemployment</attrdef>
+        <attrdefs>http://webra.cas.sc.edu/hvri/products/sovi_details_2006.aspx</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ZPERCAP</attrlabl>
+        <attrdef>Z-score of PERCAP</attrdef>
+        <attrdefs>http://webra.cas.sc.edu/hvri/products/sovi_details_2006.aspx</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-2.021028</rdommin>
+            <rdommax>5.667275</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ZQFEMALE</attrlabl>
+        <attrdef>Z-score of QFEMALE</attrdef>
+        <attrdefs>http://webra.cas.sc.edu/hvri/products/sovi_details_2006.aspx</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-13.493836</rdommin>
+            <rdommax>13.036739</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TRACTCE10</attrlabl>
+        <attrdef>Census tract</attrdef>
+        <attrdefs>US Census</attrdefs>
+        <attrdomv>
+          <udom>3-digit code representing a specific census tract</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>P0010001</attrlabl>
+        <attrdef>total population</attrdef>
+        <attrdefs>US Census</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>37452</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>QRENTER</attrlabl>
+        <attrdef>Percent Renters</attrdef>
+        <attrdefs>http://webra.cas.sc.edu/hvri/products/sovi_details_2006.aspx</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D_R</attrlabl>
+        <attrdef>null field created by SPSS</attrdef>
+        <attrdefs>IBM</attrdefs>
+        <attrdomv>
+          <udom>null field</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>INTPTLAT10</attrlabl>
+        <attrdef>2010 Census latitude of the internal point</attrdef>
+        <attrdefs>US Census</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>00</edomv>
+            <edomvd>Blank</edomvd>
+            <edomvds>US Census</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>INTPTLON10</attrlabl>
+        <attrdef>2010 Census longitude of the internal point</attrdef>
+        <attrdefs>US Census</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>00</edomv>
+            <edomvd>Blank</edomvd>
+            <edomvds>US Census</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NAME10</attrlabl>
+        <attrdef>2010 Census urban area name</attrdef>
+        <attrdefs>US Census</attrdefs>
+        <attrdomv>
+          <udom>place name</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>QBLACK</attrlabl>
+        <attrdef>Percent Black</attrdef>
+        <attrdefs>http://webra.cas.sc.edu/hvri/products/sovi_details_2006.aspx</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>COUNTYFP10</attrlabl>
+        <attrdef>County FIPS code</attrdef>
+        <attrdefs>US Census</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1001</rdommin>
+            <rdommax>55840</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>OID_</attrlabl>
+        <attrdef>object ID</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>74001</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H00010001</attrlabl>
+        <attrdef>housing units</attrdef>
+        <attrdefs>US Census</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>21535</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ZMEDAGE</attrlabl>
+        <attrdef>Z-score of MEDAGE</attrdef>
+        <attrdefs>http://webra.cas.sc.edu/hvri/products/sovi_details_2006.aspx</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-4.620827</rdommin>
+            <rdommax>6.313329</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ZQAGEDEP</attrlabl>
+        <attrdef>Z-score of QAGEDEP</attrdef>
+        <attrdefs>http://webra.cas.sc.edu/hvri/products/sovi_details_2006.aspx</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-3.063401</rdommin>
+            <rdommax>12.218057</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ZQRENTER</attrlabl>
+        <attrdef>Z-score of QRENTER</attrdef>
+        <attrdefs>http://webra.cas.sc.edu/hvri/products/sovi_details_2006.aspx</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-1.569345</rdommin>
+            <rdommax>3.392239</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ZPPUNIT</attrlabl>
+        <attrdef>Z-score of PPUNIT</attrdef>
+        <attrdefs>http://webra.cas.sc.edu/hvri/products/sovi_details_2006.aspx</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-5.370288</rdommin>
+            <rdommax>11.164838</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>QRICH200K</attrlabl>
+        <attrdef>Percent of Households Earning Greater Than $200,000 Annually</attrdef>
+        <attrdefs>http://webra.cas.sc.edu/hvri/products/sovi_details_2006.aspx</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AWATER10</attrlabl>
+        <attrdef>2010 Census water area</attrdef>
+        <attrdefs>US Census</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>999999999999</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ZQSERV</attrlabl>
+        <attrdef>Z-score of QSERV</attrdef>
+        <attrdefs>http://webra.cas.sc.edu/hvri/products/sovi_details_2006.aspx</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-2.142233</rdommin>
+            <rdommax>9.815333</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ZQFEMLBR</attrlabl>
+        <attrdef>Z-score of FEMLBR</attrdef>
+        <attrdefs>http://webra.cas.sc.edu/hvri/products/sovi_details_2006.aspx</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-6.793884</rdommin>
+            <rdommax>7.528546</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ZQMOHO</attrlabl>
+        <attrdef>Z-score of QMOHO</attrdef>
+        <attrdefs>http://webra.cas.sc.edu/hvri/products/sovi_details_2006.aspx</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-0.574889</rdommin>
+            <rdommax>8.434264</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ZMDHSVAL</attrlabl>
+        <attrdef>Z-score of MDHSVAL</attrdef>
+        <attrdefs>http://webra.cas.sc.edu/hvri/products/sovi_details_2006.aspx</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-1.260871</rdommin>
+            <rdommax>4.00683</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ZQRICH200K</attrlabl>
+        <attrdef>Z-score of QRICH200K</attrdef>
+        <attrdefs>http://webra.cas.sc.edu/hvri/products/sovi_details_2006.aspx</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-0.594113</rdommin>
+            <rdommax>14.082048</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Length</attrlabl>
+        <attrdef>Length of feature in internal units.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FAC6_1</attrlabl>
+        <attrdef>Factor 6</attrdef>
+        <attrdefs>VA SoVI Readme</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-5.54178</rdommin>
+            <rdommax>3.92401</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ZQPOVTY</attrlabl>
+        <attrdef>Z-score of QPOVTY</attrdef>
+        <attrdefs>http://webra.cas.sc.edu/hvri/products/sovi_details_2006.aspx</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-1.199377</rdommin>
+            <rdommax>6.936783</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ZQESL</attrlabl>
+        <attrdef>Z-score of QESL</attrdef>
+        <attrdefs>http://webra.cas.sc.edu/hvri/products/sovi_details_2006.aspx</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-1.039806</rdommin>
+            <rdommax>4.304355</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ALAND10</attrlabl>
+        <attrdef>2010 Census land area</attrdef>
+        <attrdefs>US Census</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>999999999999</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>QUNOCCHU</attrlabl>
+        <attrdef>Percent Unoccupied Housing Units</attrdef>
+        <attrdefs>http://webra.cas.sc.edu/hvri/products/sovi_details_2006.aspx</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>QAGEDEP</attrlabl>
+        <attrdef>Percent of Population Under 5 Years or 65 and Over</attrdef>
+        <attrdefs>http://webra.cas.sc.edu/hvri/products/sovi_details_2006.aspx</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ZQFHH</attrlabl>
+        <attrdef>Z-score of QFHH</attrdef>
+        <attrdefs>http://webra.cas.sc.edu/hvri/products/sovi_details_2006.aspx</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-1.679053</rdommin>
+            <rdommax>10.595252</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MTFCC10</attrlabl>
+        <attrdef>MAF/TIGER feature class code</attrdef>
+        <attrdefs>US Census</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>G5040</edomv>
+            <edomvd>Tabulation Block</edomvd>
+            <edomvds>US Census</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>QHISP</attrlabl>
+        <attrdef>Percent Hispanic</attrdef>
+        <attrdefs>http://webra.cas.sc.edu/hvri/products/sovi_details_2006.aspx</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CNTY</attrlabl>
+        <attrdef>county</attrdef>
+        <attrdefs>US Census</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1001</rdommin>
+            <rdommax>55840</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>GEOID10_1</attrlabl>
+        <attrdef>geographic ID</attrdef>
+        <attrdefs>US Census</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>INCITS.38-200x (F2004)</codesetn>
+            <codesets>US Census</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ZQNOAUTO</attrlabl>
+        <attrdef>Z-score of QNOAUTO</attrdef>
+        <attrdefs>http://webra.cas.sc.edu/hvri/products/sovi_details_2006.aspx</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-0.751018</rdommin>
+            <rdommax>7.20847</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ZQEXTRACT</attrlabl>
+        <attrdef>Z-score of QEXTRACT</attrdef>
+        <attrdefs>http://webra.cas.sc.edu/hvri/products/sovi_details_2006.aspx</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-0.454729</rdommin>
+            <rdommax>17.505794</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ZQASIAN</attrlabl>
+        <attrdef>Z-score of QASIAN</attrdef>
+        <attrdefs>http://webra.cas.sc.edu/hvri/products/sovi_details_2006.aspx</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-0.524361</rdommin>
+            <rdommax>11.378464</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FAC3_1</attrlabl>
+        <attrdef>Factor 3</attrdef>
+        <attrdefs>VA SoVI Readme</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-5.66111</rdommin>
+            <rdommax>6.83670</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FAC2_1</attrlabl>
+        <attrdef>Factor 2</attrdef>
+        <attrdefs>VA SoVI Readme</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-4.94218</rdommin>
+            <rdommax>3.84930</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FAC1_1</attrlabl>
+        <attrdef>Factor 1</attrdef>
+        <attrdefs>VA SoVI Readme</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-3.45152</rdommin>
+            <rdommax>7.30010</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ZMDGRENT</attrlabl>
+        <attrdef>Z-score of MDGRENT</attrdef>
+        <attrdefs>http://webra.cas.sc.edu/hvri/products/sovi_details_2006.aspx</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-2.388955</rdommin>
+            <rdommax>2.821555</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ZQCVLUN</attrlabl>
+        <attrdef>Z-score of QCVLUN</attrdef>
+        <attrdefs>http://webra.cas.sc.edu/hvri/products/sovi_details_2006.aspx</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-2.410774</rdommin>
+            <rdommax>8.151618</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ZQNATAM</attrlabl>
+        <attrdef>Z-score of QNATAM</attrdef>
+        <attrdefs>http://webra.cas.sc.edu/hvri/products/sovi_details_2006.aspx</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-0.215447</rdommin>
+            <rdommax>20.871055</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>QFEMALE</attrlabl>
+        <attrdef>Percent Female</attrdef>
+        <attrdefs>http://webra.cas.sc.edu/hvri/products/sovi_details_2006.aspx</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PPUNIT</attrlabl>
+        <attrdef>People Per Unit</attrdef>
+        <attrdefs>http://webra.cas.sc.edu/hvri/products/sovi_details_2006.aspx</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>8</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>QNATAM</attrlabl>
+        <attrdef>Percent Native American</attrdef>
+        <attrdefs>http://webra.cas.sc.edu/hvri/products/sovi_details_2006.aspx</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>QFEMLBR</attrlabl>
+        <attrdef>Percent Female Participation in Labor Force</attrdef>
+        <attrdefs>http://webra.cas.sc.edu/hvri/products/sovi_details_2006.aspx</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>GEOID10</attrlabl>
+        <attrdef>urban area identifier</attrdef>
+        <attrdefs>US Census</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>INCITS.38-200x (F2004)</codesetn>
+            <codesets>US Census</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>QED12LES</attrlabl>
+        <attrdef>Percent with Less Than 12th Grade Education</attrdef>
+        <attrdefs>http://webra.cas.sc.edu/hvri/products/sovi_details_2006.aspx</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ZQSSBEN</attrlabl>
+        <attrdef>Z-score of QSSBEN</attrdef>
+        <attrdefs>http://webra.cas.sc.edu/hvri/products/sovi_details_2006.aspx</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-2.463684</rdommin>
+            <rdommax>6.431148</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Area</attrlabl>
+        <attrdef>Area of feature in internal units squared.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>STATEFP10</attrlabl>
+        <attrdef>State FIPS code</attrdef>
+        <attrdefs>US Census</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>55</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SOVI0610VA</attrlabl>
+        <attrdef>Final SoVI score for Virginia</attrdef>
+        <attrdefs>http://webra.cas.sc.edu/hvri/products/sovi_details_2006.aspx</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-6.05793</rdommin>
+            <rdommax>12.47787</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>QSERV</attrlabl>
+        <attrdef>Percent Employment in Service Industry</attrdef>
+        <attrdefs>http://webra.cas.sc.edu/hvri/products/sovi_details_2006.aspx</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>100</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MDHSVAL</attrlabl>
+        <attrdef>Median House Value</attrdef>
+        <attrdefs>http://webra.cas.sc.edu/hvri/products/sovi_details_2006.aspx</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>1000000</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SoVI0610VA5CL</attrlabl>
+        <attrdef>5-category classification of SoVI for Virginia</attrdef>
+        <attrdefs>http://webra.cas.sc.edu/hvri/products/sovi_details_2006.aspx</attrdefs>
+        <attrdomv>
+          <udom>5-category classification of SoVI: low, medium low, medium, medium high, high</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SoVI0610VA3CL</attrlabl>
+        <attrdef>3-category classification of SoVI for Virginia</attrdef>
+        <attrdefs>http://webra.cas.sc.edu/hvri/products/sovi_details_2006.aspx</attrdefs>
+        <attrdomv>
+          <udom>3-category classification of SoVI: low, medium, high</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>A description of fields can be found by visiting www.sovius.org</eaover>
+    </overview>
+  </eainfo>
+  <metainfo>
+    <metd>20140814</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Hazards and Vulnerability Research Institute</cntorg>
+          <cntper>Hazards and Vulnerability Research Institute</cntper>
+        </cntorgp>
+        <cntpos>Research</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>709 Bull Street, Rm 311</address>
+          <city>Columbia</city>
+          <state>South Carolina</state>
+          <postal>29210</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>803-777-1699</cntvoice>
+        <cntemail>cogeoghvri@mailbox.sc.edu</cntemail>
+        <hours>M-F, 9-4</hours>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

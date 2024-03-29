@@ -1,0 +1,511 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator: P. Soupy Dalyander
+      Publication_Date: 2014
+      Title: MAB_mobile_freq_v1_1.SHP:  recurrence interval of sediment mobility at select points in the Middle Atlantic Bight for May, 2010 - May, 2011 (Geographic, WGS 84)
+      Edition: 1.1
+      Geospatial_Data_Presentation_Form: vector digital data
+      Series_Information:
+        Series_Name: Online Database
+      Publication_Information:
+        Publication_Place: Woods Hole Coastal and Marine Science Center, Woods Hole, MA
+        Publisher: U.S. Geological Survey, Coastal and Marine Geology Program
+      Online_Linkage: http://woodshole.er.usgs.gov/project-pages/mobility/ArcData/MAB_mobile_freq_v1_1.zip
+      Larger_Work_Citation:
+        Citation_Information:
+          Originator: P.S. Dalyander
+          Originator: B. Butman
+          Originator: C.R. Sherwood
+          Originator: R.P. Signell
+          Publication_Date: 2012
+          Title: U.S. Geological Survey Sea Floor Stress and Sediment Mobility Database
+          Edition: 1.0
+          Series_Information:
+            Series_Name: Online Database
+          Publication_Information:
+            Publication_Place: Woods Hole Coastal and Marine Science Center, Woods Hole, MA
+            Publisher: U.S. Geological Survey, Coastal and Marine Geology Program
+          Online_Linkage: http://woodshole.er.usgs.gov/project-pages/mobility/index.html
+  Description:
+    Abstract: The U.S. Geological Survey has been characterizing the regional variation in shear stress on the sea floor and sediment mobility through statistical descriptors.  The purpose of this project is to identify patterns in stress in order to inform habitat delineation or decisions for anthropogenic use of the continental shelf.  The statistical characterization spans the continental shelf from the coast to approximately 120 m water depth, at approximately 5 km resolution.  Time-series of wave and circulation are created using numerical models, and near-bottom output of steady and oscillatory velocities and an estimate of bottom roughness are used to calculate a time-series of bottom shear stress at 1-hour intervals.  Statistical descriptions such as the median and 95th percentile, which are the output included with this database, are then calculated to create a two-dimensional picture of the regional patterns in shear stress.  In addition, time-series of stress are compared to critical stress values at select points calculated from observed surface sediment texture data to determine estimates of sea floor mobility.
+    Purpose: This GIS layer contains an estimate of the recurrence interval of sediment mobility at select points in the Middle Atlantic Bight.  This output is based on numerical models of wave and circulation used to estimate bottom shear stress over an approximately one year time frame, which is subsequently compared to critical stress values estimated from observed surface sediment texture data.  This data layer is primarily intended to show the overall distribution of sediment mobility on large spatial scales, and should be used qualitatively.  Intended users include scientific researchers and the coastal and marine spatial planning community.
+    Supplemental_Information: This data layer is a subset of the U.S. Geological Survey Sea Floor Stress and Sediment Mobility database, and contains the recurrence interval of sediment mobility at select points in the Middle Atlantic Bight.
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Range_of_Dates/Times:
+        Beginning_Date: 20100501
+        Ending_Date: 20110501
+    Currentness_Reference: ground condition
+  Status:
+    Progress: Planned
+    Maintenance_and_Update_Frequency: As needed
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -76.626671
+      East_Bounding_Coordinate: -68.388000
+      North_Bounding_Coordinate: 41.558331
+      South_Bounding_Coordinate: 34.173328
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: General
+      Theme_Keyword: bottom shear stress
+      Theme_Keyword: U.S. Geological Survey
+      Theme_Keyword: USGS
+      Theme_Keyword: Woods Hole Coastal and Marine Science Center
+      Theme_Keyword: WHCMSC
+      Theme_Keyword: Coastal and Marine Geology Program
+      Theme_Keyword: CMGP
+      Theme_Keyword: wave
+      Theme_Keyword: current
+      Theme_Keyword: SWAN
+      Theme_Keyword: ROMS
+      Theme_Keyword: Grant-Madsen
+      Theme_Keyword: Coastal and marine spatial planning
+      Theme_Keyword: CMSP
+      Theme_Keyword: sea floor habitat
+      Theme_Keyword: sediment mobility
+      Theme_Keyword: recurrence interval
+    Theme:
+      Theme_Keyword_Thesaurus: ISO 9115 Topic Category
+      Theme_Keyword: oceans
+      Theme_Keyword: oceans and estuaries
+      Theme_Keyword: oceans and coastal
+      Theme_Keyword: geoscientificInformation
+    Place:
+      Place_Keyword_Thesaurus: General
+      Place_Keyword: Middle Atlantic Bight
+      Place_Keyword: U.S. East Coast
+      Place_Keyword: Chesapeake Bay
+      Place_Keyword: United States
+      Place_Keyword: North America
+      Place_Keyword: Atlantic Ocean
+      Place_Keyword: Long Island
+      Place_Keyword: New York Bight
+      Place_Keyword: Nantucket Shoals
+      Place_Keyword: Hudson Shelf Valley
+      Place_Keyword: Long Island Sound
+      Place_Keyword: Delaware Bay
+      Place_Keyword: Pamlico Sound
+      Place_Keyword: Rhode Island Sound
+    Stratum:
+      Stratum_Keyword_Thesaurus: General
+      Stratum_Keyword: seafloor
+  Access_Constraints: None
+  Use_Constraints: Public domain data from the U.S. Government are freely redistributable with proper metadata and source attribution. Please recognize the U.S. Geological Survey as the originator of the dataset.
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Person_Primary:
+        Contact_Person: P. Soupy Dalyander
+        Contact_Organization: U.S. Geological Survey
+      Contact_Position: Oceanographer
+      Contact_Address:
+        Address_Type: mailing and physical address
+        Address: 384 Woods Hole Road
+        City: Woods Hole
+        State_or_Province: MA
+        Postal_Code: 02543-1598
+        Country: USA
+      Contact_Voice_Telephone: (508) 548-8700 x2290
+      Contact_Facsimile_Telephone: (508) 457-2310
+      Contact_Electronic_Mail_Address: sdalyander@usgs.gov
+  Browse_Graphic:
+    Browse_Graphic_File_Name: mobility_website_browse_mob_freq.jpg
+    Browse_Graphic_File_Description: Image displaying estimated recurrence interval of sediment mobility at select points in the Middle Atlantic Bight.
+    Browse_Graphic_File_Type: JPEG
+  Native_Data_Set_Environment: Microsoft Windows Vista Version 6.1 (Build 7601) Service Pack 1; ESRI ArcCatalog 9.3.1.4095
+  Cross_Reference:
+    Citation_Information:
+      Originator: U.S. Geological Survey
+      Publication_Date: 2012
+      Title: Documentation of the U.S. Geological Survey Sea Floor Stress and Sediment Mobility Database
+      Edition: 1.0
+      Series_Information:
+        Series_Name: Open-File Report
+        Issue_Identification: 2012-1137
+      Publication_Information:
+        Publication_Place: Woods Hole Coastal and Marine Science Center, Woods Hole, MA
+        Publisher: U.S. Geological Survey, Coastal and Marine Geology Program
+      Online_Linkage: http://pubs.usgs.gov/of/2012/1137/
+Data_Quality_Information:
+  Attribute_Accuracy:
+    Attribute_Accuracy_Report: Each attribute in this data layer covers a specific time period of interest.  The attributes include winter (December - February), spring (March - May), summer (June - August), fall (September - November), and the entire year.  Each of these attributes was calculated from model output spanning May, 2010 to May, 2011.  Statistical values will vary somewhat if calculated from model parameters covering a different time period, or if a different numerical model is used to estimate the time-series of waves and circulation used in calculating the time-series of bottom shear stress.  Critical stress values are based on estimates made from observed surface sediment texture data, and would vary somewhat if different texture data and/or a different model of critical shear stress calculation were used.
+  Logical_Consistency_Report: No duplicate features are present. All polygons are closed, and all lines intersect where intended. No undershoots or overshoots are present.
+  Completeness_Report: All model output values were used in the calculation of this statistic.  The statistic was calculated for the date range of May, 2010 to May, 2011, and would potentially vary somewhat if performed on a different time period.  The underlying time-series of bottom shear stress was calculated from wave and current estimates generated with numerical models, and would vary if different models are used or if different model inputs (such as bathymetry or forcing winds) or parameterizations were chosen. Critical shear stress values used to estimate sediment mobility are based on observed surface sediment texture data, and mobility results would vary if different sediment texture data and/or a different model of critical shear stress were used.
+  Positional_Accuracy:
+    Horizontal_Positional_Accuracy:
+      Horizontal_Positional_Accuracy_Report: Numerical models are used in the generation of time-series of bottom shear stress used in creating this data layer.  Because the overall horizontal accuracy of the data set depends on the accuracy of the model, the underlying bathymetry, and forcing values used, and so forth, the spatial accuracy of this data layer cannot be meaningfully quantified.  These maps are intended to provide a qualitative and relative regional assessment of sea floor mobility at select points; users are advised not to use the data set to estimate mobility quantitatively at any specific geographic location, or to extrapolate mobility estimates to points not included in the database.
+  Lineage:
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: NOAA National Centers for Environmental Prediction (NCEP)
+          Publication_Date: 20110601
+          Title: NOAA/NCEP Global Forecast System (GFS) Atmospheric Model
+          Publication_Information:
+            Publication_Place: Camp Springs, MD
+            Publisher: NOAA National Centers for Environmental Prediction
+          Online_Linkage: http://nomads.ncdc.noaa.gov/data.php
+      Type_of_Source_Media: online
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Range_of_Dates/Times:
+            Beginning_Date: 20100401
+            Ending_Date: 20110601
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: NOAA GFS
+      Source_Contribution: The NOAA Global Forecast System (GFS) 0.5 degree model was used to provide wind speed data at 10 m above the sea surface to drive the numerical wave model used to generate bottom orbital wave velocities for calculations of a time-series of bottom shear stress.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: NOAA National Centers for Environmental Prediction (NCEP)
+          Publication_Date: 20110601
+          Title: NOAA/NCEP North American Mesoscale (NAM) Atmospheric Model
+          Publication_Information:
+            Publication_Place: Camp Springs, MD
+            Publisher: NOAA National Centers for Environmental Prediction
+          Online_Linkage: http://nomads.ncdc.noaa.gov/data.php
+      Type_of_Source_Media: online
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Range_of_Dates/Times:
+            Beginning_Date: 20100401
+            Ending_Date: 20110601
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: NOAA NAM
+      Source_Contribution: The NOAA North American Mesoscale (NAM) model was used to provide wind speed data at 10 m above the sea surface to drive the numerical wave model used to generate bottom orbital wave velocities for calculations of a time-series of bottom shear stress.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Rutgers Ocean Modeling Group
+          Publication_Date: 20110601
+          Title: Esperimental System for Predicting Shelf and Slope Optics (ESPreSSO)
+          Publication_Information:
+            Publication_Place: New Brunswick, NJ
+            Publisher: Rutgers Ocean Modeling Group
+          Online_Linkage: http://www.myroms.org/espresso/
+      Type_of_Source_Media: online
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Range_of_Dates/Times:
+            Beginning_Date: 20100501
+            Ending_Date: 20110501
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: RU ESP
+      Source_Contribution:
+        The Rutgers University ESPreSSO model was used to provide estimates of near-bed current velocity used for calculating the time-series of bottom shear stress.
+
+        The ESPreSSO hydrodynamic model (http://www.myroms.org/espresso/) has been operated by Rutgers University since October 2009 as a data-assimilative nowcast/forecast system for the Mid-Atlantic Regional Association Coastal Ocean Observing System (MARACOOS, http://maracoos.org/), part of the U.S. Integrated Ocean Observing System (http://www.ioos.noaa.gov). The underlying circulation model is the Regional Ocean Modeling System (ROMS; http://www.myroms.org), a finite-difference, hydrostatic, primitive equation ocean model that solves for the free surface elevation and three dimensional flow patterns, temperature, and salinity. 
+
+        The ESPreSSO configuration of ROMS has 5 km horizontal resolution and 36 layers in vertical terrain-following coordinates. Bathymetry and land-sea masking is from the National Geophysical Data Center (NGDC) Coastal Relief Model.  The vertical turbulence closure is the k-kl option of the Generalized Length Scale (GLS) formulation. Air-sea fluxes of momentum and heat are computed using bulk formulae applied to ROMS ocean surface conditions and meteorological conditions (wind velocity, rain, downward long- and short-wave radiation, and marine boundary layer temperature, pressure, and relative humidity) from the NOAA NAM atmospheric forecast. Ocean open boundary values are from a global forecast that uses the HYbrid Coordinate Ocean Model (HyCOM) with assimilation of satellite and in situ data with the Navy Coupled Ocean Data Assimilation (NCODA) system. ESPreSSO river inflows are from daily U.S. Geological Survey (USGS) stream gauge data, and tidal harmonic boundary variability is determined from a regional tidal model.
+
+        Output from the ESPreSSO forecast system is saved every 2 hours. Access to model results is made practical through the use of Thematic Real-time Environmental Distributed Data Services (THREDDS) technology, which allows subsets of large data sets to be accessed directly via Open-source Project for a Network Data Access Protocol (OPeNDAP) over the Internet from remote locations without transferring the entire multi-gigabyte model output. 
+
+        The ESPreSSO data assimilation methodology consists of using the incremental strong constraint 4-dimensional variational (IS4DVar) approach to optimally adjust the model state within a 3-day duration analysis interval that precedes each 72-hour forecast. The assimilation cycle is repeated daily (hence the 3-day analysis windows overlap) and the first 24 hours of each forecast is retained as the "best estimate" of the ocean state for that day. It was these "best estimate" data that were analyzed here.
+
+        The data assimilated include surface currents from the MARACOOS HF-Radar (CODAR) network, sea surface temperature from satellite infrared (AVHRR) and microwave (AMSR-E) radiometers, and sea surface height anomalies from the Jason-2 altimeter satellite. In addition, a regional high-resolution climatology based on a 4-dimensional weighted least squares mapping of historical hydrographic data is assimilated to constrain biases in temperature and salinity introduced by the boundary conditions and/or internal model drift.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: NOAA National Centers for Environmental Prediction (NCEP)
+          Publication_Date: 20110601
+          Title: NOAA/NWS/NCEP Global Wavewatch III Operational Wave Forecast
+          Publication_Information:
+            Publication_Place: Camp Springs, MD
+            Publisher: NOAA National Centers for Environmental Prediction
+          Online_Linkage: http://polar.ncep.noaa.gov/waves/index2.shtml
+      Type_of_Source_Media: online
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Range_of_Dates/Times:
+            Beginning_Date: 20100401
+            Ending_Date: 20110601
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: NOAA WW3
+      Source_Contribution: Boundary conditions for the wave model were provided by the global NOAA/NWS/NCEP Wavewatch III operational ocean wave forecast.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: U.S. Geological Survey
+          Publication_Date: 2011
+          Title: ECSTDB2011.xls: U.S. Geological Survey East Coast Sediment Texture Database (2011)
+          Edition: 2.2
+          Geospatial_Data_Presentation_Form: spreadsheet
+          Series_Information:
+            Series_Name: Open-File Report
+            Issue_Identification: 2005-1001
+          Publication_Information:
+            Publication_Place: Woods Hole Coastal and Marine Science Center, Woods Hole, MA
+            Publisher: U.S. Geological Survey, Coastal and Marine Geology Program
+          Other_Citation_Details: At the time the data were taken for this study, the surficial sediment texture data had been updated to include samples analyzed through January, 2011.
+          Online_Linkage: http://pubs.usgs.gov/of/2005/1001/data/surficial_sediments/ecstdb2011.xls
+          Online_Linkage: http://pubs.usgs.gov/of/2005/1001/htmldocs/datacatalog.htm
+          Larger_Work_Citation:
+            Citation_Information:
+              Originator: L.J. Poppe
+              Originator: S.J. Williams
+              Originator: V.F. Paskevich
+              Publication_Date: 2005
+              Title: USGS East-Coast Sediment Analysis: Procedures, Database, and GIS Data
+              Edition: 1.0
+              Geospatial_Data_Presentation_Form: spreadsheet
+              Series_Information:
+                Series_Name: Open-File Report
+                Issue_Identification: 2005-1001
+              Publication_Information:
+                Publication_Place: Woods Hole Coastal and Marine Science Center, Woods Hole, MA
+                Publisher: U.S. Geological Survey, Coastal and Marine Geology Program
+              Online_Linkage: http://pubs.usgs.gov/of/2005/1001/
+      Type_of_Source_Media: online
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 20110101
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: USGS ECSTD
+      Source_Contribution: Critical stress threshold values were calculated from surface sediment texture data found in the U.S. Geological Survey East-Coast Sediment Texture Database.  Only those data points with the full phi grain size distribution (totalling to 95-105% of the sediment sample) were used.
+    Process_Step:
+      Process_Description:
+        The Simulating WAves Nearshore (SWAN) numerical wave model (version 40.81, modified for proper calculation of RMS bottom orbital velocity and for output of bottom wave direction) was used to create a time-series of bottom orbital velocity, bottom representative period, and bottom wave direction over the one year time period of May, 2010 - May, 2011 in each grid cell in the model domain.  The wave model SWAN is a 3rd generation phase-averaged numerical wave model which conserves wave energy subject to generation, dissipation, and transformation processes and resolves spectral energy density over a range of user-specified frequencies and directions.  Although stress calculations were only performed over the spatial extent of the hydrodynamic model, SWAN was run over a larger spatial scale. This ~5 km resolution grid, which covers the U.S. East Coast, Gulf of Mexico, and much of the western north Atlantic, was originally developed for use with the Coupled Ocean-Atmosphere-Wave-Sediment Transport (COAWST) model system forecast and is shown elsewhere (Warner et al., 2010).  This domain pushes the boundaries of the grid far from the region of interest to allow the wave spectrum (relatively important in calculations of stress) to evolve away from the boundary.  The model was run for April 2010 using the default SWAN initial condition formulation for a non-stationary run, e.g., a JONSWAP spectrum from prescribed initial wind conditions, to develop initial conditions for the one year study period (May 2010 to May 2011).
+
+        Significant wave height, dominant wave period, and wave direction were prescribed as SWAN TPAR format files on the model grid boundary with a spatial resolution of a boundary point every 25 grid cells using results from the NOAA Wavewatch III global multi-grid model, updated every 3 hours.  A JONSWAP (JOint NOrth Sea WAve Project) spectral shape was assumed at these boundary points.  Wind forcing was provided at 3-hour resolution from the NOAA North American Mesoscale (NAM) model (12 km resolution) over its domain, with forcing at the most offshore portions of the grid (outside the NAM grid) provided by the NOAA Global Forecasting System (GFS) model at 0.5 degree resolution.  The SWAN directional resolution was 6 degrees (60 bins), determined via sensitivity analysis as the coarsest (and hence least computationally expensive) resolution that does not result in the "Garden-Sprinkler Effect" (GSE), wherein swell traveling over large distances inaccurately disintegrates into non-continuous wave fields as a result of frequency and directional discretization.  The minimum frequency bin should be set to a value less than 0.7 times the lowest expected peak frequency and the maximum frequency bin should be set at least 2.5-3 times the highest expected peak frequency expected.  In order to determine appropriate values, the peak periods from 43 NDBC buoys throughout the wave model domain were analyzed (when available) over the one year period of the study, yielding 297,533 hourly observations.   The 99th and 1st percentiles of peak period were 15 s and 3 s, corresponding to frequencies of 0.07 Hz and 0.33 Hz, noting that these values may be biased by buoy limits of detection at high and low frequencies. The frequency range was therefore specified as 0.04-1 Hz.  SWAN was allowed to internally determine the frequency resolution as one tenth of each frequency bin for best performance of the discrete interaction approximation (DIA) method of nonlinear 4-wave interactions, resulting in 34 frequency bins.  Bottom friction calculations used the Madsen formulation with a uniform roughness length scale of 0.05 m.  This value was selected for the best comparison of model output and buoy observations within the domain, and does not correspond to physical roughness values or the bottom roughness used in stress calculations.  Wind generation and whitecapping parameterizations follow the modified Komen approach prescribed by Rogers et al. (2003), which reduces inaccurate attenuation of swell energy by whitecapping.  Wave model outputs of bottom orbital velocity, bottom representative period, and bottom wave direction were output hourly and interpolated onto the ESPreSSO model grid.
+
+        NDBC observations were used for model validation; ten full-spectra wave buoys are within the domain.  Due to maintenance problems observations from all buoys were not available over the entire time period and data from Texas Tower Station 44066 for January 2011, when the buoy was adrift but still reporting, were manually removed.  Using the GM method and the same bottom roughness of 0.005 m used to process model output, surface and bottom parameters were calculated from buoy spectra and compared to model output at the same locations.  The same person that conducted this processing step conducted each subsequent processing step.
+
+        References:
+
+        Rogers, W.E., Hwang, P.A., Wang, D.W., 2003. Investigation of Wave Growth and Decay in the SWAN Model: Three Regional-Scale Applications. J. Phys. Oceanogr. 33, 366-389. 
+
+        Warner, J.C., Armstrong, B., He, R., Zambon, J.B., 2010. Development of a Coupled Ocean-Atmosphere-Wave-Sediment Transport (COAWST) Modeling System. Ocean Modelling 35, 230-244.
+      Source_Used_Citation_Abbreviation: NOAA GFS
+      Source_Used_Citation_Abbreviation: NOAA NAM
+      Source_Used_Citation_Abbreviation: NOAA WW3
+      Process_Date: 2011
+      Source_Produced_Citation_Abbreviation: SWAN WEST ATL
+      Process_Contact:
+        Contact_Information:
+          Contact_Person_Primary:
+            Contact_Person: P. Soupy Dalyander
+            Contact_Organization: U.S. Geological Survey
+          Contact_Position: Oceanographer
+          Contact_Address:
+            Address_Type: mailing and physical address
+            Address: 384 Woods Hole Road
+            City: Woods Hole
+            State_or_Province: MA
+            Postal_Code: 02543-1598
+            Country: USA
+          Contact_Voice_Telephone: (508) 548-8700 x2290
+          Contact_Facsimile_Telephone: (508) 457-2310
+          Contact_Electronic_Mail_Address: sdalyander@usgs.gov
+    Process_Step:
+      Process_Description:
+        Use observed surficial sediment texture data to estimate the critical shear stress at those points where sediment texture data are available.  Calculations are performed in Mathworks MATLAB (v2011A).  The texture data includes the distribution of sediment over grain size classes ranging from -5 to 11 phi, ranging from gravel through sand and silt to clay.  Texture observations are first classified as cohesive or non-cohesive based on the fraction of clay: if the clay fraction exceeds 7.5%, the sample is deemed cohesive, if less than or equal to 7.5% the sample is non-cohesive.   Critical stress thresholds for non-cohesive sediment mixtures are calculated from the median grain size following Soulsby (1997).  Because a variety of unavailable parameters influence the critical shear stress for cohesive sediments, a value of 0.1 Pa is used for all samples identified as cohesive.  Critical stress values, median grain sizes, and classifications as cohesive or non-cohesive at each location are saved in MATLAB .mat format.  Additional information may be found in Dalyander et al. (2012).
+
+        References:
+
+        Dalyander, P.S., Butman, B., Sherwood, C.R., and Signell, R.P. (2012). Documentation of the U.S. Geological Survey Seafloor Stress and Sediment Mobility Database.  USGS OFR 2012-1137.
+
+        Soulsby, R., 1997. Dynamics of Marine Sands, a Manual for Practical Applications.  Thomas Telford Publications, London.
+      Source_Used_Citation_Abbreviation: USGS ECSTD
+      Process_Date: 2011
+      Source_Produced_Citation_Abbreviation: USGS ECSTD MAT
+    Process_Step:
+      Process_Description:
+        Use the wave model and current model results to calculate the time series of bottom shear stress at each point for which sediment texture data are available using Mathworks MATLAB software (v2011A). Bottom shear stress estimates are made following Grant-Madsen (GM) (Madsen, 1994), from the estimated bottom orbital velocities and bottom wave periods generated with SWAN, and near-bed current estimates from the ESPreSSO hydrodynamic model.  The GM approach relies on an eddy viscosity turbulence closure model and formulates the wave stress, current stress, and combined wave-current bottom stress as functions of a representative bottom wave orbital velocity, representative bottom wave period, current flow at some reference height, the angle between wave and current propagation, and bottom roughness.  Full details of the GM formulation may be found elsewhere (Glenn, 1983; Glenn and Grant, 1987; Grant and Madsen, 1979, 1982, 1986; Madsen, 1994; Madsen et al., 1988).    
+
+        Wave direction, bottom orbital velocities, and bottom periods are calculated internally by the wave model.  Near-bed current magnitude and direction are taken from the hydrodynamic model, with the reference height taken as the distance from the cell vertical midpoint to the seabed.  GM requires that the current velocity be taken above the wave boundary layer (WBL) but within the log-profile current velocity layer.  If the thickness of the WBL calculated using GM exceeds of one or more of the deepest grid cells, the current estimate and associated reference height are used from the deepest grid cell at each location where the reference height exceeds the width of the WBL.  An estimate must be used for the maximum reference height where the log-profile velocity layer assumption is valid.  As discussed in Grant and Madsen (1986), the thickness of the log-profile layer based on laboratory experiments is approximately 10% of the current boundary layer thickness (Clauser, 1956). Because tidal currents, storm currents, and mean flow have a boundary layer thickness on the order of magnitude 10's of meters (Goud, 1987), a maximum value for reference height is set as 5 m.  
+
+        The GM bottom boundary layer model also requires a value for bottom roughness.  For the mobility estimates, it is the skin friction acting on the particles, and not the total bottom shear stress, which is the relevant parameter.  For that reason, observed sediment texture data from the USGS East Coast Sediment Texture Database (v2.2) are used to calculate the bottom roughness at each point for which they are available.  For non-cohesive samples (see definition in Process Step 2), the median grain size is used as the roughness.  For cohesive samples a roughness of 62.5 micrometers, which has a critical stress based on Soulsby (1997) of 0.1 Pa, is used.  
+
+        References:
+
+        Madsen, O.S., 1994. Spectral wave-current bottom boundary layer flows, Proceedings 24th Conf. Coastal Eng., pp. 384-398.
+
+        Glenn, S.M., 1983. A Continental Shelf Bottom Boundary Layer Model: The Effects of Waves, Currents, and a Moveable Bed.  Dissertation, Massachusetts Institute of Technology and Woods Hole Oceanographic Institution, Cambridge, MA, 237 pp.
+
+        Glenn, S.M., Grant, W.D., 1987. A suspended sediment stratification correction for combined wave and current flows. J. Geophys. Res. 92, 8244-8264.
+
+        Goud, M.R., 1987.  Prediction of Continental Shelf Sediment Transport Using a Theoretical Model of the Wave-Current Boundary Layer.  Dissertation, Massachusetts Institute of Technology and Woods Hole Oceanographic Institution, Cambridge, MA, 211 pp.
+
+        Grant, W.D., Madsen, O.S., 1986. The continental-shelf bottom boundary-layer. Annu. Rev. Fluid Mech. 18, 265-305. 
+
+        Grant, W.D., Madsen, O.S., 1982. Movable bed roughness in unsteady oscillatory flow. J. Geophys. Res. 87, 469-481. 
+
+        Grant, W.D., Madsen, O.S., 1979. Combined wave and current interaction with a rough bottom J. Geophys. Res. 84, 1797-1808.
+
+        Madsen, O.S., 1994. Spectral wave-current bottom boundary layer flows, Proceedings 24th Conf. Coastal Eng., pp. 384-398.
+
+        Madsen, O.S., Poon, Y., Graber, H.C., 1988. Spectral wave attenuation by bottom friction: theory, Proceedings 21st Int. Conf. Coast. Eng., pp. 492-504.
+
+        Soulsby, R., 1997. Dynamics of Marine Sands, a Manual for Practical Applications.  Thomas Telford Publications, London.
+      Source_Used_Citation_Abbreviation: SWAN WEST ATL
+      Source_Used_Citation_Abbreviation: RU ESP
+      Source_Used_Citation_Abbreviation: USGS ECSTD MAT
+      Process_Date: 2011
+      Source_Produced_Citation_Abbreviation: MAB STRESS TSERIES
+    Process_Step:
+      Process_Description: Calculate the recurrence interval of sediment mobility by year and season in Mathworks MATLAB software (v2011A) by comparing the critical stress value at each point location where sediment texture data are available to the time series of combined wave-current stress at that location.  A bed mobility event was identified by exceedance of the critical stress threshold for at least 2 hours, with no minimum separation time between events. The recurrence interval is calculated as the length of the time period (in days) of interest (e.g., year or season) divided by the number of events during that time period.  These values are saved in MATLAB .mat format.
+      Source_Used_Citation_Abbreviation: MAB STRESS TSERIES
+      Source_Used_Citation_Abbreviation: USGS ECSTD MAT
+      Process_Date: 2011
+      Source_Produced_Citation_Abbreviation: MAB RECURR
+    Process_Step:
+      Process_Description: Export the point values from MATLAB format into an ArcGIS shapefile using the Mathworks MATLAB Mapping Toolbox (v2011A).  In some cases, data may exist during parts of the year and not others (for example, if no events are observed in a particular time period, resulting in a non-realistic recurrence interval of infinity); in this case, the statistic is calculated and included for the season where model output exist, and a missing data value of -9999 is used for seasons where no valid statistic can be calculated.  A geographic data structure is created in MATLAB with the following fields:  Geometry ('Point'), Lon (the longitude at the point), Lat (the latitude at the point), Winter (the statistic calculated for December, January, and February), Spring (the statistic calculated for March, April, and May), Summer (the statistic calculated for June, July, and August), and Fall (the statistic calculated for September, October, and November).  The shapefile is then written with the "shapewrite" command.  Because MATLAB does not assign a projection, the projection corresponding to the projection associated with the bathymetry used in the numerical models is added in ArcCatalog 9.3.  The file was then quality checked in ArcMap to insure values were properly exported to the shapefile from MATLAB.
+      Source_Used_Citation_Abbreviation: MAB RECURR
+      Process_Date: 2011
+    Process_Step:
+      Process_Description: Updated the data so that in the case of no events, a value of 9999 is returned. This update is version 1.1 and affects the data and metadata.
+      Process_Date: 2014
+Spatial_Data_Organization_Information:
+  Indirect_Spatial_Reference: Middle Atlantic Bight
+  Direct_Spatial_Reference_Method: Vector
+  Point_and_Vector_Object_Information:
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: Entity point
+      Point_and_Vector_Object_Count: 4074
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Geographic:
+      Latitude_Resolution: 0.000001
+      Longitude_Resolution: 0.000001
+      Geographic_Coordinate_Units: Decimal degrees
+    Geodetic_Model:
+      Horizontal_Datum_Name: D_WGS_1984
+      Ellipsoid_Name: WGS_1984
+      Semi-major_Axis: 6378137.000000
+      Denominator_of_Flattening_Ratio: 298.257224
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: MAB_mobile_freq_v1_1
+      Entity_Type_Definition: Shapefile Attribute Table
+      Entity_Type_Definition_Source: ESRI
+    Attribute:
+      Attribute_Label: FID
+      Attribute_Definition: Internal feature number.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Sequential unique whole numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: Shape
+      Attribute_Definition: Feature geometry.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Coordinates defining the features.
+    Attribute:
+      Attribute_Label: Year
+      Attribute_Definition: This value is the recurrence interval of sediment mobility at point locations calculated for the one year time period of May 1, 2010 through April 30, 2011.  The NODATA value is -9999. If no events occurred in the time period, the value is 9999.
+      Attribute_Definition_Source: USGS
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0.2955
+          Range_Domain_Maximum: 9999 (no events)
+          Attribute_Units_of_Measure: days
+          Attribute_Measurement_Resolution: 0.0001
+    Attribute:
+      Attribute_Label: Winter
+      Attribute_Definition: This value is the recurrence interval of sediment mobility at point locations calculated for the period of December 1, 2010 through February 28, 2011. The NODATA value is -9999. If no events occurred in the time period, the value is 9999.
+      Attribute_Definition_Source: USGS
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0.2932
+          Range_Domain_Maximum: 9999 (no events)
+          Attribute_Units_of_Measure: days
+          Attribute_Measurement_Resolution: 0.0001
+    Attribute:
+      Attribute_Label: Spring
+      Attribute_Definition: This value is the recurrence interval of sediment mobility at point locations calculated for the period of March 1, 2011, through April 30, 2011, and May, 2010. The NODATA value is -9999. If no events occurred in the time period, the value is 9999.
+      Attribute_Definition_Source: USGS
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0.2796
+          Range_Domain_Maximum: 9999 (no events)
+          Attribute_Units_of_Measure: days
+          Attribute_Measurement_Resolution: 0.0001
+    Attribute:
+      Attribute_Label: Summer
+      Attribute_Definition: This value is the recurrence interval of sediment mobility at point locations calculated for the period of June 1, 2010, through August 31, 2010. The NODATA value is -9999. If no events occurred in the time period, the value is 9999.
+      Attribute_Definition_Source: USGS
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0.2667
+          Range_Domain_Maximum: 9999 (no events)
+          Attribute_Units_of_Measure: days
+          Attribute_Measurement_Resolution: 0.0001
+    Attribute:
+      Attribute_Label: Fall
+      Attribute_Definition: This value is the recurrence interval of sediment mobility at point locations calculated for the period of September 1, 2010, to November 30, 2010. The NODATA value is -9999. If no events occurred in the time period, the value is 9999.
+      Attribute_Definition_Source: USGS
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0.2817
+          Range_Domain_Maximum: 9999 (no events)
+          Attribute_Units_of_Measure: days
+          Attribute_Measurement_Resolution: 0.0001
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Person_Primary:
+        Contact_Person: P. Soupy Dalyander
+        Contact_Organization: U.S. Geological Survey
+      Contact_Position: Oceanographer
+      Contact_Address:
+        Address_Type: mailing and physical address
+        Address: 384 Woods Hole Road
+        City: Woods Hole
+        State_or_Province: MA
+        Postal_Code: 02543-1598
+        Country: USA
+      Contact_Voice_Telephone: (508) 548-8700 x2290
+      Contact_Facsimile_Telephone: (508) 457-2310
+      Contact_Electronic_Mail_Address: sdalyander@usgs.gov
+  Resource_Description: Downloadable Data:  Sea Floor Stress and Sediment Mobility Database, Recurrence Interval of Sediment Mobility for the Middle Atlantic Bight (MAB_mobile_freq)
+  Distribution_Liability:
+    Neither the U.S. Government, the Department of the Interior, nor the USGS, nor any of their employees, contractors, or subcontractors, make any warranty, express or implied, nor assume any legal liability or responsibility for the accuracy, completeness, or usefulness of any information, apparatus, product, or process disclosed, nor represent that its use would not infringe on privately owned rights. The act of distribution shall not constitute any such warranty, and no responsibility is assumed by the USGS in the use of these data or related materials.
+
+    Any use of trade, product, or firm names is for descriptive purposes only and does not imply endorsement by the U.S. Government.
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name: Shapefile
+        Format_Version_Number: 3.3
+        Format_Specification: Esri shapefile
+        Format_Information_Content: WinZip archive file containing the shapefile components. The WinZip file also includes FGDC compliant metadata.
+        File_Decompression_Technique: WinZip 14.0 archive
+        Transfer_Size: 0.109
+      Digital_Transfer_Option:
+        Online_Option:
+          Computer_Contact_Information:
+            Network_Address:
+              Network_Resource_Name: http://woodshole.er.usgs.gov/project-pages/mobility/mid_atl_bight.html
+              Network_Resource_Name: http://woodshole.er.usgs.gov/project-pages/mobility/ArcData/MAB_mobile_freq_v1_1.zip
+              Network_Resource_Name: http://woodshole.er.usgs.gov/project-pages/mobility/index.html
+    Fees: None
+  Technical_Prerequisites: These data are available in Environmental Systems Research Institute (ESRI) shapefile format. The user must have ArcGIS or ArcView 3.0 or greater software to read and process the data file. In lieu of ArcView or ArcGIS, the user may utilize another GIS application package capable of importing the data. A free data viewer, ArcExplorer, capable of displaying the data is available from ESRI at www.esri.com.
+Metadata_Reference_Information:
+  Metadata_Date: 20140616
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: U.S. Geological Survey
+        Contact_Person: P. Soupy Dalyander
+      Contact_Position: Oceanographer
+      Contact_Address:
+        Address_Type: mailing and physical address
+        Address: 384 Woods Hole Role
+        City: Woods Hole
+        State_or_Province: MA
+        Postal_Code: 02543-1598
+        Country: USA
+      Contact_Voice_Telephone: (508) 548-8700 x2290
+      Contact_Facsimile_Telephone: (508) 457-2310
+      Contact_Electronic_Mail_Address: sdalyander@usgs.gov
+  Metadata_Standard_Name: FGDC Content Standards for Digital Geospatial Metadata
+  Metadata_Standard_Version: FGDC-STD-001-1998
+  Metadata_Time_Convention: local time
+  Metadata_Access_Constraints: None
+  Metadata_Use_Constraints: None
+  Metadata_Extensions:
+    Online_Linkage: http://www.esri.com/metadata/esriprof80.html
+    Profile_Name: ESRI Metadata Profile

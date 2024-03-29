@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>Department of Commerce (DOC), National Oceanic and Atmospheric Administration (NOAA) National Environmental Satellite, Data, and Information Services (NESDIS), Center for Satellite Applications and Research (STAR)</origin>
+				<origin>Department of Commerce (DOC), National Oceanic and Atmospheric Administration (NOAA) National Ocean Service (NOS), National Centers for Coastal Ocean Science (NCCOS)</origin>
+				<origin>Department of Commerce (DOC), National Oceanic and Atmospheric Administration (NOAA) National Ocean Service (NOS), Office for Coastal Management (OCM)</origin>
+				<pubdate>Unpublished material</pubdate>
+				<title>KdPAR_annual_mean.tif</title>
+				<geoform>remote-sensing image</geoform>
+				<onlink>ftp://ftp.coast.noaa.gov/pub/MSP/ORT/</onlink>
+				<onlink>https://coast.noaa.gov/arcgis/rest/services/OceanReportingTool</onlink>
+				<onlink>https://coast.noaa.gov/</onlink>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>This dataset represents monthly and annual averages of percentage light reaching at 1 m depth relative to surface light (KdPAR). The units are in percentage (%) as surface light reaching at 1 m depth derived from raw dataset. Wave band is 400-700 nm or Photosynthetic Active Radiation (PAR). Raw data available monthly from Jan 1, 2010, to Dec 31, 2017, with a spatial resolution of 4 km x 4 km. The monthly and annual means are summarized for the time period 2010-2017. Data provided by NESDIS Center for Satellite Applications and Research (STAR). Raw dataset collected by NASA satellite SUOMI National Polar-orbiting Partnership (NPP) using Visible Infrared Imaging Radiometer (VIIRS). Citation: SeungHyun Son, Menghua Wang., 2015: Diffuse attenuation coefficient of the photosynthetically available radiation Kd(PAR) for global open ocean and coastal waters. Remote Sensing of Environment, Volume 159, 15 March 2015, Pages 250-258.</abstract>
+			<purpose>To support coastal and ocean planning and other activities pursuant to the Energy Policy Act, Coastal Zone Management Act, Magnuson-Stevens Fishery Conservation and Management Act, National Environmental Policy Act, Rivers and Harbors Act and the Submerged Lands Act.</purpose>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>Unknown</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>ground condition</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>As needed</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-179.468780</westbc>
+				<eastbc>-59.605930</eastbc>
+				<northbc>74.707770</northbc>
+				<southbc>-0.310977</southbc>
+			</bounding>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>marine cadastre</themekey>
+				<themekey>marine spatial planning</themekey>
+				<themekey>environmental</themekey>
+				<themekey>oceans</themekey>
+				<themekey>environment</themekey>
+				<themekey>farming</themekey>
+				<themekey>planningCadastre</themekey>
+				<themekey>United States</themekey>
+				<themekey>national</themekey>
+				<themekey>alternative energy planning</themekey>
+				<themekey>coastal energy planning</themekey>
+				<themekey>environmental energy planning</themekey>
+				<themekey>ocean energy planning</themekey>
+				<themekey>offshore energy planning</themekey>
+				<themekey>renewable energy planning</themekey>
+				<themekey>water column features</themekey>
+				<themekey>water quality features</themekey>
+				<themekey>biology</themekey>
+			</theme>
+			<place>
+				<placekt>None</placekt>
+				<placekey>United States, Atlantic, Pacific, national</placekey>
+			</place>
+		</keywords>
+		<accconst>None</accconst>
+		<useconst>None</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Office for Coastal Management</cntorg>
+					<cntper>MarineCadastre.gov Data Steward</cntper>
+				</cntorgp>
+				<cntpos>MarineCadastre.gov Data Steward</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical</addrtype>
+					<address>2234 South Hobson Avenue</address>
+					<city>Charleston</city>
+					<state>SC</state>
+					<postal>29405-2413</postal>
+				</cntaddr>
+				<cntvoice>843.740.1202</cntvoice>
+				<cntemail>coastal.info@noaa.gov</cntemail>
+			</cntinfo>
+		</ptcontac>
+		<native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.5.1.7333</native>
+	</idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr>The attributes in this dataset are believed to be accurate.</attraccr>
+		</attracc>
+		<logic>These data are believed to be logically consistent. Geometry is topologically clean.</logic>
+		<complete>Spatial and attribute properties are believed to be complete, although attribute information has been simplified. Geometric thresholds from original data are preserved. No tests have been completed for exhaustiveness.</complete>
+		<posacc>
+			<horizpa>
+				<horizpar>Maximum scale of intended use is 1:80,000.</horizpar>
+			</horizpa>
+		</posacc>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Department of Commerce (DOC), National Oceanic and Atmospheric Administration (NOAA) National Environmental Satellite, Data, and Information Services (NESDIS), Center for Satellite Applications and Research (STAR)</origin>
+						<pubdate>Unknown</pubdate>
+						<title>Monthly and Annual Summaries for Percentage Light Reaching at 1m Depth (KdPAR)</title>
+						<onlink>Unknown</onlink>
+					</citeinfo>
+				</srccite>
+				<typesrc>online</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>201808</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>ground condition</srccurr>
+				</srctime>
+				<srccitea>Unknown</srccitea>
+				<srccontr>Monthly and Annual Summaries for Percentage Light Reaching at 1m Depth (KdPAR)</srccontr>
+			</srcinfo>
+			<procstep>
+				<procdesc>(1) To process the data, satellite water-leaving radiance (an atmospherically corrected quantity) is calculated, and then Kd490 calculated from water-leaving radiance.
+(2) KdPAR generated from Kd490 using a conversion equation for clear and turbid waters separately using weighting scheme.
+(3) Daily composites calculated from hourly datasets (750 m spatial resolution).
+(4) The daily composite averages re-binned into 4 km-grid daily composites. The 4 km daily composites binned into monthly composite averages.
+(5) KdPAR values used to calculate light the bottom seafloor using solar irradiance.
+(6) Radiance at 1m depth calculated.
+(7) Ratio of radiance at 1 m and solar radiance (corrected) provide percentage light reaching at 1 m depth.
+(8) Data filtered using low pass filter to filter out outliers. 
+(9) Data clipped to remove 'no data' regions or data artifacts. Data also clipped to U.S. EEZ boundary.
+(10) Data projected to WGS 1984 World Mercator (WKID: 3395).</procdesc>
+				<procdate>201808</procdate>
+				<proccont>
+					<cntinfo>
+						<cntorgp>
+							<cntorg>NOAA NCCOS Coastal Aquaculture Siting and Sustainability (CASS)</cntorg>
+						</cntorgp>
+						<cntaddr>
+							<addrtype>mailing and physical</addrtype>
+							<address>101 Pivers Island Road</address>
+							<city>Beaufort</city>
+							<state>NC</state>
+							<postal>28516</postal>
+						</cntaddr>
+						<cntvoice>252.728.8797</cntvoice>
+					</cntinfo>
+				</proccont>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct>Raster</direct>
+		<rastinfo>
+			<rasttype>Pixel</rasttype>
+			<rowcount>1747</rowcount>
+			<colcount>1821</colcount>
+		</rastinfo>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<mapproj>
+					<mapprojn>WGS 1984 World Mercator</mapprojn>
+					<mercator>
+						<stdparll>0.0</stdparll>
+						<longcm>0.0</longcm>
+						<feast>0.0</feast>
+						<fnorth>0.0</fnorth>
+					</mercator>
+				</mapproj>
+				<planci>
+					<plance>coordinate pair</plance>
+					<coordrep>
+						<absres>0.000000006705369592907575</absres>
+						<ordres>0.000000006705369592907575</ordres>
+					</coordrep>
+					<plandu>meter</plandu>
+				</planci>
+			</planar>
+			<geodetic>
+				<horizdn>D WGS 1984</horizdn>
+				<ellips>WGS 1984</ellips>
+				<semiaxis>6378137.0</semiaxis>
+				<denflat>298.257223563</denflat>
+			</geodetic>
+		</horizsys>
+	</spref>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Office for Coastal Management</cntorg>
+					<cntper>MarineCadastre.gov Data Steward</cntper>
+				</cntorgp>
+				<cntpos>MarineCadastre.gov Data Steward</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical</addrtype>
+					<address>2234 South Hobson Avenue</address>
+					<city>Charleston</city>
+					<state>SC</state>
+					<postal>29405-2413</postal>
+				</cntaddr>
+				<cntvoice>843.740.1202</cntvoice>
+				<cntemail>coastal.info@noaa.gov</cntemail>
+			</cntinfo>
+		</distrib>
+		<distliab>NOAA makes no warranties or representations whatsoever regarding the availability, quality, accuracy, content, completeness or suitability for the user's needs of such information. The services, information, and data made available on the Marine Cadastre web site are provided "as is" without warranties of any kind. These data are intended for coastal and ocean use planning. Not for navigation. http://www.marinecadastre.gov/about/disclaimer.html</distliab>
+	</distinfo>
+	<metainfo>
+		<metd>20180829</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Office for Coastal Management</cntorg>
+					<cntper>MarineCadastre.gov Data Steward</cntper>
+				</cntorgp>
+				<cntpos>MarineCadastre.gov Data Steward</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical</addrtype>
+					<address>2234 South Hobson Avenue</address>
+					<city>Charleston</city>
+					<state>SC</state>
+					<postal>29405-2413</postal>
+				</cntaddr>
+				<cntvoice>843.740.1202</cntvoice>
+				<cntemail>coastal.info@noaa.gov</cntemail>
+			</cntinfo>
+		</metc>
+		<metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<mettc>local time</mettc>
+	</metainfo>
+	<Esri><CreaDate>20181004</CreaDate><CreaTime>16524300</CreaTime><ArcGISstyle>FGDC CSDGM Metadata</ArcGISstyle><SyncOnce>TRUE</SyncOnce><DataProperties><itemProps><itemLocation><linkage Sync="TRUE">file://\\csc-s-san1b\data01_d\marinsp\ORT\Phase2\Data\KdPAR\KdPAR_FGDC</linkage><protocol Sync="TRUE">Local Area Network</protocol></itemLocation></itemProps><copyHistory><copy source="G:\marinsp\ORT\Phase2\Original\NCCOS\KdPAR_Data_Package\KdPAR_Data_Package\KdPAR_FGDC" dest="\\csc-s-san1b\data01_d\marinsp\ORT\Phase2\Data\KdPAR\KdPAR_FGDC" date="20181004" time="16524300"></copy></copyHistory></DataProperties></Esri></metadata>

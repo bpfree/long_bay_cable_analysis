@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>Department of Commerce (DOC), National Oceanic and Atmospheric Administration (NOAA), National Ocean Service (NOS), Office for Coastal Management (OCM)</origin>
+				<pubdate>20180915</pubdate>
+				<title>ENOW2015_OceanEconomyStateStatistics</title>
+				<geoform>tabular digital data</geoform>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>This dataset summarizes 2015 Ocean Economy employment statistics for the U.S. coastal states by breaking down each ocean economic indicator per each ocean sector. The dataset also provides percent employment and percent GDP by sector. This percentage is a percent of the ocean sector compared to the total Ocean Economy for each state. This information was harvested from the Economics: National Ocean Watch (ENOW) time-series data on the ocean and Great Lakes economy, derived from the Bureau of Labor Statistics and the Bureau of Economic Analysis. ENOW data measures four economic indicators: Establishments, Employment, Wages, and Gross Domestic Product (GDP) for six economic sectors that are dependent on the oceans and Great Lakes, including: Marine Construction, Living Resources, Offshore Mineral Extraction, Ship and Boat Building, Tourism and Recreation, and Marine Transportation.</abstract>
+			<purpose>To support coastal and ocean planning and other activities pursuant to the Energy Policy Act, Coastal Zone Management Act, Magnuson-Stevens Fishery Conservation and Management Act, National Environmental Policy Act, Rivers and Harbors Act and the Submerged Lands Act.</purpose>
+			<supplinf>By law, non-zero values that cannot be published without violating the confidentiality of one or more businesses must be suppressed in published data, although they are reflected in higher level totals. Suppressed values are represented as "-9999" in ENOW’s tabular data and are aggregated, where applicable, under the "Suppressed" sector. ENOW reports zero values to indicate economic activity of that type is not occurring, is undisclosed, or is otherwise not measured by the indicators.</supplinf>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>20180915</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>ground condition</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>As needed</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-180.000000</westbc>
+				<eastbc>180.000000</eastbc>
+				<northbc>71.686857</northbc>
+				<southbc>-15.357888</southbc>
+			</bounding>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>economy</themekey>
+				<themekey>oceans</themekey>
+				<themekey>society</themekey>
+			</theme>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>dredging</themekey>
+				<themekey>fishing</themekey>
+				<themekey>marine construction</themekey>
+				<themekey>marine transportation</themekey>
+				<themekey>offshore oil and gas</themekey>
+				<themekey>recreation</themekey>
+				<themekey>ship building</themekey>
+				<themekey>shipping</themekey>
+				<themekey>Socioeconomics</themekey>
+				<themekey>tourism</themekey>
+				<themekey>Living Resources</themekey>
+				<themekey>Marine Construction</themekey>
+				<themekey>Marine Transportation</themekey>
+				<themekey>Offshore Mineral Extraction</themekey>
+				<themekey>Ship and Boat Building</themekey>
+				<themekey>Suppressed</themekey>
+				<themekey>Tourism and Recreation</themekey>
+			</theme>
+			<theme>
+				<themekt>Global Change Master Directory (GCMD) Science Keywords</themekt>
+				<themekey>Earth Science &gt; Human Dimensions &gt; Economic Resources</themekey>
+				<themekey>Earth Science &gt; Human Dimensions &gt; Human Settlements &gt; Coastal Areas</themekey>
+				<themekey>Earth Science &gt; Human Dimensions &gt; Social Behavior &gt; Recreational Activities/Areas</themekey>
+				<themekey>Earth Science &gt; Human Dimensions &gt; Sustainability &gt; Sustainable Development</themekey>
+			</theme>
+			<place>
+				<placekt>None</placekt>
+				<placekey>United States, USA</placekey>
+				<placekey>Coastal States</placekey>
+				<placekey>Coastal US</placekey>
+				<placekey>Atlantic</placekey>
+				<placekey>Gulf of Mexico</placekey>
+				<placekey>Pacific</placekey>
+			</place>
+			<place>
+				<placekt>Global Change Master Directory (GCMD) Location Keywords</placekt>
+				<placekey>Continent &gt; North America &gt; United States Of America</placekey>
+			</place>
+		</keywords>
+		<accconst>None.</accconst>
+		<useconst>These data are intended for coastal and ocean use planning. Not for navigation.
+			http://www.marinecadastre.gov/about/disclaimer.html
+		</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>NOAA Office for Coastal Management</cntorg>
+					<cntper>Data Steward</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical</addrtype>
+					<address>2234 South Hobson Ave</address>
+					<city>North Charleston</city>
+					<state>SC</state>
+					<postal>29405-2413</postal>
+					<country>US</country>
+				</cntaddr>
+				<cntvoice>843-740-1202</cntvoice>
+				<cntemail>coastal.info@noaa.gov</cntemail>
+			</cntinfo>
+		</ptcontac>
+		<datacred>NOAA</datacred>
+		<native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.4.1.5713</native>
+	</idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr>The attributes in this dataset are believed to be accurate.</attraccr>
+		</attracc>
+		<logic>These data are believed to be logically consistent. Geometry is topologically clean.</logic>
+		<complete>Spatial and attribute properties are believed to be complete, although attribute information has been simplified. Geometric thresholds from original data are preserved. No tests have been completed for exhaustiveness.</complete>
+		<posacc>
+			<horizpa>
+				<horizpar>Maximum scale of intended use is 1:80,000.</horizpar>
+			</horizpa>
+		</posacc>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>NOAA Office for Coastal Management, Economics: National Ocean Watch (ENOW)</origin>
+						<pubdate>2018</pubdate>
+						<title>Economics: National Ocean Watch (ENOW) Data (2015)</title>
+						<geoform>tabular digital data</geoform>
+						<pubinfo>
+							<pubplace>Charleston, SC</pubplace>
+							<publish>NOAA Office for Coastal Management</publish>
+						</pubinfo>
+						<othercit>The Economics: National Ocean Watch (ENOW) data set features time-series data focused on the six economic sectors that are dependent on the oceans and Great Lakes, and is based on data from the Bureau of Labor Statistics and the Bureau of Economic Analysis. ENOW is available for counties, states, regions, and the nation in a wide variety of formats. More information on the ENOW dataset, including limitations, can be found at: https://coast.noaa.gov/digitalcoast/data/enow.html</othercit>
+						<onlink>https://coast.noaa.gov/enowexplorer/</onlink>
+						<onlink>https://www.coast.noaa.gov/arcgis/rest/services/enow/OceanEconomybyIndicator/MapServer</onlink>
+						<onlink>https://www.coast.noaa.gov/arcgis/services/enow/OceanEconomybyIndicator/MapServer/WMSServer?request=GetCapabilities%26service=WMS</onlink>
+					</citeinfo>
+				</srccite>
+				<typesrc>electronic mail system</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>20180901</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>ground condition</srccurr>
+				</srctime>
+				<srccitea>ENOW2015</srccitea>
+				<srccontr>Provides state-level and regional statistics for the six economic sectors dependent on the oceans and Great Lakes for coastal U.S. states.</srccontr>
+			</srcinfo>
+			<procstep>
+				<procdesc>Download the tabular data containing: (A) STATE_STATISTICS - state statistics for the four economic indicators for each ocean sector, (B) SECTOR_PCT - percentages of state employment and GDP for each ocean sector out of the total state Ocean Economy employment/GDP, and (C) STATE_PCT - state Ocean Economy employment and GDP shown as a percent of the total state Coastal Economy and national Coastal Economy.</procdesc>
+				<procdate>20180824</procdate>
+				<proccont>
+					<cntinfo>
+						<cntorgp>
+							<cntorg>Quantum Spatial, Inc.</cntorg>
+						</cntorgp>
+						<cntpos>E-GIS Data Manager</cntpos>
+						<cntaddr>
+							<addrtype>mailing and physical</addrtype>
+							<address>10033 MLK St N, Suite 200</address>
+							<city>St. Petersburg</city>
+							<state>FL</state>
+							<postal>33716</postal>
+							<country>US</country>
+						</cntaddr>
+						<cntvoice>727-576-9500</cntvoice>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep>
+				<procdesc>For each state in the STATE_STATISTICS table, set the "PercentEmploymentBySector" and "PercentGDPBySector" fields to the corresponding sector employment/GDP percentage in the SECTOR_PCT table. Then, calculate the "All Ocean Sector" totals for each state by setting each field to the sum of the six ocean sector employment/GDP percentages.</procdesc>
+				<procdate>20180824</procdate>
+				<proccont>
+					<cntinfo>
+						<cntorgp>
+							<cntorg>Quantum Spatial, Inc.</cntorg>
+						</cntorgp>
+						<cntpos>E-GIS Data Manager</cntpos>
+						<cntaddr>
+							<addrtype>mailing and physical</addrtype>
+							<address>10033 MLK St N, Suite 200</address>
+							<city>St. Petersburg</city>
+							<state>FL</state>
+							<postal>33716</postal>
+							<country>US</country>
+						</cntaddr>
+						<cntvoice>727-576-9500</cntvoice>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep>
+				<procdesc>Import the STATE_PCT table into a file geodatabase, then append records into final table with schema enforced.</procdesc>
+				<procdate>20180824</procdate>
+				<proccont>
+					<cntinfo>
+						<cntorgp>
+							<cntorg>Quantum Spatial, Inc.</cntorg>
+						</cntorgp>
+						<cntpos>E-GIS Data Manager</cntpos>
+						<cntaddr>
+							<addrtype>mailing and physical</addrtype>
+							<address>10033 MLK St N, Suite 200</address>
+							<city>St. Petersburg</city>
+							<state>FL</state>
+							<postal>33716</postal>
+							<country>US</country>
+						</cntaddr>
+						<cntvoice>727-576-9500</cntvoice>
+					</cntinfo>
+				</proccont>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<eainfo>
+		<detailed>
+			<enttyp>
+				<enttypl>ENOW2015_OceanEconomyStateStatistics</enttypl>
+				<enttypd>State statistics describing the four economic indicators (establishments, employment, wages, GDP) by the six ocean sectors and a total of all sectors.</enttypd>
+				<enttypds>NOAA Office for Coastal Management</enttypds>
+			</enttyp>
+			<attr>
+				<attrlabl>OBJECTID</attrlabl>
+				<attrdef>Internal feature number.</attrdef>
+				<attrdefs>Esri</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>GEOID</attrlabl>
+				<attrdef>The unique Federal Information Processing Standard (FIPS) Code (2-digit state) linking attributes in this table to polygons in the CoastalStates feature class.</attrdef>
+				<attrdefs>NOAA Office for Coastal Management, Economics: National Ocean Watch (ENOW)</attrdefs>
+				<attrdomv>
+					<udom>The unique Federal Information Processing Standard (FIPS) Code (2-digit state) linking attributes in this table to polygons in the CoastalStates feature class.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>GeoName</attrlabl>
+				<attrdef>The name of the U.S. state or geographic area.</attrdef>
+				<attrdefs>NOAA Office for Coastal Management, Economics: National Ocean Watch (ENOW)</attrdefs>
+				<attrdomv>
+					<udom>The name of the U.S. state or geographic area.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Year</attrlabl>
+				<attrdef>Year of data used.</attrdef>
+				<attrdefs>NOAA Office for Coastal Management, Economics: National Ocean Watch (ENOW)</attrdefs>
+				<attrdomv>
+					<udom>Year of data used.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>OceanSectorID</attrlabl>
+				<attrdef>Identification number for ocean sector.</attrdef>
+				<attrdefs>NOAA Office for Coastal Management, Economics: National Ocean Watch (ENOW)</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>1</edomv>
+						<edomvd>Marine Construction</edomvd>
+						<edomvds>NOAA Office for Coastal Management, Economics: National Ocean Watch (ENOW)</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>2</edomv>
+						<edomvd>Living Resources</edomvd>
+						<edomvds>NOAA Office for Coastal Management, Economics: National Ocean Watch (ENOW)</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>3</edomv>
+						<edomvd>OffShore Mineral Extraction</edomvd>
+						<edomvds>NOAA Office for Coastal Management, Economics: National Ocean Watch (ENOW)</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>4</edomv>
+						<edomvd>Ship and Boat Building</edomvd>
+						<edomvds>NOAA Office for Coastal Management, Economics: National Ocean Watch (ENOW)</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>5</edomv>
+						<edomvd>Tourism and Recreation</edomvd>
+						<edomvds>NOAA Office for Coastal Management, Economics: National Ocean Watch (ENOW)</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>6</edomv>
+						<edomvd>Marine Transportation</edomvd>
+						<edomvds>NOAA Office for Coastal Management, Economics: National Ocean Watch (ENOW)</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>9</edomv>
+						<edomvd>All Ocean Sectors</edomvd>
+						<edomvds>NOAA Office for Coastal Management, Economics: National Ocean Watch (ENOW)</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>OceanSector</attrlabl>
+				<attrdef>Name of the ocean sector or a total of all sectors.</attrdef>
+				<attrdefs>NOAA Office for Coastal Management, Economics: National Ocean Watch (ENOW)</attrdefs>
+				<attrdomv>
+					<udom>Name of the ocean sector or a total of all sectors.</udom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>Marine Construction</edomv>
+						<edomvd>The marine construction sector accounts for the heavy construction activities associated with dredging of navigation channels, beach renourishment, and dock building. Although it would seem logical to include activities associated with the construction of oil and gas pipelines that directly support offshore oil and gas production, the underlying data are almost always suppressed because of the small number of businesses in any one area. In many cases, protecting the confidentiality of these businesses requires the suppression of the entire sector, including information for activities that could otherwise be reported. For this reason, these activities are not included in ENOW’s data on the Ocean Economy. The effect of this omission is most prominent in the Gulf of Mexico and Alaska.</edomvd>
+						<edomvds>NOAA Office for Coastal Management, Economics: National Ocean Watch (ENOW)</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>Living Resources</edomv>
+						<edomvd>The living resources sector includes commercial fishing, aquaculture, and seafood processing and markets.</edomvd>
+						<edomvds>NOAA Office for Coastal Management, Economics: National Ocean Watch (ENOW)</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>OffShore Mineral Extraction</edomv>
+						<edomvd>Offshore mineral extraction includes oil and gas exploration and production, as well as limestone, sand, and gravel mining in the coastal and marine environment. The largest component of this sector is oil and gas production, which is concentrated in the Gulf of Mexico region.</edomvd>
+						<edomvds>NOAA Office for Coastal Management, Economics: National Ocean Watch (ENOW)</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>Ship and Boat Building</edomv>
+						<edomvd>This sector includes the construction, maintenance, and repair of ships, recreational boats, commercial fishing vessels, ferries, and other marine vessels. An important attribute of this sector is the concentration of large shipyards in a few locations around the country. However, boat building and repair activity is spread more evenly around the country, with concentrations in areas with high levels of commercial fishing and recreational boating.</edomvd>
+						<edomvds>NOAA Office for Coastal Management, Economics: National Ocean Watch (ENOW)</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>Tourism and Recreation</edomv>
+						<edomvd>The tourism and recreation sector has more business establishments and employs more people than all the other five sectors combined, but only accounts for about a third of the Ocean Economy’s gross domestic product. This sector includes a wide range of businesses that attract or support ocean-based tourism and recreation: eating and drinking places, hotels and lodging, scenic water tours, aquariums, parks, marinas, boat dealers, recreational vehicle parks and campsites, and associated sporting goods manufacturing.</edomvd>
+						<edomvds>NOAA Office for Coastal Management, Economics: National Ocean Watch (ENOW)</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>Marine Transportation</edomv>
+						<edomvd>This sector includes businesses engaged in the traffic of deep-sea freight, marine passenger services, pipeline transportation, marine transportation services, warehousing, and the manufacture of navigation equipment. It accounted for 14.3 percent of the employment and 20.6 percent of the gross domestic product in the U.S. ocean and Great Lakes economy. While the sector represents a smaller percentage of the Ocean Economy than tourism and recreation or offshore mineral extraction, it is an integral component of the Ocean Economy, paying one of the highest average wages per employee.</edomvd>
+						<edomvds>NOAA Office for Coastal Management, Economics: National Ocean Watch (ENOW)</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>All Ocean Sectors</edomv>
+						<edomvd>Sum total of all ocean sectors for the state.</edomvd>
+						<edomvds>NOAA Office for Coastal Management, Economics: National Ocean Watch (ENOW)</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Establishments</attrlabl>
+				<attrdef>Number of business establishments. Note: individual places of business are counted; a single firm may have multiple places of business.</attrdef>
+				<attrdefs>NOAA Office for Coastal Management, Economics: National Ocean Watch (ENOW)</attrdefs>
+				<attrdomv>
+					<udom>Number of business establishments. Note: individual places of business are counted; a single firm may have multiple places of business.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Employment</attrlabl>
+				<attrdef>Number of people employed by business establishments, including part-time and seasonal workers; this figure does not include self-employed workers.</attrdef>
+				<attrdefs>NOAA Office for Coastal Management, Economics: National Ocean Watch (ENOW)</attrdefs>
+				<attrdomv>
+					<udom>Number of people employed by business establishments, including part-time and seasonal workers; this figure does not include self-employed workers.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Wages</attrlabl>
+				<attrdef>Annual wages paid to employees.</attrdef>
+				<attrdefs>NOAA Office for Coastal Management, Economics: National Ocean Watch (ENOW)</attrdefs>
+				<attrdomv>
+					<udom>Annual wages paid to employees.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>GDP</attrlabl>
+				<attrdef>Gross Domestic Product, or GDP, represents the value of goods and services produced based on estimates of GDP produced by the Bureau of Economic Analysis, called Gross State Product, or GSP.</attrdef>
+				<attrdefs>NOAA Office for Coastal Management, Economics: National Ocean Watch (ENOW)</attrdefs>
+				<attrdomv>
+					<udom>Gross Domestic Product, or GDP, represents the value of goods and services produced based on estimates of GDP produced by the Bureau of Economic Analysis, called Gross State Product, or GSP.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>PercentEmploymentBySector</attrlabl>
+				<attrdef>Describes sector employment shown as a percent of the total state Ocean Economy employment.</attrdef>
+				<attrdefs>NOAA Office for Coastal Management, Economics: National Ocean Watch (ENOW)</attrdefs>
+				<attrdomv>
+					<udom>Describes sector employment shown as a percent of the total state Ocean Economy employment.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>PercentGDPBySector</attrlabl>
+				<attrdef>Describes sector GDP shown as a percent of the total state Ocean Economy GDP.</attrdef>
+				<attrdefs>NOAA Office for Coastal Management, Economics: National Ocean Watch (ENOW)</attrdefs>
+				<attrdomv>
+					<udom>Describes sector GDP shown as a percent of the total state Ocean Economy GDP.</udom>
+				</attrdomv>
+			</attr>
+		</detailed>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Office for Coastal Management (OCM)</cntorg>
+					<cntper>NOAA Office for Coastal Management</cntper>
+				</cntorgp>
+				<cntpos>Data Steward</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical</addrtype>
+					<address>2234 South Hobson Ave</address>
+					<city>North Charleston</city>
+					<state>SC</state>
+					<postal>29405-2413</postal>
+					<country>US</country>
+				</cntaddr>
+				<cntvoice>843-740-1202</cntvoice>
+				<cntemail>coastal.info@noaa.gov</cntemail>
+			</cntinfo>
+		</distrib>
+		<distliab>See access and use constraints information.</distliab>
+	</distinfo>
+	<metainfo>
+		<metd>20180915</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Quantum Spatial, Inc.</cntorg>
+				</cntorgp>
+				<cntpos>E-GIS Data Manager</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical</addrtype>
+					<address>10033 MLK Street N, Suite 200</address>
+					<city>St. Petersburg</city>
+					<state>FL</state>
+					<postal>33716</postal>
+					<country>US</country>
+				</cntaddr>
+				<cntvoice>727-576-9500</cntvoice>
+			</cntinfo>
+		</metc>
+		<metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+	</metainfo>
+</metadata>

@@ -1,0 +1,519 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Department of Commerce (DOC), National Oceanic and Atmospheric Administration (NOAA), National Ocean Service (NOS), Office for Coastal Management (OCM)</origin>
+        <pubdate>20180710</pubdate>
+        <title>Census Statistics (State)</title>
+        <geoform>vector digital data</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Data from the 2010 Decennial Census and the 2012 - 2016 five year estimates from the American Community Survey were joined to TIGER/Line shapefiles produced by the Census Bureau to produce this visual representation of select census statistics. The Decennial Census is a nation wide survey conducted every tenth year by the U.S. Census Bureau as mandated by U.S. The Constitution for the purpose of establishing an accurate count of the country's population. The results, published at the end of each survey year, are primarily used by the government to allocate funds and apportion seats in the U.S. House of Representatives. Until 2000, one in every 6 households received a "long form" of the Decennial Census to collect additional social, housing and economic information, but the long form was discontinued after the 2000 Decennial Census. The continuing need for timely, nationally consistent information on the topics formerly included in the long form lead the Census Bureau to develop the American Community Survey (ACS) in 2005. The ACS is an ongoing survey program which randomly samples about 3.5 million households throughout the year. Data from the ACS is published in several formats each fall. In addition to the fifty States, the Census Bureau treats the District of Columbia, Puerto Rico, and each of the Island Areas (American Samoa, the Commonwealth of the Northern Mariana Islands, Guam, and the U.S. Virgin Islands) as the statistical equivalents of States for the purpose of data presentation. Additional information about the Decennial Census and the American Community Survey is available at https://www.census.gov/programs-surveys.html.</abstract>
+      <purpose>To support coastal and ocean planning and other activities pursuant to the Energy Policy Act, Coastal Zone Management Act, Magnuson-Stevens Fishery Conservation and Management Act, National Environmental Policy Act, Rivers and Harbors Act and the Submerged Lands Act.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20180710</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-179.148909</westbc>
+        <eastbc>179.778470</eastbc>
+        <northbc>71.365162</northbc>
+        <southbc>-14.374207</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>oceans</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Census</themekey>
+        <themekey>American Community Survey</themekey>
+        <themekey>ACS</themekey>
+        <themekey>Coastal States</themekey>
+        <themekey>Population statistics</themekey>
+        <themekey>Housing units</themekey>
+        <themekey>Median income</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>United States, USA</placekey>
+        <placekey>United States Sovereign Territories</placekey>
+      </place>
+    </keywords>
+    <accconst>None.</accconst>
+    <useconst>These data are intended for coastal and ocean planning. Not for navigation. http://www.marinecadastre.gov/about/disclaimer.html</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>NOAA Office for Coastal Management</cntorg>
+          <cntper>Data Steward</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>2234 South Hobson Ave</address>
+          <city>North Charleston</city>
+          <state>SC</state>
+          <postal>29405-2413</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>843-740-1202</cntvoice>
+        <cntemail>coastal.info@noaa.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>U.S. Census Bureau</datacred>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.4.1.5713</native>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>The attributes in this dataset are believed to be accurate. For ACS data: Data are based on a sample and are subject to sampling variability. The degree of uncertainty for an estimate arising from sampling variability is represented through the use of a margin of error (margin of error was omitted from this product but can be found in the original source data). In addition to sampling variability, the ACS estimates are subject to nonsampling error. The effect of nonsampling error is not represented in these tables. For additional information on the accuracy of ACS data please see https://www2.census.gov/programs-surveys/acs/tech_docs/accuracy/MultiyearACSAccuracyofData2016.pdf. For Census data: While it is impossible to completely eliminate nonsampling error from an operation as large and complex as the decennial census, the Census Bureau attempts to control the sources of such error during the collection and processing operations. For additional information on decennial census methodology, accuracy and error please consult "2010 Census Demographic Profile Summary File", Chapter 5 - Operational Overview and Accuracy of the Data (https://www2.census.gov/programs-surveys/acs/tech_docs/accuracy/MultiyearACSAccuracyofData2016.pdf).</attraccr>
+    </attracc>
+    <logic>These data are believed to be logically consistent. Geometry is topologically clean.</logic>
+    <complete>Spatial and attribute properties are believed to be complete, although attribute information has been simplified. Geometric thresholds from original data are preserved. No tests have been completed for exhaustiveness. For ACS data: When information is missing or inconsistent, the Census Bureau logically assigns an acceptable value using the response to a related question or questions. If a logical assignment is not possible, data are filled using a statistical process called allocation, which uses a similar individual or household to provide a donor value. The "Allocated" section is the number of respondents who received an allocated value for a particular subject. For Census data: while it is impossible to completely eliminate nonsampling error from an operation as large and complex as the decennial census, the Census Bureau attempts to control the sources of such error during the collection and processing operations. For additional information on decennial census methodology, accuracy and error please consult "2010 Census Demographic Profile Summary File", Chapter 5 - Operational Overview and Accuracy of the Data (https://www2.census.gov/programs-surveys/acs/tech_docs/accuracy/MultiyearACSAccuracyofData2016.pdf).</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Maximum scale of intended use is 1:80,000.</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Department of Commerce, U.S. Census Bureau, Geography Division, Spatial Data Collection and Products Branch</origin>
+            <pubdate>20131231</pubdate>
+            <title>US Census Bureau</title>
+            <onlink>https://catalog.data.gov/dataset/tiger-line-shapefile-2015-nation-u-s-current-state-and-equivalent-national-shapefile</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20131231</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>US Census Bureau</srccitea>
+        <srccontr>Zipped folder of US state shapefile.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Census Bureau</origin>
+            <pubdate>20130101</pubdate>
+            <title>2010 Census Summary File</title>
+            <geoform>vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Unknown</pubplace>
+              <publish>U.S. Census Bureau</publish>
+            </pubinfo>
+            <onlink>https://factfinder.census.gov/faces/nav/jsf/pages/searchresults.xhtml?refresh=t</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20130101</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>Census</srccitea>
+        <srccontr>State level data on total population and total housing units</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Census Bureau, American Community Survey</origin>
+            <pubdate>20171207</pubdate>
+            <title>Median Income in the Past 12 Months (in 2016 inflation-adjusted dollars) - 5 year estimates 2012-2016</title>
+            <geoform>vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Unknown</pubplace>
+              <publish>U.S. Census Bureau</publish>
+            </pubinfo>
+            <onlink>https://factfinder.census.gov/faces/tableservices/jsf/pages/productview.xhtml?pid=ACS_16_5YR_S1903&amp;prodType=table</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20171207</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>ACS</srccitea>
+        <srccontr>State level data on median household income</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Census Bureau</origin>
+            <pubdate>20130101</pubdate>
+            <title>Guam 2010 Census Summary File</title>
+            <geoform>vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Unknown</pubplace>
+              <publish>U.S. Census Bureau</publish>
+            </pubinfo>
+            <onlink>https://factfinder.census.gov/faces/affhelp/jsf/pages/metadata.xhtml?lang=en&amp;type=dataset&amp;id=dataset.en.DEC_10_GUSF</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20130101</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>Guam Census</srccitea>
+        <srccontr>State level data on total population, total housing units and median household income</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Census Bureau</origin>
+            <pubdate>20130101</pubdate>
+            <title>American Samoa Summary File</title>
+            <geoform>vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Unknown</pubplace>
+              <publish>U.S. Census Bureau</publish>
+            </pubinfo>
+            <onlink>https://factfinder.census.gov/faces/affhelp/jsf/pages/metadata.xhtml?lang=en&amp;type=dataset&amp;id=dataset.en.DEC_10_ASSF</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20130101</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>AmSam Census</srccitea>
+        <srccontr>State level data on total population, total housing units and median household income</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Census Bureau</origin>
+            <pubdate>20130101</pubdate>
+            <title>United States Virgin Islands Summary File</title>
+            <geoform>vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Unknown</pubplace>
+              <publish>U.S. Census Bureau</publish>
+            </pubinfo>
+            <onlink>https://factfinder.census.gov/faces/affhelp/jsf/pages/metadata.xhtml?lang=en&amp;type=dataset&amp;id=dataset.en.DEC_10_VISF</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20130101</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>USVI Census</srccitea>
+        <srccontr>State level data on total population, total housing units and median household income</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Census Bureau</origin>
+            <pubdate>20130101</pubdate>
+            <title>Commonwealth of the Northern Marina Islands Summary File</title>
+            <geoform>vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Unknown</pubplace>
+              <publish>U.S. Census Bureau</publish>
+            </pubinfo>
+            <onlink>https://factfinder.census.gov/faces/affhelp/jsf/pages/metadata.xhtml?lang=en&amp;type=dataset&amp;id=dataset.en.DEC_10_MPSF</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20130101</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>CNMI Census</srccitea>
+        <srccontr>State level data on total population, total housing units and median household income</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Office for Coastal Management, NOAA Office for Coastal Management, Department of Commerce (DOC), National Oceanic and Atmospheric Administration (NOAA), National Ocean Service (NOS), Office for Coastal Management (OCM)</origin>
+            <pubdate>20150916</pubdate>
+            <title>U.S. Coastal States</title>
+            <geoform>vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Unknown</pubplace>
+              <publish>Office for Coastal Management, NOAA Office for Coastal Management, Department of Commerce (DOC), National Oceanic and Atmospheric Administration (NOAA), National Ocean Service (NOS), Office for Coastal Management (OCM)</publish>
+            </pubinfo>
+            <onlink>None</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20150916</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>Coastal States</srccitea>
+        <srccontr>polygon features joined to census and ACS data</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>Download Census and ACS data from American Factfinder as comma-delimited (*.csv) documents. Delete any superfluous attributes.</procdesc>
+        <procdate>20180701</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Quantum Spatial, Inc.</cntorg>
+            </cntorgp>
+            <cntpos>E-GIS Data Manager</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>10033 MLK St N, Suite 200</address>
+              <city>St. Petersburg</city>
+              <state>FL</state>
+              <postal>33716</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntvoice>-727-576-9500</cntvoice>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Join the downloaded tables to the Coastal States layer using the County FIPS attribute to copy the median household income from the ACS table and the total population and total housing units from the Census table into the associated attributes in the Coastal States layer.</procdesc>
+        <procdate>20180702</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Quantum Spatial, Inc.</cntorg>
+            </cntorgp>
+            <cntpos>E-GIS Data Manager</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>10033 MLK St N, Suite 200</address>
+              <city>St. Petersburg</city>
+              <state>FL</state>
+              <postal>33716</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntvoice>-727-576-9500</cntvoice>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>String</sdtstype>
+        <ptvctcnt>31</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>WGS 1984 World Mercator</mapprojn>
+          <mercator>
+            <stdparll>0.0</stdparll>
+            <longcm>0.0</longcm>
+            <feast>0.0</feast>
+            <fnorth>0.0</fnorth>
+          </mercator>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0001</absres>
+            <ordres>0.0001</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D WGS 1984</horizdn>
+        <ellips>WGS 1984</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>CensusStatistics_State</enttypl>
+        <enttypd>Census Statistics (State)</enttypd>
+        <enttypds>NOAA Office for Coastal Management</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>StateFIPS</attrlabl>
+        <attrdef>Current state Federal Information Processing Series (FIPS) code. Also GEOID Code.</attrdef>
+        <attrdefs>U.S. Census Bureau</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>National Standard Codes (ANSI INCITS 38-2009), Federal Information Processing Series (FIPS) - States/State Equivalents</codesetn>
+            <codesets>U.S. Census Bureau</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>StateUSPS</attrlabl>
+        <attrdef>Current United States Postal Service state abbreviation</attrdef>
+        <attrdefs>U.S. Postal Service</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Publication 28 - Postal Addressing Standards</codesetn>
+            <codesets>U.S. Postal Service</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>StateName</attrlabl>
+        <attrdef>Current state name</attrdef>
+        <attrdefs>U.S. Census Bureau</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>National Standard Codes (ANSI INCITS 38-2009), Federal Information Processing Series (FIPS) - States/State Equivalents</codesetn>
+            <codesets>U.S. Census Bureau</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Total_Population</attrlabl>
+        <attrdef>Total population of the state</attrdef>
+        <attrdefs>U.S. Census Bureau</attrdefs>
+        <attrdomv>
+          <udom>Alphanumeric characters</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Total_Housing_Units</attrlabl>
+        <attrdef>Total number of housing units (homes, apartments, etc.) in the state</attrdef>
+        <attrdefs>U.S. Census Bureau</attrdefs>
+        <attrdomv>
+          <udom>Alphanumeric characters</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Median_Household_Income</attrlabl>
+        <attrdef>Median income (in US dollars) of the households in the state</attrdef>
+        <attrdefs>U.S. Census Bureau</attrdefs>
+        <attrdomv>
+          <udom>Alphanumeric characters</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Area</attrlabl>
+        <attrdef>Area of feature in internal units squared.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Length</attrlabl>
+        <attrdef>Length of feature in internal units.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Office for Coastal Management (OCM)</cntorg>
+          <cntper>NOAA Office for Coastal Management</cntper>
+        </cntorgp>
+        <cntpos>Data Steward</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>2234 South Hobson Ave</address>
+          <city>North Charleston</city>
+          <state>SC</state>
+          <postal>29405-2413</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>843-740-1202</cntvoice>
+        <cntemail>coastal.info@noaa.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>See access and use constraints information.</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20180710</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Quantum Spatial, Inc.</cntorg>
+        </cntorgp>
+        <cntpos>E-GIS Data Manager</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>10033 MLK Street N, Suite 200</address>
+          <city>St. Petersburg</city>
+          <state>FL</state>
+          <postal>33716</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>727-576-9500</cntvoice>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>

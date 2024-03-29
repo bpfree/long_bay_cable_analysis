@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>Department of Commerce (DOC), National Oceanic and Atmospheric Administration (NOAA) National Environmental Satellite, Data, and Information Services (NESDIS), National Centers for Environmental Information (NCEI)</origin>
+				<origin>Department of Commerce (DOC), National Oceanic and Atmospheric Administration (NOAA) Office of Oceanic and Atmospheric Research (OAR), Pacific Marine Environmental Laboratory (PMEL)</origin>
+				<origin>Department of Commerce (DOC), National Oceanic and Atmospheric Administration (NOAA) National Ocean Service (NOS), National Centers for Coastal Ocean Science (NCCOS)</origin>
+				<origin>Department of Commerce (DOC), National Oceanic and Atmospheric Administration (NOAA) National Ocean Service (NOS), Office for Coastal Management (OCM)</origin>
+				<pubdate>Unpublished material</pubdate>
+				<title>Surface_Aragonite.tif</title>
+				<geoform>remote-sensing image</geoform>
+				<onlink>ftp://ftp.coast.noaa.gov/pub/MSP/ORT/</onlink>
+				<onlink>https://coast.noaa.gov/arcgis/rest/services/OceanReportingTool</onlink>
+				<onlink>https://coast.noaa.gov/</onlink>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>This data layer represents surficial (0m) aragonite saturation state. Aragonite saturation state is measured as the concentration of calcium ions multiplied by the concentration of carbonate ions, and divided by apparent solubility product (Ksp). These values were extracted from a NOAA National Centers for Environmental Information (NCEI) archived data package containing gridded data of aragonite saturation state across the global oceans (spatial distributions with a resolution of 1x1 degree latitude and longitude) at depth levels of 0m, 50m, 100m, 200m, 500m, 1000m, 2000m, 3000m and 4000m. Ocean station data with at least dissolved inorganic carbon (DIC) and total alkalinity (TA) measurements were obtained from the Global Ocean Data Analysis Project (GLODAP), the Carbon Dioxide in the Atlantic Ocean (CARINA), the Pacific Ocean Interior Carbon (PACIFICA), and some recent cruise data sets. Aragonite saturation state was calculated using a Matlab version of CO2SYS from in-situ temperature, pressure, salinity, dissolved inorganic carbon (DIC), total alkalinity (TA), silicate and phosphate with the dissociation constants for carbonic acid of Lueker et al. [2000], potassium bisulfate (KHSO4-) of Dickson [1990a], boric acid of Dickson [1990b], and with the total borate concentration equations of Lee et al. [2010]. 
+
+For more information about the data set, please read the below paper: Jiang, L.-Q., R. A. Feely, B. R. Carter, D. J. Greeley, D. K. Gledhill, and K. M. Arzayus (2015), Climatological distribution of aragonite saturation state in the global oceans, Global Biogeochem. Cycles, 29, 1656-1673, doi:10.1002/2015GB005198.</abstract>
+			<purpose>To support coastal and ocean planning and other activities pursuant to the Energy Policy Act, Coastal Zone Management Act, Magnuson-Stevens Fishery Conservation and Management Act, National Environmental Policy Act, Rivers and Harbors Act and the Submerged Lands Act.</purpose>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>Unknown</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>ground condition</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>As needed</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-179.999996</westbc>
+				<eastbc>179.999996</eastbc>
+				<northbc>89.000000</northbc>
+				<southbc>-89.000000</southbc>
+			</bounding>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>marine cadastre</themekey>
+				<themekey>marine spatial planning</themekey>
+				<themekey>environmental</themekey>
+				<themekey>oceans</themekey>
+				<themekey>environment</themekey>
+				<themekey>farming</themekey>
+				<themekey>planningCadastre</themekey>
+				<themekey>United States</themekey>
+				<themekey>national</themekey>
+				<themekey>alternative energy planning</themekey>
+				<themekey>coastal energy planning</themekey>
+				<themekey>environmental energy planning</themekey>
+				<themekey>ocean energy planning</themekey>
+				<themekey>offshore energy planning</themekey>
+				<themekey>renewable energy planning</themekey>
+				<themekey>water column features</themekey>
+				<themekey>water quality parameters</themekey>
+				<themekey>biology</themekey>
+			</theme>
+			<place>
+				<placekt>None</placekt>
+				<placekey>United States, Atlantic, Pacific, national</placekey>
+			</place>
+		</keywords>
+		<accconst>None</accconst>
+		<useconst>None</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Office for Coastal Management</cntorg>
+					<cntper>MarineCadastre.gov Data Steward</cntper>
+				</cntorgp>
+				<cntpos>MarineCadastre.gov Data Steward</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical</addrtype>
+					<address>2234 South Hobson Avenue</address>
+					<city>Charleston</city>
+					<state>SC</state>
+					<postal>29405-2413</postal>
+				</cntaddr>
+				<cntvoice>843.740.1202</cntvoice>
+				<cntemail>coastal.info@noaa.gov</cntemail>
+			</cntinfo>
+		</ptcontac>
+		<native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.5.1.7333</native>
+	</idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr>The attributes in this dataset are believed to be accurate.</attraccr>
+		</attracc>
+		<logic>These data are believed to be logically consistent. Geometry is topologically clean.</logic>
+		<complete>Spatial and attribute properties are believed to be complete, although attribute information has been simplified. Geometric thresholds from original data are preserved. No tests have been completed for exhaustiveness.</complete>
+		<posacc>
+			<horizpa>
+				<horizpar>Maximum scale of intended use is 1:80,000.</horizpar>
+			</horizpa>
+		</posacc>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Department of Commerce (DOC), National Oceanic and Atmospheric Administration (NOAA) National Environmental Satellite, Data, and Information Services (NESDIS), National Centers for Environmental Information (NCEI)</origin>
+						<pubdate>Unknown</pubdate>
+						<title>Aragonite saturation state gridded to 1x1 degree latitude and longitude at depth levels of 0, 50, 100, 200, 500, 1000, 2000, 3000, and 4000 meters in the global oceans (NCEI Accession 0139360)</title>
+						<onlink>https://www.nodc.noaa.gov/oads/data/0139360.xml</onlink>
+					</citeinfo>
+				</srccite>
+				<typesrc>online</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>201808</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>ground condition</srccurr>
+				</srctime>
+				<srccitea>Unknown</srccitea>
+				<srccontr>Aragonite saturation state gridded to 1x1 degree latitude and longitude at depth levels of 0, 50, 100, 200, 500, 1000, 2000, 3000, and 4000 meters in the global oceans (NCEI Accession 0139360)</srccontr>
+			</srcinfo>
+			<procstep>
+				<procdesc>(1) Downloaded NetCDF file from NCEI and extracted the surface (0m) aragonite values to a raster (TIFF).
+(2) Projected data to WGS 1984 World Mercator (ID: 3395).</procdesc>
+				<procdate>201808</procdate>
+				<proccont>
+					<cntinfo>
+						<cntorgp>
+							<cntorg>NOAA NCCOS Coastal Aquaculture Siting and Sustainability (CASS)</cntorg>
+						</cntorgp>
+						<cntaddr>
+							<addrtype>mailing and physical</addrtype>
+							<address>101 Pivers Island Road</address>
+							<city>Beaufort</city>
+							<state>NC</state>
+							<postal>28516</postal>
+						</cntaddr>
+						<cntvoice>252.728.8797</cntvoice>
+					</cntinfo>
+				</proccont>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct>Raster</direct>
+		<rastinfo>
+			<rasttype>Pixel</rasttype>
+			<rowcount>313</rowcount>
+			<colcount>208</colcount>
+		</rastinfo>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<mapproj>
+					<mapprojn>WGS 1984 World Mercator</mapprojn>
+					<mercator>
+						<stdparll>0.0</stdparll>
+						<longcm>0.0</longcm>
+						<feast>0.0</feast>
+						<fnorth>0.0</fnorth>
+					</mercator>
+				</mapproj>
+				<planci>
+					<plance>coordinate pair</plance>
+					<coordrep>
+						<absres>0.000000006705369592907575</absres>
+						<ordres>0.000000006705369592907575</ordres>
+					</coordrep>
+					<plandu>meter</plandu>
+				</planci>
+			</planar>
+			<geodetic>
+				<horizdn>D WGS 1984</horizdn>
+				<ellips>WGS 1984</ellips>
+				<semiaxis>6378137.0</semiaxis>
+				<denflat>298.257223563</denflat>
+			</geodetic>
+		</horizsys>
+	</spref>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Office for Coastal Management</cntorg>
+					<cntper>MarineCadastre.gov Data Steward</cntper>
+				</cntorgp>
+				<cntpos>MarineCadastre.gov Data Steward</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical</addrtype>
+					<address>2234 South Hobson Avenue</address>
+					<city>Charleston</city>
+					<state>SC</state>
+					<postal>29405-2413</postal>
+				</cntaddr>
+				<cntvoice>843.740.1202</cntvoice>
+				<cntemail>coastal.info@noaa.gov</cntemail>
+			</cntinfo>
+		</distrib>
+		<distliab>NOAA makes no warranties or representations whatsoever regarding the availability, quality, accuracy, content, completeness or suitability for the user's needs of such information. The services, information, and data made available on the Marine Cadastre web site are provided "as is" without warranties of any kind. These data are intended for coastal and ocean use planning. Not for navigation. http://www.marinecadastre.gov/about/disclaimer.html</distliab>
+	</distinfo>
+	<metainfo>
+		<metd>20180823</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Office for Coastal Management</cntorg>
+					<cntper>MarineCadastre.gov Data Steward</cntper>
+				</cntorgp>
+				<cntpos>MarineCadastre.gov Data Steward</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical</addrtype>
+					<address>2234 South Hobson Avenue</address>
+					<city>Charleston</city>
+					<state>SC</state>
+					<postal>29405-2413</postal>
+				</cntaddr>
+				<cntvoice>843.740.1202</cntvoice>
+				<cntemail>coastal.info@noaa.gov</cntemail>
+			</cntinfo>
+		</metc>
+		<metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<mettc>local time</mettc>
+	</metainfo>
+	<Esri><CreaDate>20180823</CreaDate><CreaTime>18490800</CreaTime><ArcGISstyle>FGDC CSDGM Metadata</ArcGISstyle><SyncOnce>TRUE</SyncOnce><DataProperties><itemProps><itemLocation><linkage Sync="TRUE">file://\\csc-s-san1b\data01_d\marinsp\ORT\Phase2\Data\SurfaceAragonite\Surface_Aragonite_FGDC</linkage><protocol Sync="TRUE">Local Area Network</protocol></itemLocation></itemProps><copyHistory><copy source="G:\marinsp\ORT\Phase2\Original\NCCOS\Aragonite_Data_Package\Aragonite_Data_Package\Surface_Aragonite_FGDC" dest="\\csc-s-san1b\data01_d\marinsp\ORT\Phase2\Data\SurfaceAragonite\Surface_Aragonite_FGDC" date="20180823" time="18490800"></copy></copyHistory></DataProperties></Esri></metadata>

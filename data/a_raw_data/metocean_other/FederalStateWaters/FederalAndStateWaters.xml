@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Department of Commerce (DOC), National Oceanic and Atmospheric Administration (NOAA), National Ocean Service (NOS), Office for Coastal Management (OCM)</origin>
+        <pubdate>20180411</pubdate>
+        <title>FederalAndStateWaters</title>
+        <geoform>vector digital data</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This product is a result of further processing of the State Waters and Federal Waters layers (file names, StateWaters and FederalWaters_SLAto50_Clipped/Unclipped, respectively) created for the Ocean Reporting Tool in April, 2018.The boundary between state and federal waters was determined by consulting The Submerged Lands Act (43 U.S.C. §§ 1301 et seq.), 48 U.S.C. §§ 1705 and The Abandoned Shipwreck Act (43 U.S.C. §§ 2101). Some boundary delineations based on the SLA were approximated in this data set, including areas in Hawaii, Alaska, and Washington State. Although state boarders do not extend over water, it was necessary to approximate these borders to produce this data set. The boundaries depicted in this data set are for visual purposes only. The placement of these boundaries was extrapolated from the Federal Outer Continental Shelf (OCS) Administrative Boundaries as described here http://edocket.access.gpo.gov/2006/pdf/05-24659.pdf. The delineation between waters under US sovereign territory jurisdiction and that of federal governance is also approximate. Although based upon legislation, these data do not represent legal boundaries, especially in the case of Navassa Island, The Northern Mariana Islands, Baker Island, Howland Island, Johnston Atoll, Kingman Reef, Palmyra Atoll, Wake Islands and Jarvis Island.The seaward limit of this data set is the boundary of the 200nm US Exclusive Economic Zone. The EEZ is measured from the US baseline, recognized as the low-water line along the coast as marked on NOAA's nautical charts in accordance with articles of the Laws of the Sea. These limits are ambulatory and subject to revision based on changes in coastline geometry. This dataset was produced based on an update to the Maritime Limits published in September, 2013. To view the most up-to-date Maritime Limits, please see http://www.nauticalcharts.noaa.gov/csdl/mbound.htm. Navassa Island does not have an EEZ around it, so the seaward extent of the federal waters surrounding it were based on the 12 mile offshore boundary of the USFWS National Wildlife Refuge established on the island.All data is displayed in WGS_1984_World_Mercator. Area calculations for all states except Alaska were completed in the same projection. Area calculations for Alaska were completed in Alaska Albers Equal Area Conic.</abstract>
+      <purpose>To support coastal and ocean planning and other activities pursuant to the Energy Policy Act, Coastal Zone Management Act, Magnuson-Stevens Fishery Conservation and Management Act, National Environmental Policy Act, Rivers and Harbors Act and the Submerged Lands Act by delineating which waters fall under the primary jurisdiction of the nearest U.S. state or territory, and which fall under the primary jurisdiction of the U.S. Federal Government so that the Ocean Reporting Tool can perform calculations regarding jurisdictional percentage of a user specified area.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20180411</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-179.999989</westbc>
+        <eastbc>179.999989</eastbc>
+        <northbc>74.708840</northbc>
+        <southbc>-17.555000</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>SLA</themekey>
+        <themekey>State waters</themekey>
+        <themekey>Submerged Lands Act</themekey>
+        <themekey>International Maritime Boundary</themekey>
+        <themekey>Exclusive Economic Zone</themekey>
+        <themekey>EEZ</themekey>
+        <themekey>Jurisdictional boundaries and limits</themekey>
+        <themekey>Marine boundaries</themekey>
+        <themekey>Ocean planning</themekey>
+        <themekey>Cadastre</themekey>
+        <themekey>Maritime limits</themekey>
+        <themekey>Federal waters</themekey>
+        <themekey>Maritime boundaries</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>society</themekey>
+        <themekey>oceans</themekey>
+        <themekey>structure</themekey>
+        <themekey>Cadastre</themekey>
+        <themekey>geoscientificInformation</themekey>
+        <themekey>boundaries</themekey>
+        <themekey>planning</themekey>
+        <themekey>location</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>These data are intended for coastal and ocean use planning. Not for navigation. http://www.marinecadastre.gov/about/disclaimer.html</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Office for Coastal Management</cntorg>
+          <cntper>NOAA Office for Coastal Management</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <city>2234 South Hobson Ave</city>
+          <state>SC</state>
+          <postal>29405-2413</postal>
+        </cntaddr>
+        <cntvoice>843-740-1202</cntvoice>
+        <cntemail>coastal.info@noaa.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>NOAA Office of Coast Survey, NOAA Office of Coastal Management, BOEM Mapping and Boundaries Branch, DOI Minerals Management Service</datacred>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.4.1.5713</native>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>The attributes in this dataset are believed to be accurate.</attraccr>
+    </attracc>
+    <logic>These data are believed to be logically consistent. Geometry is topologically clean.</logic>
+    <complete>Spatial and attribute properties are believed to be complete, although attribute information has been simplified. Geometric thresholds from original data are preserved. No tests have been completed for exhaustiveness.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Maximum scale of intended use is 1:80,000.</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdesc>Project layers into World Mercator as needed. Merge all FederalWaters polys and extend out to 200nm EEZ. Utilize topology tools to ensure there is no overlap between state and federal waters layers. Add Jurisdiction attribute to both layers. (Populate with Feature_Name in StateWaters. Populate with "Federal" in FederalWaters.) Merge FederalWaters and StateWaters layers. Add and populate area attributes via Calculate Geometry and Field Calculator.</procdesc>
+        <procdate>20180329</procdate>
+      </procstep>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <title>StateWaters</title>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srccitea>StateWaters</srccitea>
+        <srccontr>NOAA Office for Coastal Management</srccontr>
+        <srctime>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <title>FederalWaters_SLAto50_Clipped</title>
+          </citeinfo>
+        </srccite>
+        <typesrc>onLine</typesrc>
+        <srccitea>FederalWaters_SLAto50_Clipped</srccitea>
+        <srccontr>NOAA Office for Coastal Management</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <pubdate>20130913</pubdate>
+            <title>Maritime Limits and Boundaries of United States of America</title>
+            <onlink>http://maritimeboundaries.noaa.gov/downloads/USMaritimeLimitsAndBoundariesSHP.zip</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>None</typesrc>
+        <srccitea>Maritime Limits and Boundaries of United States of America</srccitea>
+        <srccontr>NOAA OCS</srccontr>
+      </srcinfo>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>40</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref></spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>FederalAndStateWaters</enttypl>
+        <enttypd>A grouping holding attribute information.</enttypd>
+        <enttypds>NOAA</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>area_mi2</attrlabl>
+        <attrdef>Area of the feature in miles squared.</attrdef>
+        <attrdefs>NOAA</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are calculated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>area_km2</attrlabl>
+        <attrdef>Area of the feature in kilometers squared.</attrdef>
+        <attrdefs>NOAA</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are calculated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Jurisdiction</attrlabl>
+        <attrdef>Identifies the jurisdiction of each feature. Polygons representing waters under state jurisdiction have the name of the state listed in this field. Those representing federaly regulated waters have the word "Federal" in this field.</attrdef>
+        <attrdefs>NOAA</attrdefs>
+        <attrdomv>
+          <udom>Identifies the jurisdiction of each feature. Polygons representing waters under state jurisdiction have the name of the state listed in this field. Those representing federaly regulated waters have the word "Federal" in this field.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>area_nm2</attrlabl>
+        <attrdef>Area of the feature in nautical miles squared.</attrdef>
+        <attrdefs>NOAA</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are calculated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Area</attrlabl>
+        <attrdef>Area of feature in internal units squared.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Length</attrlabl>
+        <attrdef>Length of feature in internal units.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Office for Coastal Management</cntorg>
+          <cntper>NOAA Office for Coastal Management</cntper>
+        </cntorgp>
+        <cntpos>MarineCadastre.gov Data Steward</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>2234 South Hobson Avenue</address>
+          <city>Charleston</city>
+          <state>SC</state>
+          <postal>29405-2413</postal>
+        </cntaddr>
+        <cntvoice>843-740-1202</cntvoice>
+        <cntemail>coastal.info@noaa.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>These data are intended for coastal and ocean use planning. Not for navigation.</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20180325</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Quantum Spatial Inc</cntorg>
+        </cntorgp>
+        <cntpos>E-GIS Data Manager</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>10033 MLK Street N, Suite 200</address>
+          <city>St. Petersburg</city>
+          <state>Florida </state>
+          <postal>33716</postal>
+        </cntaddr>
+        <cntvoice>(727) 576-9500</cntvoice>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>
