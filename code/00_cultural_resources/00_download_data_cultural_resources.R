@@ -159,7 +159,7 @@ data_dir <- "data/a_raw_data/cultural_resources"
 #####################################
 
 # download data
-## fisheries and aquaculture
+## cultural resources
 ### North Carolina socio-economic and political data
 nc_esi_2016 <- "https://response.restoration.noaa.gov/sites/default/files/esimaps/gisdata/NCarolina_2016_GDB.zip"
 nc_esi_2011 <- "https://response.restoration.noaa.gov/sites/default/files/esimaps/gisdata/NCarolina_2011_GDB.zip"
