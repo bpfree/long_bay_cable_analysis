@@ -144,7 +144,20 @@ data_download_function <- function(download_list, data_dir){
       file.remove(file.path(data_dir, "va_habitat.zip"))
     }
     
-    dir <- file.path(data_dir, new_dir_name)
+    if (grepl("open", file)){
+      
+      new_dir_name <- "nps_historic"
+      
+      # create new directory for data
+      new_dir <- file.path(data_dir, new_dir_name)
+      
+      # unzip the file
+      unzip(zipfile = file.path(data_dir, file),
+            # export file to the new data directory
+            exdir = new_dir)
+      # remove original zipped file
+      file.remove(file.path(data_dir, file))
+    }
   }
 }
 
@@ -160,6 +173,9 @@ data_dir <- "data/a_raw_data/cultural_resources"
 
 # download data
 ## cultural resources
+### North Carolina historic preservation
+nc_hist <- "https://public-nps.opendata.arcgis.com/datasets/nps::national-register-of-historic-places-points/about"
+
 ### North Carolina socio-economic and political data
 nc_esi_2016 <- "https://response.restoration.noaa.gov/sites/default/files/esimaps/gisdata/NCarolina_2016_GDB.zip"
 nc_esi_2011 <- "https://response.restoration.noaa.gov/sites/default/files/esimaps/gisdata/NCarolina_2011_GDB.zip"
@@ -222,6 +238,8 @@ southeast_blueprint <- "https://www.sciencebase.gov/catalog/file/get/64f8da38d34
 
 # Download list
 download_list <- c(
+  nc_hist,
+  
   nc_esi_2016,
   nc_esi_2011,
 
@@ -241,7 +259,7 @@ download_list <- c(
   wildlife_recreation,
   underwater_recreation,
   surface_recreation,
-
+  
   nps_historic,
 
   lighthouses,
