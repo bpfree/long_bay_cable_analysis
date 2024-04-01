@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <title>Water Quality Monitoring Plan Stations (Current Year)</title>
+                <onlink>https://apps.deq.virginia.gov/arcgis/rest/services/public/EDMA/MapServer/131</onlink>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>Water quality monitoring stations and parameters to be sampled during the calendar year.View Data Fact Sheet</abstract>
+            <purpose>Water quality monitoring stations and parameters to be sampled during the calendar year.</purpose>
+        </descript>
+        <keywords>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>Water</themekey>
+                <themekey>Water Quality</themekey>
+                <themekey>Monitoring</themekey>
+                <themekey>Stations</themekey>
+                <themekey>Monitoring Plan</themekey>
+            </theme>
+        </keywords>
+        <accconst>None</accconst>
+        <useconst>None</useconst>
+        <datacred>VA DEQ - Office of Ecology, Water Quality Monitoring</datacred>
+    </idinfo>
+    <metainfo>
+        <metd>20201112</metd>
+        <metc>
+            <cntinfo>
+                <!--no contact person or organization name available-->
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <title>VWP Individual Permits (IP)</title>
+                <onlink>https://apps.deq.virginia.gov/arcgis/rest/services/public/EDMA/MapServer/192</onlink>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>The Virginia Water Protection Program (VWP) regulates activities in all surface waters which includes wetlands, streams, and open water. A permit (general permit coverage or individual permit) may be required in accordance with program regulations and State Water Control Law. This layer represents the project location of both active and historic VWP Individual Permits (IP) issued across the state. The Individual Permit's number, name, and regional office are among several attributes in this layer. The attribute data is pulled from DEQ's Comprehensive Environmental Data System (CEDS). The GIS data layers and maps produced by the Virginia Department of Environmental Quality (DEQ) are provided as a public resource. The Virginia Department of Environmental Quality has attempted to ensure the accuracy and completeness of the data. DEQ makes or extends no warranties of any type, expressed or implied, including but not limited to: appropriateness of use, accuracy, or completeness of data.
+DEQ does not guarantee the GIS data provided is complete or current because the information contained in these data may change over time. These data and related maps are not legal documents and should not be construed or used as such. It is encouraged that these data are obtained from a DEQ resource and not through other sources which may lead to changed or outdated data. While using DEQ GIS data, the use and modification of such data is done at the risk of the user, and where DEQ holds no liability of any nature resulting from the use or correctness of this data.
+Pursuant to Section 54.1-402, paragraph C of the Code of Virginia, this data may not be used for purposes listed in said paragraph C, since the data was not created, nor is it maintained under the supervision of a licensed land surveyor.</abstract>
+            <purpose>The Virginia Water Protection Program (VWP) regulates activities in all surface waters which includes wetlands, streams, and open water.</purpose>
+        </descript>
+        <keywords>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>VWP</themekey>
+                <themekey>Wetland</themekey>
+                <themekey>Water</themekey>
+                <themekey>Permits</themekey>
+                <themekey>Individual</themekey>
+                <themekey>Water Protection</themekey>
+            </theme>
+        </keywords>
+        <accconst>None</accconst>
+        <useconst>None</useconst>
+        <datacred>Virginia Department of Environmental Quality (DEQ)</datacred>
+    </idinfo>
+    <metainfo>
+        <metd>20201112</metd>
+        <metc>
+            <cntinfo>
+                <!--no contact person or organization name available-->
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>

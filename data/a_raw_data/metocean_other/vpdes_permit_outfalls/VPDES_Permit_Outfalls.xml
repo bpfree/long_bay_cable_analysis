@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <title>VPDES Permit Outfalls</title>
+                <onlink>https://apps.deq.virginia.gov/arcgis/rest/services/public/EDMA/MapServer/119</onlink>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>This dataset consists of the outfall locations for all Water&#13;
+VPDES Individual and General Permits. &#13;
+There are nine (9) General Permits; Concrete Products; Domestic Sewage&#13;
+Discharge; Noncontact Cooling Water, Nonmetallic Mineral Mining; Petroleum and&#13;
+Hydrostatic Test; Potable Water Treatment Plant, Seafood Processing; Stormwater&#13;
+Industrial; and Vehicle Wash and Laundry. &#13;
+There is a single VPDES Individual Permit, but these are designated as&#13;
+either Major or Minor permits depending on the amount of flow or if they&#13;
+require EPA review.&#13;
+&#13;
+ &#13;
+&#13;
+These data layer shows where discharges from the permitted&#13;
+sites enters State Waters.  This dataset&#13;
+will allow the public to find discharges to particular streams or relative to&#13;
+where they live, work or play. &#13;
+Additional information about these discharges may be found by contacting&#13;
+the DEQ regional office responsible for that area (https://www.deq.virginia.gov/Locations.aspx ).</abstract>
+            <purpose>This dataset consists of the outfall locations for all Water VPDES Individual and General Permits.  </purpose>
+        </descript>
+        <keywords>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>Water Permits</themekey>
+                <themekey>Water</themekey>
+                <themekey>Permits</themekey>
+                <themekey>VPDES</themekey>
+            </theme>
+        </keywords>
+        <accconst>None</accconst>
+        <useconst>None</useconst>
+    </idinfo>
+    <metainfo>
+        <metd>20201111</metd>
+        <metc>
+            <cntinfo>
+                <!--no contact person or organization name available-->
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <title>2018 Final WQA Monitoring Stations</title>
+                <onlink>https://apps.deq.virginia.gov/arcgis/rest/services/public/EDMA/MapServer/143</onlink>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>Sites within Virginia where DEQ or other data providers have collected water column, sediment, fish tissue or benthic macroinvertebrate samples within the given assessment data window (2018). Attributes assigned to each station are summarized based on samples collected per station ID. QA/QC checks are performed on the database to verify attribute and spatial accuracy, however errors may still occur.  Please direct any questions about attribute accuracy to the Data Distributor. The geospatial product is maintained and updated by VA DEQ each assessment cycle (biennially) using the most current data provided. Stations not monitored within the given data window may be included for clarification of assessment unit ID status but have no data within the parameter columns. See the Comments fields for those instances. Please see dateset Fact Sheet (on DEQ's Environmental Data Hub: https://geohub-vadeq.hub.arcgis.com/pages/water-datasets ) for metadata including contact information, process steps, attribute descriptions, and distribution information.</abstract>
+            <purpose>Sites within Virginia where DEQ or other data providers have collected water column, sediment, fish tissue or benthic macroinvertebrate samples within the given assessment data window (2018)</purpose>
+        </descript>
+        <keywords>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>WQA</themekey>
+                <themekey>Assessment</themekey>
+                <themekey>Monitoring</themekey>
+                <themekey>Stations</themekey>
+                <themekey>Water Quality</themekey>
+            </theme>
+        </keywords>
+        <accconst>None</accconst>
+        <useconst>See DEQ's Terms of Use</useconst>
+        <datacred>Virginia Department of Environmental Quality.</datacred>
+    </idinfo>
+    <metainfo>
+        <metd>20201111</metd>
+        <metc>
+            <cntinfo>
+                <!--no contact person or organization name available-->
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>

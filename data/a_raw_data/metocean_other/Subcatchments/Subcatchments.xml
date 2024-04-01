@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><MD_Metadata xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xalan="http://xml.apache.org/xalan" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml" xmlns="http://www.isotc211.org/2005/gmd">
+    <characterSet>
+        <MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115">utf8</MD_CharacterSetCode>
+    </characterSet>
+    <hierarchyLevel>
+        <MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="ISOTC211/19115">dataset</MD_ScopeCode>
+    </hierarchyLevel>
+    <hierarchyLevelName>
+        <gco:CharacterString>dataset</gco:CharacterString>
+    </hierarchyLevelName>
+    <contact gco:nilReason="missing"/>
+    <dateStamp gco:nilReason="missing"/>
+    <metadataStandardName>
+        <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
+    </metadataStandardName>
+    <metadataStandardVersion>
+        <gco:CharacterString>2007</gco:CharacterString>
+    </metadataStandardVersion>
+    <identificationInfo>
+        <MD_DataIdentification>
+            <citation gco:nilReason="missing"/>
+            <abstract>
+                <gco:CharacterString>City of Virginia Beach subcatchments as of March 2023. A subcatchment is used to model the runoff from a given area of land. Each subcatchment generates a runoff hydrograph, that is typically routed into a downstream reach or pond. A subcatchment can also be used to account for the rain falling directly on the surface of a pond.</gco:CharacterString>
+            </abstract>
+            <purpose>
+                <gco:CharacterString>City of Virginia Beach Subcatchments as of March 2023</gco:CharacterString>
+            </purpose>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>SWEC</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Public Works</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>VB</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>CVB</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Public Infrastructure</gco:CharacterString>
+                    </keyword>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <resourceConstraints>
+                <MD_Constraints>
+                    <useLimitation>
+                        <gco:CharacterString>Maps &amp;amp; GIS Data © City of Virginia Beach. All rights reserved.The Center for GIS (CGIS) manages the core Geospatial Information Systems (GIS). It is a member division in the Department of Communications and Information Technology (ComIT). The primary role is to support City GIS operations and spatial information needs.The digital data provided by the Center for GIS is not the official recorded plat for any piece of property.  All official plats are recorded and stored by the Clerk of the Circuit Court.The GIS data available for sale to the public on CD and available on the Internet is provided &amp;quot;as is&amp;quot; and the City of Virginia Beach expressly disclaims all warranties, UCC, and otherwise, express or implied including particular purpose, and further expressly disclaims responsibility for all incidental, consequential or special damages arising out of or in connection with the use or performance of the data.In regard to data purchased, the undersigned requester acknowledges the disclaimer of warranty and waives all warranties expressed or implied and waives any right  of claim for damages incidental, consequential or special, arising out of or in connection with the use of performance of the data.The data provided by the City of Virginia Beach shall remain the property of the City of Virginia Beach which shall retain all rights commensurate with ownership, including the right to sell, release, license use, or provide the data to others as it deems appropriate in its sole discretion and the right now or in the future to copyright the data.            The data provided by the City of Virginia Beach is deemed and remains hereafter proprietary information of the City of Virginia Beach and shall not be provided or assigned to other parties</gco:CharacterString>
+                    </useLimitation>
+                </MD_Constraints>
+            </resourceConstraints>
+            <language gco:nilReason="missing"/>
+            <characterSet>
+                <MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115">utf8</MD_CharacterSetCode>
+            </characterSet>
+        </MD_DataIdentification>
+    </identificationInfo>
+</MD_Metadata>
