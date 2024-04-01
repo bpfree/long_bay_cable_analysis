@@ -205,30 +205,7 @@ marine_highways <- sf::st_read(dsn = paste(data_dir, "marine_highways.gdb", sep 
 
 shipping_lanes <- sf::st_read(dsn = paste(data_dir, "shippinglanes/shippinglanes.shp", sep = "/"))
 
-# fishing nets
-fyke_nets_points <- sf::st_read(dsn = paste(data_dir, "fn.kml", sep = "/")) %>%
-  dplyr::filter(sf::st_is(x = ., type = "POINT"))
 
-fyke_nets_lines <- sf::st_read(dsn = paste(data_dir, "fn.kml", sep = "/")) %>%
-  dplyr::filter(sf::st_is(x = ., type = "LINESTRING")) %>%
-  # drop dimensions to make geometry valid
-  sf::st_zm(.)
-
-pound_nets_points <- sf::st_read(dsn = paste(data_dir, "pn.kml", sep = "/")) %>%
-  dplyr::filter(sf::st_is(x = ., type = "POINT"))
-
-pound_nets_lines <- sf::st_read(dsn = paste(data_dir, "pn.kml", sep = "/")) %>%
-  dplyr::filter(sf::st_is(x = ., type = "LINESTRING")) %>%
-  # drop dimensions to make geometry valid
-  sf::st_zm(.)
-
-staked_gill_nets_points <- sf::st_read(dsn = paste(data_dir, "sgn.kml", sep = "/")) %>%
-  dplyr::filter(sf::st_is(x = ., type = "POINT"))
-
-staked_gill_nets_lines <- sf::st_read(dsn = paste(data_dir, "sgn.kml", sep = "/")) %>%
-  dplyr::filter(sf::st_is(x = ., type = "LINESTRING")) %>%
-  # drop dimensions to make geometry valid
-  sf::st_zm(.)
 
 wind_interarray <- sf::st_read(dsn = paste(data_dir, "offshore_wind_interarray_cables.gpkg", sep = "/"),
                                layer = sf::st_layers(paste(data_dir, "offshore_wind_interarray_cables.gpkg", sep = "/"))[[1]][1])
@@ -261,24 +238,6 @@ passive_acoustic_sc_point <- sf::st_read(dsn = paste(data_dir, "ProposedPassiveA
 ais_tracks <- sf::st_read(dsn = file.path(data_dir, "ais_tracks_2022.gdb"),
                           layer = sf::st_layers(file.path(data_dir, "ais_tracks_2022.gdb"))[[1]][1])
 
-# ais_tracks_sqlite <- paste(data_dir, "AISVesselTracks2022/AISVesselTracks2022/AISVesselTracks2022.sqlite", sep = "/")
-# dbcon <- dbConnect(dbDriver("SQLite"), ais_tracks_sqlite)
-# dbListTables(dbcon)
-# track_fields <- dbListFields(dbcon, "AISVesselTracks2022")
-# track_fields
-# geom_fields <- dbListFields(dbcon, "st_spindex__AISVesselTracks2022_Shape")
-# geom_fields
-# test <- dbListFields(dbcon, "st_spindex__AISVesselTracks2022_Shape_rowid")
-# test
-
-# tracks = dbReadTable(dbcon, "AISVesselTracks2022")
-# track_geom = dbReadTable(dbcon, "st_spindex__AISVesselTracks2022_Shape")
-# geom <- dbReadTable(dbcon, "st_geometry_columns")
-
-# ais_tracks_sqlite <- sf::st_read(dsn = paste(data_dir, "AISVesselTracks2022/AISVesselTracks2022/AISVesselTracks2022.sqlite", sep = "/"),
-#                                  layer = sf::st_layers(paste(data_dir, "AISVesselTracks2022/AISVesselTracks2022/AISVesselTracks2022.sqlite", sep = "/")))
-# 
-
 right_whale <- sf::st_read(dsn = paste(data_dir, "Proposed-Right-Whale-Seasonal-Speed-Zones/Proposed_Right_Whale_Seasonal_Speed_Zones.shp", sep = "/"))
 
 storage_tank <- sf::st_read(dsn = paste(data_dir, "ust_active_facilities.gpkg", sep = "/"),
@@ -290,8 +249,6 @@ planned_ports <- sf::st_read(dsn = paste(data_dir, "OffshoreWindPlannedPorts2023
 ## petroleum
 petroleum_tank <- sf::st_read(dsn = paste(data_dir, "Registered_Petroleum_Tank_Facilities/Registered_Petroleum_Tank_Facilities.shp", sep = "/"))
 petroleum_release <- sf::st_read(dsn = paste(data_dir, "Petroleum_Release_sites/Petroleum_Release_Sites.shp", sep = "/"))
-
-vms_demarcation <- sf::st_read(dsn = paste(data_dir, "vms_demarcation_line_20140925?null/VMS_Demarcation_Line/VMS_Demarcation_Line.shp", sep = "/"))
 
 ## Chesapeake Bay ESI
 cb_esi_ln <- sf::st_read(dsn = paste(data_dir, "ChesapeakeBay_2016_GDB/ChesapeakeBay_2016_ESI.gdb", sep = "/"),
