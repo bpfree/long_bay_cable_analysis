@@ -68,6 +68,9 @@ data/a_raw_data/metocean_other/ChesapeakeBay_2016_GDB
 data/a_raw_data/metocean_other/Chlorophylla
 data/a_raw_data/metocean_other/CurrentSpeedDirection
 
+data/a_raw_data/metocean_other/ESMP_shoreline_2007
+data/a_raw_data/metocean_other/shoreline_estuarine_2012
+
 data/a_raw_data/metocean_other/NC_Middle1_slr_data_dist
 data/a_raw_data/metocean_other/NC_Middle2_slr_data_dist
 data/a_raw_data/metocean_other/NC_Northern_slr_data_dist
