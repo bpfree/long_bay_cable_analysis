@@ -68,43 +68,67 @@ sc_geology <- sf::st_read(dsn = file.path(data_dir, "sc_geology.gpkg"),
                           layer = sf::st_layers(dsn = file.path(data_dir, "sc_geology.gpkg"))[[1]][1])
 
 ## South Carolina storm tracks
-sc_storms <- sf::st_read(dsn = file.path(data_dir, "SC_Hurricanes_Public/SC_Hurricanes_Public.shp"),
-                         layer = sf::st_layers(dsn = file.path(data_dir, "SC_Hurricanes_Public/SC_Hurricanes_Public.shp"))[[1]][1])
+sc_storms <- sf::st_read(dsn = file.path(data_dir, "SC_Hurricanes_Public/SC_Hurricanes_Public.shp"))
 
 ## South Carolina approved TMDL sites
+tmdl_sites <- sf::st_read(dsn = file.path(data_dir, "tmdl_sites/Approved_TMDL_Sites.shp"))
 
 ## section 319 grant projects
+section319 <- sf::st_read(dsn = file.path(data_dir, "section319_projects/Section_319_Grant_Projects.shp"))
 
 ## North Carolina NPDES stormwater permits
+nc_npdes <- sf::st_read(dsn = file.path(data_dir, "nc_npdes_permits/NPDES_Stormwater_Permits.shp"))
 
-## Norht Carolina state stormwater permits
+## North Carolina state stormwater permits
+nc_state_stormwater <- sf::st_read(dsn = file.path(data_dir, "nc_state_permits/STATE_Stormwater_Permits.shp"))
 
 ## North Carolina no exposure certifications
+nc_no_exposure <- sf::st_read(dsn = file.path(data_dir, "no_exposure_certs/NO_EXPOSURE_Certifications.shp"))
 
 ## North Carolina NPDES wastewater discharge permits
+nc_wastewater <- sf::st_read(dsn = file.path(data_dir, "nc_wastewater_permits.gpkg"),
+                             layer = sf::st_layers(dsn = file.path(data_dir, "nc_wastewater_permits.gpkg"))[[1]][1])
 
 ## North Carolina IHA environmental concern
+nc_iha <- sf::st_read(dsn = file.path(data_dir, "iha/iha.shp"))
 
 ## North Carolina oceanfront erosion rates
 ### 2020
+nc_ocean_erosion_2020 <- sf::st_read(dsn = file.path(data_dir, "er_2020/er_2020.shp"))
 
 ### 20213
+nc_ocean_erosion_2013 <- sf::st_read(dsn = file.path(data_dir, "er_2013/er_2013.shp"))
 
 ## North Carolina oceanfront shorelines (1848 - 2016)
+nc_dcm_ocean <- sf::st_read(dsn = file.path(data_dir, "dcm_oceanfront_shorelines/dcm_oceanfront_shorelines.shp"))
 
 ## North Carolina ESMP structures (2010 - 2012)
 
+
 ## North Carolina estuarine shoreline (2010)
+nc_estuarine_shoreline_2010 <- sf::st_read(dsn = file.path(data_dir, "ESMP_shoreline_2007/ESMP_shoreline_2007.shp"))
 
 ## North Carolina estuarine shoreline (2012)
+nc_estuarine_shoreline_2012 <- sf::st_read(dsn = file.path(data_dir, "shoreline_estuarine_2012/shoreline_estuarine_2012.shp"))
 
 ## Southeast bathymetry
+southeast_bath <- sf::st_read(dsn = file.path(data_dir, "southeast_bathymetry_meters/southeast_bathymetry_meters.shp"))
 
-## South Carolina ESI 2015
+## South Carolina ESI -- natural hazard (2015)
+sc_esi_2015 <- sf::st_read(dsn = file.path(data_dir, "SCarolina_2015_GDB/SCarolina_2015_GDB/SC_ESI_2015.gdb"),
+                                           layer = sf::st_layers(dsn = file.path(data_dir, "SCarolina_2015_GDB/SCarolina_2015_GDB/SC_ESI_2015.gdb"))[[1]][grep(pattern = "NAT_HAZARD_POLY",
+                                                                                                                                                               x = sf::st_layers(dsn = file.path(data_dir, "SCarolina_2015_GDB/SCarolina_2015_GDB/SC_ESI_2015.gdb"))[[1]])])
+                                                                                                                                                               
 
-## North Carolina ESI 2016
+## North Carolina ESI -- natural hazard (2016)
+nc_esi_2015 <- sf::st_read(dsn = file.path(data_dir, "NCarolina_2016_GDB/NorthCarolina_2016_ESI.gdb"),
+                           layer = sf::st_layers(dsn = file.path(data_dir, "NCarolina_2016_GDB/NorthCarolina_2016_ESI.gdb"))[[1]][grep(pattern = "NAT_HAZARD_POLY",
+                                                                                                                                             x = sf::st_layers(dsn = file.path(dsn = data_dir, "NCarolina_2016_GDB/NorthCarolina_2016_ESI.gdb"))[[1]])])
 
 ## tropical cyclone wind exposure -- North Atlantic
+na_tropical_wind <- sf::st_read(dsn = file.path(data_dir, "TropicalCycloneWindExposure/TropicalCycloneWindExposure.gdb"),
+                                layer = sf::st_layers(dsn = file.path(data_dir, "TropicalCycloneWindExposure/TropicalCycloneWindExposure.gdb"))[[1]][grep(pattern = "NorthAtlantic",
+                                                                                                                                                          x = sf::st_layers(dsn = file.path(data_dir, "TropicalCycloneWindExposure/TropicalCycloneWindExposure.gdb"))[[1]])])
 
 ## sea surface height
 
