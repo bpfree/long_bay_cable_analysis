@@ -106,6 +106,33 @@ fish_landings_species <- sf::st_read(dsn = file.path(data_dir, "fish_landings_la
 ## North Carolina shrimp landings
 nc_shrimp <- sf::st_read(dsn = file.path(data_dir, "nc_shrimp/north_carolina_shrimp_landings.shp"))
 
+# fishing nets
+fyke_nets_points <- sf::st_read(dsn = paste(data_dir, "fn.kml", sep = "/")) %>%
+  dplyr::filter(sf::st_is(x = ., type = "POINT"))
+
+fyke_nets_lines <- sf::st_read(dsn = paste(data_dir, "fn.kml", sep = "/")) %>%
+  dplyr::filter(sf::st_is(x = ., type = "LINESTRING")) %>%
+  # drop dimensions to make geometry valid
+  sf::st_zm(.)
+
+pound_nets_points <- sf::st_read(dsn = paste(data_dir, "pn.kml", sep = "/")) %>%
+  dplyr::filter(sf::st_is(x = ., type = "POINT"))
+
+pound_nets_lines <- sf::st_read(dsn = paste(data_dir, "pn.kml", sep = "/")) %>%
+  dplyr::filter(sf::st_is(x = ., type = "LINESTRING")) %>%
+  # drop dimensions to make geometry valid
+  sf::st_zm(.)
+
+staked_gill_nets_points <- sf::st_read(dsn = paste(data_dir, "sgn.kml", sep = "/")) %>%
+  dplyr::filter(sf::st_is(x = ., type = "POINT"))
+
+staked_gill_nets_lines <- sf::st_read(dsn = paste(data_dir, "sgn.kml", sep = "/")) %>%
+  dplyr::filter(sf::st_is(x = ., type = "LINESTRING")) %>%
+  # drop dimensions to make geometry valid
+  sf::st_zm(.)
+
+vms_demarcation <- sf::st_read(dsn = paste(data_dir, "vms_demarcation_line_20140925?null/VMS_Demarcation_Line/VMS_Demarcation_Line.shp", sep = "/"))
+
 #####################################
 #####################################
 
@@ -121,7 +148,14 @@ data <- list(sc_trawl,
              commercial_fish,
              fish_landings_area_code,
              fish_landings_species,
-             nc_shrimp)
+             nc_shrimp,
+             fkye_nets_points,
+             fkye_nets_lines,
+             pound_nets_points,
+             pound_nets_lines,
+             staked_gill_nets_points,
+             staked_gill_nets_lines,
+             vms_demarcation)
 
 #####################################
 
