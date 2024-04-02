@@ -307,7 +307,8 @@ notice_land_use <- sf::st_read(dsn = file.path(data_dir, "notice_land_use.gpkg")
                                      layer = sf::st_layers(dsn = file.path(data_dir, "notice_land_use.gpkg"))[[1]][1])
 
 ## North Carolina pre-regulatory landfill sites
-
+pre_reg_landfill <- sf::st_read(dsn = file.path(data_dir, "prereg_landfill_sites.gpkg"),
+                               layer = sf::st_layers(dsn = file.path(data_dir, "prereg_landfill_sites.gpkg"))[[1]][1])
 
 ## North Carolina dry cleaning historical boiler inspections
 cleaning_gpkg <- file.path(data_dir, "dry_cleaning.gpkg")
@@ -317,322 +318,710 @@ acidification <- sf::st_read(dsn = file.path(data_dir, "AcidificationMonitoringM
                              layer = sf::st_layers(file.path(data_dir, "AcidificationMonitoringMidA_Ver202310/AcidificationMonitoring_MidA_ver202310/AcidificationMonitoringMidA_ver202310.gdb"))[[1]][1])
 
 ## climate change vulnerabilities (compile)
-ccv_gdb <- file.path(data_dir, "CCV_CoastalMidAtlantic_Counties/CC_CoastalMidAtlantic_Counties/CCV_CoastalMidAtlantic_Counties.gdb")
+ccv_compile <- sf::st_read(dsn = file.path(data_dir, "CCV_CoastalMidAtlantic_Counties/CCV_CoastalMidAtlantic_Counties/CCV_CoastalMidAtlantic_Counties.gdb"),
+                           layer = sf::st_layers(dsn = file.path(data_dir, "CCV_CoastalMidAtlantic_Counties/CCV_CoastalMidAtlantic_Counties/CCV_CoastalMidAtlantic_Counties.gdb"))[[1]][grep(pattern = "Compile",
+                                                                                                                                                                                             x = sf::st_layers(dsn = file.path(data_dir, "CCV_CoastalMidAtlantic_Counties/CCV_CoastalMidAtlantic_Counties/CCV_CoastalMidAtlantic_Counties.gdb"))[[1]])])
 
 ## climate change vulnerabilities (employment)
+ccv_employment <- sf::st_read(dsn = file.path(data_dir, "CCV_CoastalMidAtlantic_Counties/CCV_CoastalMidAtlantic_Counties/CCV_CoastalMidAtlantic_Counties.gdb"),
+                           layer = sf::st_layers(dsn = file.path(data_dir, "CCV_CoastalMidAtlantic_Counties/CCV_CoastalMidAtlantic_Counties/CCV_CoastalMidAtlantic_Counties.gdb"))[[1]][grep(pattern = "Employment",
+                                                                                                                                                                                             x = sf::st_layers(dsn = file.path(data_dir, "CCV_CoastalMidAtlantic_Counties/CCV_CoastalMidAtlantic_Counties/CCV_CoastalMidAtlantic_Counties.gdb"))[[1]])])
 
 ## climate change vulnerabilities (fisheries)
+ccv_fisheries <- sf::st_read(dsn = file.path(data_dir, "CCV_CoastalMidAtlantic_Counties/CCV_CoastalMidAtlantic_Counties/CCV_CoastalMidAtlantic_Counties.gdb"),
+                           layer = sf::st_layers(dsn = file.path(data_dir, "CCV_CoastalMidAtlantic_Counties/CCV_CoastalMidAtlantic_Counties/CCV_CoastalMidAtlantic_Counties.gdb"))[[1]][grep(pattern = "Fish",
+                                                                                                                                                                                             x = sf::st_layers(dsn = file.path(data_dir, "CCV_CoastalMidAtlantic_Counties/CCV_CoastalMidAtlantic_Counties/CCV_CoastalMidAtlantic_Counties.gdb"))[[1]])])
 
 ## climate change vulnerabilities (flooding summary)
+ccv_flooding <- sf::st_read(dsn = file.path(data_dir, "CCV_CoastalMidAtlantic_Counties/CCV_CoastalMidAtlantic_Counties/CCV_CoastalMidAtlantic_Counties.gdb"),
+                           layer = sf::st_layers(dsn = file.path(data_dir, "CCV_CoastalMidAtlantic_Counties/CCV_CoastalMidAtlantic_Counties/CCV_CoastalMidAtlantic_Counties.gdb"))[[1]][grep(pattern = "Flood",
+                                                                                                                                                                                             x = sf::st_layers(dsn = file.path(data_dir, "CCV_CoastalMidAtlantic_Counties/CCV_CoastalMidAtlantic_Counties/CCV_CoastalMidAtlantic_Counties.gdb"))[[1]])])
 
 ## climate change vulnerabilities (high)
+ccv_high <- sf::st_read(dsn = file.path(data_dir, "CCV_CoastalMidAtlantic_Counties/CCV_CoastalMidAtlantic_Counties/CCV_CoastalMidAtlantic_Counties.gdb"),
+                           layer = sf::st_layers(dsn = file.path(data_dir, "CCV_CoastalMidAtlantic_Counties/CCV_CoastalMidAtlantic_Counties/CCV_CoastalMidAtlantic_Counties.gdb"))[[1]][grep(pattern = "High",
+                                                                                                                                                                                             x = sf::st_layers(dsn = file.path(data_dir, "CCV_CoastalMidAtlantic_Counties/CCV_CoastalMidAtlantic_Counties/CCV_CoastalMidAtlantic_Counties.gdb"))[[1]])])
 
 ## climate change vulnerabilities (ranking)
+ccv_ranking <- sf::st_read(dsn = file.path(data_dir, "CCV_CoastalMidAtlantic_Counties/CCV_CoastalMidAtlantic_Counties/CCV_CoastalMidAtlantic_Counties.gdb"),
+                           layer = sf::st_layers(dsn = file.path(data_dir, "CCV_CoastalMidAtlantic_Counties/CCV_CoastalMidAtlantic_Counties/CCV_CoastalMidAtlantic_Counties.gdb"))[[1]][grep(pattern = "Merge_Rank",
+                                                                                                                                                                                             x = sf::st_layers(dsn = file.path(data_dir, "CCV_CoastalMidAtlantic_Counties/CCV_CoastalMidAtlantic_Counties/CCV_CoastalMidAtlantic_Counties.gdb"))[[1]])])
 
 ## climate change vulnerabilities (ocean employment)
+ccv_ocean_employment <- sf::st_read(dsn = file.path(data_dir, "CCV_CoastalMidAtlantic_Counties/CCV_CoastalMidAtlantic_Counties/CCV_CoastalMidAtlantic_Counties.gdb"),
+                           layer = sf::st_layers(dsn = file.path(data_dir, "CCV_CoastalMidAtlantic_Counties/CCV_CoastalMidAtlantic_Counties/CCV_CoastalMidAtlantic_Counties.gdb"))[[1]][grep(pattern = "Ocean_Emp",
+                                                                                                                                                                                             x = sf::st_layers(dsn = file.path(data_dir, "CCV_CoastalMidAtlantic_Counties/CCV_CoastalMidAtlantic_Counties/CCV_CoastalMidAtlantic_Counties.gdb"))[[1]])])
 
 ## climate change vulnerabilities (population and housing ranking)
+ccv_pop_house_rank <- sf::st_read(dsn = file.path(data_dir, "CCV_CoastalMidAtlantic_Counties/CCV_CoastalMidAtlantic_Counties/CCV_CoastalMidAtlantic_Counties.gdb"),
+                           layer = sf::st_layers(dsn = file.path(data_dir, "CCV_CoastalMidAtlantic_Counties/CCV_CoastalMidAtlantic_Counties/CCV_CoastalMidAtlantic_Counties.gdb"))[[1]][grep(pattern = "House_Rank",
+                                                                                                                                                                                             x = sf::st_layers(dsn = file.path(data_dir, "CCV_CoastalMidAtlantic_Counties/CCV_CoastalMidAtlantic_Counties/CCV_CoastalMidAtlantic_Counties.gdb"))[[1]])])
 
 ## climate change vulnerabilities (population and housing summary)
+ccv_pop_house_summary <- sf::st_read(dsn = file.path(data_dir, "CCV_CoastalMidAtlantic_Counties/CCV_CoastalMidAtlantic_Counties/CCV_CoastalMidAtlantic_Counties.gdb"),
+                           layer = sf::st_layers(dsn = file.path(data_dir, "CCV_CoastalMidAtlantic_Counties/CCV_CoastalMidAtlantic_Counties/CCV_CoastalMidAtlantic_Counties.gdb"))[[1]][grep(pattern = "Pop_Housing",
+                                                                                                                                                                                             x = sf::st_layers(dsn = file.path(data_dir, "CCV_CoastalMidAtlantic_Counties/CCV_CoastalMidAtlantic_Counties/CCV_CoastalMidAtlantic_Counties.gdb"))[[1]])])
 
 ## climate change vulnerabilities (major road and highways)
+ccv_road_highways <- sf::st_read(dsn = file.path(data_dir, "CCV_CoastalMidAtlantic_Counties/CCV_CoastalMidAtlantic_Counties/CCV_CoastalMidAtlantic_Counties.gdb"),
+                           layer = sf::st_layers(dsn = file.path(data_dir, "CCV_CoastalMidAtlantic_Counties/CCV_CoastalMidAtlantic_Counties/CCV_CoastalMidAtlantic_Counties.gdb"))[[1]][grep(pattern = "Roads_Rails",
+                                                                                                                                                                                             x = sf::st_layers(dsn = file.path(data_dir, "CCV_CoastalMidAtlantic_Counties/CCV_CoastalMidAtlantic_Counties/CCV_CoastalMidAtlantic_Counties.gdb"))[[1]])])
 
 ## climate change vulnerabilities (social vulnerability summary)
+ccv_social_summary <- sf::st_read(dsn = file.path(data_dir, "CCV_CoastalMidAtlantic_Counties/CCV_CoastalMidAtlantic_Counties/CCV_CoastalMidAtlantic_Counties.gdb"),
+                           layer = sf::st_layers(dsn = file.path(data_dir, "CCV_CoastalMidAtlantic_Counties/CCV_CoastalMidAtlantic_Counties/CCV_CoastalMidAtlantic_Counties.gdb"))[[1]][grep(pattern = "SOVI",
+                                                                                                                                                                                             x = sf::st_layers(dsn = file.path(data_dir, "CCV_CoastalMidAtlantic_Counties/CCV_CoastalMidAtlantic_Counties/CCV_CoastalMidAtlantic_Counties.gdb"))[[1]])])
 
 ## intrinsic seabed vulnerabilities (bottom trawl, median fishing effort)
+bottom_trawl_median <- sf::st_read(dsn = file.path(data_dir, "Fishing_Effects_Intrinsic_Seabed_Habitat_Vulnerability/Fishing_Effects_Intrinsic_Seabed_Habitat_Vulnerability/Median/ISHV_BottomTrawl_Median.shp"))
 
 ## intrinsic seabed vulnerabilities (gillnet, median fishing effort)
+gill_net_median <- sf::st_read(dsn = file.path(data_dir, "Fishing_Effects_Intrinsic_Seabed_Habitat_Vulnerability/Fishing_Effects_Intrinsic_Seabed_Habitat_Vulnerability/Median/ISHV_Gillnet_Median.shp"))
 
 ## intrinsic seabed vulnerabilities (hydraulic clam dredge, median fishing effort)
+hyrdaulic_median <- sf::st_read(dsn = file.path(data_dir, "Fishing_Effects_Intrinsic_Seabed_Habitat_Vulnerability/Fishing_Effects_Intrinsic_Seabed_Habitat_Vulnerability/Median/ISHV_Hydraulic_Median.shp"))
 
 ## intrinsic seabed vulnerabilities (longline, median fishing effort)
+longline_median <- sf::st_read(dsn = file.path(data_dir, "Fishing_Effects_Intrinsic_Seabed_Habitat_Vulnerability/Fishing_Effects_Intrinsic_Seabed_Habitat_Vulnerability/Median/ISHV_Longline_Median.shp"))
 
 ## intrinsic seabed vulnerabilities (scallop dredge, median fishing effort)
+scallop_median <- sf::st_read(dsn = file.path(data_dir, "Fishing_Effects_Intrinsic_Seabed_Habitat_Vulnerability/Fishing_Effects_Intrinsic_Seabed_Habitat_Vulnerability/Median/ISHV_Scallop_Median.shp"))
 
 ## intrinsic seabed vulnerabilities (trap, median fishing effort)
+trap_median <- sf::st_read(dsn = file.path(data_dir, "Fishing_Effects_Intrinsic_Seabed_Habitat_Vulnerability/Fishing_Effects_Intrinsic_Seabed_Habitat_Vulnerability/Median/ISHV_Trap_Median.shp"))
 
 ## subcatchments
+subcatchments <- sf::st_read(dsn = file.path(data_dir, "Subcatchments/Subcatchments.shp"))
 
 ## VPDES permit outfalls
+vpdes_permit_outfalls <- sf::st_read(dsn = file.path(data_dir, "vpdes_permit_outfalls/VPDES_Permit_Outfalls.shp"))
 
 ## VWP (general permits)
+vwp_general_permits <- sf::st_read(dsn = file.path(data_dir, "vwp_general_permits/VWP_General_Permits_(GP).shp"))
 
 ## VWP (individual permits)
+vwp_individual_permits <- sf::st_read(dsn = file.path(data_dir, "vwp_individual_permits/VWP_Individual_Permits_(IP).shp"))
 
 ## VWP (non-permits)
+vwp_non_permits <- sf::st_read(dsn = file.path(data_dir, "vwp_non_permits/VWP_Non-Permit_(NP).shp"))
 
 ## WQA monitoring stations (2018)
+wqa_stations <- sf::st_read(dsn = file.path(data_dir, "wqa_stations/2018_Final_WQA_Monitoring_Stations.shp"))
 
 ## water quality monitoring plan stations (current)
+water_monitoring_stations <- sf::st_read(dsn = file.path(data_dir, "water_quality_monitoring_stations/Water_Quality_Monitoring_Plan_Stations_(Current).shp"))
 
 ## Chesapeake Bay ESI
 ### hydro -- line
-cb_hydro_l <- sf::st_read(dsn = file.path(data_dir, "ChesapeakeBay_2016_GDB/ChesapeakeBay_2016_ESI.gdb"),
+cb_hydro_ln <- sf::st_read(dsn = file.path(data_dir, "ChesapeakeBay_2016_GDB/ChesapeakeBay_2016_ESI.gdb"),
                           layer = sf::st_layers(dsn = file.path(data_dir, "ChesapeakeBay_2016_GDB/ChesapeakeBay_2016_ESI.gdb"))[[1]][grep(pattern = "HYDROL",
                                                                                                                                           x = sf::st_layers(dsn = file.path(data_dir, "ChesapeakeBay_2016_GDB/ChesapeakeBay_2016_ESI.gdb"))[[1]])])
 ### hydro -- polygon
+cb_hydro_poly <- sf::st_read(dsn = file.path(data_dir, "ChesapeakeBay_2016_GDB/ChesapeakeBay_2016_ESI.gdb"),
+                          layer = sf::st_layers(dsn = file.path(data_dir, "ChesapeakeBay_2016_GDB/ChesapeakeBay_2016_ESI.gdb"))[[1]][grep(pattern = "HYDROP",
+                                                                                                                                          x = sf::st_layers(dsn = file.path(data_dir, "ChesapeakeBay_2016_GDB/ChesapeakeBay_2016_ESI.gdb"))[[1]])])
 
 ### natural hazards
+cb_natural_hazards_ln <- sf::st_read(dsn = file.path(data_dir, "ChesapeakeBay_2016_GDB/ChesapeakeBay_2016_ESI.gdb"),
+                          layer = sf::st_layers(dsn = file.path(data_dir, "ChesapeakeBay_2016_GDB/ChesapeakeBay_2016_ESI.gdb"))[[1]][grep(pattern = "NAT_HAZARD",
+                                                                                                                                          x = sf::st_layers(dsn = file.path(data_dir, "ChesapeakeBay_2016_GDB/ChesapeakeBay_2016_ESI.gdb"))[[1]])])
 
 ### political
+cb_political_pt <- sf::st_read(dsn = file.path(data_dir, "ChesapeakeBay_2016_GDB/ChesapeakeBay_2016_ESI.gdb"),
+                          layer = sf::st_layers(dsn = file.path(data_dir, "ChesapeakeBay_2016_GDB/ChesapeakeBay_2016_ESI.gdb"))[[1]][grep(pattern = "POLITICAL_POINT",
+                                                                                                                                          x = sf::st_layers(dsn = file.path(data_dir, "ChesapeakeBay_2016_GDB/ChesapeakeBay_2016_ESI.gdb"))[[1]])])
+
+cb_political_ln <- sf::st_read(dsn = file.path(data_dir, "ChesapeakeBay_2016_GDB/ChesapeakeBay_2016_ESI.gdb"),
+                                  layer = sf::st_layers(dsn = file.path(data_dir, "ChesapeakeBay_2016_GDB/ChesapeakeBay_2016_ESI.gdb"))[[1]][grep(pattern = "POLITICAL_LINE",
+                                                                                                                                                  x = sf::st_layers(dsn = file.path(data_dir, "ChesapeakeBay_2016_GDB/ChesapeakeBay_2016_ESI.gdb"))[[1]])])
+
+cb_political_poly <- sf::st_read(dsn = file.path(data_dir, "ChesapeakeBay_2016_GDB/ChesapeakeBay_2016_ESI.gdb"),
+                                  layer = sf::st_layers(dsn = file.path(data_dir, "ChesapeakeBay_2016_GDB/ChesapeakeBay_2016_ESI.gdb"))[[1]][grep(pattern = "POLITICAL_POLY",
+                                                                                                                                                  x = sf::st_layers(dsn = file.path(data_dir, "ChesapeakeBay_2016_GDB/ChesapeakeBay_2016_ESI.gdb"))[[1]])])
 
 ### management
+cb_management_pt <- sf::st_read(dsn = file.path(data_dir, "ChesapeakeBay_2016_GDB/ChesapeakeBay_2016_ESI.gdb"),
+                                  layer = sf::st_layers(dsn = file.path(data_dir, "ChesapeakeBay_2016_GDB/ChesapeakeBay_2016_ESI.gdb"))[[1]][grep(pattern = "MANAGED_POINT",
+                                                                                                                                                  x = sf::st_layers(dsn = file.path(data_dir, "ChesapeakeBay_2016_GDB/ChesapeakeBay_2016_ESI.gdb"))[[1]])])
+
+cb_management_poly <- sf::st_read(dsn = file.path(data_dir, "ChesapeakeBay_2016_GDB/ChesapeakeBay_2016_ESI.gdb"),
+                                 layer = sf::st_layers(dsn = file.path(data_dir, "ChesapeakeBay_2016_GDB/ChesapeakeBay_2016_ESI.gdb"))[[1]][grep(pattern = "MANAGED_POLY",
+                                                                                                                                                 x = sf::st_layers(dsn = file.path(data_dir, "ChesapeakeBay_2016_GDB/ChesapeakeBay_2016_ESI.gdb"))[[1]])])
 
 ## middle Atlantic bight
 ### bottom shear stress (median)
+mab_bottom_shear_stress_median <- sf::st_read(dsn = file.path(data_dir, "MAB_median/MAB_median/MAB_median.shp"))
 
 ### bottom shear stress (half interpercentile)
+mab_bottom_shear_stress_hipr <- sf::st_read(dsn = file.path(data_dir, "MAB_hIPR/MAB_hIPR/MAB_hIPR.shp"))
 
 ### bottom shear stress (95th percentile)
+mab_bottom_shear_stress_95th <- sf::st_read(dsn = file.path(data_dir, "MAB_95th_perc/MAB_95th_perc/MAB_95th_perc.shp"))
 
 ### seabed mobility percentage
+mab_seabed_mobility_pct <- sf::st_read(dsn = file.path(data_dir, "MAB_mobile_perc/MAB_mobile_perc/MAB_mobile_perc.shp"))
 
 ### seabed mobility recurrence interval
+mab_seabed_mobility_recurrence <- sf::st_read(dsn = file.path(data_dir, "MAB_mobile_freq_v1_1/MAB_mobile_freq_v1_1/MAB_mobile_freq_v1_1.shp"))
 
 ## south Atlantic bight
 ### bottom shear stress (median)
+sab_bottom_shear_stress_median <- sf::st_read(dsn = file.path(data_dir, "SAB_median/SAB_median/SAB_median.shp"))
 
 ### bottom shear stress (half interpercentile)
+sab_bottom_shear_stress_hipr <- sf::st_read(dsn = file.path(data_dir, "SAB_hIPR/SAB_hIPR/SAB_hIPR.shp"))
 
 ### bottom shear stress (95th percentile)
+sab_bottom_shear_stress_95th <- sf::st_read(dsn = file.path(data_dir, "SAB_95th_perc/SAB_95th_perc/SAB_95th_perc.shp"))
 
 ### seabed mobility percentage
+sab_seabed_mobility_pct <- sf::st_read(dsn = file.path(data_dir, "SAB_mobile_perc/SAB_mobile_perc/SAB_mobile_perc.shp"))
 
 ### seabed mobility recurrence interval
+sab_seabed_mobility_recurrence <- sf::st_read(dsn = file.path(data_dir, "SAB_mobile_freq_v1_1/SAB_mobile_freq_v1_1/SAB_mobile_freq_v1_1.shp"))
 
 ## fishing effects model
 ### boulder
+boulder <- sf::st_read(dsn = file.path(data_dir, "Fishing_Effects_Sediment/Fishing_Effects_Sediment/FishingEffectsSediment.shp")) %>%
+  dplyr::select(GridID, Boulder)
 
-### cobbler
+### cobble
+cobble <- sf::st_read(dsn = file.path(data_dir, "Fishing_Effects_Sediment/Fishing_Effects_Sediment/FishingEffectsSediment.shp")) %>%
+  dplyr::select(GridID, Cobble)
 
 ### granule and pebble
+granule_pebble <- sf::st_read(dsn = file.path(data_dir, "Fishing_Effects_Sediment/Fishing_Effects_Sediment/FishingEffectsSediment.shp")) %>%
+  dplyr::select(GridID, GrPe)
 
 ### mud
+mud <- sf::st_read(dsn = file.path(data_dir, "Fishing_Effects_Sediment/Fishing_Effects_Sediment/FishingEffectsSediment.shp")) %>%
+  dplyr::select(GridID, Mud)
 
 ### sand
+sand <- sf::st_read(dsn = file.path(data_dir, "Fishing_Effects_Sediment/Fishing_Effects_Sediment/FishingEffectsSediment.shp")) %>%
+  dplyr::select(GridID, Sand)
 
 ### steep / deep
+steep_deep <- sf::st_read(dsn = file.path(data_dir, "Fishing_Effects_Sediment/Fishing_Effects_Sediment/FishingEffectsSediment.shp")) %>%
+  dplyr::select(GridID, StDeep)
 
-### sediment data density
+### density
+sediment_density <- sf::st_read(dsn = file.path(data_dir, "Fishing_Effects_Sediment/Fishing_Effects_Sediment/FishingEffectsSediment.shp")) %>%
+  dplyr::select(GridID, Density)
 
 ### sediment diversity
+sediment_diversity <- sf::st_read(dsn = file.path(data_dir, "Fishing_Effects_Sediment/Fishing_Effects_Sediment/FishingEffectsSediment.shp")) %>%
+  dplyr::select(GridID, Diversity)
 
 ## northern North Carolina (sea level rise)
 ### 0 foot
+nc_north_slr_0ft <- sf::st_read(dsn = file.path(data_dir, "NC_Northern_slr_data_dist/NC_Northern_slr_final_dist.gdb"),
+                                 layer = sf::st_layers(dsn = file.path(data_dir, "NC_Northern_slr_data_dist/NC_Northern_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_0ft",
+                                                                                                                                                    x = sf::st_layers(dsn = file.path(data_dir, "NC_Northern_slr_data_dist/NC_Northern_slr_final_dist.gdb"))[[1]])])
 
 ### 1 foot
+nc_north_slr_1ft <- sf::st_read(dsn = file.path(data_dir, "NC_Northern_slr_data_dist/NC_Northern_slr_final_dist.gdb"),
+                                layer = sf::st_layers(dsn = file.path(data_dir, "NC_Northern_slr_data_dist/NC_Northern_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_1ft",
+                                                                                                                                                       x = sf::st_layers(dsn = file.path(data_dir, "NC_Northern_slr_data_dist/NC_Northern_slr_final_dist.gdb"))[[1]])])
 
 ### 2 foot
+nc_north_slr_2ft <- sf::st_read(dsn = file.path(data_dir, "NC_Northern_slr_data_dist/NC_Northern_slr_final_dist.gdb"),
+                                layer = sf::st_layers(dsn = file.path(data_dir, "NC_Northern_slr_data_dist/NC_Northern_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_2ft",
+                                                                                                                                                       x = sf::st_layers(dsn = file.path(data_dir, "NC_Northern_slr_data_dist/NC_Northern_slr_final_dist.gdb"))[[1]])])
 
 ### 3 foot
+nc_north_slr_3ft <- sf::st_read(dsn = file.path(data_dir, "NC_Northern_slr_data_dist/NC_Northern_slr_final_dist.gdb"),
+                                layer = sf::st_layers(dsn = file.path(data_dir, "NC_Northern_slr_data_dist/NC_Northern_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_3ft",
+                                                                                                                                                       x = sf::st_layers(dsn = file.path(data_dir, "NC_Northern_slr_data_dist/NC_Northern_slr_final_dist.gdb"))[[1]])])
 
 ### 4 foot
+nc_north_slr_4ft <- sf::st_read(dsn = file.path(data_dir, "NC_Northern_slr_data_dist/NC_Northern_slr_final_dist.gdb"),
+                                layer = sf::st_layers(dsn = file.path(data_dir, "NC_Northern_slr_data_dist/NC_Northern_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_4ft",
+                                                                                                                                                       x = sf::st_layers(dsn = file.path(data_dir, "NC_Northern_slr_data_dist/NC_Northern_slr_final_dist.gdb"))[[1]])])
 
 ### 5 foot
+nc_north_slr_5ft <- sf::st_read(dsn = file.path(data_dir, "NC_Northern_slr_data_dist/NC_Northern_slr_final_dist.gdb"),
+                                layer = sf::st_layers(dsn = file.path(data_dir, "NC_Northern_slr_data_dist/NC_Northern_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_5ft",
+                                                                                                                                                       x = sf::st_layers(dsn = file.path(data_dir, "NC_Northern_slr_data_dist/NC_Northern_slr_final_dist.gdb"))[[1]])])
 
 ### 6 foot
+nc_north_slr_6ft <- sf::st_read(dsn = file.path(data_dir, "NC_Northern_slr_data_dist/NC_Northern_slr_final_dist.gdb"),
+                                layer = sf::st_layers(dsn = file.path(data_dir, "NC_Northern_slr_data_dist/NC_Northern_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_6ft",
+                                                                                                                                                       x = sf::st_layers(dsn = file.path(data_dir, "NC_Northern_slr_data_dist/NC_Northern_slr_final_dist.gdb"))[[1]])])
 
 ### 7 foot
+nc_north_slr_7ft <- sf::st_read(dsn = file.path(data_dir, "NC_Northern_slr_data_dist/NC_Northern_slr_final_dist.gdb"),
+                                layer = sf::st_layers(dsn = file.path(data_dir, "NC_Northern_slr_data_dist/NC_Northern_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_7ft",
+                                                                                                                                                       x = sf::st_layers(dsn = file.path(data_dir, "NC_Northern_slr_data_dist/NC_Northern_slr_final_dist.gdb"))[[1]])])
 
 ### 8 foot
+nc_north_slr_8ft <- sf::st_read(dsn = file.path(data_dir, "NC_Northern_slr_data_dist/NC_Northern_slr_final_dist.gdb"),
+                                layer = sf::st_layers(dsn = file.path(data_dir, "NC_Northern_slr_data_dist/NC_Northern_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_8ft",
+                                                                                                                                                       x = sf::st_layers(dsn = file.path(data_dir, "NC_Northern_slr_data_dist/NC_Northern_slr_final_dist.gdb"))[[1]])])
 
 ### 9 foot
+nc_north_slr_9ft <- sf::st_read(dsn = file.path(data_dir, "NC_Northern_slr_data_dist/NC_Northern_slr_final_dist.gdb"),
+                                layer = sf::st_layers(dsn = file.path(data_dir, "NC_Northern_slr_data_dist/NC_Northern_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_9ft",
+                                                                                                                                                       x = sf::st_layers(dsn = file.path(data_dir, "NC_Northern_slr_data_dist/NC_Northern_slr_final_dist.gdb"))[[1]])])
 
 ### 10 foot
+nc_north_slr_10ft <- sf::st_read(dsn = file.path(data_dir, "NC_Northern_slr_data_dist/NC_Northern_slr_final_dist.gdb"),
+                                layer = sf::st_layers(dsn = file.path(data_dir, "NC_Northern_slr_data_dist/NC_Northern_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_10ft",
+                                                                                                                                                       x = sf::st_layers(dsn = file.path(data_dir, "NC_Northern_slr_data_dist/NC_Northern_slr_final_dist.gdb"))[[1]])])
 
 ## middle 1 North Carolina (sea level rise)
 ### 0 foot
+nc_middle1_slr_0ft <- sf::st_read(dsn = file.path(data_dir, "NC_Middle1_slr_data_dist/NC_Middle1_slr_final_dist.gdb"),
+                                layer = sf::st_layers(dsn = file.path(data_dir, "NC_Middle1_slr_data_dist/NC_Middle1_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_0ft",
+                                                                                                                                                       x = sf::st_layers(dsn = file.path(data_dir, "NC_Middle1_slr_data_dist/NC_Middle1_slr_final_dist.gdb"))[[1]])])
 
 ### 1 foot
+nc_middle1_slr_1ft <- sf::st_read(dsn = file.path(data_dir, "NC_Middle1_slr_data_dist/NC_Middle1_slr_final_dist.gdb"),
+                                 layer = sf::st_layers(dsn = file.path(data_dir, "NC_Middle1_slr_data_dist/NC_Middle1_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_1ft",
+                                                                                                                                                      x = sf::st_layers(dsn = file.path(data_dir, "NC_Middle1_slr_data_dist/NC_Middle1_slr_final_dist.gdb"))[[1]])])
 
 ### 2 foot
+nc_middle1_slr_2ft <- sf::st_read(dsn = file.path(data_dir, "NC_Middle1_slr_data_dist/NC_Middle1_slr_final_dist.gdb"),
+                                 layer = sf::st_layers(dsn = file.path(data_dir, "NC_Middle1_slr_data_dist/NC_Middle1_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_2ft",
+                                                                                                                                                      x = sf::st_layers(dsn = file.path(data_dir, "NC_Middle1_slr_data_dist/NC_Middle1_slr_final_dist.gdb"))[[1]])])
 
 ### 3 foot
+nc_middle1_slr_3ft <- sf::st_read(dsn = file.path(data_dir, "NC_Middle1_slr_data_dist/NC_Middle1_slr_final_dist.gdb"),
+                                 layer = sf::st_layers(dsn = file.path(data_dir, "NC_Middle1_slr_data_dist/NC_Middle1_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_3ft",
+                                                                                                                                                      x = sf::st_layers(dsn = file.path(data_dir, "NC_Middle1_slr_data_dist/NC_Middle1_slr_final_dist.gdb"))[[1]])])
 
 ### 4 foot
+nc_middle1_slr_4ft <- sf::st_read(dsn = file.path(data_dir, "NC_Middle1_slr_data_dist/NC_Middle1_slr_final_dist.gdb"),
+                                 layer = sf::st_layers(dsn = file.path(data_dir, "NC_Middle1_slr_data_dist/NC_Middle1_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_4ft",
+                                                                                                                                                      x = sf::st_layers(dsn = file.path(data_dir, "NC_Middle1_slr_data_dist/NC_Middle1_slr_final_dist.gdb"))[[1]])])
 
 ### 5 foot
+nc_middle1_slr_5ft <- sf::st_read(dsn = file.path(data_dir, "NC_Middle1_slr_data_dist/NC_Middle1_slr_final_dist.gdb"),
+                                 layer = sf::st_layers(dsn = file.path(data_dir, "NC_Middle1_slr_data_dist/NC_Middle1_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_5ft",
+                                                                                                                                                      x = sf::st_layers(dsn = file.path(data_dir, "NC_Middle1_slr_data_dist/NC_Middle1_slr_final_dist.gdb"))[[1]])])
 
 ### 6 foot
+nc_middle1_slr_6ft <- sf::st_read(dsn = file.path(data_dir, "NC_Middle1_slr_data_dist/NC_Middle1_slr_final_dist.gdb"),
+                                 layer = sf::st_layers(dsn = file.path(data_dir, "NC_Middle1_slr_data_dist/NC_Middle1_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_6ft",
+                                                                                                                                                      x = sf::st_layers(dsn = file.path(data_dir, "NC_Middle1_slr_data_dist/NC_Middle1_slr_final_dist.gdb"))[[1]])])
 
 ### 7 foot
+nc_middle1_slr_7ft <- sf::st_read(dsn = file.path(data_dir, "NC_Middle1_slr_data_dist/NC_Middle1_slr_final_dist.gdb"),
+                                 layer = sf::st_layers(dsn = file.path(data_dir, "NC_Middle1_slr_data_dist/NC_Middle1_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_7ft",
+                                                                                                                                                      x = sf::st_layers(dsn = file.path(data_dir, "NC_Middle1_slr_data_dist/NC_Middle1_slr_final_dist.gdb"))[[1]])])
 
 ### 8 foot
+nc_middle1_slr_8ft <- sf::st_read(dsn = file.path(data_dir, "NC_Middle1_slr_data_dist/NC_Middle1_slr_final_dist.gdb"),
+                                 layer = sf::st_layers(dsn = file.path(data_dir, "NC_Middle1_slr_data_dist/NC_Middle1_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_8ft",
+                                                                                                                                                      x = sf::st_layers(dsn = file.path(data_dir, "NC_Middle1_slr_data_dist/NC_Middle1_slr_final_dist.gdb"))[[1]])])
 
 ### 9 foot
+nc_middle1_slr_9ft <- sf::st_read(dsn = file.path(data_dir, "NC_Middle1_slr_data_dist/NC_Middle1_slr_final_dist.gdb"),
+                                 layer = sf::st_layers(dsn = file.path(data_dir, "NC_Middle1_slr_data_dist/NC_Middle1_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_9ft",
+                                                                                                                                                      x = sf::st_layers(dsn = file.path(data_dir, "NC_Middle1_slr_data_dist/NC_Middle1_slr_final_dist.gdb"))[[1]])])
 
 ### 10 foot
+nc_middle1_slr_10ft <- sf::st_read(dsn = file.path(data_dir, "NC_Middle1_slr_data_dist/NC_Middle1_slr_final_dist.gdb"),
+                                 layer = sf::st_layers(dsn = file.path(data_dir, "NC_Middle1_slr_data_dist/NC_Middle1_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_10ft",
+                                                                                                                                                      x = sf::st_layers(dsn = file.path(data_dir, "NC_Middle1_slr_data_dist/NC_Middle1_slr_final_dist.gdb"))[[1]])])
 
 ## middle 2 North Carolina (sea level rise)
 ### 0 foot
+nc_middle2_slr_0ft <- sf::st_read(dsn = file.path(data_dir, "NC_Middle2_slr_data_dist/NC_Middle2_slr_final_dist.gdb"),
+                                 layer = sf::st_layers(dsn = file.path(data_dir, "NC_Middle2_slr_data_dist/NC_Middle2_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_0ft",
+                                                                                                                                                      x = sf::st_layers(dsn = file.path(data_dir, "NC_Middle2_slr_data_dist/NC_Middle2_slr_final_dist.gdb"))[[1]])])
 
 ### 1 foot
+nc_middle2_slr_1ft <- sf::st_read(dsn = file.path(data_dir, "NC_Middle2_slr_data_dist/NC_Middle2_slr_final_dist.gdb"),
+                                  layer = sf::st_layers(dsn = file.path(data_dir, "NC_Middle2_slr_data_dist/NC_Middle2_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_1ft",
+                                                                                                                                                       x = sf::st_layers(dsn = file.path(data_dir, "NC_Middle2_slr_data_dist/NC_Middle2_slr_final_dist.gdb"))[[1]])])
 
 ### 2 foot
+nc_middle2_slr_2ft <- sf::st_read(dsn = file.path(data_dir, "NC_Middle2_slr_data_dist/NC_Middle2_slr_final_dist.gdb"),
+                                  layer = sf::st_layers(dsn = file.path(data_dir, "NC_Middle2_slr_data_dist/NC_Middle2_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_2ft",
+                                                                                                                                                       x = sf::st_layers(dsn = file.path(data_dir, "NC_Middle2_slr_data_dist/NC_Middle2_slr_final_dist.gdb"))[[1]])])
 
 ### 3 foot
+nc_middle2_slr_3ft <- sf::st_read(dsn = file.path(data_dir, "NC_Middle2_slr_data_dist/NC_Middle2_slr_final_dist.gdb"),
+                                  layer = sf::st_layers(dsn = file.path(data_dir, "NC_Middle2_slr_data_dist/NC_Middle2_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_3ft",
+                                                                                                                                                       x = sf::st_layers(dsn = file.path(data_dir, "NC_Middle2_slr_data_dist/NC_Middle2_slr_final_dist.gdb"))[[1]])])
 
 ### 4 foot
+nc_middle2_slr_4ft <- sf::st_read(dsn = file.path(data_dir, "NC_Middle2_slr_data_dist/NC_Middle2_slr_final_dist.gdb"),
+                                  layer = sf::st_layers(dsn = file.path(data_dir, "NC_Middle2_slr_data_dist/NC_Middle2_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_4ft",
+                                                                                                                                                       x = sf::st_layers(dsn = file.path(data_dir, "NC_Middle2_slr_data_dist/NC_Middle2_slr_final_dist.gdb"))[[1]])])
 
 ### 5 foot
+nc_middle2_slr_5ft <- sf::st_read(dsn = file.path(data_dir, "NC_Middle2_slr_data_dist/NC_Middle2_slr_final_dist.gdb"),
+                                  layer = sf::st_layers(dsn = file.path(data_dir, "NC_Middle2_slr_data_dist/NC_Middle2_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_5ft",
+                                                                                                                                                       x = sf::st_layers(dsn = file.path(data_dir, "NC_Middle2_slr_data_dist/NC_Middle2_slr_final_dist.gdb"))[[1]])])
 
 ### 6 foot
+nc_middle2_slr_6ft <- sf::st_read(dsn = file.path(data_dir, "NC_Middle2_slr_data_dist/NC_Middle2_slr_final_dist.gdb"),
+                                  layer = sf::st_layers(dsn = file.path(data_dir, "NC_Middle2_slr_data_dist/NC_Middle2_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_6ft",
+                                                                                                                                                       x = sf::st_layers(dsn = file.path(data_dir, "NC_Middle2_slr_data_dist/NC_Middle2_slr_final_dist.gdb"))[[1]])])
 
 ### 7 foot
+nc_middle2_slr_7ft <- sf::st_read(dsn = file.path(data_dir, "NC_Middle2_slr_data_dist/NC_Middle2_slr_final_dist.gdb"),
+                                  layer = sf::st_layers(dsn = file.path(data_dir, "NC_Middle2_slr_data_dist/NC_Middle2_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_7ft",
+                                                                                                                                                       x = sf::st_layers(dsn = file.path(data_dir, "NC_Middle2_slr_data_dist/NC_Middle2_slr_final_dist.gdb"))[[1]])])
 
 ### 8 foot
+nc_middle2_slr_8ft <- sf::st_read(dsn = file.path(data_dir, "NC_Middle2_slr_data_dist/NC_Middle2_slr_final_dist.gdb"),
+                                  layer = sf::st_layers(dsn = file.path(data_dir, "NC_Middle2_slr_data_dist/NC_Middle2_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_8ft",
+                                                                                                                                                       x = sf::st_layers(dsn = file.path(data_dir, "NC_Middle2_slr_data_dist/NC_Middle2_slr_final_dist.gdb"))[[1]])])
 
 ### 9 foot
+nc_middle2_slr_9ft <- sf::st_read(dsn = file.path(data_dir, "NC_Middle2_slr_data_dist/NC_Middle2_slr_final_dist.gdb"),
+                                  layer = sf::st_layers(dsn = file.path(data_dir, "NC_Middle2_slr_data_dist/NC_Middle2_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_9ft",
+                                                                                                                                                       x = sf::st_layers(dsn = file.path(data_dir, "NC_Middle2_slr_data_dist/NC_Middle2_slr_final_dist.gdb"))[[1]])])
 
 ### 10 foot
+nc_middle2_slr_10ft <- sf::st_read(dsn = file.path(data_dir, "NC_Middle2_slr_data_dist/NC_Middle2_slr_final_dist.gdb"),
+                                   layer = sf::st_layers(dsn = file.path(data_dir, "NC_Middle2_slr_data_dist/NC_Middle2_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_10ft",
+                                                                                                                                                        x = sf::st_layers(dsn = file.path(data_dir, "NC_Middle2_slr_data_dist/NC_Middle2_slr_final_dist.gdb"))[[1]])])
 
 ## southern 1 North Carolina (sea level rise)
 ### 0 foot
+nc_south1_slr_0ft <- sf::st_read(dsn = file.path(data_dir, "NC_Southern1_slr_data_dist/NC_Southern1_slr_final_dist.gdb"),
+                                layer = sf::st_layers(dsn = file.path(data_dir, "NC_Southern1_slr_data_dist/NC_Southern1_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_0ft",
+                                                                                                                                                       x = sf::st_layers(dsn = file.path(data_dir, "NC_Southern1_slr_data_dist/NC_Southern1_slr_final_dist.gdb"))[[1]])])
 
 ### 1 foot
+nc_south1_slr_1ft <- sf::st_read(dsn = file.path(data_dir, "NC_Southern1_slr_data_dist/NC_Southern1_slr_final_dist.gdb"),
+                                layer = sf::st_layers(dsn = file.path(data_dir, "NC_Southern1_slr_data_dist/NC_Southern1_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_1ft",
+                                                                                                                                                       x = sf::st_layers(dsn = file.path(data_dir, "NC_Southern1_slr_data_dist/NC_Southern1_slr_final_dist.gdb"))[[1]])])
 
 ### 2 foot
+nc_south1_slr_2ft <- sf::st_read(dsn = file.path(data_dir, "NC_Southern1_slr_data_dist/NC_Southern1_slr_final_dist.gdb"),
+                                layer = sf::st_layers(dsn = file.path(data_dir, "NC_Southern1_slr_data_dist/NC_Southern1_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_2ft",
+                                                                                                                                                       x = sf::st_layers(dsn = file.path(data_dir, "NC_Southern1_slr_data_dist/NC_Southern1_slr_final_dist.gdb"))[[1]])])
 
 ### 3 foot
+nc_south1_slr_3ft <- sf::st_read(dsn = file.path(data_dir, "NC_Southern1_slr_data_dist/NC_Southern1_slr_final_dist.gdb"),
+                                layer = sf::st_layers(dsn = file.path(data_dir, "NC_Southern1_slr_data_dist/NC_Southern1_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_3ft",
+                                                                                                                                                       x = sf::st_layers(dsn = file.path(data_dir, "NC_Southern1_slr_data_dist/NC_Southern1_slr_final_dist.gdb"))[[1]])])
 
 ### 4 foot
+nc_south1_slr_4ft <- sf::st_read(dsn = file.path(data_dir, "NC_Southern1_slr_data_dist/NC_Southern1_slr_final_dist.gdb"),
+                                layer = sf::st_layers(dsn = file.path(data_dir, "NC_Southern1_slr_data_dist/NC_Southern1_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_4ft",
+                                                                                                                                                       x = sf::st_layers(dsn = file.path(data_dir, "NC_Southern1_slr_data_dist/NC_Southern1_slr_final_dist.gdb"))[[1]])])
 
 ### 5 foot
+nc_south1_slr_5ft <- sf::st_read(dsn = file.path(data_dir, "NC_Southern1_slr_data_dist/NC_Southern1_slr_final_dist.gdb"),
+                                layer = sf::st_layers(dsn = file.path(data_dir, "NC_Southern1_slr_data_dist/NC_Southern1_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_5ft",
+                                                                                                                                                       x = sf::st_layers(dsn = file.path(data_dir, "NC_Southern1_slr_data_dist/NC_Southern1_slr_final_dist.gdb"))[[1]])])
 
 ### 6 foot
+nc_south1_slr_6ft <- sf::st_read(dsn = file.path(data_dir, "NC_Southern1_slr_data_dist/NC_Southern1_slr_final_dist.gdb"),
+                                layer = sf::st_layers(dsn = file.path(data_dir, "NC_Southern1_slr_data_dist/NC_Southern1_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_6ft",
+                                                                                                                                                       x = sf::st_layers(dsn = file.path(data_dir, "NC_Southern1_slr_data_dist/NC_Southern1_slr_final_dist.gdb"))[[1]])])
 
 ### 7 foot
+nc_south1_slr_7ft <- sf::st_read(dsn = file.path(data_dir, "NC_Southern1_slr_data_dist/NC_Southern1_slr_final_dist.gdb"),
+                                layer = sf::st_layers(dsn = file.path(data_dir, "NC_Southern1_slr_data_dist/NC_Southern1_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_7ft",
+                                                                                                                                                       x = sf::st_layers(dsn = file.path(data_dir, "NC_Southern1_slr_data_dist/NC_Southern1_slr_final_dist.gdb"))[[1]])])
 
 ### 8 foot
+nc_south1_slr_8ft <- sf::st_read(dsn = file.path(data_dir, "NC_Southern1_slr_data_dist/NC_Southern1_slr_final_dist.gdb"),
+                                layer = sf::st_layers(dsn = file.path(data_dir, "NC_Southern1_slr_data_dist/NC_Southern1_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_8ft",
+                                                                                                                                                       x = sf::st_layers(dsn = file.path(data_dir, "NC_Southern1_slr_data_dist/NC_Southern1_slr_final_dist.gdb"))[[1]])])
 
 ### 9 foot
+nc_south1_slr_9ft <- sf::st_read(dsn = file.path(data_dir, "NC_Southern1_slr_data_dist/NC_Southern1_slr_final_dist.gdb"),
+                                layer = sf::st_layers(dsn = file.path(data_dir, "NC_Southern1_slr_data_dist/NC_Southern1_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_9ft",
+                                                                                                                                                       x = sf::st_layers(dsn = file.path(data_dir, "NC_Southern1_slr_data_dist/NC_Southern1_slr_final_dist.gdb"))[[1]])])
 
 ### 10 foot
+nc_south1_slr_10ft <- sf::st_read(dsn = file.path(data_dir, "NC_Southern1_slr_data_dist/NC_Southern1_slr_final_dist.gdb"),
+                                 layer = sf::st_layers(dsn = file.path(data_dir, "NC_Southern1_slr_data_dist/NC_Southern1_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_10ft",
+                                                                                                                                                        x = sf::st_layers(dsn = file.path(data_dir, "NC_Southern1_slr_data_dist/NC_Southern1_slr_final_dist.gdb"))[[1]])])
 
 ## southern 2 North Carolina (sea level rise)
 ### 0 foot
+nc_south2_slr_0ft <- sf::st_read(dsn = file.path(data_dir, "NC_Southern2_slr_data_dist/NC_Southern2_slr_final_dist.gdb"),
+                                 layer = sf::st_layers(dsn = file.path(data_dir, "NC_Southern2_slr_data_dist/NC_Southern2_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_0ft",
+                                                                                                                                                          x = sf::st_layers(dsn = file.path(data_dir, "NC_Southern2_slr_data_dist/NC_Southern2_slr_final_dist.gdb"))[[1]])])
 
 ### 1 foot
+nc_south2_slr_1ft <- sf::st_read(dsn = file.path(data_dir, "NC_Southern2_slr_data_dist/NC_Southern2_slr_final_dist.gdb"),
+                                 layer = sf::st_layers(dsn = file.path(data_dir, "NC_Southern2_slr_data_dist/NC_Southern2_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_1ft",
+                                                                                                                                                          x = sf::st_layers(dsn = file.path(data_dir, "NC_Southern2_slr_data_dist/NC_Southern2_slr_final_dist.gdb"))[[1]])])
 
 ### 2 foot
+nc_south2_slr_2ft <- sf::st_read(dsn = file.path(data_dir, "NC_Southern2_slr_data_dist/NC_Southern2_slr_final_dist.gdb"),
+                                 layer = sf::st_layers(dsn = file.path(data_dir, "NC_Southern2_slr_data_dist/NC_Southern2_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_2ft",
+                                                                                                                                                          x = sf::st_layers(dsn = file.path(data_dir, "NC_Southern2_slr_data_dist/NC_Southern2_slr_final_dist.gdb"))[[1]])])
 
 ### 3 foot
+nc_south2_slr_3ft <- sf::st_read(dsn = file.path(data_dir, "NC_Southern2_slr_data_dist/NC_Southern2_slr_final_dist.gdb"),
+                                 layer = sf::st_layers(dsn = file.path(data_dir, "NC_Southern2_slr_data_dist/NC_Southern2_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_3ft",
+                                                                                                                                                          x = sf::st_layers(dsn = file.path(data_dir, "NC_Southern2_slr_data_dist/NC_Southern2_slr_final_dist.gdb"))[[1]])])
 
 ### 4 foot
+nc_south2_slr_4ft <- sf::st_read(dsn = file.path(data_dir, "NC_Southern2_slr_data_dist/NC_Southern2_slr_final_dist.gdb"),
+                                 layer = sf::st_layers(dsn = file.path(data_dir, "NC_Southern2_slr_data_dist/NC_Southern2_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_4ft",
+                                                                                                                                                          x = sf::st_layers(dsn = file.path(data_dir, "NC_Southern2_slr_data_dist/NC_Southern2_slr_final_dist.gdb"))[[1]])])
 
 ### 5 foot
+nc_south2_slr_5ft <- sf::st_read(dsn = file.path(data_dir, "NC_Southern2_slr_data_dist/NC_Southern2_slr_final_dist.gdb"),
+                                 layer = sf::st_layers(dsn = file.path(data_dir, "NC_Southern2_slr_data_dist/NC_Southern2_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_5ft",
+                                                                                                                                                          x = sf::st_layers(dsn = file.path(data_dir, "NC_Southern2_slr_data_dist/NC_Southern2_slr_final_dist.gdb"))[[1]])])
 
 ### 6 foot
+nc_south2_slr_6ft <- sf::st_read(dsn = file.path(data_dir, "NC_Southern2_slr_data_dist/NC_Southern2_slr_final_dist.gdb"),
+                                 layer = sf::st_layers(dsn = file.path(data_dir, "NC_Southern2_slr_data_dist/NC_Southern2_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_6ft",
+                                                                                                                                                          x = sf::st_layers(dsn = file.path(data_dir, "NC_Southern2_slr_data_dist/NC_Southern2_slr_final_dist.gdb"))[[1]])])
 
 ### 7 foot
+nc_south2_slr_7ft <- sf::st_read(dsn = file.path(data_dir, "NC_Southern2_slr_data_dist/NC_Southern2_slr_final_dist.gdb"),
+                                 layer = sf::st_layers(dsn = file.path(data_dir, "NC_Southern2_slr_data_dist/NC_Southern2_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_7ft",
+                                                                                                                                                          x = sf::st_layers(dsn = file.path(data_dir, "NC_Southern2_slr_data_dist/NC_Southern2_slr_final_dist.gdb"))[[1]])])
 
 ### 8 foot
+nc_south2_slr_8ft <- sf::st_read(dsn = file.path(data_dir, "NC_Southern2_slr_data_dist/NC_Southern2_slr_final_dist.gdb"),
+                                 layer = sf::st_layers(dsn = file.path(data_dir, "NC_Southern2_slr_data_dist/NC_Southern2_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_8ft",
+                                                                                                                                                          x = sf::st_layers(dsn = file.path(data_dir, "NC_Southern2_slr_data_dist/NC_Southern2_slr_final_dist.gdb"))[[1]])])
 
 ### 9 foot
+nc_south2_slr_9ft <- sf::st_read(dsn = file.path(data_dir, "NC_Southern2_slr_data_dist/NC_Southern2_slr_final_dist.gdb"),
+                                 layer = sf::st_layers(dsn = file.path(data_dir, "NC_Southern2_slr_data_dist/NC_Southern2_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_9ft",
+                                                                                                                                                          x = sf::st_layers(dsn = file.path(data_dir, "NC_Southern2_slr_data_dist/NC_Southern2_slr_final_dist.gdb"))[[1]])])
 
 ### 10 foot
+nc_south2_slr_10ft <- sf::st_read(dsn = file.path(data_dir, "NC_Southern2_slr_data_dist/NC_Southern2_slr_final_dist.gdb"),
+                                  layer = sf::st_layers(dsn = file.path(data_dir, "NC_Southern2_slr_data_dist/NC_Southern2_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_10ft",
+                                                                                                                                                           x = sf::st_layers(dsn = file.path(data_dir, "NC_Southern2_slr_data_dist/NC_Southern2_slr_final_dist.gdb"))[[1]])])
 
 ## northern South Carolina (sea level rise)
 ### 0 foot
+sc_north_slr_0ft <- sf::st_read(dsn = file.path(data_dir, "SC_North_slr_data_dist/SC_North_slr_final_dist.gdb"),
+                                 layer = sf::st_layers(dsn = file.path(data_dir, "SC_North_slr_data_dist/SC_North_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_0ft",
+                                                                                                                                                          x = sf::st_layers(dsn = file.path(data_dir, "SC_North_slr_data_dist/SC_North_slr_final_dist.gdb"))[[1]])])
 
 ### 1 foot
+sc_north_slr_1ft <- sf::st_read(dsn = file.path(data_dir, "SC_North_slr_data_dist/SC_North_slr_final_dist.gdb"),
+                                 layer = sf::st_layers(dsn = file.path(data_dir, "SC_North_slr_data_dist/SC_North_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_1ft",
+                                                                                                                                                          x = sf::st_layers(dsn = file.path(data_dir, "SC_North_slr_data_dist/SC_North_slr_final_dist.gdb"))[[1]])])
 
 ### 2 foot
+sc_north_slr_2ft <- sf::st_read(dsn = file.path(data_dir, "SC_North_slr_data_dist/SC_North_slr_final_dist.gdb"),
+                                 layer = sf::st_layers(dsn = file.path(data_dir, "SC_North_slr_data_dist/SC_North_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_2ft",
+                                                                                                                                                          x = sf::st_layers(dsn = file.path(data_dir, "SC_North_slr_data_dist/SC_North_slr_final_dist.gdb"))[[1]])])
 
 ### 3 foot
+sc_north_slr_3ft <- sf::st_read(dsn = file.path(data_dir, "SC_North_slr_data_dist/SC_North_slr_final_dist.gdb"),
+                                 layer = sf::st_layers(dsn = file.path(data_dir, "SC_North_slr_data_dist/SC_North_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_3ft",
+                                                                                                                                                          x = sf::st_layers(dsn = file.path(data_dir, "SC_North_slr_data_dist/SC_North_slr_final_dist.gdb"))[[1]])])
 
 ### 4 foot
+sc_north_slr_4ft <- sf::st_read(dsn = file.path(data_dir, "SC_North_slr_data_dist/SC_North_slr_final_dist.gdb"),
+                                 layer = sf::st_layers(dsn = file.path(data_dir, "SC_North_slr_data_dist/SC_North_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_4ft",
+                                                                                                                                                          x = sf::st_layers(dsn = file.path(data_dir, "SC_North_slr_data_dist/SC_North_slr_final_dist.gdb"))[[1]])])
 
 ### 5 foot
+sc_north_slr_5ft <- sf::st_read(dsn = file.path(data_dir, "SC_North_slr_data_dist/SC_North_slr_final_dist.gdb"),
+                                 layer = sf::st_layers(dsn = file.path(data_dir, "SC_North_slr_data_dist/SC_North_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_5ft",
+                                                                                                                                                          x = sf::st_layers(dsn = file.path(data_dir, "SC_North_slr_data_dist/SC_North_slr_final_dist.gdb"))[[1]])])
 
 ### 6 foot
+sc_north_slr_6ft <- sf::st_read(dsn = file.path(data_dir, "SC_North_slr_data_dist/SC_North_slr_final_dist.gdb"),
+                                 layer = sf::st_layers(dsn = file.path(data_dir, "SC_North_slr_data_dist/SC_North_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_6ft",
+                                                                                                                                                          x = sf::st_layers(dsn = file.path(data_dir, "SC_North_slr_data_dist/SC_North_slr_final_dist.gdb"))[[1]])])
 
 ### 7 foot
+sc_north_slr_7ft <- sf::st_read(dsn = file.path(data_dir, "SC_North_slr_data_dist/SC_North_slr_final_dist.gdb"),
+                                 layer = sf::st_layers(dsn = file.path(data_dir, "SC_North_slr_data_dist/SC_North_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_7ft",
+                                                                                                                                                          x = sf::st_layers(dsn = file.path(data_dir, "SC_North_slr_data_dist/SC_North_slr_final_dist.gdb"))[[1]])])
 
 ### 8 foot
+sc_north_slr_8ft <- sf::st_read(dsn = file.path(data_dir, "SC_North_slr_data_dist/SC_North_slr_final_dist.gdb"),
+                                 layer = sf::st_layers(dsn = file.path(data_dir, "SC_North_slr_data_dist/SC_North_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_8ft",
+                                                                                                                                                          x = sf::st_layers(dsn = file.path(data_dir, "SC_North_slr_data_dist/SC_North_slr_final_dist.gdb"))[[1]])])
 
 ### 9 foot
+sc_north_slr_9ft <- sf::st_read(dsn = file.path(data_dir, "SC_North_slr_data_dist/SC_North_slr_final_dist.gdb"),
+                                 layer = sf::st_layers(dsn = file.path(data_dir, "SC_North_slr_data_dist/SC_North_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_9ft",
+                                                                                                                                                          x = sf::st_layers(dsn = file.path(data_dir, "SC_North_slr_data_dist/SC_North_slr_final_dist.gdb"))[[1]])])
 
 ### 10 foot
+sc_north_slr_10ft <- sf::st_read(dsn = file.path(data_dir, "SC_North_slr_data_dist/SC_North_slr_final_dist.gdb"),
+                                  layer = sf::st_layers(dsn = file.path(data_dir, "SC_North_slr_data_dist/SC_North_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_10ft",
+                                                                                                                                                           x = sf::st_layers(dsn = file.path(data_dir, "SC_North_slr_data_dist/SC_North_slr_final_dist.gdb"))[[1]])])
 
 ## central South Carolina (sea level rise)
-### 0 foot
+sc_central_slr_0ft <- sf::st_read(dsn = file.path(data_dir, "SC_Central_slr_data_dist/SC_Central_slr_final_dist.gdb"),
+                                layer = sf::st_layers(dsn = file.path(data_dir, "SC_Central_slr_data_dist/SC_Central_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_0ft",
+                                                                                                                                                 x = sf::st_layers(dsn = file.path(data_dir, "SC_Central_slr_data_dist/SC_Central_slr_final_dist.gdb"))[[1]])])
 
 ### 1 foot
+sc_central_slr_1ft <- sf::st_read(dsn = file.path(data_dir, "SC_Central_slr_data_dist/SC_Central_slr_final_dist.gdb"),
+                                layer = sf::st_layers(dsn = file.path(data_dir, "SC_Central_slr_data_dist/SC_Central_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_1ft",
+                                                                                                                                                 x = sf::st_layers(dsn = file.path(data_dir, "SC_Central_slr_data_dist/SC_Central_slr_final_dist.gdb"))[[1]])])
 
 ### 2 foot
+sc_central_slr_2ft <- sf::st_read(dsn = file.path(data_dir, "SC_Central_slr_data_dist/SC_Central_slr_final_dist.gdb"),
+                                layer = sf::st_layers(dsn = file.path(data_dir, "SC_Central_slr_data_dist/SC_Central_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_2ft",
+                                                                                                                                                 x = sf::st_layers(dsn = file.path(data_dir, "SC_Central_slr_data_dist/SC_Central_slr_final_dist.gdb"))[[1]])])
 
 ### 3 foot
+sc_central_slr_3ft <- sf::st_read(dsn = file.path(data_dir, "SC_Central_slr_data_dist/SC_Central_slr_final_dist.gdb"),
+                                layer = sf::st_layers(dsn = file.path(data_dir, "SC_Central_slr_data_dist/SC_Central_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_3ft",
+                                                                                                                                                 x = sf::st_layers(dsn = file.path(data_dir, "SC_Central_slr_data_dist/SC_Central_slr_final_dist.gdb"))[[1]])])
 
 ### 4 foot
+sc_central_slr_4ft <- sf::st_read(dsn = file.path(data_dir, "SC_Central_slr_data_dist/SC_Central_slr_final_dist.gdb"),
+                                layer = sf::st_layers(dsn = file.path(data_dir, "SC_Central_slr_data_dist/SC_Central_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_4ft",
+                                                                                                                                                 x = sf::st_layers(dsn = file.path(data_dir, "SC_Central_slr_data_dist/SC_Central_slr_final_dist.gdb"))[[1]])])
 
 ### 5 foot
+sc_central_slr_5ft <- sf::st_read(dsn = file.path(data_dir, "SC_Central_slr_data_dist/SC_Central_slr_final_dist.gdb"),
+                                layer = sf::st_layers(dsn = file.path(data_dir, "SC_Central_slr_data_dist/SC_Central_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_5ft",
+                                                                                                                                                 x = sf::st_layers(dsn = file.path(data_dir, "SC_Central_slr_data_dist/SC_Central_slr_final_dist.gdb"))[[1]])])
 
 ### 6 foot
+sc_central_slr_6ft <- sf::st_read(dsn = file.path(data_dir, "SC_Central_slr_data_dist/SC_Central_slr_final_dist.gdb"),
+                                layer = sf::st_layers(dsn = file.path(data_dir, "SC_Central_slr_data_dist/SC_Central_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_6ft",
+                                                                                                                                                 x = sf::st_layers(dsn = file.path(data_dir, "SC_Central_slr_data_dist/SC_Central_slr_final_dist.gdb"))[[1]])])
 
 ### 7 foot
+sc_central_slr_7ft <- sf::st_read(dsn = file.path(data_dir, "SC_Central_slr_data_dist/SC_Central_slr_final_dist.gdb"),
+                                layer = sf::st_layers(dsn = file.path(data_dir, "SC_Central_slr_data_dist/SC_Central_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_7ft",
+                                                                                                                                                 x = sf::st_layers(dsn = file.path(data_dir, "SC_Central_slr_data_dist/SC_Central_slr_final_dist.gdb"))[[1]])])
 
 ### 8 foot
+sc_central_slr_8ft <- sf::st_read(dsn = file.path(data_dir, "SC_Central_slr_data_dist/SC_Central_slr_final_dist.gdb"),
+                                layer = sf::st_layers(dsn = file.path(data_dir, "SC_Central_slr_data_dist/SC_Central_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_8ft",
+                                                                                                                                                 x = sf::st_layers(dsn = file.path(data_dir, "SC_Central_slr_data_dist/SC_Central_slr_final_dist.gdb"))[[1]])])
 
 ### 9 foot
+sc_central_slr_9ft <- sf::st_read(dsn = file.path(data_dir, "SC_Central_slr_data_dist/SC_Central_slr_final_dist.gdb"),
+                                layer = sf::st_layers(dsn = file.path(data_dir, "SC_Central_slr_data_dist/SC_Central_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_9ft",
+                                                                                                                                                 x = sf::st_layers(dsn = file.path(data_dir, "SC_Central_slr_data_dist/SC_Central_slr_final_dist.gdb"))[[1]])])
 
 ### 10 foot
+sc_central_slr_10ft <- sf::st_read(dsn = file.path(data_dir, "SC_Central_slr_data_dist/SC_Central_slr_final_dist.gdb"),
+                                 layer = sf::st_layers(dsn = file.path(data_dir, "SC_Central_slr_data_dist/SC_Central_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_10ft",
+                                                                                                                                                  x = sf::st_layers(dsn = file.path(data_dir, "SC_Central_slr_data_dist/SC_Central_slr_final_dist.gdb"))[[1]])])
 
 ## southern South Carolina (sea level rise)
-### 0 foot
+sc_south_slr_0ft <- sf::st_read(dsn = file.path(data_dir, "SC_South_slr_data_dist/SC_South_slr_final_dist.gdb"),
+                                layer = sf::st_layers(dsn = file.path(data_dir, "SC_South_slr_data_dist/SC_South_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_0ft",
+                                                                                                                                                 x = sf::st_layers(dsn = file.path(data_dir, "SC_South_slr_data_dist/SC_South_slr_final_dist.gdb"))[[1]])])
 
 ### 1 foot
+sc_south_slr_1ft <- sf::st_read(dsn = file.path(data_dir, "SC_South_slr_data_dist/SC_South_slr_final_dist.gdb"),
+                                layer = sf::st_layers(dsn = file.path(data_dir, "SC_South_slr_data_dist/SC_South_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_1ft",
+                                                                                                                                                 x = sf::st_layers(dsn = file.path(data_dir, "SC_South_slr_data_dist/SC_South_slr_final_dist.gdb"))[[1]])])
 
 ### 2 foot
+sc_south_slr_2ft <- sf::st_read(dsn = file.path(data_dir, "SC_South_slr_data_dist/SC_South_slr_final_dist.gdb"),
+                                layer = sf::st_layers(dsn = file.path(data_dir, "SC_South_slr_data_dist/SC_South_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_2ft",
+                                                                                                                                                 x = sf::st_layers(dsn = file.path(data_dir, "SC_South_slr_data_dist/SC_South_slr_final_dist.gdb"))[[1]])])
 
 ### 3 foot
+sc_south_slr_3ft <- sf::st_read(dsn = file.path(data_dir, "SC_South_slr_data_dist/SC_South_slr_final_dist.gdb"),
+                                layer = sf::st_layers(dsn = file.path(data_dir, "SC_South_slr_data_dist/SC_South_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_3ft",
+                                                                                                                                                 x = sf::st_layers(dsn = file.path(data_dir, "SC_South_slr_data_dist/SC_South_slr_final_dist.gdb"))[[1]])])
 
 ### 4 foot
+sc_south_slr_4ft <- sf::st_read(dsn = file.path(data_dir, "SC_South_slr_data_dist/SC_South_slr_final_dist.gdb"),
+                                layer = sf::st_layers(dsn = file.path(data_dir, "SC_South_slr_data_dist/SC_South_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_4ft",
+                                                                                                                                                 x = sf::st_layers(dsn = file.path(data_dir, "SC_South_slr_data_dist/SC_South_slr_final_dist.gdb"))[[1]])])
 
 ### 5 foot
+sc_south_slr_5ft <- sf::st_read(dsn = file.path(data_dir, "SC_South_slr_data_dist/SC_South_slr_final_dist.gdb"),
+                                layer = sf::st_layers(dsn = file.path(data_dir, "SC_South_slr_data_dist/SC_South_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_5ft",
+                                                                                                                                                 x = sf::st_layers(dsn = file.path(data_dir, "SC_South_slr_data_dist/SC_South_slr_final_dist.gdb"))[[1]])])
 
 ### 6 foot
+sc_south_slr_6ft <- sf::st_read(dsn = file.path(data_dir, "SC_South_slr_data_dist/SC_South_slr_final_dist.gdb"),
+                                layer = sf::st_layers(dsn = file.path(data_dir, "SC_South_slr_data_dist/SC_South_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_6ft",
+                                                                                                                                                 x = sf::st_layers(dsn = file.path(data_dir, "SC_South_slr_data_dist/SC_South_slr_final_dist.gdb"))[[1]])])
 
 ### 7 foot
+sc_south_slr_7ft <- sf::st_read(dsn = file.path(data_dir, "SC_South_slr_data_dist/SC_South_slr_final_dist.gdb"),
+                                layer = sf::st_layers(dsn = file.path(data_dir, "SC_South_slr_data_dist/SC_South_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_7ft",
+                                                                                                                                                 x = sf::st_layers(dsn = file.path(data_dir, "SC_South_slr_data_dist/SC_South_slr_final_dist.gdb"))[[1]])])
 
 ### 8 foot
+sc_south_slr_8ft <- sf::st_read(dsn = file.path(data_dir, "SC_South_slr_data_dist/SC_South_slr_final_dist.gdb"),
+                                layer = sf::st_layers(dsn = file.path(data_dir, "SC_South_slr_data_dist/SC_South_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_8ft",
+                                                                                                                                                 x = sf::st_layers(dsn = file.path(data_dir, "SC_South_slr_data_dist/SC_South_slr_final_dist.gdb"))[[1]])])
 
 ### 9 foot
+sc_south_slr_9ft <- sf::st_read(dsn = file.path(data_dir, "SC_South_slr_data_dist/SC_South_slr_final_dist.gdb"),
+                                layer = sf::st_layers(dsn = file.path(data_dir, "SC_South_slr_data_dist/SC_South_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_9ft",
+                                                                                                                                                 x = sf::st_layers(dsn = file.path(data_dir, "SC_South_slr_data_dist/SC_South_slr_final_dist.gdb"))[[1]])])
 
 ### 10 foot
+sc_south_slr_10ft <- sf::st_read(dsn = file.path(data_dir, "SC_South_slr_data_dist/SC_South_slr_final_dist.gdb"),
+                                 layer = sf::st_layers(dsn = file.path(data_dir, "SC_South_slr_data_dist/SC_South_slr_final_dist.gdb"))[[1]][grep(pattern = "slr_10ft",
+                                                                                                                                                  x = sf::st_layers(dsn = file.path(data_dir, "SC_South_slr_data_dist/SC_South_slr_final_dist.gdb"))[[1]])])
 
 ## South Carolina beachfront jurisdictional lines (setback)
-
+sc_beachfront_setback <- sf::st_read(dsn = file.path(data_dir, "BaselineSetbackline2018/BaselineSetbackline2018/Setback2018_Final.shp"))
+  
 ## South Carolina beachfront jurisdictional lines (baseline)
+sc_beachfront_baseline <- sf::st_read(dsn = file.path(data_dir, "BaselineSetbackline2018/BaselineSetbackline2018/Baseline2018_Final.shp"))
 
 ## North Carolina no-wake zones
+nc_no_wake <- sf::st_read(dsn = file.path(data_dir, "no_wake_zones/No-Wake_Zones.shp"))
 
 ## North Carolina DWR regional office service areas
+nc_dwr_office_areas <- sf::st_read(dsn = file.path(data_dir, "nc_dwr_office_service_areas.gpkg"),
+                                   layer = sf::st_layers(dsn = file.path(data_dir, "nc_dwr_office_service_areas.gpkg"))[[1]][1])
 
-## North Carolina DBCJIW rule 2022(Coastal, join, inland waters)
+## North Carolina DBCJIW rule 2022 (Coastal, join, inland waters)
 
 ## North Carolina ITP management areas
 
 ## limit of OCSLA 8(g) zone
+ocsla_8g_zone <- sf::st_read(dsn = file.path(data_dir, "limit_of_ocsla_8g_zone/limit_of_ocsla_8g_zone.shp"))
 
 ## Submerged Land Acts boundary (3nm)
+submerged_land_acts_boundary <- sf::st_read(dsn = file.path(data_dir, "submerged_land_acts_boundary_3_nm/submerged_land_acts_boundary_3_nm.shp"))
 
 ## South Carolina ESI (1996) managed lands for human uses
+sc_esi_1996_managed <- sf::st_read(dsn = file.path(data_dir, "SCarolina_1996_GDB/SCarolina_1996_GDB/SouthCarolinaESI.gdb"),
+                                      layer = sf::st_layers(dsn = file.path(data_dir, "SCarolina_1996_GDB/SCarolina_1996_GDB/SouthCarolinaESI.gdb"))[[1]][grep(pattern = "mgt_polygon",
+                                                                                                                                                    sf::st_layers(dsn = file.path(data_dir, "SCarolina_1996_GDB/SCarolina_1996_GDB/SouthCarolinaESI.gdb"))[[1]])])
 
 ## South Carolina ESI (2015) parks and managed areas
+sc_esi_2015_managed_pt <- sf::st_read(dsn = file.path(data_dir, "SCarolina_2015_GDB/SCarolina_2015_GDB/SC_ESI_2015.gdb"),
+                              layer = sf::st_layers(dsn = file.path(data_dir, "SCarolina_2015_GDB/SCarolina_2015_GDB/SC_ESI_2015.gdb"))[[1]][grep(pattern = "MANAGED_POINT",
+                                                                                                                                            sf::st_layers(dsn = file.path(data_dir, "SCarolina_2015_GDB/SCarolina_2015_GDB/SC_ESI_2015.gdb"))[[1]])])
+
+sc_esi_2015_managed_poly <- sf::st_read(dsn = file.path(data_dir, "SCarolina_2015_GDB/SCarolina_2015_GDB/SC_ESI_2015.gdb"),
+                                      layer = sf::st_layers(dsn = file.path(data_dir, "SCarolina_2015_GDB/SCarolina_2015_GDB/SC_ESI_2015.gdb"))[[1]][grep(pattern = "MANAGED_POINT",
+                                                                                                                                                    sf::st_layers(dsn = file.path(data_dir, "SCarolina_2015_GDB/SCarolina_2015_GDB/SC_ESI_2015.gdb"))[[1]])])
 
 ## North Carolina ESI (2016) parks and managed areas
+nc_esi_2016_managed_pt <- sf::st_read(dsn = file.path(data_dir, "NCarolina_2016_GDB/NorthCarolina_2016_ESI.gdb"),
+                                           layer = sf::st_layers(dsn = file.path(data_dir, "NCarolina_2016_GDB/NorthCarolina_2016_ESI.gdb"))[[1]][grep(pattern = "MANAGED_POINT",
+                                                                                                                                                 sf::st_layers(dsn = file.path(data_dir, "NCarolina_2016_GDB/NorthCarolina_2016_ESI.gdb"))[[1]])])
+
+nc_esi_2016_managed_poly <- sf::st_read(dsn = file.path(data_dir, "NCarolina_2016_GDB/NorthCarolina_2016_ESI.gdb"),
+                                      layer = sf::st_layers(dsn = file.path(data_dir, "NCarolina_2016_GDB/NorthCarolina_2016_ESI.gdb"))[[1]][grep(pattern = "MANAGED_POLY",
+                                                                                                                                            sf::st_layers(dsn = file.path(data_dir, "NCarolina_2016_GDB/NorthCarolina_2016_ESI.gdb"))[[1]])])
 
 ## North Carolina (2011) management areas
+nc_esi_2011_managed <- sf::st_read(dsn = file.path(data_dir, "NCarolina_2011_GDB/NCarolina_2011_GDB/NorthCarolinaESI.gdb"),
+                                       layer = sf::st_layers(dsn = file.path(data_dir, "NCarolina_2011_GDB/NCarolina_2011_GDB/NorthCarolinaESI.gdb"))[[1]][grep(pattern = "mgt_poly",
+                                                                                                                                                          sf::st_layers(dsn = file.path(data_dir, "NCarolina_2011_GDB/NCarolina_2011_GDB/NorthCarolinaESI.gdb"))[[1]])])
 
 ## marine ecoregions of the world
+meow <- sf::st_read(dsn = file.path(data_dir, "7gger8mmke_MEOW_Final/MEOW/meow_ecos.shp"))
 
 ## deepwater marine protected areas
+deepwater_mpa <- sf::st_read(dsn = file.path(data_dir, "MPA_update/MPA_update.shp"))
 
 ## wind stipulation areas
+wind_stipulation <- sf::st_read(dsn = file.path(data_dir, "dod_wind/dod_wind.shp"))
 
 ## coastal populated places
-populated_gpkg <- file.path(data_dir, "CoastalPopulatedPlace/CoastalPopulatedPlace.gpkg")
+coastal_populated_places <- sf::st_read(dsn = file.path(data_dir, "CoastalPopulatedPlace/CoastalPopulatedPlace.gpkg"),
+                              layer = sf::st_layers(dsn = file.path(data_dir, "CoastalPopulatedPlace/CoastalPopulatedPlace.gpkg"))[[1]][1])
 
 ## federal and state waters
 federal_state_waters <- sf::st_read(dsn = file.path(data_dir, "FederalStateWaters/FederalAndStateWaters.gdb"),
@@ -647,18 +1036,36 @@ coastal_county <- sf::st_read(dsn = file.path(data_dir, "CoastalCounty/CoastalCo
                               layer = sf::st_layers(dsn = file.path(data_dir, "CoastalCounty/CoastalCounty.gpkg"))[[1]][1])
 
 ## federal statutes
-
+federal_statutes <- sf::st_read(dsn = file.path(data_dir, "FederalStatute/FederalStatute.gpkg"),
+                                layer = sf::st_layers(dsn = file.path(data_dir, "FederalStatute/FederalStatute.gpkg"))[[1]][grep(pattern = "FederalStatute_",
+                                                                                                                                 x = sf::st_layers(dsn = file.path(data_dir, "FederalStatute/FederalStatute.gpkg"))[[1]])]) %>%
+  dplyr::inner_join(x = .,
+                    y = sf::st_read(dsn = file.path(data_dir, "FederalStatute/FederalStatute.gpkg"),
+                                    layer = sf::st_layers(dsn = file.path(data_dir, "FederalStatute/FederalStatute.gpkg"))[[1]][grep(pattern = "LookupTable",
+                                                                                                                                     x = sf::st_layers(dsn = file.path(data_dir, "FederalStatute/FederalStatute.gpkg"))[[1]])]),
+                    by = "footprintID") %>%
+  dplyr::inner_join(x = .,
+                    y = sf::st_read(dsn = file.path(data_dir, "FederalStatute/FederalStatute.gpkg"),
+                                    layer = sf::st_layers(dsn = file.path(data_dir, "FederalStatute/FederalStatute.gpkg"))[[1]][grep(pattern = "StatuteTable",
+                                                                                                                                     x = sf::st_layers(dsn = file.path(data_dir, "FederalStatute/FederalStatute.gpkg"))[[1]])]),
+                    by = "statuteID")
 
 ## state census statistics
-census_gdb <- file.path(data_dir, "CensusStatistics.gdb")
+state_census <- sf::st_read(dsn = file.path(data_dir, "CensusStatistics/CensusStatistics.gdb"),
+                          layer = sf::st_layers(dsn = file.path(data_dir, "CensusStatistics/CensusStatistics.gdb"))[[1]][grep(pattern = "State",
+                                                                                                                              x = sf::st_layers(dsn = file.path(data_dir, "CensusStatistics/CensusStatistics.gdb"))[[1]])])
 
 ## county census statistics
-census_gdb <- file.path(data_dir, "CensusStatistics.gdb")
+county_census <- sf::st_read(dsn = file.path(data_dir, "CensusStatistics/CensusStatistics.gdb"),
+                            layer = sf::st_layers(dsn = file.path(data_dir, "CensusStatistics/CensusStatistics.gdb"))[[1]][grep(pattern = "County",
+                                                                                                                                x = sf::st_layers(dsn = file.path(data_dir, "CensusStatistics/CensusStatistics.gdb"))[[1]])])
 
 ## Coastal Zone Management Act boundary
-management_gpkg <- file.path(data_dir, "CoastalZoneManagementAct/CoastalZoneManagementAct.gpkg")
+coastal_zone <- sf::st_read(dsn = file.path(data_dir, "CoastalZoneManagementAct/CoastalZoneManagementAct.gpkg"),
+                               layer = sf::st_layers(dsn = file.path(data_dir, "CoastalZoneManagementAct/CoastalZoneManagementAct.gpkg"))[[1]][1])
 
 ## National Marine Fisheries Service regions
+
 
 ## Atlantic administrative boundaries
 
@@ -673,7 +1080,8 @@ withdraw_gdb <- file.path(data_dir, "boemoscareas-withdrawn-leasing-2021/Withdra
 
 
 ## federal consistency geographic location descriptions
-federal_gpkg <- file.path(data_dir, "FederalConsistencyGeographicLocationDescription/FederalConsistencyGeographicLocationDescription.gpkg")
+federal_consistency <- sf::st_read(dsn = file.path(data_dir, "FederalConsistencyGeographicLocationDescription/FederalConsistencyGeographicLocationDescription.gpkg"),
+                            layer = sf::st_layers(dsn = file.path(data_dir, "FederalConsistencyGeographicLocationDescription/FederalConsistencyGeographicLocationDescription.gpkg"))[[1]][1])
 
 ## United States maritime limits boundaries
 
