@@ -118,7 +118,6 @@ southeast_bath <- sf::st_read(dsn = file.path(data_dir, "southeast_bathymetry_me
 sc_esi_2015 <- sf::st_read(dsn = file.path(data_dir, "SCarolina_2015_GDB/SCarolina_2015_GDB/SC_ESI_2015.gdb"),
                                            layer = sf::st_layers(dsn = file.path(data_dir, "SCarolina_2015_GDB/SCarolina_2015_GDB/SC_ESI_2015.gdb"))[[1]][grep(pattern = "NAT_HAZARD_POLY",
                                                                                                                                                                x = sf::st_layers(dsn = file.path(data_dir, "SCarolina_2015_GDB/SCarolina_2015_GDB/SC_ESI_2015.gdb"))[[1]])])
-                                                                                                                                                               
 
 ## North Carolina ESI -- natural hazard (2016)
 nc_esi_2015 <- sf::st_read(dsn = file.path(data_dir, "NCarolina_2016_GDB/NorthCarolina_2016_ESI.gdb"),
@@ -140,8 +139,16 @@ bathymetry_contours <- sf::st_read(dsn = file.path(data_dir, "BathymetricContour
   
 
 ## offshore wind resource potential -- Atlantic
-offshore_wind_potential <- sf::st_read(dsn = file.path(data_dir, "nrel_wind/NREL_HourlyWind_Atlantic_polysandpoints.gdb"),
-                                       layer = sf::st_layers(dsn = file.path(data_dir, "nrel_wind/NREL_HourlyWind_Atlantic_polysandpoints.gdb"))[[1]][1])
+### point
+offshore_wind_potential_pt <- sf::st_read(dsn = file.path(data_dir, "nrel_wind/NREL_HourlyWind_Atlantic_polysandpoints.gdb"),
+                                       layer = sf::st_layers(dsn = file.path(data_dir, "nrel_wind/NREL_HourlyWind_Atlantic_polysandpoints.gdb"))[[1]][grep(pattern = "annual_atlantic",
+                                                                                                                                                           x = sf::st_layers(dsn = file.path(data_dir, "nrel_wind/NREL_HourlyWind_Atlantic_polysandpoints.gdb"))[[1]])])
+                                                                                                                                                      
+
+### polygon
+offshore_wind_potential_poly <- sf::st_read(dsn = file.path(data_dir, "nrel_wind/NREL_HourlyWind_Atlantic_polysandpoints.gdb"),
+                                          layer = sf::st_layers(dsn = file.path(data_dir, "nrel_wind/NREL_HourlyWind_Atlantic_polysandpoints.gdb"))[[1]][grep(pattern = "Wind_Speed_2017_Ann",
+                                                                                                                                                              x = sf::st_layers(dsn = file.path(data_dir, "nrel_wind/NREL_HourlyWind_Atlantic_polysandpoints.gdb"))[[1]])])
 
 ## ENOW (2015)
 enow_code <- sf::st_read(dsn = file.path(data_dir, "ENOW2015/ENOW2015.gdb"),
@@ -311,7 +318,7 @@ pre_reg_landfill <- sf::st_read(dsn = file.path(data_dir, "prereg_landfill_sites
                                layer = sf::st_layers(dsn = file.path(data_dir, "prereg_landfill_sites.gpkg"))[[1]][1])
 
 ## North Carolina dry cleaning historical boiler inspections
-cleaning_gpkg <- file.path(data_dir, "dry_cleaning.gpkg")
+dry_cleaning <- file.path(data_dir, "dry_cleaning.gpkg")
 
 ## acidification monitoring locations
 acidification <- sf::st_read(dsn = file.path(data_dir, "AcidificationMonitoringMidA_Ver202310/AcidificationMonitoring_MidA_ver202310/AcidificationMonitoringMidA_ver202310.gdb"),
@@ -1065,58 +1072,111 @@ coastal_zone <- sf::st_read(dsn = file.path(data_dir, "CoastalZoneManagementAct/
                                layer = sf::st_layers(dsn = file.path(data_dir, "CoastalZoneManagementAct/CoastalZoneManagementAct.gpkg"))[[1]][1])
 
 ## National Marine Fisheries Service regions
-
+nmfs_regions <- sf::st_read(dsn = file.path(data_dir, "NationalMarineFisheriesServiceRegions/NationalMarineFisheriesServiceRegions.gdb"),
+                            layer = sf::st_layers(dsn = file.path(data_dir, "NationalMarineFisheriesServiceRegions/NationalMarineFisheriesServiceRegions.gdb"))[[1]][1])
 
 ## Atlantic administrative boundaries
+atlantic_admin <- sf::st_read(dsn = file.path(data_dir, "Atl_admn/atl_admn.shp"))
 
 ## BOEM outer continental self areas withdrawn from leasing
-withdraw_gdb <- file.path(data_dir, "boemoscareas-withdrawn-leasing-2021/Withdraw2021.gdb")
+boem_ocs_withdrawn_leasing <- sf::st_read(dsn = file.path(data_dir, "boemocsareas-withdrawn-leasing-2021/Withdraw2021.gdb"),
+                            layer = sf::st_layers(dsn = file.path(data_dir, "boemocsareas-withdrawn-leasing-2021/Withdraw2021.gdb"))[[1]][1]) %>%
+  sf::st_zm(x = .)
 
 ## National Park Service boundaries
+nps_boundaries <- sf::st_read(dsn = file.path(data_dir, "nps_boundaries/Administrative_Boundaries_of_National_Park_System_Units.gdb"),
+                              layer = sf::st_layers(dsn = file.path(data_dir, "nps_boundaries/Administrative_Boundaries_of_National_Park_System_Units.gdb"))[[1]][1])
 
 ## Native American reservation and land trusts
+native_american_land <- sf::st_read(dsn = file.path(data_dir, "tl_2018_us_aiannh/tl_2018_us_aiannh.shp"))
 
 ## United States census tracts (MARCO coastal zone and vicinity)
-
+us_census <- sf::st_read(dsn = file.path(data_dir, "census_tracts_coastal_counties/census_tracts_coastal_counties_wm.shp"))
 
 ## federal consistency geographic location descriptions
 federal_consistency <- sf::st_read(dsn = file.path(data_dir, "FederalConsistencyGeographicLocationDescription/FederalConsistencyGeographicLocationDescription.gpkg"),
                             layer = sf::st_layers(dsn = file.path(data_dir, "FederalConsistencyGeographicLocationDescription/FederalConsistencyGeographicLocationDescription.gpkg"))[[1]][1])
 
 ## United States maritime limits boundaries
+us_maritime <- sf::st_read(dsn = file.path(data_dir, "USMaritimeLimitsAndBoundariesSHP/USMaritimeLimitsNBoundaries.shp"))
 
 ## ShellBase (southeast shellfish water quality database for South Carolina coastal waters -- 1980s - 2020)
-
+sc_shellbase <- sf::st_read(dsn = file.path(data_dir, "ShellBase-SC/SECOORA-ShellBase-SC.shp"))
+                                            
 ## ShellBase (southeast shellfish water quality database for North Carolina -- 1980s - 2020)
-
-## current speed / direction
-
-## significant wave height
-
-## wave direction
-
-## wave energy period
-
-## wind speed and direction
+nc_shellbase <- sf::st_read(dsn = file.path(data_dir, "ShellBase-NC/SECOORA-ShellBase-NC.shp"))
 
 ## current speed and direction
 current_speed_direction <- sf::st_read(dsn = file.path(data_dir, "CurrentSpeedDirection/Current_U_V_M.gdb"),
                                        layer = sf::st_layers(dsn = file.path(data_dir, "CurrentSpeedDirection/Current_U_V_M.gdb"))[[1]][1])
 
 ## significant wave height
+significant_wave_hgt <- sf::st_read(dsn = file.path(data_dir, "SignificantWaveHeightDirection/SignificantWaveHeightDirection.gpkg"),
+                                    layer = sf::st_layers(dsn = file.path(data_dir, "SignificantWaveHeightDirection/SignificantWaveHeightDirection.gpkg"))[[1]][1]) %>%
+  dplyr::select(significantWaveHeightAnnual)
 
-## EMU -- water temperature, salinity, dissolved oxygen
-emu_water_gdb <- file.path(data_dir, "EMUWaterQuality/EMU_WaterQuality.gdb")
+## wave direction
+significant_wave_dir <- sf::st_read(dsn = file.path(data_dir, "SignificantWaveHeightDirection/SignificantWaveHeightDirection.gpkg"),
+                                    layer = sf::st_layers(dsn = file.path(data_dir, "SignificantWaveHeightDirection/SignificantWaveHeightDirection.gpkg"))[[1]][1]) %>%
+  dplyr::select(waveHindcastDirectionAnnual)
 
-## EMU -- nitrates, phosphates, silicates
-emu_nutrient_gdb <- file.path(data_dir, "EMUNutrient/EMU_Nutrient_Data.gdb")
+## wave energy period
+significant_wave_energy <- sf::st_read(dsn = file.path(data_dir, "SignificantWaveHeightDirection/SignificantWaveHeightDirection.gpkg"),
+                                    layer = sf::st_layers(dsn = file.path(data_dir, "SignificantWaveHeightDirection/SignificantWaveHeightDirection.gpkg"))[[1]][1]) %>%
+  dplyr::select(waveEnergyPeriodAnnual)
 
+## wind
+### speed
+wind_spd <- sf::st_read(dsn = file.path(data_dir, "WindSpeedDirection/Wind_Speed_Dir_Combined.gdb"),
+                            layer = sf::st_layers(dsn = file.path(data_dir, "WindSpeedDirection/Wind_Speed_Dir_Combined.gdb"))[[1]][1]) %>%
+  dplyr::select(contains("spd"))
+
+### direction
+wind_dir <- sf::st_read(dsn = file.path(data_dir, "WindSpeedDirection/Wind_Speed_Dir_Combined.gdb"),
+                        layer = sf::st_layers(dsn = file.path(data_dir, "WindSpeedDirection/Wind_Speed_Dir_Combined.gdb"))[[1]][1]) %>%
+  dplyr::select(contains("dir"))
+
+## EMU
+### water temperature
+emu_water_temp <- sf::st_read(dsn = file.path(data_dir, "EMUWaterQuality/EMU_Water_Quality.gdb"),
+                             layer = sf::st_layers(dsn = file.path(data_dir, "EMUWaterQuality/EMU_Water_Quality.gdb"))[[1]][grep(pattern = "Water",
+                                                                                                                                 x = sf::st_layers(dsn = file.path(data_dir, "EMUWaterQuality/EMU_Water_Quality.gdb"))[[1]])])
+### salinity
+emu_water_salinity <- sf::st_read(dsn = file.path(data_dir, "EMUWaterQuality/EMU_Water_Quality.gdb"),
+                              layer = sf::st_layers(dsn = file.path(data_dir, "EMUWaterQuality/EMU_Water_Quality.gdb"))[[1]][grep(pattern = "Salinity",
+                                                                                                                                  x = sf::st_layers(dsn = file.path(data_dir, "EMUWaterQuality/EMU_Water_Quality.gdb"))[[1]])])
+
+### dissolved oxygen
+emu_water_do <- sf::st_read(dsn = file.path(data_dir, "EMUWaterQuality/EMU_Water_Quality.gdb"),
+                              layer = sf::st_layers(dsn = file.path(data_dir, "EMUWaterQuality/EMU_Water_Quality.gdb"))[[1]][grep(pattern = "Oxygen",
+                                                                                                                                  x = sf::st_layers(dsn = file.path(data_dir, "EMUWaterQuality/EMU_Water_Quality.gdb"))[[1]])])
+
+## EMU
+### nitrates
+emu_nutrient_nitrate <- sf::st_read(dsn = file.path(data_dir, "EMUNutrient/EMU_Nutrient_Data.gdb"),
+                                    layer = sf::st_layers(dsn = file.path(data_dir, "EMUNutrient/EMU_Nutrient_Data.gdb"))[[1]][grep(pattern = "Nitrate",
+                                                                                                                                    x = sf::st_layers(dsn = file.path(data_dir, "EMUNutrient/EMU_Nutrient_Data.gdb"))[[1]])]) %>%
+  sf::st_zm()
+
+### phosphates
+emu_nutrient_phosphate <- sf::st_read(dsn = file.path(data_dir, "EMUNutrient/EMU_Nutrient_Data.gdb"),
+                                    layer = sf::st_layers(dsn = file.path(data_dir, "EMUNutrient/EMU_Nutrient_Data.gdb"))[[1]][grep(pattern = "Phosphate",
+                                                                                                                                    x = sf::st_layers(dsn = file.path(data_dir, "EMUNutrient/EMU_Nutrient_Data.gdb"))[[1]])]) %>%
+  sf::st_zm()
+
+### silicates
+emu_nutrient_silicate <- sf::st_read(dsn = file.path(data_dir, "EMUNutrient/EMU_Nutrient_Data.gdb"),
+                                      layer = sf::st_layers(dsn = file.path(data_dir, "EMUNutrient/EMU_Nutrient_Data.gdb"))[[1]][grep(pattern = "Silicate",
+                                                                                                                                      x = sf::st_layers(dsn = file.path(data_dir, "EMUNutrient/EMU_Nutrient_Data.gdb"))[[1]])]) %>%
+  sf::st_zm()
 
 #####################################
 #####################################
 
 # create list of the datasets
-data <- list()
+data <- list(
+  
+)
 
 #####################################
 
