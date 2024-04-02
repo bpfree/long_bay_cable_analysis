@@ -290,7 +290,6 @@ download_list <- c(clams,
                    fish_landings_species,
                    nc_shrimp)
   
-
 data_download_function(download_list, data_dir)
 
 #####################################
