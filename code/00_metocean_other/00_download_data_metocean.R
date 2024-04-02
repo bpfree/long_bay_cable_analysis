@@ -223,6 +223,25 @@ data_download_function <- function(download_list, data_dir){
       file.remove(file.path(data_dir, file))
     }
     
+    if (grepl("ShellBase-SC", file)){
+      
+      # grab text before ".zip" and keep only text before that
+      new_dir_name <- "ShellBase-SC"
+      
+      # create new directory for data
+      new_dir <- file.path(data_dir, new_dir_name)
+      
+      file <- list.files(data_dir)[grep(pattern = "ShellBase-SC",
+                                        x = list.files(data_dir))]
+      
+      # unzip the file
+      unzip(zipfile = file.path(data_dir, file),
+            # export file to the new data directory
+            exdir = new_dir)
+      # remove original zipped file
+      file.remove(file.path(data_dir, file))
+    }
+    
     # Unzip the file if the data are compressed as .zip
     ## Examine if the filename contains the pattern ".zip"
     ### grepl returns a logic statement when pattern ".zip" is met in the file
@@ -292,7 +311,6 @@ nc_esi_2015 <- "https://response.restoration.noaa.gov/sites/default/files/esimap
 current_spd_dir <- "https://marinecadastre.gov/downloads/data/mc/CurrentSpeedDirection.zip"
 wave_hgt_dir <- "https://marinecadastre.gov/downloads/data/mc/SignificantWaveHeightDirection.zip"
 
-
 wind_spd_dir <- "https://marinecadastre.gov/downloads/data/mc/WindSpeedDirection.zip"
 natl_cyclone_wind <- "https://marinecadastre.gov/downloads/data/mc/TropicalCycloneWindExposure.zip"
 sea_surface_hgt <- "https://marinecadastre.gov/downloads/data/mc/SeaSurfaceHeight.zip"
@@ -316,21 +334,10 @@ va_south_slr <- "https://chs.coast.noaa.gov/htdata/Inundation/SLR/SLRdata/VA/VA_
 
 va_svi_2010 <- "https://coast.noaa.gov/htdata/SocioEconomic/SoVI2010/SoVI_2010_VA.zip"
 
-
-
-
-
-
 acidification_va <- "https://portal.midatlanticocean.org/static/data_manager/data-download/AcidificationMonitoringMidA_Ver202310.zip"
 ccv <- "https://portal.midatlanticocean.org/static/data_manager/data-download/Zip_Files/Socioeconomic/CCV_CoastalMidAtlantic_Counties.zip"
 
 fishing_effects_vul <- "https://www.northeastoceandata.org/files/metadata/Themes/Fishing_Effects_Intrinsic_Seabed_Habitat_Vulnerability.zip"
-
-
-
-
-
-
 
 chesapeake_2016 <- "https://response.restoration.noaa.gov/sites/default/files/esimaps/gisdata/ChesapeakeBay_2016_GDB.zip"
 
@@ -364,14 +371,9 @@ sc_south_slr <- "https://chs.coast.noaa.gov/htdata/Inundation/SLR/SLRdata/SC/SC_
 
 sc_beachfront <- "https://www.scdhec.gov/sites/default/files/GIS/SHORELINE/bline-reports/data/BaselineSetbackline2018.zip"
 
-
-
-
-
 oscla_zone <- "https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:limit_of_ocsla_8g_zone"
 submerged_land_acts <- "https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:submerged_land_acts_boundary_3_nm"
 sc_esi_1996 <- "https://response.restoration.noaa.gov/sites/default/files/esimaps/gisdata/SCarolina_1996_GDB.zip"
-
 
 nc_esi_2011 <- "https://response.restoration.noaa.gov/sites/default/files/esimaps/gisdata/NCarolina_2011_GDB.zip"
 meow <- "https://files.worldwildlife.org/wwfcmsprod/files/Publication/file/7gger8mmke_MEOW_FINAL.zip"
@@ -395,8 +397,8 @@ federal_location <- "https://marinecadastre.gov/downloads/data/mc/FederalConsist
 
 cb_esi_2016 <- "https://response.restoration.noaa.gov/sites/default/files/esimaps/gisdata/ChesapeakeBay_2016_GDB.zip"
 us_maritime <- "https://maritimeboundaries.noaa.gov/downloads/USMaritimeLimitsAndBoundariesSHP.zip"
-shrimp_vms <- "https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:shrimp_vms"
 shellbase_nc <- "https://data.axds.co/gs/secoora/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=secoora:SECOORA-ShellBase-NC"
+shellbase_sc <- "https://data.axds.co/gs/secoora/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=secoora:SECOORA-ShellBase-SC"
 
 #####################################
 #####################################
@@ -474,8 +476,8 @@ download_list <- c(
   federal_location,
   cb_esi_2016,
   us_maritime,
-  shrimp_vms,
-  shellbase_nc
+  shellbase_nc,
+  shellbase_sc
 )
 
 data_download_function(download_list, data_dir)
