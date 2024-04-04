@@ -50,15 +50,21 @@ submodel <- "ns"
 #####################################
 
 # set directories
+## submodel raw data directory
+data_dir <- "data/a_raw_data/national_security"
+
+list.files(data_dir)
+list.dirs(data_dir, recursive = TRUE)
+
 ## define data directories (as this is an R Project, pathnames are simplified)
-military_installations_gdb <- "data/a_raw_data/national_security/installations_ranges/FY22_MIRTA_FINAL_V2.gdb/FY22_MIRTA_FINAL_V2.gdb/FY22_MIRTA_FINAL_V2.gdb"
-danger_zones_gpkg <- "data/a_raw_data/national_security/DangerZoneRestrictedArea/DangerZoneRestrictedArea.gpkg"
-fuds_gpkg <- "data/a_raw_data/national_security/FormerlyUsedDefenseSite/FormerlyUsedDefenseSite.gpkg"
-military_submarine_gpkg <- "data/a_raw_data/national_security/MilitarySubmarineTransitLane/MilitarySubmarineTransitLane.gpkg"
-military_collection_gpkg <-"data/a_raw_data/national_security/MilitaryCollection/MilitaryCollection.gpkg"
-military_surface_gpkg <- "data/a_raw_data/national_security/MilitarySurfaceGridArea/MilitarySurfaceGridArea.gpkg"
-military_operating_gpkg <- "data/a_raw_data/national_security/MilitaryOperatingAreaBoundary/MilitaryOperatingAreaBoundary.gpkg"
-munitions_explosives_gpkg <- "data/a_raw_data/national_security/MunitionsExplosivesConcern/MunitionsExplosivesConcern.gpkg"
+military_installations_gdb <- "data/a_raw_data/national_security/"
+danger_zones_gpkg <- "data/a_raw_data/national_security/"
+fuds_gpkg <- "data/a_raw_data/national_security/"
+military_submarine_gpkg <- "data/a_raw_data/national_security/"
+military_collection_gpkg <-"data/a_raw_data/national_security/"
+military_surface_gpkg <- "data/a_raw_data/national_security/"
+military_operating_gpkg <- "data/a_raw_data/national_security/"
+munitions_explosives_gpkg <- "data/a_raw_data/national_security/"
 
 ## national security submodel geopackage
 national_security_geopackage <- "data/a_raw_data/national_security/national_security.gpkg"
@@ -68,44 +74,71 @@ national_security_geopackage <- "data/a_raw_data/national_security/national_secu
 
 # load national security datasets
 ## military installations
-military_installations <- sf::st_read(dsn = military_installations_gdb,
-                                      layer = sf::st_layers(dsn = military_installations_gdb)[[1]][2]) %>%
+military_installations <- sf::st_read(dsn = file.path(data_dir, "installations_ranges/FY22_MIRTA_FINAL_V2.gdb/FY22_MIRTA_FINAL_V2.gdb/FY22_MIRTA_FINAL_V2.gdb"),
+                                      layer = sf::st_layers(dsn = file.path(data_dir, "installations_ranges/FY22_MIRTA_FINAL_V2.gdb/FY22_MIRTA_FINAL_V2.gdb/FY22_MIRTA_FINAL_V2.gdb"))[[1]][2]) %>%
+  # make the "MULTISURFACE" be all "MULTIPOLYGON"
   sf::st_cast(to = "MULTIPOLYGON")
 
 ## danger zones and restricted areas
-danger_zones <- sf::st_read(dsn = danger_zones_gpkg,
-                            layer = sf::st_layers(dsn = danger_zones_gpkg)[[1]][1])
+danger_zones <- sf::st_read(dsn = file.path(data_dir, "DangerZoneRestrictedArea/DangerZoneRestrictedArea.gpkg"),
+                            layer = sf::st_layers(dsn = file.path(data_dir, "DangerZoneRestrictedArea/DangerZoneRestrictedArea.gpkg"))[[1]][1])
 
 ## formerly used defense sites
-fuds <- sf::st_read(dsn = fuds_gpkg,
-                    layer = sf::st_layers(dsn = fuds_gpkg)[[1]][1])
+fuds <- sf::st_read(dsn = file.path(data_dir, "FormerlyUsedDefenseSite/FormerlyUsedDefenseSite.gpkg"),
+                    layer = sf::st_layers(dsn = file.path(data_dir, "FormerlyUsedDefenseSite/FormerlyUsedDefenseSite.gpkg"))[[1]][1])
 
 ## military submarine transit lines
-military_submarine <- sf::st_read(dsn = military_submarine_gpkg,
-                                  layer = sf::st_layers(dsn = military_submarine_gpkg)[[1]][1])
+military_submarine <- sf::st_read(dsn = file.path(data_dir, "MilitarySubmarineTransitLane/MilitarySubmarineTransitLane.gpkg"),
+                                  layer = sf::st_layers(dsn = file.path(data_dir, "MilitarySubmarineTransitLane/MilitarySubmarineTransitLane.gpkg"))[[1]][1])
 
 ## military collection
 ### military ship shock boxes
 ### military regulated airspace
 ### military special use airspace
-military_shock <- sf::st_read(dsn = military_collection_gpkg,
-                              layer = sf::st_layers(dsn = military_collection_gpkg)[[1]][4])
-military_regulated_air <- sf::st_read(dsn = military_collection_gpkg,
-                                      layer = sf::st_layers(dsn = military_collection_gpkg)[[1]][3])
-military_special_air <- sf::st_read(dsn = military_collection_gpkg,
-                                    layer = sf::st_layers(dsn = military_collection_gpkg)[[1]][5])
+military_shock <- sf::st_read(dsn = file.path(data_dir, "MilitaryCollection/MilitaryCollection.gpkg"),
+                              layer = sf::st_layers(dsn = file.path(data_dir, "MilitaryCollection/MilitaryCollection.gpkg"))[[1]][grep(pattern = "Shock",
+                                                                                                                                       x = sf::st_layers(dsn = file.path(data_dir, "MilitaryCollection/MilitaryCollection.gpkg"))[[1]])])
+military_regulated_air <- sf::st_read(dsn = file.path(data_dir, "MilitaryCollection/MilitaryCollection.gpkg"),
+                                      layer = sf::st_layers(dsn = file.path(data_dir, "MilitaryCollection/MilitaryCollection.gpkg"))[[1]][grep(pattern = "Regulated",
+                                                                                                                                               x = sf::st_layers(dsn = file.path(data_dir, "MilitaryCollection/MilitaryCollection.gpkg"))[[1]])])
+military_special_air <- sf::st_read(dsn = file.path(data_dir, "MilitaryCollection/MilitaryCollection.gpkg"),
+                                    layer = sf::st_layers(dsn = file.path(data_dir, "MilitaryCollection/MilitaryCollection.gpkg"))[[1]][grep(pattern = "Special",
+                                                                                                                                             x = sf::st_layers(dsn = file.path(data_dir, "MilitaryCollection/MilitaryCollection.gpkg"))[[1]])])
 
 # military surface grid areas
-military_surface <- sf::st_read(dsn = military_surface_gpkg,
-                                layer = sf::st_layers(dsn = military_surface_gpkg)[[1]][1])
+military_surface <- sf::st_read(dsn = file.path(data_dir, "MilitarySurfaceGridArea/MilitarySurfaceGridArea.gpkg"),
+                                layer = sf::st_layers(dsn = file.path(data_dir, "MilitarySurfaceGridArea/MilitarySurfaceGridArea.gpkg"))[[1]][1])
 
 # military operating area boundaries
-military_operating <- sf::st_read(dsn = military_operating_gpkg,
-                                  layer = sf::st_layers(dsn = military_operating_gpkg)[[1]][1])
+military_operating <- sf::st_read(dsn = file.path(data_dir, "MilitaryOperatingAreaBoundary/MilitaryOperatingAreaBoundary.gpkg"),
+                                  layer = sf::st_layers(dsn = file.path(data_dir, "MilitaryOperatingAreaBoundary/MilitaryOperatingAreaBoundary.gpkg"))[[1]][1])
 
 # munitions and explosives of concern
-munitions_explosives <- sf::st_read(dsn = munitions_explosives_gpkg,
-                                    layer = sf::st_layers(dsn = munitions_explosives_gpkg)[[1]][1])
+munitions_explosives <- sf::st_read(dsn = file.path(data_dir, "MunitionsExplosivesConcern/MunitionsExplosivesConcern.gpkg"),
+                                    layer = sf::st_layers(dsn = file.path(data_dir, "MunitionsExplosivesConcern/MunitionsExplosivesConcern.gpkg"))[[1]][1])
+
+# Navy assessment areas
+navy_assessment <- sf::st_read(dsn = file.path(data_dir, "National_Security.gdb"),
+                               layer = sf::st_layers(dsn = file.path(data_dir, "National_Security.gdb"))[[1]][grep(pattern = "Navy",
+                                                                                                                   x = sf::st_layers(dsn = file.path(data_dir, "National_Security.gdb"))[[1]])]) %>%
+  sf::st_zm()
+
+# NASA assessment areas
+nasa_assessment <- sf::st_read(dsn = file.path(data_dir, "National_Security.gdb"),
+                               layer = sf::st_layers(dsn = file.path(data_dir, "National_Security.gdb"))[[1]][grep(pattern = "NASA",
+                                                                                                                   x = sf::st_layers(dsn = file.path(data_dir, "National_Security.gdb"))[[1]])]) %>%
+  sf::st_zm()
+
+# Air Force assessment areas
+air_force_assessment <- sf::st_read(dsn = file.path(data_dir, "National_Security.gdb"),
+                               layer = sf::st_layers(dsn = file.path(data_dir, "National_Security.gdb"))[[1]][grep(pattern = "AirForce",
+                                                                                                                   x = sf::st_layers(dsn = file.path(data_dir, "National_Security.gdb"))[[1]])]) %>%
+  sf::st_zm()
+
+# military flight track
+military_flight <- sf::st_read(dsn = file.path(data_dir, "MilitaryCollection/MilitaryCollection.gpkg"),
+                              layer = sf::st_layers(dsn = file.path(data_dir, "MilitaryCollection/MilitaryCollection.gpkg"))[[1]][grep(pattern = "Flight",
+                                                                                                                                       x = sf::st_layers(dsn = file.path(data_dir, "MilitaryCollection/MilitaryCollection.gpkg"))[[1]])])
 
 #####################################
 #####################################
@@ -120,7 +153,11 @@ data <- list(military_installations,
              military_special_air,
              military_surface,
              military_operating,
-             munitions_explosives)
+             munitions_explosives,
+             navy_assessment,
+             nasa_assessment,
+             air_force_assessment,
+             military_flight)
 
 #####################################
 
