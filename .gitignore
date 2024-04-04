@@ -91,7 +91,8 @@ data/a_raw_data/metocean_other/TropicalCycloneWindExposure
 data/a_raw_data/metocean_other/VA_Middle_slr_data_dist
 data/a_raw_data/metocean_other/VA_Southern_slr_data_dist
 
-
+### submodel raw data
+data/a_raw_data/metocean_other/metocean_other.gpkg
 
 
 
