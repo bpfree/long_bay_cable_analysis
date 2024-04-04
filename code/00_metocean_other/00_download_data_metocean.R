@@ -309,6 +309,7 @@ southeast_bathymetry <- "https://data.axds.co/gs/secoora/wfs?service=WFS&version
 sc_esi_2015 <- "https://response.restoration.noaa.gov/sites/default/files/esimaps/gisdata/SCarolina_2015_GDB.zip"
 nc_esi_2015 <- "https://response.restoration.noaa.gov/sites/default/files/esimaps/gisdata/NCarolina_2016_GDB.zip"
 current_spd_dir <- "https://marinecadastre.gov/downloads/data/mc/CurrentSpeedDirection.zip"
+current_mag_dir <- "https://marinecadastre.gov/downloads/data/mc/CurrentMagnitudeDirection.zip"
 wave_hgt_dir <- "https://marinecadastre.gov/downloads/data/mc/SignificantWaveHeightDirection.zip"
 
 wind_spd_dir <- "https://marinecadastre.gov/downloads/data/mc/WindSpeedDirection.zip"
@@ -409,6 +410,7 @@ download_list <- c(
   sc_esi_2015,
   nc_esi_2015,
   current_spd_dir,
+  current_mag_dir,
   wave_hgt_dir,
   wind_spd_dir,
   natl_cyclone_wind,
