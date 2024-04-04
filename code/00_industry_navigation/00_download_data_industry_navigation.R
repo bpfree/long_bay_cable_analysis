@@ -196,9 +196,6 @@ sand_blocks <- "https://mmis.doi.gov/boemmmis/downloads/layers/ATLSandAliquots_s
 ### Beach Nourishment Projects
 beach_nourishment <- "https://marinecadastre.gov/downloads/data/mc/BeachNourishment.zip"
 
-### Surficial Sediment Texture
-surficial_sediment <- "https://marinecadastre.gov/downloads/data/mc/SurficialSedimentClassification.zip"
-
 ### Ocean Disposal Sites
 ocean_disposal <- "https://marinecadastre.gov/downloads/data/mc/OceanDisposalSite.zip"
 
@@ -269,7 +266,6 @@ download_list <- c(
   electric_substations,
   sand_blocks,
   beach_nourishment,
-  surficial_sediment,
   ocean_disposal,
   shipping_lanes,
   fkye_nets,
