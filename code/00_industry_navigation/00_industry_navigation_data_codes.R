@@ -45,7 +45,7 @@ pacman::p_load(docxtractr,
 
 # set parameters
 region <- "vcar"
-submodel <- "ns"
+submodel <- "in"
 
 #####################################
 #####################################
@@ -186,9 +186,6 @@ sand_blocks <- sf::st_read(dsn = paste(data_dir, "ATLSandAliquots_shp/ATLSandAli
 beach_nourishment <- sf::st_read(dsn = paste(data_dir, "BeachNourishment/BeachNourishment.gdb", sep = "/"),
                                  layer = sf::st_layers(paste(data_dir, "BeachNourishment/BeachNourishment.gdb", sep = "/"))[[1]][1])
 
-surficial_sediment <- sf::st_read(dsn = paste(data_dir, "SurficialSedimentClassification/SurficialSedimentClassification.gdb", sep = "/"),
-                                  layer = sf::st_layers(paste(data_dir, "SurficialSedimentClassification/SurficialSedimentClassification.gdb", sep = "/"))[[1]][1])
-
 ocean_disposal <- sf::st_read(dsn = paste(data_dir, "OceanDisposalSite/OceanDisposalSite.gpkg", sep = "/"),
                               layer = sf::st_layers(paste(data_dir, "OceanDisposalSite/OceanDisposalSite.gpkg", sep = "/"))[[1]][1])
 
@@ -205,8 +202,6 @@ marine_highways <- sf::st_read(dsn = paste(data_dir, "marine_highways.gdb", sep 
 
 shipping_lanes <- sf::st_read(dsn = paste(data_dir, "shippinglanes/shippinglanes.shp", sep = "/"))
 
-
-
 wind_interarray <- sf::st_read(dsn = paste(data_dir, "offshore_wind_interarray_cables.gpkg", sep = "/"),
                                layer = sf::st_layers(paste(data_dir, "offshore_wind_interarray_cables.gpkg", sep = "/"))[[1]][1])
 
@@ -220,20 +215,32 @@ export_cable <- sf::st_read(dsn = paste(data_dir, "offshore_wind_export_cable.gp
                             layer = sf::st_layers(paste(data_dir, "offshore_wind_export_cable.gpkg", sep = "/"))[[1]][1])
 
 ## passive acoustic
-passive_acoustic_va_line <- sf::st_read(dsn = paste(data_dir, "ProposedPassiveAcousticNetwork/ProposedPassiveAcousticNetwork/ProposedPassiveAcousticNetwork.gdb", sep = "/"),
-                                        layer = sf::st_layers(paste(data_dir, "ProposedPassiveAcousticNetwork/ProposedPassiveAcousticNetwork/ProposedPassiveAcousticNetwork.gdb", sep = "/"))[[1]][11])
-passive_acoustic_va_point <- sf::st_read(dsn = paste(data_dir, "ProposedPassiveAcousticNetwork/ProposedPassiveAcousticNetwork/ProposedPassiveAcousticNetwork.gdb", sep = "/"),
-                                         layer = sf::st_layers(paste(data_dir, "ProposedPassiveAcousticNetwork/ProposedPassiveAcousticNetwork/ProposedPassiveAcousticNetwork.gdb", sep = "/"))[[1]][12])
-
 passive_acoustic_nc_line <- sf::st_read(dsn = paste(data_dir, "ProposedPassiveAcousticNetwork/ProposedPassiveAcousticNetwork/ProposedPassiveAcousticNetwork.gdb", sep = "/"),
-                                        layer = sf::st_layers(paste(data_dir, "ProposedPassiveAcousticNetwork/ProposedPassiveAcousticNetwork/ProposedPassiveAcousticNetwork.gdb", sep = "/"))[[1]][13])
+                                        layer = sf::st_layers(paste(data_dir, "ProposedPassiveAcousticNetwork/ProposedPassiveAcousticNetwork/ProposedPassiveAcousticNetwork.gdb", sep = "/"))[[1]][13]) %>%
+  sf::st_transform(x =.,
+                   crs = "EPSG:4326")
 passive_acoustic_nc_point <- sf::st_read(dsn = paste(data_dir, "ProposedPassiveAcousticNetwork/ProposedPassiveAcousticNetwork/ProposedPassiveAcousticNetwork.gdb", sep = "/"),
-                                         layer = sf::st_layers(paste(data_dir, "ProposedPassiveAcousticNetwork/ProposedPassiveAcousticNetwork/ProposedPassiveAcousticNetwork.gdb", sep = "/"))[[1]][14])
+                                         layer = sf::st_layers(paste(data_dir, "ProposedPassiveAcousticNetwork/ProposedPassiveAcousticNetwork/ProposedPassiveAcousticNetwork.gdb", sep = "/"))[[1]][14]) %>%
+  sf::st_transform(x =.,
+                   crs = "EPSG:4326")
 
 passive_acoustic_sc_line <- sf::st_read(dsn = paste(data_dir, "ProposedPassiveAcousticNetwork/ProposedPassiveAcousticNetwork/ProposedPassiveAcousticNetwork.gdb", sep = "/"),
-                                        layer = sf::st_layers(paste(data_dir, "ProposedPassiveAcousticNetwork/ProposedPassiveAcousticNetwork/ProposedPassiveAcousticNetwork.gdb", sep = "/"))[[1]][15])
+                                        layer = sf::st_layers(paste(data_dir, "ProposedPassiveAcousticNetwork/ProposedPassiveAcousticNetwork/ProposedPassiveAcousticNetwork.gdb", sep = "/"))[[1]][15]) %>%
+  sf::st_transform(x =.,
+                   crs = "EPSG:4326")
 passive_acoustic_sc_point <- sf::st_read(dsn = paste(data_dir, "ProposedPassiveAcousticNetwork/ProposedPassiveAcousticNetwork/ProposedPassiveAcousticNetwork.gdb", sep = "/"),
-                                         layer = sf::st_layers(paste(data_dir, "ProposedPassiveAcousticNetwork/ProposedPassiveAcousticNetwork/ProposedPassiveAcousticNetwork.gdb", sep = "/"))[[1]][16])
+                                         layer = sf::st_layers(paste(data_dir, "ProposedPassiveAcousticNetwork/ProposedPassiveAcousticNetwork/ProposedPassiveAcousticNetwork.gdb", sep = "/"))[[1]][16]) %>%
+  sf::st_transform(x =.,
+                   crs = "EPSG:4326")
+
+passive_acoustic_va_line <- sf::st_read(dsn = paste(data_dir, "ProposedPassiveAcousticNetwork/ProposedPassiveAcousticNetwork/ProposedPassiveAcousticNetwork.gdb", sep = "/"),
+                                        layer = sf::st_layers(paste(data_dir, "ProposedPassiveAcousticNetwork/ProposedPassiveAcousticNetwork/ProposedPassiveAcousticNetwork.gdb", sep = "/"))[[1]][11]) %>%
+  sf::st_transform(x =.,
+                   crs = "EPSG:4326")
+passive_acoustic_va_point <- sf::st_read(dsn = paste(data_dir, "ProposedPassiveAcousticNetwork/ProposedPassiveAcousticNetwork/ProposedPassiveAcousticNetwork.gdb", sep = "/"),
+                                         layer = sf::st_layers(paste(data_dir, "ProposedPassiveAcousticNetwork/ProposedPassiveAcousticNetwork/ProposedPassiveAcousticNetwork.gdb", sep = "/"))[[1]][12]) %>%
+  sf::st_transform(x =.,
+                   crs = "EPSG:4326")
 
 ais_tracks <- sf::st_read(dsn = file.path(data_dir, "ais_tracks_2022.gdb"),
                           layer = sf::st_layers(file.path(data_dir, "ais_tracks_2022.gdb"))[[1]][1])
@@ -395,8 +402,6 @@ data <- list(oil_gas_lease,
              
              beach_nourishment,
              
-             surficial_sediment,
-             
              ocean_disposal,
              
              electric_transmission,
@@ -407,13 +412,6 @@ data <- list(oil_gas_lease,
              
              shipping_lanes,
              
-             fyke_nets_points,
-             fyke_nets_lines,
-             pound_nets_points,
-             pound_nets_lines,
-             staked_gill_nets_points,
-             staked_gill_nets_lines,
-             
              wind_interarray,
              
              channel_markers,
@@ -422,12 +420,12 @@ data <- list(oil_gas_lease,
              
              export_cable,
              
-             passive_acoustic_va_line,
-             passive_acoustic_va_point,
              passive_acoustic_nc_line,
              passive_acoustic_nc_point,
              passive_acoustic_sc_line,
              passive_acoustic_sc_point,
+             passive_acoustic_va_line,
+             passive_acoustic_va_point,
              
              ais_tracks,
              
@@ -440,8 +438,6 @@ data <- list(oil_gas_lease,
              petroleum_tank,
              
              petroleum_release,
-             
-             vms_demarcation,
              
              cb_esi_ln,
              cb_esi_poly,
