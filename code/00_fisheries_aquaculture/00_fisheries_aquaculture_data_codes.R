@@ -107,31 +107,34 @@ fish_landings_species <- sf::st_read(dsn = file.path(data_dir, "fish_landings_la
 nc_shrimp <- sf::st_read(dsn = file.path(data_dir, "nc_shrimp/north_carolina_shrimp_landings.shp"))
 
 # fishing nets
-fyke_nets_points <- sf::st_read(dsn = paste(data_dir, "fn.kml", sep = "/")) %>%
+fyke_nets_points <- sf::st_read(dsn = file.path(data_dir, "fn.kml")) %>%
   dplyr::filter(sf::st_is(x = ., type = "POINT"))
 
-fyke_nets_lines <- sf::st_read(dsn = paste(data_dir, "fn.kml", sep = "/")) %>%
+fyke_nets_lines <- sf::st_read(dsn = file.path(data_dir, "fn.kml")) %>%
   dplyr::filter(sf::st_is(x = ., type = "LINESTRING")) %>%
   # drop dimensions to make geometry valid
   sf::st_zm(.)
 
-pound_nets_points <- sf::st_read(dsn = paste(data_dir, "pn.kml", sep = "/")) %>%
+pound_nets_points <- sf::st_read(dsn = file.path(data_dir, "pn.kml")) %>%
   dplyr::filter(sf::st_is(x = ., type = "POINT"))
 
-pound_nets_lines <- sf::st_read(dsn = paste(data_dir, "pn.kml", sep = "/")) %>%
+pound_nets_lines <- sf::st_read(dsn = file.path(data_dir, "pn.kml")) %>%
   dplyr::filter(sf::st_is(x = ., type = "LINESTRING")) %>%
   # drop dimensions to make geometry valid
   sf::st_zm(.)
 
-staked_gill_nets_points <- sf::st_read(dsn = paste(data_dir, "sgn.kml", sep = "/")) %>%
+staked_gill_nets_points <- sf::st_read(dsn = file.path(data_dir, "sgn.kml")) %>%
   dplyr::filter(sf::st_is(x = ., type = "POINT"))
 
-staked_gill_nets_lines <- sf::st_read(dsn = paste(data_dir, "sgn.kml", sep = "/")) %>%
+staked_gill_nets_lines <- sf::st_read(dsn = file.path(data_dir, "sgn.kml")) %>%
   dplyr::filter(sf::st_is(x = ., type = "LINESTRING")) %>%
   # drop dimensions to make geometry valid
   sf::st_zm(.)
 
-vms_demarcation <- sf::st_read(dsn = paste(data_dir, "vms_demarcation_line_20140925?null/VMS_Demarcation_Line/VMS_Demarcation_Line.shp", sep = "/"))
+vms_demarcation <- sf::st_read(dsn = file.path(data_dir, "vms_demarcation_line_20140925?null/VMS_Demarcation_Line/VMS_Demarcation_Line.shp"))
+
+data <- sf::st_read(dsn = file.path(data_dir, "Fisheries.gdb"),
+                    layer = sf::st_layers(dsn = file.path(data_dir, "Fisheries.gdb"))[[1]][1])
 
 #####################################
 #####################################
