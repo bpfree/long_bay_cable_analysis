@@ -4308,7 +4308,7 @@
 <b>Forfeit:</b> N<br />
 <b>Exmempt:</b> N<br />
 <b>Tag No:</b> 10363<br />
-<b>Pre-auth Agent:</b> JAMES ELLIOTT<br />
+<b>Pre-auth Agent:</b> JOHN RICHARDSON<br />
 <b>Site No.:</b> SG0063<br />
 </body>
 </html>
@@ -4336,7 +4336,7 @@
 <b>Forfeit:</b> N<br />
 <b>Exmempt:</b> N<br />
 <b>Tag No:</b> 10363<br />
-<b>Pre-auth Agent:</b> JAMES ELLIOTT<br />
+<b>Pre-auth Agent:</b> JOHN RICHARDSON<br />
 <b>Site No.:</b> SG0063<br />
 </body>
 </html>
@@ -5428,5 +5428,347 @@
      <LineString>
       <coordinates>-76.309950,37.762066666667,0
                    -76.309850,37.763483333333,0</coordinates>
+      </LineString>
+    </Placemark><Placemark id="OL193279-001">
+      <name>302 - STAKED GILL NET</name>
+     <description><![CDATA[<html>
+<body>
+<b>JAMES L SANDERS (0878)</b><br />
+<b>Street:</b> PO BOX 952<br />
+<b>Street 2:</b> <br />
+<b>City, State Zip</b> WARSAW, VA 22572-0952<br />
+<b>Phone: </b>804-761-8337<br />
+<b>License:</b> OL193279-001<br />
+<b>Date Sold:</b> 2024-03-08<br />
+<b>Year License:</b> 2024<br />
+<b>Lat Offshore: </b> N37-55.8626<br />
+<b>Long Offshore:</b> W76-50.8942<br />
+<b>Lat Inshore: </b> N37-55.9400<br />
+<b>Long Inshore:</b> W76-50.7095<br />
+<b>Forfeit:</b> N<br />
+<b>Exmempt:</b> N<br />
+<b>Tag No:</b> 33944<br />
+<b>Pre-auth Agent:</b> Terrie McKellips<br />
+<b>Site No.:</b> NG0105<br />
+</body>
+</html>
+]]></description>
+     <styleUrl>#icon</styleUrl>
+       <Point>
+        <coordinates>-76.848237,37.931043333333</coordinates>
+      </Point>
+    </Placemark><Placemark id="OL193279-001">
+      <name>OL193279-001</name>
+     <description><![CDATA[<html>
+<body>
+<b>JAMES L SANDERS (0878)</b><br />
+<b>Street:</b> PO BOX 952<br />
+<b>Street 2:</b> <br />
+<b>City, State Zip</b> WARSAW, VA 22572-0952<br />
+<b>Phone: </b>804-761-8337<br />
+<b>License:</b> OL193279-001<br />
+<b>Date Sold:</b> 2024-03-08<br />
+<b>Year License:</b> 2024<br />
+<b>Lat Offshore: </b> N37-55.8626<br />
+<b>Long Offshore:</b> W76-50.8942<br />
+<b>Lat Inshore: </b> N37-55.9400<br />
+<b>Long Inshore:</b> W76-50.7095<br />
+<b>Forfeit:</b> N<br />
+<b>Exmempt:</b> N<br />
+<b>Tag No:</b> 33944<br />
+<b>Pre-auth Agent:</b> Terrie McKellips<br />
+<b>Site No.:</b> NG0105<br />
+</body>
+</html>
+]]></description>
+     <styleUrl>#icon</styleUrl>
+     <LineString>
+      <coordinates>-76.848237,37.931043333333,0
+                   -76.845158,37.932333333333,0</coordinates>
+      </LineString>
+    </Placemark><Placemark id="OL920086-003">
+      <name>302 - STAKED GILL NET</name>
+     <description><![CDATA[<html>
+<body>
+<b>LOGAN M ISARD (010342)</b><br />
+<b>Street:</b> 526 EPWORTH RD<br />
+<b>Street 2:</b> <br />
+<b>City, State Zip</b> AYLETT, VA 23009-2513<br />
+<b>Phone: </b>804-654-4054<br />
+<b>License:</b> OL920086-003<br />
+<b>Date Sold:</b> 2024-03-14<br />
+<b>Year License:</b> 2024<br />
+<b>Lat Offshore: </b> N37-31.9620<br />
+<b>Long Offshore:</b> W76-47.3380<br />
+<b>Lat Inshore: </b> N37-31.9616<br />
+<b>Long Inshore:</b> W76-47.3616<br />
+<b>Forfeit:</b> N<br />
+<b>Exmempt:</b> N<br />
+<b>Tag No:</b> 15173<br />
+<b>Pre-auth Agent:</b> Kevin Richard<br />
+<b>Site No.:</b> NG0026<br />
+</body>
+</html>
+]]></description>
+     <styleUrl>#icon</styleUrl>
+       <Point>
+        <coordinates>-76.788967,37.5327</coordinates>
+      </Point>
+    </Placemark><Placemark id="OL920086-003">
+      <name>OL920086-003</name>
+     <description><![CDATA[<html>
+<body>
+<b>LOGAN M ISARD (010342)</b><br />
+<b>Street:</b> 526 EPWORTH RD<br />
+<b>Street 2:</b> <br />
+<b>City, State Zip</b> AYLETT, VA 23009-2513<br />
+<b>Phone: </b>804-654-4054<br />
+<b>License:</b> OL920086-003<br />
+<b>Date Sold:</b> 2024-03-14<br />
+<b>Year License:</b> 2024<br />
+<b>Lat Offshore: </b> N37-31.9620<br />
+<b>Long Offshore:</b> W76-47.3380<br />
+<b>Lat Inshore: </b> N37-31.9616<br />
+<b>Long Inshore:</b> W76-47.3616<br />
+<b>Forfeit:</b> N<br />
+<b>Exmempt:</b> N<br />
+<b>Tag No:</b> 15173<br />
+<b>Pre-auth Agent:</b> Kevin Richard<br />
+<b>Site No.:</b> NG0026<br />
+</body>
+</html>
+]]></description>
+     <styleUrl>#icon</styleUrl>
+     <LineString>
+      <coordinates>-76.788967,37.5327,0
+                   -76.789360,37.532693333333,0</coordinates>
+      </LineString>
+    </Placemark><Placemark id="OL920086-004">
+      <name>302 - STAKED GILL NET</name>
+     <description><![CDATA[<html>
+<body>
+<b>LOGAN M ISARD (010342)</b><br />
+<b>Street:</b> 526 EPWORTH RD<br />
+<b>Street 2:</b> <br />
+<b>City, State Zip</b> AYLETT, VA 23009-2513<br />
+<b>Phone: </b>804-654-4054<br />
+<b>License:</b> OL920086-004<br />
+<b>Date Sold:</b> 2024-03-14<br />
+<b>Year License:</b> 2024<br />
+<b>Lat Offshore: </b> N37-31.3432<br />
+<b>Long Offshore:</b> W76-47.6413<br />
+<b>Lat Inshore: </b> N37-31.3359<br />
+<b>Long Inshore:</b> W76-47.6797<br />
+<b>Forfeit:</b> N<br />
+<b>Exmempt:</b> N<br />
+<b>Tag No:</b> 15174<br />
+<b>Pre-auth Agent:</b> Kevin Richard<br />
+<b>Site No.:</b> NG0038<br />
+</body>
+</html>
+]]></description>
+     <styleUrl>#icon</styleUrl>
+       <Point>
+        <coordinates>-76.794022,37.522386666667</coordinates>
+      </Point>
+    </Placemark><Placemark id="OL920086-004">
+      <name>OL920086-004</name>
+     <description><![CDATA[<html>
+<body>
+<b>LOGAN M ISARD (010342)</b><br />
+<b>Street:</b> 526 EPWORTH RD<br />
+<b>Street 2:</b> <br />
+<b>City, State Zip</b> AYLETT, VA 23009-2513<br />
+<b>Phone: </b>804-654-4054<br />
+<b>License:</b> OL920086-004<br />
+<b>Date Sold:</b> 2024-03-14<br />
+<b>Year License:</b> 2024<br />
+<b>Lat Offshore: </b> N37-31.3432<br />
+<b>Long Offshore:</b> W76-47.6413<br />
+<b>Lat Inshore: </b> N37-31.3359<br />
+<b>Long Inshore:</b> W76-47.6797<br />
+<b>Forfeit:</b> N<br />
+<b>Exmempt:</b> N<br />
+<b>Tag No:</b> 15174<br />
+<b>Pre-auth Agent:</b> Kevin Richard<br />
+<b>Site No.:</b> NG0038<br />
+</body>
+</html>
+]]></description>
+     <styleUrl>#icon</styleUrl>
+     <LineString>
+      <coordinates>-76.794022,37.522386666667,0
+                   -76.794662,37.522265,0</coordinates>
+      </LineString>
+    </Placemark><Placemark id="OL920086-005">
+      <name>302 - STAKED GILL NET</name>
+     <description><![CDATA[<html>
+<body>
+<b>LOGAN M ISARD (010342)</b><br />
+<b>Street:</b> 526 EPWORTH RD<br />
+<b>Street 2:</b> <br />
+<b>City, State Zip</b> AYLETT, VA 23009-2513<br />
+<b>Phone: </b>804-654-4054<br />
+<b>License:</b> OL920086-005<br />
+<b>Date Sold:</b> 2024-03-14<br />
+<b>Year License:</b> 2024<br />
+<b>Lat Offshore: </b> N37-31.1586<br />
+<b>Long Offshore:</b> W76-47.5458<br />
+<b>Lat Inshore: </b> N37-31.1586<br />
+<b>Long Inshore:</b> W76-47.5758<br />
+<b>Forfeit:</b> N<br />
+<b>Exmempt:</b> N<br />
+<b>Tag No:</b> 15175<br />
+<b>Pre-auth Agent:</b> Kevin Richard<br />
+<b>Site No.:</b> NG0240<br />
+</body>
+</html>
+]]></description>
+     <styleUrl>#icon</styleUrl>
+       <Point>
+        <coordinates>-76.792430,37.51931</coordinates>
+      </Point>
+    </Placemark><Placemark id="OL920086-005">
+      <name>OL920086-005</name>
+     <description><![CDATA[<html>
+<body>
+<b>LOGAN M ISARD (010342)</b><br />
+<b>Street:</b> 526 EPWORTH RD<br />
+<b>Street 2:</b> <br />
+<b>City, State Zip</b> AYLETT, VA 23009-2513<br />
+<b>Phone: </b>804-654-4054<br />
+<b>License:</b> OL920086-005<br />
+<b>Date Sold:</b> 2024-03-14<br />
+<b>Year License:</b> 2024<br />
+<b>Lat Offshore: </b> N37-31.1586<br />
+<b>Long Offshore:</b> W76-47.5458<br />
+<b>Lat Inshore: </b> N37-31.1586<br />
+<b>Long Inshore:</b> W76-47.5758<br />
+<b>Forfeit:</b> N<br />
+<b>Exmempt:</b> N<br />
+<b>Tag No:</b> 15175<br />
+<b>Pre-auth Agent:</b> Kevin Richard<br />
+<b>Site No.:</b> NG0240<br />
+</body>
+</html>
+]]></description>
+     <styleUrl>#icon</styleUrl>
+     <LineString>
+      <coordinates>-76.792430,37.51931,0
+                   -76.792930,37.51931,0</coordinates>
+      </LineString>
+    </Placemark><Placemark id="OL154701-003">
+      <name>302 - STAKED GILL NET</name>
+     <description><![CDATA[<html>
+<body>
+<b>COLTON J HORN (010219)</b><br />
+<b>Street:</b> 12153 HUNTERS RUN<br />
+<b>Street 2:</b> <br />
+<b>City, State Zip</b> KING GEORGE, VA 22485-4358<br />
+<b>Phone: </b>571-619-0922<br />
+<b>License:</b> OL154701-003<br />
+<b>Date Sold:</b> 2024-03-27<br />
+<b>Year License:</b> 2024<br />
+<b>Lat Offshore: </b> N38-34.4906<br />
+<b>Long Offshore:</b> W77-15.4669<br />
+<b>Lat Inshore: </b> N38-34.4810<br />
+<b>Long Inshore:</b> W77-15.7179<br />
+<b>Forfeit:</b> N<br />
+<b>Exmempt:</b> N<br />
+<b>Tag No:</b> 18431<br />
+<b>Pre-auth Agent:</b> NOAH HAMILTON<br />
+<b>Site No.:</b> NG0585<br />
+</body>
+</html>
+]]></description>
+     <styleUrl>#icon</styleUrl>
+       <Point>
+        <coordinates>-77.257782,38.574843333333</coordinates>
+      </Point>
+    </Placemark><Placemark id="OL154701-003">
+      <name>OL154701-003</name>
+     <description><![CDATA[<html>
+<body>
+<b>COLTON J HORN (010219)</b><br />
+<b>Street:</b> 12153 HUNTERS RUN<br />
+<b>Street 2:</b> <br />
+<b>City, State Zip</b> KING GEORGE, VA 22485-4358<br />
+<b>Phone: </b>571-619-0922<br />
+<b>License:</b> OL154701-003<br />
+<b>Date Sold:</b> 2024-03-27<br />
+<b>Year License:</b> 2024<br />
+<b>Lat Offshore: </b> N38-34.4906<br />
+<b>Long Offshore:</b> W77-15.4669<br />
+<b>Lat Inshore: </b> N38-34.4810<br />
+<b>Long Inshore:</b> W77-15.7179<br />
+<b>Forfeit:</b> N<br />
+<b>Exmempt:</b> N<br />
+<b>Tag No:</b> 18431<br />
+<b>Pre-auth Agent:</b> NOAH HAMILTON<br />
+<b>Site No.:</b> NG0585<br />
+</body>
+</html>
+]]></description>
+     <styleUrl>#icon</styleUrl>
+     <LineString>
+      <coordinates>-77.257782,38.574843333333,0
+                   -77.261965,38.574683333333,0</coordinates>
+      </LineString>
+    </Placemark><Placemark id="OL154701-004">
+      <name>302 - STAKED GILL NET</name>
+     <description><![CDATA[<html>
+<body>
+<b>COLTON J HORN (010219)</b><br />
+<b>Street:</b> 12153 HUNTERS RUN<br />
+<b>Street 2:</b> <br />
+<b>City, State Zip</b> KING GEORGE, VA 22485-4358<br />
+<b>Phone: </b>571-619-0922<br />
+<b>License:</b> OL154701-004<br />
+<b>Date Sold:</b> 2024-03-27<br />
+<b>Year License:</b> 2024<br />
+<b>Lat Offshore: </b> N38-37.0341<br />
+<b>Long Offshore:</b> W77-12.3385<br />
+<b>Lat Inshore: </b> N38-37.0915<br />
+<b>Long Inshore:</b> W77-12.2357<br />
+<b>Forfeit:</b> N<br />
+<b>Exmempt:</b> N<br />
+<b>Tag No:</b> 18432<br />
+<b>Pre-auth Agent:</b> NOAH HAMILTON<br />
+<b>Site No.:</b> NG0582<br />
+</body>
+</html>
+]]></description>
+     <styleUrl>#icon</styleUrl>
+       <Point>
+        <coordinates>-77.205642,38.617235</coordinates>
+      </Point>
+    </Placemark><Placemark id="OL154701-004">
+      <name>OL154701-004</name>
+     <description><![CDATA[<html>
+<body>
+<b>COLTON J HORN (010219)</b><br />
+<b>Street:</b> 12153 HUNTERS RUN<br />
+<b>Street 2:</b> <br />
+<b>City, State Zip</b> KING GEORGE, VA 22485-4358<br />
+<b>Phone: </b>571-619-0922<br />
+<b>License:</b> OL154701-004<br />
+<b>Date Sold:</b> 2024-03-27<br />
+<b>Year License:</b> 2024<br />
+<b>Lat Offshore: </b> N38-37.0341<br />
+<b>Long Offshore:</b> W77-12.3385<br />
+<b>Lat Inshore: </b> N38-37.0915<br />
+<b>Long Inshore:</b> W77-12.2357<br />
+<b>Forfeit:</b> N<br />
+<b>Exmempt:</b> N<br />
+<b>Tag No:</b> 18432<br />
+<b>Pre-auth Agent:</b> NOAH HAMILTON<br />
+<b>Site No.:</b> NG0582<br />
+</body>
+</html>
+]]></description>
+     <styleUrl>#icon</styleUrl>
+     <LineString>
+      <coordinates>-77.205642,38.617235,0
+                   -77.203928,38.618191666667,0</coordinates>
       </LineString>
     </Placemark></Document></kml>
