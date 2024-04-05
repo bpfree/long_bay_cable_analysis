@@ -7652,4 +7652,61 @@
       <coordinates>-75.982953,37.13765,0
                    -75.979720,37.13808,0</coordinates>
       </LineString>
+    </Placemark><Placemark id="OL154718-001">
+      <name>301 - POUND NET</name>
+     <description><![CDATA[<html>
+<body>
+<b>JASON PATRICK CLARK (5477)</b><br />
+<b>Street:</b> 38 ROCKFISH LANE<br />
+<b>Street 2:</b> <br />
+<b>City, State Zip</b> MONTROSS, VA 22520<br />
+<b>Phone: </b>757-319-8213<br />
+<b>License:</b> OL154718-001<br />
+<b>Date Sold:</b> 2024-04-01<br />
+<b>Year License:</b> 2024<br />
+<b>Lat Offshore: </b> N38-08.3580<br />
+<b>Long Offshore:</b> W76-43.9160<br />
+<b>Lat Inshore: </b> N38-08.4160<br />
+<b>Long Inshore:</b> W76-43.9370<br />
+<b>Forfeit:</b> N<br />
+<b>Exmempt:</b> N<br />
+<b>Tag No:</b> 18368<br />
+<b>Pre-auth Agent:</b> NOAH HAMILTON<br />
+<b>Site No.:</b> NP0222<br />
+</body>
+</html>
+]]></description>
+     <styleUrl>#icon</styleUrl>
+       <Point>
+        <coordinates>-76.731933,38.1393</coordinates>
+      </Point>
+    </Placemark><Placemark id="OL154718-001">
+      <name>OL154718-001</name>
+     <description><![CDATA[<html>
+<body>
+<b>JASON PATRICK CLARK (5477)</b><br />
+<b>Street:</b> 38 ROCKFISH LANE<br />
+<b>Street 2:</b> <br />
+<b>City, State Zip</b> MONTROSS, VA 22520<br />
+<b>Phone: </b>757-319-8213<br />
+<b>License:</b> OL154718-001<br />
+<b>Date Sold:</b> 2024-04-01<br />
+<b>Year License:</b> 2024<br />
+<b>Lat Offshore: </b> N38-08.3580<br />
+<b>Long Offshore:</b> W76-43.9160<br />
+<b>Lat Inshore: </b> N38-08.4160<br />
+<b>Long Inshore:</b> W76-43.9370<br />
+<b>Forfeit:</b> N<br />
+<b>Exmempt:</b> N<br />
+<b>Tag No:</b> 18368<br />
+<b>Pre-auth Agent:</b> NOAH HAMILTON<br />
+<b>Site No.:</b> NP0222<br />
+</body>
+</html>
+]]></description>
+     <styleUrl>#icon</styleUrl>
+     <LineString>
+      <coordinates>-76.731933,38.1393,0
+                   -76.732283,38.140266666667,0</coordinates>
+      </LineString>
     </Placemark></Document></kml>
