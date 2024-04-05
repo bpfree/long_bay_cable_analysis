@@ -1468,14 +1468,6 @@ for(i in seq_along(data)){
   sf::st_write(obj = dataset, dsn = metocean_other_geopackage, layer = data_code[i], append = F)
 }
 
-for(i in 231:length(data)){
-  # grab the dataset
-  dataset <- data[[i]]
-  
-  # export the dataset
-  sf::st_write(obj = dataset, dsn = metocean_other_geopackage, layer = data_code[i], append = F)
-}
-
 #####################################
 #####################################
 
