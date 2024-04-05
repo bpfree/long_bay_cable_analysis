@@ -1,0 +1,1756 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="OpenAreas">
+  <name>Open Harvest Areas</name>
+<Style id='polyline'>
+    <LineStyle>
+      <color>8F00FFFF</color>
+      <width>4</width>
+      <gx:labelVisibility>1</gx:labelVisibility>
+    </LineStyle>
+  </Style>
+  <Snippet></Snippet>
+  <Folder>
+    <name>Open Harvest Areas</name>
+    <Snippet></Snippet><Placemark id="82">
+      <name>Beasley Bay Area (Beasl)</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html>
+<body>
+<b>Open Harvest Area</b><br />
+<b>Water: </b><br />
+<span style='color:rgb(255,0,0)'>All public and unassigned grounds</span><br />
+<b>Open Harvest Season: </b>March 1, 2024, through March 15, 2024<br />
+<b>Gear License Required: </b>Dredge<br />
+Please consult VMRC Regulation <a href='http://mrc.virginia.gov/Regulations/FR720.shtm' target='_blank'>4 VAC 20-720</a> prior to harvesting.<br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/areamap.php?id=82' target='_blank'>Zoom View of Area</a><br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/OpenHarvestSeason.pdf' target='_blank'>Open Harvest Seasons by Area, Gear and Month</a><br />
+</body></html>]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampedToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates>-75.756053341,37.897613343,0 -75.710048314,37.855371681,0 -75.752104994,37.802051662,0 -75.783259886,37.807859906,0 -75.756053341,37.897613343,0 </coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </MultiGeometry>
+    </Placemark><Placemark id="81">
+      <name>California Rock Area (Calif)</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html>
+<body>
+<b>Open Harvest Area</b><br />
+<b>Water: </b><br />
+<span style='color:rgb(255,0,0)'>All public and unassigned grounds</span><br />
+<b>Open Harvest Season: </b>November 15, 2023, through November 30, 2023<br />
+<b>Gear License Required: </b>Dredge<br />
+Please consult VMRC Regulation <a href='http://mrc.virginia.gov/Regulations/FR720.shtm' target='_blank'>4 VAC 20-720</a> prior to harvesting.<br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/areamap.php?id=81' target='_blank'>Zoom View of Area</a><br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/OpenHarvestSeason.pdf' target='_blank'>Open Harvest Seasons by Area, Gear and Month</a><br />
+</body></html>]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampedToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates>-75.941942607,37.840156298,0 -75.894877279,37.840156312,0 -75.893332345,37.812929669,0 -75.941472673,37.807381827,0 -75.941942607,37.840156298,0 </coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </MultiGeometry>
+    </Placemark><Placemark id="77">
+      <name>Indian Creek Area (INDCR)</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html>
+<body>
+<b>Open Harvest Area</b><br />
+<b>Water: </b><br />
+<span style='color:rgb(255,0,0)'>All public and unassigned grounds in highlighted area.</span><br />
+<b>Open Harvest Season: </b>March 1, 2024 through March 31, 2024<br />
+<b>Gear License Required: </b>Hand Tong<br />
+Please consult VMRC Regulation <a href='http://mrc.virginia.gov/Regulations/FR720.shtm' target='_blank'>4 VAC 20-720</a> prior to harvesting.<br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/areamap.php?id=77' target='_blank'>Zoom View of Area</a><br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/OpenHarvestSeason.pdf' target='_blank'>Open Harvest Seasons by Area, Gear and Month</a><br />
+</body></html>]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampedToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates>-76.34222242,37.691113104,0 -76.341454214,37.691380687,0 -76.340877835,37.690807294,0 -76.340494054,37.690539681,0 -76.34025356,37.690998371,0 -76.339388571,37.690845427,0 -76.339724841,37.690272089,0 -76.338284311,37.689278108,0 -76.338091984,37.689354601,0 -76.336122734,37.689316268,0 -76.335882159,37.689086877,0 -76.335306021,37.688628148,0 -76.332904568,37.688054732,0 -76.333240397,37.687557798,0 -76.332712246,37.687443088,0 -76.33155984,37.686831473,0 -76.331703455,37.686525660,0 -76.332760546,37.686907944,0 -76.332712427,37.687442789,0 -76.333240682,37.687557501,0 -76.335258085,37.687863687,0 -76.3353061,37.688627820,0 -76.335882268,37.689086687,0 -76.337275668,37.688322439,0 -76.33775571,37.688398920,0 -76.338284626,37.689277977,0 -76.339725305,37.690271576,0 -76.340494299,37.690539575,0 -76.340878423,37.690807277,0 -76.341646194,37.690654406,0 -76.34222242,37.691113104,0 </coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </MultiGeometry>
+    </Placemark><Placemark id="83">
+      <name>Larsons Bay Area (LBA)</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html>
+<body>
+<b>Open Harvest Area</b><br />
+<b>Water: </b><br />
+<span style='color:rgb(255,0,0)'>All Public Grounds</span><br />
+<b>Open Harvest Season: </b>December 1, 2023, through February 29, 2024<br />
+<b>Gear License Required: </b>Patent Tong<br />
+Please consult VMRC Regulation <a href='http://mrc.virginia.gov/Regulations/FR720.shtm' target='_blank'>4 VAC 20-720</a> prior to harvesting.<br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/areamap.php?id=83' target='_blank'>Zoom View of Area</a><br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/OpenHarvestSeason.pdf' target='_blank'>Open Harvest Seasons by Area, Gear and Month</a><br />
+</body></html>]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampedToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates>-76.401150371,37.627186101,0 -76.368126141,37.612395742,0 -76.371151249,37.614551380,0 -76.374445609,37.617636798,0 -76.378643136,37.621647589,0 -76.379501844,37.622455757,0 -76.380885814,37.623745789,0 -76.382273713,37.625079414,0 -76.382418928,37.625166916,0 -76.383023104,37.624469732,0 -76.384989066,37.626283238,0 -76.384762366,37.626575876,0 -76.385762269,37.627096455,0 -76.38592555,37.626848093,0 -76.387146188,37.627563043,0 -76.387319681,37.626414167,0 -76.392898669,37.627654825,0 -76.392752447,37.628741971,0 -76.399653963,37.627738890,0 -76.401150371,37.627186101,0 </coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </MultiGeometry>
+    </Placemark><Placemark id="76">
+      <name>York River Hand Tong Area PG901 (YRPG9)</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html>
+<body>
+<b>Open Harvest Area</b><br />
+<b>Water: </b><br />
+<span style='color:rgb(255,0,0)'>Public Ground 901</span><br />
+<b>Open Harvest Season: </b>November 1, 2023 through March 31, 2024<br />
+<b>Gear License Required: </b>Hand Tong<br />
+Please consult VMRC Regulation <a href='http://mrc.virginia.gov/Regulations/FR720.shtm' target='_blank'>4 VAC 20-720</a> prior to harvesting.<br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/areamap.php?id=76' target='_blank'>Zoom View of Area</a><br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/OpenHarvestSeason.pdf' target='_blank'>Open Harvest Seasons by Area, Gear and Month</a><br />
+</body></html>]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampedToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates>-76.707949122,37.433818629,0 -76.709174005,37.435836998,0 -76.709399446,37.437655314,0 -76.705362644,37.434229915,0 -76.706793701,37.433372580,0 -76.707949122,37.433818629,0 </coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </MultiGeometry>
+    </Placemark><Placemark id="26">
+      <name>Blackberry Hangs Area (BBH)</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html>
+<body>
+<b>Open Harvest Area</b><br />
+<b>Water: </b>Chesapeake Bay (CBUW)<br />
+<span style='color:rgb(255,0,0)'>Upper-West Chesapeake Bay</span><br />
+<b>Open Harvest Season: </b>February 1, 2024 through February 29, 2024<br />
+<b>Gear License Required: </b>Hand Scrape<br />
+Please consult VMRC Regulation <a href='http://mrc.virginia.gov/Regulations/FR720.shtm' target='_blank'>4 VAC 20-720</a> prior to harvesting.<br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/areamap.php?id=26' target='_blank'>Zoom View of Area</a><br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/OpenHarvestSeason.pdf' target='_blank'>Open Harvest Seasons by Area, Gear and Month</a><br />
+</body></html>]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampedToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates>-76.2362335766666,37.8863519883333,0
+-76.1989287616666,37.8817500416666,0
+-76.1934969083333,37.8817942533333,0
+-76.1940040733333,37.8811415916666,0
+-76.1837555866666,37.879874755,0
+-76.220683265,37.82387956,0
+-76.2500387233333,37.8342675916666,0
+-76.247954675,37.842635305,0
+-76.2429475833333,37.8671015833333,0
+-76.2362335766666,37.8863519883333,0
+</coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </MultiGeometry>
+    </Placemark><Placemark id="73">
+      <name>Middle Ground (CHTA)</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html>
+<body>
+<b>Open Harvest Area</b><br />
+<b>Water: </b><br />
+<span style='color:rgb(255,0,0)'>Grounds in highlighted area.</span><br />
+<b>Open Harvest Season: </b>November 1, 2023 through November 15, 2023<br />
+<b>Gear License Required: </b>Hand Scrape<br />
+Please consult VMRC Regulation <a href='http://mrc.virginia.gov/Regulations/FR720.shtm' target='_blank'>4 VAC 20-720</a> prior to harvesting.<br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/areamap.php?id=73' target='_blank'>Zoom View of Area</a><br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/OpenHarvestSeason.pdf' target='_blank'>Open Harvest Seasons by Area, Gear and Month</a><br />
+</body></html>]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampedToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates>-76.477290219,37.694272515,0 -76.472184826,37.695061269,0 -76.472833127,37.692738908,0 -76.46979246,37.692720516,0 -76.470333031,37.691714080,0 -76.469692704,37.690402413,0 -76.465882584,37.692313061,0 -76.46356556,37.684260096,0 -76.462766186,37.681806560,0 -76.474066652,37.677522177,0 -76.476029348,37.677633409,0 -76.475634479,37.679010555,0 -76.479146408,37.680535825,0 -76.480515342,37.682003883,0 -76.482039153,37.682822601,0 -76.482134335,37.682689180,0 -76.483597669,37.683220648,0 -76.485064097,37.685149673,0 -76.484989341,37.685326955,0 -76.485926998,37.687191452,0 -76.484484681,37.688030370,0 -76.483488074,37.686752453,0 -76.483112551,37.687381302,0 -76.482864385,37.685716190,0 -76.481322248,37.687855771,0 -76.480993944,37.688655753,0 -76.479826374,37.689782382,0 -76.479405932,37.691180060,0 -76.479092662,37.692222597,0 -76.479646189,37.692462864,0 -76.47940411,37.692723329,0 -76.477346665,37.694189393,0 -76.477290219,37.694272515,0 </coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </MultiGeometry>
+    </Placemark><Placemark id="75">
+      <name>Corrotoman Hand Tong Area B (CHTB)</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html>
+<body>
+<b>Open Harvest Area</b><br />
+<b>Water: </b><br />
+<span style='color:rgb(255,0,0)'>All public grounds</span><br />
+<b>Open Harvest Season: </b>October 1, 2023 through March 31, 2024<br />
+<b>Gear License Required: </b>Hand Tong<br />
+Please consult VMRC Regulation <a href='http://mrc.virginia.gov/Regulations/FR720.shtm' target='_blank'>4 VAC 20-720</a> prior to harvesting.<br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/areamap.php?id=75' target='_blank'>Zoom View of Area</a><br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/OpenHarvestSeason.pdf' target='_blank'>Open Harvest Seasons by Area, Gear and Month</a><br />
+</body></html>]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampedToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates>-76.450027704,37.713766822,0 -76.46266654,37.710118976,0 -76.458180214,37.712502181,0 -76.456966166,37.715531568,0 -76.456896606,37.715704966,0 -76.453982407,37.717354859,0 -76.4532366,37.716934070,0 -76.453349173,37.716673761,0 -76.452187647,37.716248606,0 -76.451256307,37.715626718,0 -76.451696306,37.715469077,0 -76.450871273,37.714721973,0 -76.451049517,37.714621021,0 -76.450842594,37.714251756,0 -76.450027704,37.713766822,0 </coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </MultiGeometry>
+    </Placemark><Placemark id="71">
+      <name>Coan River Area (CRA)</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html>
+<body>
+<b>Open Harvest Area</b><br />
+<b>Water: </b>Coan River (COAN)<br />
+<span style='color:rgb(255,0,0)'>Public Grounds in highlighted area</span><br />
+<b>Open Harvest Season: </b>October 1, 2023 through December 31, 2023<br />
+<b>Gear License Required: </b>Hand Tong<br />
+Please consult VMRC Regulation <a href='http://mrc.virginia.gov/Regulations/FR720.shtm' target='_blank'>4 VAC 20-720</a> prior to harvesting.<br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/areamap.php?id=71' target='_blank'>Zoom View of Area</a><br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/OpenHarvestSeason.pdf' target='_blank'>Open Harvest Seasons by Area, Gear and Month</a><br />
+</body></html>]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampedToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates>-76.455215671,37.998426103,0 -76.456242442,37.999084882,0 -76.463534364,37.995517095,0 -76.466293544,37.995171208,0 -76.467340334,37.995446908,0 -76.467021148,37.995665321,0 -76.466785823,37.996213719,0 -76.467845046,37.996862294,0 -76.467755021,37.996661627,0 -76.473266345,37.999625850,0 -76.472340083,38.001108546,0 -76.472450681,38.001072384,0 -76.472979929,38.000993926,0 -76.473344208,38.000984075,0 -76.473690138,38.000955811,0 -76.473768026,38.000987897,0 -76.473858803,38.001050277,0 -76.474050833,38.001134373,0 -76.474251685,38.001163245,0 -76.474417922,38.001165546,0 -76.474604422,38.001127184,0 -76.474786141,38.001078275,0 -76.474884591,38.001044597,0 -76.47505502,38.000962701,0 -76.475165706,38.000852819,0 -76.475251349,38.000771708,0 -76.475362937,38.000760446,0 -76.475527577,38.000761428,0 -76.475570515,38.000795968,0 -76.475701234,38.000867759,0 -76.475850502,38.000912123,0 -76.475988267,38.000930117,0 -76.476108154,38.000911029,0 -76.476536481,38.001005942,0 -76.476717324,38.001064904,0 -76.476826386,38.001136628,0 -76.476912152,38.001217516,0 -76.476916545,38.001283428,0 -76.476866153,38.001331820,0 -76.47686548,38.001396410,0 -76.476881458,38.001475428,0 -76.476966711,38.001595804,0 -76.477037488,38.001673910,0 -76.477335696,38.001840360,0 -76.477510984,38.001953253,0 -76.477731208,38.002073170,0 -76.478280208,38.002279329,0 -76.478159844,38.002335216,0 -76.477848059,38.002357287,0 -76.477631863,38.002378314,0 -76.477346454,38.002459528,0 -76.477132698,38.002553217,0 -76.477107261,38.002593958,0 -76.477107983,38.002698040,0 -76.477173801,38.002961874,0 -76.477091714,38.003019315,0 -76.477008409,38.003030756,0 -76.476939797,38.003073841,0 -76.476837449,38.003169309,0 -76.47677683,38.003247934,0 -76.476772677,38.003326940,0 -76.476798546,38.003407333,0 -76.476812337,38.003532540,0 -76.47681476,38.003636569,0 -76.476795564,38.003736524,0 -76.476718435,38.003803140,0 -76.476668805,38.003943778,0 -76.476679753,38.004017574,0 -76.476767837,38.004206499,0 -76.476835135,38.004299104,0 -76.476947271,38.004394639,0 -76.477109684,38.004461527,0 -76.47720442,38.004476675,0 -76.477162259,38.004538941,0 -76.477224938,38.004545771,0 -76.477768564,38.004457455,0 -76.478018865,38.004796294,0 -76.478975462,38.005172508,0 -76.479151711,38.004977049,0 -76.479278265,38.004815657,0 -76.479493647,38.004917361,0 -76.479670161,38.004921174,0 -76.479791891,38.004902169,0 -76.479877728,38.004794663,0 -76.47984367,38.004710122,0 -76.479740756,38.004675172,0 -76.479648627,38.004553363,0 -76.479467801,38.004127702,0 -76.479309413,38.003968487,0 -76.479127443,38.003831561,0 -76.478956864,38.003730368,0 -76.478942397,38.003674943,0 -76.479052248,38.003666422,0 -76.479290442,38.003662547,0 -76.479560694,38.003623315,0 -76.479757645,38.003583693,0 -76.479961032,38.003570493,0 -76.480148846,38.003275745,0 -76.479715343,38.002940344,0 -76.478486309,38.003685480,0 -76.478780919,38.002290863,0 -76.479342328,38.001908977,0 -76.479743626,38.001990977,0 -76.480466814,38.000053267,0 -76.480202298,37.999983556,0 -76.479043194,37.999429013,0 -76.479375949,37.998868675,0 -76.479427581,37.998778196,0 -76.479323518,37.998723121,0 -76.479040205,37.998364415,0 -76.47891759,37.998175372,0 -76.478809875,37.998046240,0 -76.478687268,37.997921057,0 -76.478597775,37.997793250,0 -76.478494902,37.997549389,0 -76.478214817,37.997292279,0 -76.478059058,37.997194275,0 -76.478002717,37.997134322,0 -76.477974397,37.997050893,0 -76.477918031,37.996975228,0 -76.477788843,37.996908629,0 -76.477666333,37.996890209,0 -76.477470999,37.996884837,0 -76.476870057,37.996892279,0 -76.476003134,37.997016580,0 -76.475902227,37.997034808,0 -76.475776559,37.997013834,0 -76.475688734,37.996968149,0 -76.475607521,37.996891128,0 -76.475426624,37.996604081,0 -76.475166542,37.996425199,0 -76.474807201,37.996303656,0 -76.474525775,37.996199036,0 -76.474393498,37.996211951,0 -76.473642893,37.996439617,0 -76.473131921,37.996642702,0 -76.473080771,37.996685780,0 -76.47304124,37.996748391,0 -76.472952122,37.996857841,0 -76.472592029,37.997117021,0 -76.472521611,37.997147493,0 -76.472533714,37.997234823,0 -76.47264893,37.997914519,0 -76.469254256,37.997052660,0 -76.469525526,37.995468692,0 -76.470561085,37.993793741,0 -76.474004617,37.992206924,0 -76.473729617,37.993132684,0 -76.47517257,37.993037710,0 -76.47599394,37.993273636,0 -76.476408101,37.993392755,0 -76.478784256,37.992029393,0 -76.479696314,37.991544130,0 -76.482098553,37.990914311,0 -76.48269876,37.993525658,0 -76.483088685,37.993545327,0 -76.482408432,37.991166561,0 -76.483822156,37.992570498,0 -76.484814111,37.993094074,0 -76.484841863,37.993108716,0 -76.484881243,37.992945791,0 -76.485007309,37.992748541,0 -76.485091817,37.992666333,0 -76.485156528,37.992621914,0 -76.485300791,37.992484711,0 -76.485406839,37.992436376,0 -76.485551118,37.992344905,0 -76.485647318,37.992270475,0 -76.485707018,37.992181530,0 -76.48573692,37.992130590,0 -76.485824722,37.992057419,0 -76.485892684,37.992046893,0 -76.485965707,37.992044281,0 -76.486066883,37.992032449,0 -76.486153003,37.991999789,0 -76.486227681,37.991938372,0 -76.486320517,37.991857375,0 -76.486461575,37.991743682,0 -76.486713821,37.991569820,0 -76.48693266,37.991529293,0 -76.487042068,37.991496587,0 -76.487161464,37.991484758,0 -76.487305733,37.991410232,0 -76.487413843,37.991233743,0 -76.487472115,37.991057238,0 -76.48747227,37.990844073,0 -76.487465714,37.990585035,0 -76.487391186,37.990215863,0 -76.487369815,37.990117666,0 -76.487401335,37.990103256,0 -76.487510858,37.990112548,0 -76.487660148,37.990136216,0 -76.488106579,37.990171819,0 -76.488232648,37.990213662,0 -76.48838038,37.990238539,0 -76.488539719,37.990218979,0 -76.488664195,37.990165348,0 -76.488795293,37.990124821,0 -76.488997866,37.990126232,0 -76.489178772,37.990155128,0 -76.489299806,37.990197105,0 -76.48943574,37.990297974,0 -76.489631519,37.990451269,0 -76.490031013,37.990815122,0 -76.490168489,37.990971004,0 -76.490315889,37.991135980,0 -76.490438248,37.991349369,0 -76.49051808,37.991438085,0 -76.491510238,37.990974243,0 -76.492011077,37.990740641,0 -76.492960675,37.990887448,0 -76.494150106,37.991464259,0 -76.494278029,37.991421750,0 -76.494515577,37.991355073,0 -76.494781264,37.991318450,0 -76.494990467,37.991322517,0 -76.495156461,37.991329180,0 -76.495312495,37.991339713,0 -76.495445303,37.991371197,0 -76.495546383,37.991424917,0 -76.495632776,37.991390937,0 -76.495689504,37.991337232,0 -76.495845802,37.991282289,0 -76.495943215,37.991519286,0 -76.496034637,37.991504810,0 -76.495926036,37.991085906,0 -76.495929452,37.991038776,0 -76.496019328,37.990964177,0 -76.496097421,37.990954969,0 -76.49617207,37.990962843,0 -76.496336272,37.991036300,0 -76.49659678,37.991117610,0 -76.496804269,37.991171359,0 -76.496877277,37.991205490,0 -76.496996758,37.991243477,0 -76.497205847,37.991288051,0 -76.497365241,37.991313058,0 -76.497707429,37.991353686,0 -76.498056205,37.991397169,0 -76.498185729,37.991393273,0 -76.498328688,37.991367190,0 -76.498489871,37.991342264,0 -76.498604362,37.991355391,0 -76.498675731,37.991423552,0 -76.498768187,37.991550543,0 -76.49902555,37.992114820,0 -76.499216994,37.992493058,0 -76.499477757,37.992973371,0 -76.499480193,37.993066441,0 -76.500091564,37.992849601,0 -76.500523114,37.992383892,0 -76.498831078,37.990344309,0 -76.500181113,37.990540514,0 -76.500523757,37.991256432,0 -76.50233252,37.991656522,0 -76.503028605,37.991549387,0 -76.501961009,37.991174443,0 -76.500792246,37.990755742,0 -76.499822548,37.989348829,0 -76.50047648,37.988872291,0 -76.499069882,37.986610373,0 -76.499543041,37.985950462,0 -76.497356019,37.985897524,0 -76.496945966,37.986263661,0 -76.496756001,37.986440843,0 -76.496535627,37.986742541,0 -76.496432111,37.986920900,0 -76.496370172,37.987083642,0 -76.496357893,37.987346071,0 -76.496440289,37.987618797,0 -76.496488187,37.987703979,0 -76.496776769,37.987957069,0 -76.496891237,37.988021313,0 -76.497110325,37.988130107,0 -76.497156778,37.988177333,0 -76.497176573,37.988237652,0 -76.497153238,37.988279614,0 -76.497083219,37.988334689,0 -76.497016644,37.988368756,0 -76.496943518,37.988375356,0 -76.496828927,37.988370053,0 -76.496712642,37.988356728,0 -76.496581363,37.988335681,0 -76.496541565,37.988312078,0 -76.49651666,37.988268894,0 -76.496490285,37.988161469,0 -76.496457316,37.988057943,0 -76.496457316,37.988057943,0 -76.496382846,37.987936087,0 -76.49628012,37.987831306,0 -76.495909914,37.987676575,0 -76.495715749,37.987563830,0 -76.49551812,37.987439216,0 -76.495392039,37.987347392,0 -76.495229393,37.987227952,0 -76.495101634,37.987166367,0 -76.494968766,37.987129608,0 -76.494827557,37.987126959,0 -76.494697928,37.987149280,0 -76.494539902,37.987199084,0 -76.494371838,37.987268549,0 -76.494232066,37.987324812,0 -76.494157206,37.987332672,0 -76.493971172,37.987294633,0 -76.493921219,37.987328730,0 -76.493944229,37.987410116,0 -76.49398738,37.987461326,0 -76.493855801,37.987592407,0 -76.493790766,37.987681514,0 -76.493679334,37.987767971,0 -76.493526246,37.987879327,0 -76.493404706,37.987982864,0 -76.493284898,37.988096866,0 -76.493118481,37.988212145,0 -76.492882395,37.988365500,0 -76.492746078,37.988453214,0 -76.492681258,37.988527793,0 -76.492634633,37.988571010,0 -76.492558246,37.988576234,0 -76.492515018,37.988539552,0 -76.49257201,37.988348191,0 -76.492567211,37.988197429,0 -76.492537536,37.988034822,0 -76.492484608,37.987870944,0 -76.492383526,37.987752950,0 -76.492229112,37.987705717,0 -76.492057994,37.987683390,0 -76.49182868,37.987653243,0 -76.491675787,37.987629464,0 -76.491295292,37.987625446,0 -76.491060862,37.987711945,0 -76.490771681,37.987690895,0 -76.490623889,37.987665883,0 -76.490484488,37.987656585,0 -76.490303577,37.987653894,0 -76.490192321,37.987644630,0 -76.490188965,37.987619744,0 -76.49024393,37.987546456,0 -76.490287285,37.987445478,0 -76.49030405,37.987361548,0 -76.49025423,37.987326128,0 -76.490237733,37.987278882,0 -76.490317468,37.987234274,0 -76.490455369,37.987184466,0 -76.490628238,37.987086137,0 -76.490736313,37.986987842,0 -76.490777957,37.986906584,0 -76.490788132,37.986810869,0 -76.49076838,37.986666529,0 -76.490695484,37.986480122,0 -76.490551199,37.986289957,0 -76.490434973,37.986216530,0 -76.490264054,37.986070879,0 -76.490091329,37.985929152,0 -76.489621249,37.985671969,0 -76.489375408,37.985528899,0 -76.489259137,37.985480438,0 -76.489056477,37.985463370,0 -76.488896902,37.985480455,0 -76.488730663,37.985501437,0 -76.48860772,37.985481703,0 -76.488403341,37.985425382,0 -76.488179013,37.985365017,0 -76.487825177,37.985299335,0 -76.487650737,37.985276918,0 -76.487559273,37.985249336,0 -76.487459878,37.985285590,0 -76.487206316,37.985340419,0 -76.486843503,37.985207345,0 -76.486552115,37.986603826,0 -76.486075065,37.986310668,0 -76.486148732,37.984830583,0 -76.485448771,37.984730126,0 -76.485425376,37.984780517,0 -76.485222684,37.985028550,0 -76.485099751,37.985189899,0 -76.485026623,37.985401200,0 -76.484985072,37.985617759,0 -76.484906928,37.985801426,0 -76.484795574,37.985985054,0 -76.484644439,37.986189599,0 -76.48445676,37.986462329,0 -76.484275719,37.986849103,0 -76.484205933,37.987048320,0 -76.484131118,37.987445458,0 -76.484204112,37.987492643,0 -76.484315352,37.987535888,0 -76.484396655,37.987554264,0 -76.484298773,37.987797914,0 -76.484249024,37.987973491,0 -76.484237328,37.988112412,0 -76.484272259,37.988358691,0 -76.484262233,37.988492311,0 -76.484174167,37.988527765,0 -76.483983485,37.988490951,0 -76.48373456,37.988472487,0 -76.483588483,37.988412200,0 -76.483313034,37.988275841,0 -76.483157055,37.988240408,0 -76.482835071,37.988233754,0 -76.482554446,37.988242850,0 -76.482390172,37.988270422,0 -76.482285656,37.988311007,0 -76.482239165,37.988352904,0 -76.48211632,37.988402627,0 -76.481950322,37.988410531,0 -76.481699656,37.988402554,0 -76.481303042,37.988416935,0 -76.480797037,37.988571329,0 -76.480604567,37.988639236,0 -76.480471834,37.988683682,0 -76.48037733,37.988691475,0 -76.480259526,37.988657372,0 -76.480131754,37.988640266,0 -76.480000703,37.988649445,0 -76.479894666,37.988671737,0 -76.479775262,37.988712233,0 -76.479584491,37.988777585,0 -76.479465024,37.988803715,0 -76.47911506,37.988810063,0 -76.478826382,37.988817833,0 -76.47869373,37.988833548,0 -76.478418554,37.988895078,0 -76.478330754,37.988891118,0 -76.478204726,37.988855720,0 -76.478073597,37.988822871,0 -76.477909482,37.988816244,0 -76.477768538,37.988829318,0 -76.477654147,37.988835865,0 -76.477357297,37.988818554,0 -76.477189785,37.988809258,0 -76.476926161,37.988819673,0 -76.476609671,37.988908625,0 -76.47642252,37.989009301,0 -76.4762321,37.989124341,0 -76.476134388,37.989154434,0 -76.475986818,37.989164812,0 -76.475812644,37.989150292,0 -76.475607015,37.989152872,0 -76.47543789,37.989162059,0 -76.475288716,37.989176556,0 -76.475181944,37.989201578,0 -76.475088304,37.989223528,0 -76.474882716,37.989274531,0 -76.474761818,37.989311096,0 -76.474708959,37.989373893,0 -76.474306867,37.989789721,0 -76.474219288,37.989885054,0 -76.47420123,37.990023673,0 -76.474126762,37.990066794,0 -76.474146882,37.990287254,0 -76.474774313,37.990346663,0 -76.474355989,37.990575058,0 -76.472857097,37.990720049,0 -76.473096927,37.991378325,0 -76.471072512,37.992118079,0 -76.466482382,37.992631922,0 -76.467379986,37.992297215,0 -76.468716764,37.991799002,0 -76.468563351,37.991378209,0 -76.468520466,37.991264179,0 -76.467569809,37.990350234,0 -76.46714557,37.989941936,0 -76.468281394,37.988918106,0 -76.467950617,37.988655382,0 -76.467448255,37.988256383,0 -76.467473911,37.986100381,0 -76.464227886,37.983275680,0 -76.462430735,37.981730029,0 -76.46127826,37.978752706,0 -76.465368734,37.971898179,0 -76.463819222,37.972066222,0 -76.467158819,37.969006319,0 -76.467373176,37.970247164,0 -76.467832954,37.970213471,0 -76.468410988,37.969818213,0 -76.469340077,37.970103215,0 -76.470051901,37.970051146,0 -76.468800934,37.968524163,0 -76.469737763,37.968107515,0 -76.472417263,37.969958893,0 -76.47303028,37.969392210,0 -76.472631175,37.969076230,0 -76.471272729,37.967992408,0 -76.470281953,37.967200952,0 -76.469802721,37.966834021,0 -76.465834007,37.969654411,0 -76.462557213,37.971742857,0 -76.459508246,37.974949034,0 -76.458556936,37.972744711,0 -76.457488902,37.975101895,0 -76.457254411,37.975619585,0 -76.457697824,37.975487786,0 -76.458652135,37.976533612,0 -76.457698664,37.979553500,0 -76.45751614,37.980137313,0 -76.458738025,37.980377805,0 -76.459915193,37.981430180,0 -76.458777281,37.981354208,0 -76.459675018,37.982632358,0 -76.460196546,37.983391617,0 -76.460561419,37.983913739,0 -76.460851164,37.982833948,0 -76.460916147,37.982519191,0 -76.462005986,37.982480498,0 -76.464135939,37.984325703,0 -76.466073591,37.986004215,0 -76.464388168,37.987138812,0 -76.451814416,37.989706743,0 -76.452472739,37.990538946,0 -76.453131061,37.991370459,0 -76.456521585,37.992455772,0 -76.455419906,37.995021400,0 -76.453760275,37.994154517,0 -76.455215671,37.998426103,0 </coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-76.464388168,37.987138812,0  -76.451814416,37.989706743,0  -76.453131061,37.991370459,0  -76.458999059,37.993248694,0  -76.461446669,37.990614170,0  -76.464388168,37.987138812,0 </coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-76.468716764,37.991799002,0  -76.468520466,37.991264179,0  -76.46714557,37.989941936,0  -76.468281394,37.988918106,0  -76.467448255,37.988256383,0  -76.466603579,37.989517098,0  -76.464684398,37.992095345,0  -76.466482382,37.992631922,0  -76.468716764,37.991799002,0 </coordinates></LinearRing></innerBoundaryIs></Polygon>
+      </MultiGeometry>
+    </Placemark><Placemark id="3">
+      <name>Deep Rock Area (DPRK)</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html>
+<body>
+<b>Open Harvest Area</b><br />
+<b>Water: </b>Chesapeake Bay (CBUW)<br />
+<span style='color:rgb(255,0,0)'>All public and unassigned grounds in highlighted area.</span><br />
+<b>Open Harvest Season: </b>November 1, 2023 through March 31, 2024<br />
+<b>Gear License Required: </b>Patent Tong<br />
+Please consult VMRC Regulation <a href='http://mrc.virginia.gov/Regulations/FR720.shtm' target='_blank'>4 VAC 20-720</a> prior to harvesting.<br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/areamap.php?id=3' target='_blank'>Zoom View of Area</a><br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/OpenHarvestSeason.pdf' target='_blank'>Open Harvest Seasons by Area, Gear and Month</a><br />
+</body></html>]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampedToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates>-76.191356093,37.537854711,0
+-76.263642783,37.469125430,0
+-76.263556114,37.476608927,0
+-76.263629421,37.476962942,0
+-76.265643861,37.480538171,0
+-76.265898848,37.481760483,0
+-76.267478445,37.483842422,0
+-76.271399856,37.489552265,0
+-76.273269777,37.493070448,0
+-76.274351712,37.496400723,0
+-76.279195774,37.504944881,0
+-76.281368365,37.508489573,0
+-76.284378166,37.511439182,0
+-76.287809279,37.513933348,0
+-76.290909188,37.515565798,0
+-76.293945338,37.516352584,0
+-76.294592275,37.516317266,0
+-76.278397223,37.539452209,0
+-76.191356093,37.537854711,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </MultiGeometry>
+    </Placemark><Placemark id="66">
+      <name>Great Wicomico River Rotation Area 1 (GWRA1)</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html>
+<body>
+<b>Open Harvest Area</b><br />
+<b>Water: </b>Great Wicomico (GW)<br />
+<span style='color:rgb(255,0,0)'>All public and unassigned grounds in highlighted area</span><br />
+<b>Open Harvest Season: </b>December 1, 2023 through January 31, 2024<br />
+<b>Gear License Required: </b>Hand Scrape<br />
+Please consult VMRC Regulation <a href='http://mrc.virginia.gov/Regulations/FR720.shtm' target='_blank'>4 VAC 20-720</a> prior to harvesting.<br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/areamap.php?id=66' target='_blank'>Zoom View of Area</a><br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/OpenHarvestSeason.pdf' target='_blank'>Open Harvest Seasons by Area, Gear and Month</a><br />
+</body></html>]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampedToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates>-76.306982879,37.802782678,0 -76.306955004,37.803097349,0 -76.307373761,37.803913630,0 -76.306960499,37.807487391,0 -76.307536854,37.809466003,0 -76.307441187,37.810841362,0 -76.307677684,37.811769212,0 -76.30789935,37.811965527,0 -76.308219744,37.814354587,0 -76.308665532,37.814521983,0 -76.307567105,37.816508600,0 -76.303382018,37.821946752,0 -76.289090724,37.821108064,0 -76.288006744,37.821159365,0 -76.282844191,37.813498709,0 -76.283338956,37.813538420,0 -76.283284687,37.813136436,0 -76.283022473,37.812805350,0 -76.282126606,37.812462068,0 -76.28190093,37.812462915,0 -76.281370355,37.812070838,0 -76.281022745,37.811922832,0 -76.280540986,37.811813912,0 -76.267612402,37.804290007,0 -76.266332208,37.803463614,0 -76.306982879,37.802782678,0 </coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </MultiGeometry>
+    </Placemark><Placemark id="4">
+      <name>Deep Water Shoal Seed Area (JRDW)</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html>
+<body>
+<b>Open Harvest Area</b><br />
+<b>Water: </b>James River Middle(JRM)<br />
+<span style='color:rgb(255,0,0)'>Grounds in highlighted area.</span><br />
+<b>Open Harvest Season: </b>October 1, 2023 through May 31, 2024<br />
+<b>Gear License Required: </b>Hand Tong<br />
+Please consult VMRC Regulation <a href='http://mrc.virginia.gov/Regulations/FR720.shtm' target='_blank'>4 VAC 20-720</a> prior to harvesting.<br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/areamap.php?id=4' target='_blank'>Zoom View of Area</a><br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/OpenHarvestSeason.pdf' target='_blank'>Open Harvest Seasons by Area, Gear and Month</a><br />
+</body></html>]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampedToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates>-76.63868835,37.14905548,0
+-76.63050097,37.1595573,0
+-76.61762378,37.14877587,0
+-76.62420558,37.14077673,0
+-76.63369259,37.14081915,0
+-76.63868835,37.14905548,0
+</coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </MultiGeometry>
+    </Placemark><Placemark id="33">
+      <name>JR  Area 3 A (JRHSA)</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html>
+<body>
+<b>Open Harvest Area</b><br />
+<b>Water: </b>James River Lower (JRL)<br />
+<span style='color:rgb(255,0,0)'>Grounds in highlighted area.</span><br />
+<b>Open Harvest Season: </b>November 1, 2023 through March 15, 2024<br />
+<b>Gear License Required: </b>Hand Scrape<br />
+Please consult VMRC Regulation <a href='http://mrc.virginia.gov/Regulations/FR720.shtm' target='_blank'>4 VAC 20-720</a> prior to harvesting.<br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/areamap.php?id=33' target='_blank'>Zoom View of Area</a><br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/OpenHarvestSeason.pdf' target='_blank'>Open Harvest Seasons by Area, Gear and Month</a><br />
+</body></html>]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampedToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates>-76.443629533,36.948262852,0 -76.423899928,36.936708658,0 -76.451339779,36.916131608,0 -76.452721841,36.907110184,0 -76.454163002,36.901718433,0 -76.46020005,36.895096610,0 -76.462646863,36.890596394,0 -76.473549058,36.887137883,0 -76.478998782,36.890774389,0 -76.482064676,36.892686985,0 -76.481088739,36.892857062,0 -76.477257161,36.898434061,0 -76.476020539,36.904268928,0 -76.467268449,36.916415576,0 -76.46035362,36.931588362,0 -76.459322974,36.933778195,0 -76.458833923,36.935125501,0 -76.458403422,36.940182444,0 -76.458403422,36.940182444,0 -76.466937058,36.936371161,0 -76.479862615,36.959293432,0 -76.469956038,36.963355757,0 -76.475384066,36.971944971,0 -76.498039712,36.975827607,0 -76.500167947,36.976994449,0 -76.484697092,36.989636013,0 -76.46746149,36.983415957,0 -76.449186952,36.958290229,0 -76.443629533,36.948262852,0 -76.443629533,36.948262852,0 -76.443629533,36.948262852,0 </coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </MultiGeometry>
+    </Placemark><Placemark id="58">
+      <name>JR  Area 3 B (JRHSB)</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html>
+<body>
+<b>Open Harvest Area</b><br />
+<b>Water: </b>James River Lower (JRL)<br />
+<span style='color:rgb(255,0,0)'>Grounds in highlighted area.</span><br />
+<b>Open Harvest Season: </b>November 1, 2023 through March 15, 2024<br />
+<b>Gear License Required: </b>Hand Scrape<br />
+Please consult VMRC Regulation <a href='http://mrc.virginia.gov/Regulations/FR720.shtm' target='_blank'>4 VAC 20-720</a> prior to harvesting.<br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/areamap.php?id=58' target='_blank'>Zoom View of Area</a><br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/OpenHarvestSeason.pdf' target='_blank'>Open Harvest Seasons by Area, Gear and Month</a><br />
+</body></html>]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampedToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates>-76.412216908,36.921818631,0
+-76.418856876,36.910106373,0
+-76.443486228,36.915706809,0
+-76.429418865,36.926735945,0
+-76.412216908,36.921818631,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </MultiGeometry>
+    </Placemark><Placemark id="59">
+      <name>JR  Area 3 C (JRHSC)</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html>
+<body>
+<b>Open Harvest Area</b><br />
+<b>Water: </b>James River Lower (JRL)<br />
+<span style='color:rgb(255,0,0)'>Grounds in highlighted area.</span><br />
+<b>Open Harvest Season: </b>November 1, 2023 through March 15, 2024<br />
+<b>Gear License Required: </b>Hand Scrape<br />
+Please consult VMRC Regulation <a href='http://mrc.virginia.gov/Regulations/FR720.shtm' target='_blank'>4 VAC 20-720</a> prior to harvesting.<br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/areamap.php?id=59' target='_blank'>Zoom View of Area</a><br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/OpenHarvestSeason.pdf' target='_blank'>Open Harvest Seasons by Area, Gear and Month</a><br />
+</body></html>]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampedToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates>-76.470824237,36.935628119,0
+-76.463824584,36.926966914,0
+-76.467453708,36.929323083,0
+-76.469831195,36.930927726,0
+-76.473390231,36.933213402,0
+-76.473924093,36.933609991,0
+-76.474391326,36.934019550,0
+-76.470824237,36.935628119,0
+</coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </MultiGeometry>
+    </Placemark><Placemark id="51">
+      <name>JR Seed Area A (JRHTA)</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html>
+<body>
+<b>Open Harvest Area</b><br />
+<b>Water: </b>James River Middle (JRM)<br />
+<span style='color:rgb(255,0,0)'>Grounds in highlighted area.</span><br />
+<b>Open Harvest Season: </b>October 1, 2023 through May 31, 2024<br />
+<b>Gear License Required: </b>Hand Tong<br />
+Please consult VMRC Regulation <a href='http://mrc.virginia.gov/Regulations/FR720.shtm' target='_blank'>4 VAC 20-720</a> prior to harvesting.<br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/areamap.php?id=51' target='_blank'>Zoom View of Area</a><br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/OpenHarvestSeason.pdf' target='_blank'>Open Harvest Seasons by Area, Gear and Month</a><br />
+</body></html>]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampedToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates>-76.524613007,37.052813608,0
+-76.546149994,37.039083305,0
+-76.549943340,37.032827708,0
+-76.581259435,37.049034114,0
+-76.634653013,37.055645719,0
+-76.654190295,37.067975646,0
+-76.635467638,37.120436707,0
+-76.637495006,37.140813298,0
+-76.633692589,37.140817481,0
+-76.626954765,37.140788626,0
+-76.631184168,37.125277218,0
+-76.620143063,37.118001241,0
+-76.599873650,37.103080767,0
+-76.562219142,37.075332100,0
+-76.531066078,37.075244990,0
+-76.532092889,37.070965336,0
+-76.532062713,37.070312046,0
+-76.532420104,37.063887741,0
+-76.531246466,37.059818560,0
+-76.530482645,37.058545161,0
+-76.530351728,37.058076884,0
+-76.530017780,37.057770729,0
+-76.528433494,37.055131533,0
+-76.527419096,37.055387453,0
+-76.524613007,37.052813608,0</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-76.577616299,37.073444474,0
+-76.568450701,37.067186890,0
+-76.559018195,37.053657851,0
+-76.588129102,37.054530429,0
+-76.577616299,37.073444474,0</coordinates></LinearRing></innerBoundaryIs></Polygon>
+      </MultiGeometry>
+    </Placemark><Placemark id="52">
+      <name>JR Seed Area B (JRHTB)</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html>
+<body>
+<b>Open Harvest Area</b><br />
+<b>Water: </b>James River Middle (JRM)<br />
+<span style='color:rgb(255,0,0)'>Grounds in highlighted area.</span><br />
+<b>Open Harvest Season: </b>October 1, 2023 through May 31, 2024<br />
+<b>Gear License Required: </b>Hand Tong<br />
+Please consult VMRC Regulation <a href='http://mrc.virginia.gov/Regulations/FR720.shtm' target='_blank'>4 VAC 20-720</a> prior to harvesting.<br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/areamap.php?id=52' target='_blank'>Zoom View of Area</a><br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/OpenHarvestSeason.pdf' target='_blank'>Open Harvest Seasons by Area, Gear and Month</a><br />
+</body></html>]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampedToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates>-76.567633725,37.030674105,0
+-76.567370421,37.030420999,0
+-76.567978348,37.028583616,0
+-76.571949713,37.024609673,0
+-76.569427836,37.022333246,0
+-76.568777163,37.019636473,0
+-76.576166725,37.017252279,0
+-76.576340758,37.018167622,0
+-76.576516620,37.019918435,0
+-76.578357047,37.022811120,0
+-76.580083698,37.024458224,0
+-76.581281237,37.025752486,0
+-76.584500418,37.028122908,0
+-76.587971061,37.030075634,0
+-76.589136580,37.029883905,0
+-76.593798194,37.031206050,0
+-76.597785648,37.032427533,0
+-76.606011529,37.034178850,0
+-76.608361705,37.034637165,0
+-76.608285615,37.035051861,0
+-76.611896615,37.036030528,0
+-76.622905288,37.035803792,0
+-76.622673091,37.037534686,0
+-76.622405884,37.039601600,0
+-76.608014580,37.043306078,0
+-76.567633725,37.030674105,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </MultiGeometry>
+    </Placemark><Placemark id="53">
+      <name>JR Seed Area C (JRHTC)</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html>
+<body>
+<b>Open Harvest Area</b><br />
+<b>Water: </b>James River Middle (JRM)<br />
+<span style='color:rgb(255,0,0)'>Grounds in highlighted area.</span><br />
+<b>Open Harvest Season: </b>October 1, 2023 through May 31, 2024<br />
+<b>Gear License Required: </b>Hand Tong<br />
+Please consult VMRC Regulation <a href='http://mrc.virginia.gov/Regulations/FR720.shtm' target='_blank'>4 VAC 20-720</a> prior to harvesting.<br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/areamap.php?id=53' target='_blank'>Zoom View of Area</a><br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/OpenHarvestSeason.pdf' target='_blank'>Open Harvest Seasons by Area, Gear and Month</a><br />
+</body></html>]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampedToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates>-76.565203491,37.018575456,0
+-76.559926861,37.016358365,0
+-76.561047819,37.014508124,0
+-76.562816371,37.015065086,0
+-76.563221640,37.015192384,0
+-76.564425298,37.013973152,0
+-76.567026237,37.015082154,0
+-76.563032613,37.015383471,0
+-76.565203491,37.018575456,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </MultiGeometry>
+    </Placemark><Placemark id="25">
+      <name>JR Area 2 (JRTRA)</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html>
+<body>
+<b>Open Harvest Area</b><br />
+<b>Water: </b>James River Lower (JRL)<br />
+<span style='color:rgb(255,0,0)'>Grounds in highlighted area.</span><br />
+<b>Open Harvest Season: </b>October 15, 2023, through February 29, 2024, and March 16, 2024 through March 31, 2024 Hand Scrape and March 1 through March 15, 2024, and April 1, 20<br />
+<b>Gear License Required: </b>Hand Scrape, Hand Tong<br />
+Please consult VMRC Regulation <a href='http://mrc.virginia.gov/Regulations/FR720.shtm' target='_blank'>4 VAC 20-720</a> prior to harvesting.<br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/areamap.php?id=25' target='_blank'>Zoom View of Area</a><br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/OpenHarvestSeason.pdf' target='_blank'>Open Harvest Seasons by Area, Gear and Month</a><br />
+</body></html>]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampedToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates>-76.546308899,37.039214729,0 -76.534934774,37.046234234,0 -76.524612906,37.052813524,0 -76.518087004,37.046826804,0 -76.51325849,37.047131089,0 -76.510536364,37.045404229,0 -76.504145825,37.041328106,0 -76.50229784,37.042721908,0 -76.500785647,37.041714941,0 -76.501191234,37.041150765,0 -76.501850273,37.040235015,0 -76.500409257,37.039261282,0 -76.49646444,37.036595005,0 -76.491349149,37.033420694,0 -76.491800104,37.033119682,0 -76.49010668,37.031312128,0 -76.488696007,37.031774266,0 -76.486390317,37.030343278,0 -76.482130731,37.026443522,0 -76.479275584,37.023822515,0 -76.473930806,37.021058776,0 -76.462241118,37.015037472,0 -76.461703857,37.014760726,0 -76.460182516,37.013977067,0 -76.458717596,37.012548052,0 -76.457890192,37.011740984,0 -76.466664441,37.004560632,0 -76.467448095,37.004881117,0 -76.473210391,37.007231053,0 -76.475847978,37.008315612,0 -76.481291652,37.010540899,0 -76.486576027,37.012700733,0 -76.488723651,37.017419866,0 -76.490898932,37.022199096,0 -76.492095379,37.024827442,0 -76.508149029,37.023124897,0 -76.515098174,37.022387180,0 -76.5174066,37.022142048,0 -76.530351114,37.028540832,0 -76.546308899,37.039214729,0 </coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </MultiGeometry>
+    </Placemark><Placemark id="54">
+      <name>JR Area 1 B (JRTRB)</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html>
+<body>
+<b>Open Harvest Area</b><br />
+<b>Water: </b>James River Lower (JRL)<br />
+<span style='color:rgb(255,0,0)'>Grounds in highlighted area.</span><br />
+<b>Open Harvest Season: </b>October 15, 2023, through February 29, 2024, and March 16, 2024 through March 31, 2024 Hand Scrape and March 1 through March 15, 2024, and April 1, 20<br />
+<b>Gear License Required: </b>Hand Scrape and Hand Tong<br />
+Please consult VMRC Regulation <a href='http://mrc.virginia.gov/Regulations/FR720.shtm' target='_blank'>4 VAC 20-720</a> prior to harvesting.<br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/areamap.php?id=54' target='_blank'>Zoom View of Area</a><br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/OpenHarvestSeason.pdf' target='_blank'>Open Harvest Seasons by Area, Gear and Month</a><br />
+</body></html>]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampedToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates>-76.484920624,36.989710610,0
+-76.500378545,36.977104127,0
+-76.512800285,36.983918866,0
+-76.516049416,36.985611336,0
+-76.518850235,36.987003039,0
+-76.521595085,36.985560074,0
+-76.522334211,36.985090009,0
+-76.526173175,36.989061542,0
+-76.525291961,36.990745653,0
+-76.524124462,36.993063675,0
+-76.521607142,36.998940886,0
+-76.520121436,37.002409050,0
+-76.484920624,36.989710610,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </MultiGeometry>
+    </Placemark><Placemark id="55">
+      <name>JR Area 1 C (JRTRC)</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html>
+<body>
+<b>Open Harvest Area</b><br />
+<b>Water: </b>James River Lower (JRL)<br />
+<span style='color:rgb(255,0,0)'>Grounds in highlighted area.</span><br />
+<b>Open Harvest Season: </b>October 15, 2023, through February 29, 2024, and March 16, 2024 through March 31, 2024 Hand Scrape and March 1 through March 15, 2024, and April 1, 20<br />
+<b>Gear License Required: </b>Hand Scrape<br />
+Please consult VMRC Regulation <a href='http://mrc.virginia.gov/Regulations/FR720.shtm' target='_blank'>4 VAC 20-720</a> prior to harvesting.<br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/areamap.php?id=55' target='_blank'>Zoom View of Area</a><br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/OpenHarvestSeason.pdf' target='_blank'>Open Harvest Seasons by Area, Gear and Month</a><br />
+</body></html>]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampedToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates>-76.537131064,37.008893730,0
+-76.540280306,37.007128201,0
+-76.542195953,37.007793228,0
+-76.537131064,37.008893730,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </MultiGeometry>
+    </Placemark><Placemark id="56">
+      <name>JR Area 1 D (JRTRD)</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html>
+<body>
+<b>Open Harvest Area</b><br />
+<b>Water: </b>James River Lower (JRL)<br />
+<span style='color:rgb(255,0,0)'>Grounds in highlighted area.</span><br />
+<b>Open Harvest Season: </b>October 15, 2023, through February 29, 2024, and March 16, 2024 through March 31, 2024 Hand Scrape and March 1 through March 15, 2024, and April 1, 20<br />
+<b>Gear License Required: </b>Hand Scrape, Hand Tong<br />
+Please consult VMRC Regulation <a href='http://mrc.virginia.gov/Regulations/FR720.shtm' target='_blank'>4 VAC 20-720</a> prior to harvesting.<br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/areamap.php?id=56' target='_blank'>Zoom View of Area</a><br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/OpenHarvestSeason.pdf' target='_blank'>Open Harvest Seasons by Area, Gear and Month</a><br />
+</body></html>]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampedToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates>-76.558796852,37.009226112,0
+-76.557825333,37.007571997,0
+-76.559256801,37.007586627,0
+-76.558796852,37.009226112,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </MultiGeometry>
+    </Placemark><Placemark id="57">
+      <name>JR Area 1 E (JRTRE)</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html>
+<body>
+<b>Open Harvest Area</b><br />
+<b>Water: </b>James River Lower (JRL)<br />
+<span style='color:rgb(255,0,0)'>Grounds in highlighted area.</span><br />
+<b>Open Harvest Season: </b>October 15, 2023, through February 29, 2024, and March 16, 2024 through March 31, 2024 Hand Scrape and March 1 through March 15, 2024, and April 1, 20<br />
+<b>Gear License Required: </b>Hand Scrape, Hand Tong<br />
+Please consult VMRC Regulation <a href='http://mrc.virginia.gov/Regulations/FR720.shtm' target='_blank'>4 VAC 20-720</a> prior to harvesting.<br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/areamap.php?id=57' target='_blank'>Zoom View of Area</a><br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/OpenHarvestSeason.pdf' target='_blank'>Open Harvest Seasons by Area, Gear and Month</a><br />
+</body></html>]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampedToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates>-76.554058385,37.013893646,0
+-76.555611758,37.012801379,0
+-76.561047819,37.014508124,0
+-76.559926861,37.016358365,0
+-76.554058385,37.013893646,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </MultiGeometry>
+    </Placemark><Placemark id="15">
+      <name>Pocomoke Sound Area PG10 (PG10)</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html>
+<body>
+<b>Open Harvest Area</b><br />
+<b>Water: </b>Pocomoke Sound (POS)<br />
+<span style='color:rgb(255,0,0)'>Public Ground 10</span><br />
+<b>Open Harvest Season: </b>November 1, 2023 through March 31, 2024<br />
+<b>Gear License Required: </b>Hand Tong<br />
+Please consult VMRC Regulation <a href='http://mrc.virginia.gov/Regulations/FR720.shtm' target='_blank'>4 VAC 20-720</a> prior to harvesting.<br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/areamap.php?id=15' target='_blank'>Zoom View of Area</a><br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/OpenHarvestSeason.pdf' target='_blank'>Open Harvest Seasons by Area, Gear and Month</a><br />
+</body></html>]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampedToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates>-75.73937494036609,37.9354032409587,0 -75.72946629627916,37.94876857393538,0 -75.76175278588572,37.94123647733237,0 -75.76666759890529,37.9376096074401,0 -75.76493055644634,37.93456994124873,0 -75.75243017206569,37.93290333153137,0 -75.74458351825584,37.9344060318753,0 -75.74448723465848,37.9350655509034,0 -75.74371144941009,37.93543290783151,0 -75.743029562122,37.93562884004748,0 -75.74304383694324,37.93470094042711,0 -75.73937494036609,37.9354032409587,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </MultiGeometry>
+    </Placemark><Placemark id="69">
+      <name>Yeocomico River Area PG100 (PG100)</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html>
+<body>
+<b>Open Harvest Area</b><br />
+<b>Water: </b>Yeocomico River (YEO)<br />
+<span style='color:rgb(255,0,0)'>Public Ground 100</span><br />
+<b>Open Harvest Season: </b>October 1, 2023 through December 31, 2023<br />
+<b>Gear License Required: </b>Hand Tong<br />
+Please consult VMRC Regulation <a href='http://mrc.virginia.gov/Regulations/FR720.shtm' target='_blank'>4 VAC 20-720</a> prior to harvesting.<br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/areamap.php?id=69' target='_blank'>Zoom View of Area</a><br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/OpenHarvestSeason.pdf' target='_blank'>Open Harvest Seasons by Area, Gear and Month</a><br />
+</body></html>]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampedToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates>-76.537073703,38.003821298,0 -76.537480015,38.003639841,0 -76.5385937,38.003594821,0 -76.538898147,38.006708328,0 -76.536595909,38.009676950,0 -76.532511313,38.009664040,0 -76.532312375,38.008460765,0 -76.532287916,38.008456269,0 -76.532277795,38.008400346,0 -76.532231199,38.008333549,0 -76.532194333,38.008242632,0 -76.532201037,38.008193716,0 -76.532237277,38.008179290,0 -76.53228832,38.008122096,0 -76.532346717,38.007999215,0 -76.532388594,38.007894683,0 -76.53242252,38.007732176,0 -76.532432754,38.007621739,0 -76.53242555,38.007522302,0 -76.532361188,38.007456558,0 -76.532271117,38.007449607,0 -76.532330813,38.007323533,0 -76.532408529,38.007318525,0 -76.532501534,38.007283941,0 -76.532612306,38.007270689,0 -76.53267094,38.007291624,0 -76.532732164,38.007328917,0 -76.5327877,38.007376552,0 -76.532833346,38.007409578,0 -76.532927173,38.007437355,0 -76.533003702,38.007453723,0 -76.533153214,38.007452316,0 -76.533317819,38.007448575,0 -76.533376197,38.007451570,0 -76.533535679,38.007478891,0 -76.533629955,38.007494947,0 -76.533742101,38.007503305,0 -76.533840792,38.007528332,0 -76.533925288,38.007583586,0 -76.533979215,38.007667312,0 -76.534026261,38.007721015,0 -76.534063888,38.007764619,0 -76.534114648,38.007857907,0 -76.534153146,38.007979227,0 -76.534174191,38.008072519,0 -76.534171053,38.008178542,0 -76.534185832,38.008317352,0 -76.534201327,38.008374929,0 -76.53417515,38.008429072,0 -76.534171591,38.008490455,0 -76.534199189,38.008543178,0 -76.534250205,38.008587195,0 -76.534304455,38.008637611,0 -76.534355079,38.008717629,0 -76.534438759,38.008782839,0 -76.534504495,38.008846628,0 -76.534576484,38.008857454,0 -76.53462989,38.008813317,0 -76.534665088,38.008787008,0 -76.534791218,38.008786449,0 -76.534870179,38.008784316,0 -76.534980207,38.008757179,0 -76.535085187,38.008745121,0 -76.535141788,38.008722020,0 -76.535138113,38.008679607,0 -76.53514209,38.008628750,0 -76.535172907,38.008600061,0 -76.535230118,38.008543215,0 -76.535299626,38.008467564,0 -76.535376075,38.008385382,0 -76.535462658,38.008303311,0 -76.535546338,38.008219406,0 -76.535617055,38.008124192,0 -76.535673596,38.008036051,0 -76.535694141,38.007974206,0 -76.535726736,38.007913521,0 -76.535762347,38.007835856,0 -76.535801362,38.007758110,0 -76.535859087,38.007665841,0 -76.53591755,38.007612805,0 -76.53593406,38.007568445,0 -76.53591152,38.007517371,0 -76.535909153,38.007455588,0 -76.535951771,38.007371502,0 -76.536016891,38.007301602,0 -76.536122845,38.007202244,0 -76.536257733,38.007088997,0 -76.536391806,38.006976340,0 -76.536535494,38.006857113,0 -76.536690185,38.006755041,0 -76.536837104,38.006648858,0 -76.536905961,38.006617663,0 -76.5369595,38.006580257,0 -76.537001739,38.006540879,0 -76.537044309,38.006495518,0 -76.537070398,38.006455161,0 -76.537076114,38.006396148,0 -76.537067037,38.006326784,0 -76.537047104,38.006235955,0 -76.537018058,38.006153765,0 -76.536943416,38.006031302,0 -76.536890514,38.005963963,0 -76.536837573,38.005912637,0 -76.536808691,38.005865140,0 -76.536798424,38.005825200,0 -76.536805255,38.005768705,0 -76.536836347,38.005666081,0 -76.536850337,38.005629095,0 -76.53687401,38.005596113,0 -76.536872913,38.005537455,0 -76.53686368,38.005466138,0 -76.536839458,38.005415669,0 -76.536845054,38.005308451,0 -76.53692059,38.005196094,0 -76.536979625,38.005073688,0 -76.537052233,38.004918189,0 -76.537059336,38.004782678,0 -76.537055613,38.004654872,0 -76.537079807,38.004520164,0 -76.53714387,38.004396605,0 -76.537175021,38.004287747,0 -76.537183821,38.004152347,0 -76.537163104,38.004026623,0 -76.537128728,38.003905563,0 -76.537073703,38.003821298,0 </coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </MultiGeometry>
+    </Placemark><Placemark id="17">
+      <name>Yeocomico River Area PG102 (PG102)</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html>
+<body>
+<b>Open Harvest Area</b><br />
+<b>Water: </b>Yeocomico River (YEO)<br />
+<span style='color:rgb(255,0,0)'>Public Ground 102</span><br />
+<b>Open Harvest Season: </b>October 1, 2023 through December 31, 2023<br />
+<b>Gear License Required: </b>Hand Tong<br />
+Please consult VMRC Regulation <a href='http://mrc.virginia.gov/Regulations/FR720.shtm' target='_blank'>4 VAC 20-720</a> prior to harvesting.<br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/areamap.php?id=17' target='_blank'>Zoom View of Area</a><br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/OpenHarvestSeason.pdf' target='_blank'>Open Harvest Seasons by Area, Gear and Month</a><br />
+</body></html>]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampedToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates>-76.54265183547516,38.01848534971974,0 -76.54082975162504,38.02044775143357,0 -76.54262868596435,38.02023009697808,0 -76.54265183547516,38.01848534971974,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </MultiGeometry>
+    </Placemark><Placemark id="18">
+      <name>Yeocomico River Area PG104 (PG104)</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html>
+<body>
+<b>Open Harvest Area</b><br />
+<b>Water: </b>Yeocomico River (YEO)<br />
+<span style='color:rgb(255,0,0)'>Public Ground 104</span><br />
+<b>Open Harvest Season: </b>October 1, 2023 through December 31, 2023<br />
+<b>Gear License Required: </b>Hand Tong<br />
+Please consult VMRC Regulation <a href='http://mrc.virginia.gov/Regulations/FR720.shtm' target='_blank'>4 VAC 20-720</a> prior to harvesting.<br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/areamap.php?id=18' target='_blank'>Zoom View of Area</a><br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/OpenHarvestSeason.pdf' target='_blank'>Open Harvest Seasons by Area, Gear and Month</a><br />
+</body></html>]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampedToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates>-76.54216049749026,38.01434861006843,0 -76.54351034327743,38.01473640792709,0 -76.54232473871267,38.01069744765128,0 -76.54026979389003,38.0111551643792,0 -76.54216049749026,38.01434861006843,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </MultiGeometry>
+    </Placemark><Placemark id="19">
+      <name>Yeocomico River Area PG107 (PG107)</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html>
+<body>
+<b>Open Harvest Area</b><br />
+<b>Water: </b>Yeocomico River (YEO)<br />
+<span style='color:rgb(255,0,0)'>Public Ground 107</span><br />
+<b>Open Harvest Season: </b>October 1, 2023 through December 31, 2023<br />
+<b>Gear License Required: </b>Hand Tong<br />
+Please consult VMRC Regulation <a href='http://mrc.virginia.gov/Regulations/FR720.shtm' target='_blank'>4 VAC 20-720</a> prior to harvesting.<br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/areamap.php?id=19' target='_blank'>Zoom View of Area</a><br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/OpenHarvestSeason.pdf' target='_blank'>Open Harvest Seasons by Area, Gear and Month</a><br />
+</body></html>]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampedToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates>-76.53512992298964,38.0235106885815,0 -76.53904268295111,38.02398227476559,0 -76.5381966515081,38.02119531524126,0 -76.53512992298964,38.0235106885815,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </MultiGeometry>
+    </Placemark><Placemark id="70">
+      <name>Yeocomico River Area PG 112 (PG112)</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html>
+<body>
+<b>Open Harvest Area</b><br />
+<b>Water: </b>Yeocomico River (YEO)<br />
+<span style='color:rgb(255,0,0)'>Public Ground 112</span><br />
+<b>Open Harvest Season: </b>October 1, 2023 through December 31, 2023<br />
+<b>Gear License Required: </b>Hand Tong<br />
+Please consult VMRC Regulation <a href='http://mrc.virginia.gov/Regulations/FR720.shtm' target='_blank'>4 VAC 20-720</a> prior to harvesting.<br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/areamap.php?id=70' target='_blank'>Zoom View of Area</a><br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/OpenHarvestSeason.pdf' target='_blank'>Open Harvest Seasons by Area, Gear and Month</a><br />
+</body></html>]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampedToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates>-76.531287883,38.029575952,0 -76.53756703,38.029280712,0 -76.5380335,38.028100869,0 -76.527217237,38.026266922,0 -76.526553002,38.028081216,0 -76.531287883,38.029575952,0 </coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </MultiGeometry>
+    </Placemark><Placemark id="12">
+      <name>Nomini Creek Area PG26 (PG26)</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html>
+<body>
+<b>Open Harvest Area</b><br />
+<b>Water: </b>Nomini Bay (NOM)<br />
+<span style='color:rgb(255,0,0)'>Public Ground 26</span><br />
+<b>Open Harvest Season: </b>October 1, 2023 through December 31, 2023<br />
+<b>Gear License Required: </b>Hand Tong<br />
+Please consult VMRC Regulation <a href='http://mrc.virginia.gov/Regulations/FR720.shtm' target='_blank'>4 VAC 20-720</a> prior to harvesting.<br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/areamap.php?id=12' target='_blank'>Zoom View of Area</a><br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/OpenHarvestSeason.pdf' target='_blank'>Open Harvest Seasons by Area, Gear and Month</a><br />
+</body></html>]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampedToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates>-76.70790960927998,38.11820675578386,0 
+-76.71130703428305,38.12115036326632,0 
+-76.70933924297267,38.11761619395675,0 
+-76.71258690932798,38.11457167807972,0 
+-76.71117337276684,38.11399010029518,0 
+-76.70790960927998,38.11820675578386,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </MultiGeometry>
+    </Placemark><Placemark id="13">
+      <name>Nomini Creek Area PG28 (PG28)</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html>
+<body>
+<b>Open Harvest Area</b><br />
+<b>Water: </b>Nomini Bay (NOM)<br />
+<span style='color:rgb(255,0,0)'>Public Ground 28</span><br />
+<b>Open Harvest Season: </b>October 1, 2023 through December 31, 2023.<br />
+<b>Gear License Required: </b>Hand Tong<br />
+Please consult VMRC Regulation <a href='http://mrc.virginia.gov/Regulations/FR720.shtm' target='_blank'>4 VAC 20-720</a> prior to harvesting.<br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/areamap.php?id=13' target='_blank'>Zoom View of Area</a><br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/OpenHarvestSeason.pdf' target='_blank'>Open Harvest Seasons by Area, Gear and Month</a><br />
+</body></html>]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampedToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates>-76.71517594341265,38.14011160006501,0 -76.71518668104774,38.14013371957314,0 -76.71537668649056,38.14006977928033,0 -76.7155003936746,38.14003405139611,0 -76.71567560881984,38.13997557533779,0 -76.71596372349279,38.13983863446317,0 -76.71613182811618,38.13971149535624,0 -76.71627264360241,38.13959805536319,0 -76.71641187135592,38.13950651823021,0 -76.71659953436843,38.13935777786833,0 -76.71676660248147,38.13926844250965,0 -76.7169148175437,38.13921183060892,0 -76.71722311965918,38.13910362282038,0 -76.71733335338466,38.13901330462699,0 -76.71742300911782,38.13890844393782,0 -76.717490200711,38.1387512186937,0 -76.71755720857736,38.13859865983677,0 -76.71760380343893,38.1385379896578,0 -76.71770692984417,38.13848774414053,0 -76.71784628887448,38.1384262983245,0 -76.71800127929627,38.13834147285726,0 -76.71816280669394,38.13823548830019,0 -76.71827949269556,38.13812870708815,0 -76.71836719050643,38.1379859954916,0 -76.71841309432294,38.13784019827681,0 -76.71840686212738,38.1376296637652,0 -76.71831470851936,38.13749809198179,0 -76.71813315409034,38.1373507859573,0 -76.71800947184872,38.13727536498737,0 -76.71799469433991,38.1371592613912,0 -76.7180473827252,38.13709398747882,0 -76.71813186266003,38.13706941073448,0 -76.7187559107286,38.13701621837333,0 -76.71901846667312,38.13693795585357,0 -76.71916776535001,38.13684120354434,0 -76.71925304456865,38.13678829401,0 -76.71925804207888,38.13671509255513,0 -76.71923077236626,38.13661769501572,0 -76.71923550323199,38.13655393785642,0 -76.71931861700735,38.13647026073853,0 -76.71944384894408,38.13637780875654,0 -76.71960209001132,38.13628358229187,0 -76.71974866309999,38.13617733948345,0 -76.71982345849676,38.13606985975333,0 -76.7199008750096,38.13586549446467,0 -76.71992684826138,38.135681517437,0 -76.71992951995257,38.13547353568933,0 -76.71988068401966,38.13517954047898,0 -76.719873066057,38.13502100302143,0 -76.71987589756706,38.13491703485067,0 -76.7198985388746,38.13485596910488,0 -76.71990225212849,38.13471889192448,0 -76.71972375811455,38.13434941258593,0 -76.71971532412796,38.13433035974997,0 -76.71974226157408,38.1343308268063,0 -76.72002098570766,38.13475641539584,0 -76.72059862875402,38.13563388046021,0 -76.7212720004221,38.13662409819631,0 -76.72140950354601,38.13695979661254,0 -76.72183031962683,38.13777314091512,0 -76.72184217897123,38.13788270403085,0 -76.72402769105607,38.13452140126258,0 -76.72348621796033,38.13391662447882,0 -76.72338130755129,38.13319430177469,0 -76.72348448662804,38.13305662806032,0 -76.72383490728579,38.13299297046865,0 -76.72413987055599,38.13326053704985,0 -76.72468978469293,38.13302419849043,0 -76.72555940835312,38.13300273945781,0 -76.72658731759587,38.13204264848872,0 -76.72660976725251,38.1318944591607,0 -76.72635673768207,38.13188850999279,0 -76.72609096484523,38.13191315416867,0 -76.72593740060599,38.13192212581574,0 -76.72576297487358,38.1318870268581,0 -76.72547196718118,38.13188565958485,0 -76.7253277597376,38.13188598427371,0 -76.72514069328004,38.1318388804748,0 -76.72487664321086,38.13184424100799,0 -76.72471893850822,38.13185051044735,0 -76.72459243993642,38.13184618846774,0 -76.72449889788423,38.1318279511156,0 -76.72447116303756,38.13179193183872,0 -76.72451853365662,38.13176873291447,0 -76.72461719690321,38.13176098472141,0 -76.72472869205964,38.13173192651069,0 -76.72485454060258,38.13168894322665,0 -76.72498969446846,38.13162662930573,0 -76.72505732828991,38.13158816752021,0 -76.72515950551357,38.13156045001865,0 -76.72531389093392,38.13154484461985,0 -76.72544969123837,38.13154985720638,0 -76.72540754150312,38.13132990341551,0 -76.72531724259362,38.13133832970555,0 -76.72521180391544,38.13133875152086,0 -76.72501886099684,38.13129029426699,0 -76.72476454802293,38.1311877548018,0 -76.72447060380721,38.13108773904309,0 -76.72421614049215,38.13101982934617,0 -76.72394222813489,38.13096518976726,0 -76.72375852236173,38.13093142850497,0 -76.7236514386998,38.13092383137535,0 -76.72358979357321,38.13093500155374,0 -76.72351285588512,38.13098279592575,0 -76.72339729836618,38.13098182587967,0 -76.72335087013884,38.13099635957553,0 -76.72327817317516,38.1310328205148,0 -76.7232182832296,38.13104333090871,0 -76.7231491061906,38.13104117424898,0 -76.7231036264284,38.13102973961424,0 -76.72306486483296,38.13102230815564,0 -76.72305993551343,38.13098364429233,0 -76.72308287055588,38.1309430718805,0 -76.72312846738878,38.13092987117634,0 -76.72318928907291,38.13090404982315,0 -76.72322907850349,38.1308681565848,0 -76.72329840378551,38.13083301782751,0 -76.72336842221254,38.13081785634313,0 -76.72351897186405,38.13071897545589,0 -76.7236431266372,38.13067129818442,0 -76.72363926357686,38.13059337483596,0 -76.72353800576047,38.13059775970373,0 -76.72347562373569,38.13059362013703,0 -76.72339211828626,38.13058874481451,0 -76.72332814258847,38.13055593476554,0 -76.72320814711124,38.13040839691009,0 -76.72310310118976,38.13030489420604,0 -76.72305873543804,38.13022816433251,0 -76.72301937700152,38.13015145573677,0 -76.72297677204648,38.13004407344655,0 -76.72295100494263,38.12995474695089,0 -76.7229210235955,38.12986008219436,0 -76.72288505219721,38.12978136593404,0 -76.72283728456611,38.12970730289663,0 -76.72278947850397,38.12964189103933,0 -76.7227307559404,38.12956647926178,0 -76.72268374562303,38.12949841481867,0 -76.72259554447724,38.12941423081873,0 -76.7225224968585,38.12933879237271,0 -76.72248055717048,38.12926671344511,0 -76.72244210572087,38.12919133722546,0 -76.72240614166019,38.12910531437105,0 -76.72240052803585,38.12904068493311,0 -76.72239161381948,38.12895469231502,0 -76.72239438368435,38.12888142948123,0 -76.72241824727821,38.12882285380088,0 -76.72246068828403,38.12876101877839,0 -76.72245252600607,38.12868970445679,0 -76.72244012783653,38.12862104375574,0 -76.72241923685128,38.12856972065975,0 -76.72237309753982,38.12851295813109,0 -76.7223437853192,38.12845626029048,0 -76.72229724947179,38.12838589784889,0 -76.72222961053325,38.1283821037846,0 -76.71850193479899,38.12164621949549,0 -76.71722847554342,38.12738332228135,0 -76.71705587534879,38.1273803857971,0 -76.71699183088911,38.12775093824104,0 -76.71612883356249,38.12865143947732,0 -76.71566545593178,38.12896336339426,0 -76.71566332061947,38.12902561141542,0 -76.71588024003337,38.12901961457003,0 -76.71605217528976,38.12900148996292,0 -76.71618867955478,38.12906107083592,0 -76.71634329458047,38.1292183216069,0 -76.71635501228799,38.12942754050222,0 -76.71632215947197,38.12981880248425,0 -76.71636138593945,38.13011402529764,0 -76.71629119891212,38.1305473139546,0 -76.71631460996967,38.13096811277043,0 -76.71647557924334,38.13141288597031,0 -76.71655285072234,38.13154258234849,0 -76.71676714453157,38.13171525040323,0 -76.71677947053306,38.13190544545206,0 -76.7166151733054,38.13216834969715,0 -76.71535261111113,38.13335585121826,0 -76.71466570126928,38.1340355057903,0 -76.71399124671836,38.1347637697718,0 -76.71341644385467,38.13537757588505,0 -76.71316092503238,38.13577412044533,0 -76.71304887905806,38.13600000325936,0 -76.71297329815384,38.13621232997503,0 -76.71280196937823,38.13658870677784,0 -76.71314401630826,38.13689061873834,0 -76.71296479516927,38.13722299623949,0 -76.71302309444256,38.13726903067711,0 -76.71356061393364,38.13755656216601,0 -76.71432955952862,38.13892011670921,0 -76.71494240239889,38.13947389515089,0 -76.71489942759598,38.13949709110663,0 -76.71517594341265,38.14011160006501,0 </coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </MultiGeometry>
+    </Placemark><Placemark id="8">
+      <name>Little Wicomico River PG43 (PG43)</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html>
+<body>
+<b>Open Harvest Area</b><br />
+<b>Water: </b>Little Wicomico River (LW)<br />
+<span style='color:rgb(255,0,0)'>Public Ground 43</span><br />
+<b>Open Harvest Season: </b>October 1, 2023 through December 31, 2023<br />
+<b>Gear License Required: </b>Hand Tong<br />
+Please consult VMRC Regulation <a href='http://mrc.virginia.gov/Regulations/FR720.shtm' target='_blank'>4 VAC 20-720</a> prior to harvesting.<br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/areamap.php?id=8' target='_blank'>Zoom View of Area</a><br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/OpenHarvestSeason.pdf' target='_blank'>Open Harvest Seasons by Area, Gear and Month</a><br />
+</body></html>]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampedToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates>-76.2788548666666,37.8881844166666,0
+-76.2811040133333,37.887669795,0
+-76.2815040133333,37.88779745,0
+-76.2803525716666,37.8885219133333,0
+-76.2788548666666,37.8881844166666,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </MultiGeometry>
+    </Placemark><Placemark id="65">
+      <name>Yeocomico River Area, PG106 (PG6)</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html>
+<body>
+<b>Open Harvest Area</b><br />
+<b>Water: </b>Yeocomico River (YEO)<br />
+<span style='color:rgb(255,0,0)'>Public Ground 106</span><br />
+<b>Open Harvest Season: </b>October 1, 2023 through December 31, 2023 Hand Tong.<br />
+<b>Gear License Required: </b>Hand Tong<br />
+Please consult VMRC Regulation <a href='http://mrc.virginia.gov/Regulations/FR720.shtm' target='_blank'>4 VAC 20-720</a> prior to harvesting.<br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/areamap.php?id=65' target='_blank'>Zoom View of Area</a><br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/OpenHarvestSeason.pdf' target='_blank'>Open Harvest Seasons by Area, Gear and Month</a><br />
+</body></html>]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampedToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates>-76.53266484790154,38.01395349185123,0 -76.53282366400023,38.01413471697018,0 -76.53289216743271,38.01411525148645,0 -76.53293163638575,38.01405900945276,0 -76.53289486185501,38.01392605277784,0 -76.53293101736485,38.01387936830309,0 -76.5329137949759,38.01385380717129,0 -76.53288871962067,38.01384137916688,0 -76.53290219920149,38.01376156979465,0 -76.53294458758172,38.01370263109158,0 -76.53300777466603,38.01369614946541,0 -76.53308210274596,38.01370897314023,0 -76.53316232652234,38.01370409784458,0 -76.53326991483216,38.01366304688084,0 -76.53336853819727,38.01361970068681,0 -76.53342644646592,38.01358764018487,0 -76.53351657285758,38.01353374052619,0 -76.53356903191205,38.01351315054092,0 -76.53362221032137,38.01345057683015,0 -76.53366547285643,38.01340681444395,0 -76.53365817609495,38.01334549586225,0 -76.53363323542651,38.01326393669113,0 -76.53364106171364,38.01317109494605,0 -76.53369907119023,38.0131237098183,0 -76.53390672155702,38.01308226638066,0 -76.53398143465962,38.013064223652,0 -76.53403560210349,38.01303561466145,0 -76.53406669921127,38.01297055115348,0 -76.53408323039517,38.01290235774199,0 -76.53411167534722,38.0128672981981,0 -76.53423165122656,38.01285589984332,0 -76.53437575051905,38.01286518021618,0 -76.53457126884874,38.0128897244446,0 -76.53476267483654,38.01293792966757,0 -76.53488348727466,38.01295719766084,0 -76.5349848160335,38.01296778588352,0 -76.5350896535541,38.01297955910263,0 -76.53519026007699,38.01298348773124,0 -76.53527184858616,38.0130064031596,0 -76.53537316859824,38.01304811000146,0 -76.53546105308735,38.0130667099092,0 -76.53556719261167,38.01306757362357,0 -76.53565899235809,38.01305056001972,0 -76.53577606712324,38.01301678092253,0 -76.53589829322841,38.01297737615475,0 -76.5360253692851,38.01292552831301,0 -76.5361642642029,38.01287437410301,0 -76.53627815336571,38.01282614857858,0 -76.53649515414746,38.01274824589405,0 -76.53654022657513,38.01270418336907,0 -76.53655310184288,38.01260033004546,0 -76.53657346122208,38.01254456081156,0 -76.53654522552041,38.01238318407798,0 -76.53650898067414,38.0122663870231,0 -76.53648819668341,38.01222359975112,0 -76.53643135120906,38.01218050461004,0 -76.53636318260907,38.0121260925007,0 -76.53628791338424,38.0120762033148,0 -76.53621042924701,38.01205302811618,0 -76.53612321534527,38.01205712804614,0 -76.53605944957943,38.01208381648277,0 -76.53600638571822,38.01212296506154,0 -76.5359754254219,38.01217281418722,0 -76.53595599607843,38.01218138472992,0 -76.53590755874504,38.01214573669591,0 -76.53585852070572,38.01208096462938,0 -76.53580032135035,38.01203276459975,0 -76.53572332064837,38.01201481629837,0 -76.53563497603871,38.01204020952503,0 -76.53554158646136,38.01204934099746,0 -76.53546810294094,38.01202329445308,0 -76.53543581392252,38.01197336272598,0 -76.5354509691993,38.01190204122461,0 -76.53553804112073,38.01182487884353,0 -76.53565629808773,38.01187598455849,0 -76.53556380107075,38.01179871560952,0 -76.53546441482457,38.01102373207704,0 -76.53133026824351,38.01114197471026,0 -76.53104838729577,38.01152336553033,0 -76.53112773411269,38.0115341746035,0 -76.53130189311409,38.01159983572719,0 -76.5314050600268,38.0116616281373,0 -76.53149636400136,38.01177686183634,0 -76.53157988541776,38.01188333796348,0 -76.53165754797227,38.0119895236207,0 -76.53174397152931,38.01209912570981,0 -76.53183132256753,38.01220267311338,0 -76.53194362902896,38.01234103220727,0 -76.53203495046859,38.01247230558305,0 -76.53208300398384,38.01258482665017,0 -76.53207577331247,38.01267487660068,0 -76.53208860966801,38.01277894549743,0 -76.53210437478162,38.01289410586671,0 -76.53211081440298,38.01299468735282,0 -76.53210202271305,38.0130795742844,0 -76.53208049123491,38.01317718207692,0 -76.53202068281188,38.01326785157045,0 -76.53183298445383,38.01350044016935,0 -76.53179247840059,38.01366282153093,0 -76.53174103116436,38.01377796793717,0 -76.53178003439199,38.01382861787572,0 -76.53203875684267,38.01398061191198,0 -76.53213531983185,38.01394802719465,0 -76.53223114687589,38.01390161346504,0 -76.53242046915153,38.01386532743373,0 -76.53251530055545,38.01384026519934,0 -76.53258905188136,38.01383849512224,0 -76.53266043842909,38.01385610323015,0 -76.53267218024506,38.01390327017144,0 -76.53266484790154,38.01395349185123,0 </coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </MultiGeometry>
+    </Placemark><Placemark id="9">
+      <name>Milford Haven (PG7)</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html>
+<body>
+<b>Open Harvest Area</b><br />
+<b>Water: </b>Milford Haven  (MIL)<br />
+<span style='color:rgb(255,0,0)'>All public and unassigned grounds in highlighted area</span><br />
+<b>Open Harvest Season: </b>November 1, 2023 through March 31, 2024<br />
+<b>Gear License Required: </b>Hand Tong<br />
+Please consult VMRC Regulation <a href='http://mrc.virginia.gov/Regulations/FR720.shtm' target='_blank'>4 VAC 20-720</a> prior to harvesting.<br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/areamap.php?id=9' target='_blank'>Zoom View of Area</a><br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/OpenHarvestSeason.pdf' target='_blank'>Open Harvest Seasons by Area, Gear and Month</a><br />
+</body></html>]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampedToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates>-76.265515143,37.465027801,0 -76.265775627,37.464293306,0 -76.266302165,37.462432998,0 -76.266089481,37.461383921,0 -76.264082941,37.459378938,0 -76.262564589,37.455214907,0 -76.262452023,37.454943141,0 -76.26134032,37.454057166,0 -76.260605605,37.453936377,0 -76.258675765,37.453503711,0 -76.262290479,37.453741260,0 -76.264779393,37.456294472,0 -76.264686819,37.459584622,0 -76.265878988,37.460493372,0 -76.268114444,37.463323310,0 -76.26900845,37.464572745,0 -76.269897683,37.465724914,0 -76.273292485,37.467504672,0 -76.27533333,37.468627294,0 -76.276970727,37.469501487,0 -76.277089609,37.469616793,0 -76.277580738,37.470072787,0 -76.28156773,37.467269615,0 -76.283194866,37.466146981,0 -76.285601896,37.464463486,0 -76.286527028,37.463798299,0 -76.287509347,37.463092361,0 -76.287686772,37.463094577,0 -76.286365647,37.465095637,0 -76.285613146,37.465925531,0 -76.281496818,37.470463242,0 -76.279108603,37.470652098,0 -76.278843161,37.470718877,0 -76.277695176,37.470515969,0 -76.273419624,37.476478934,0 -76.27632138,37.477735761,0 -76.28221414,37.479033809,0 -76.283335671,37.480900693,0 -76.290404255,37.484179283,0 -76.292848821,37.486221151,0 -76.293723417,37.486950721,0 -76.294640863,37.487485785,0 -76.294664647,37.487414197,0 -76.295256858,37.487706010,0 -76.302517614,37.491283215,0 -76.301642998,37.492094872,0 -76.300768159,37.491872431,0 -76.298483498,37.491291575,0 -76.298041543,37.490980513,0 -76.296243022,37.489714576,0 -76.29329463,37.488000752,0 -76.291809739,37.487137581,0 -76.291411986,37.486930226,0 -76.290377714,37.486371226,0 -76.288942981,37.485602935,0 -76.287898513,37.485043695,0 -76.285758547,37.483882530,0 -76.280278146,37.482495256,0 -76.278884137,37.482127043,0 -76.275398795,37.481316621,0 -76.272511859,37.479459709,0 -76.272450112,37.478990866,0 -76.272342776,37.478175789,0 -76.272244392,37.477428652,0 -76.271947645,37.475175151,0 -76.270879836,37.473969011,0 -76.270370443,37.473393554,0 -76.267549268,37.472063316,0 -76.265466861,37.471093125,0 -76.265371314,37.468734168,0 -76.265331256,37.467641399,0 -76.265277486,37.465921899,0 -76.265515143,37.465027801,0 </coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </MultiGeometry>
+    </Placemark><Placemark id="1">
+      <name>Coan River Area PG77 (PG77)</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html>
+<body>
+<b>Open Harvest Area</b><br />
+<b>Water: </b>Coan River (COAN)<br />
+<span style='color:rgb(255,0,0)'>Public Ground 77</span><br />
+<b>Open Harvest Season: </b>October 1, 2023 through December 31, 2023<br />
+<b>Gear License Required: </b>Hand Tong<br />
+Please consult VMRC Regulation <a href='http://mrc.virginia.gov/Regulations/FR720.shtm' target='_blank'>4 VAC 20-720</a> prior to harvesting.<br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/areamap.php?id=1' target='_blank'>Zoom View of Area</a><br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/OpenHarvestSeason.pdf' target='_blank'>Open Harvest Seasons by Area, Gear and Month</a><br />
+</body></html>]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampedToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates>-76.4646843983333,37.992095345,0
+-76.46660358,37.9895170983333,0
+-76.467448255,37.9882563833333,0
+-76.468281395,37.988918105,0
+-76.46714557,37.989941935,0
+-76.4685204666666,37.9912641783333,0
+-76.4687167633333,37.9917990016666,0
+-76.4664823816666,37.9926319216666,0
+-76.4646843983333,37.992095345,0
+-76.4646843983333,37.992095345,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </MultiGeometry>
+    </Placemark><Placemark id="2">
+      <name>Coan River Area PG78 (PG78)</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html>
+<body>
+<b>Open Harvest Area</b><br />
+<b>Water: </b>Coan River (COAN)<br />
+<span style='color:rgb(255,0,0)'>Public Ground 78</span><br />
+<b>Open Harvest Season: </b>October 1, 2023 through December 31, 2023<br />
+<b>Gear License Required: </b>Hand Tong<br />
+Please consult VMRC Regulation <a href='http://mrc.virginia.gov/Regulations/FR720.shtm' target='_blank'>4 VAC 20-720</a> prior to harvesting.<br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/areamap.php?id=2' target='_blank'>Zoom View of Area</a><br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/OpenHarvestSeason.pdf' target='_blank'>Open Harvest Seasons by Area, Gear and Month</a><br />
+</body></html>]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampedToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates>-76.45313106,37.99137046,0
+-76.45181442,37.98970674,0
+-76.46438817,37.98713881,0
+-76.46144667,37.99061417,0
+-76.45899906,37.99324869,0
+-76.45313106,37.99137046,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </MultiGeometry>
+    </Placemark><Placemark id="16">
+      <name>Yeocomico River Area PG8 (PG8)</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html>
+<body>
+<b>Open Harvest Area</b><br />
+<b>Water: </b>Yeocomico River (YEO)<br />
+<span style='color:rgb(255,0,0)'>Public Ground 8</span><br />
+<b>Open Harvest Season: </b>October 1, 2023 through December 31, 2023<br />
+<b>Gear License Required: </b>Hand Tong<br />
+Please consult VMRC Regulation <a href='http://mrc.virginia.gov/Regulations/FR720.shtm' target='_blank'>4 VAC 20-720</a> prior to harvesting.<br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/areamap.php?id=16' target='_blank'>Zoom View of Area</a><br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/OpenHarvestSeason.pdf' target='_blank'>Open Harvest Seasons by Area, Gear and Month</a><br />
+</body></html>]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampedToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates>-76.55031047644469,38.04566199950618,0 -76.55129287181745,38.04578036171291,0 -76.5513746662262,38.04334445236782,0 -76.55039029876151,38.0433693953199,0 -76.55031047644469,38.04566199950618,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </MultiGeometry>
+    </Placemark><Placemark id="14">
+      <name>Pocomoke Sound Area PG9 (PG9)</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html>
+<body>
+<b>Open Harvest Area</b><br />
+<b>Water: </b>Pocomoke Sound (POS)<br />
+<span style='color:rgb(255,0,0)'>Public Ground 9</span><br />
+<b>Open Harvest Season: </b>November 1, 2023 through March 31, 2024<br />
+<b>Gear License Required: </b>Hand Tong<br />
+Please consult VMRC Regulation <a href='http://mrc.virginia.gov/Regulations/FR720.shtm' target='_blank'>4 VAC 20-720</a> prior to harvesting.<br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/areamap.php?id=14' target='_blank'>Zoom View of Area</a><br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/OpenHarvestSeason.pdf' target='_blank'>Open Harvest Seasons by Area, Gear and Month</a><br />
+</body></html>]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampedToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates>-75.69965121829401,37.95429142842468,0 -75.69965121861252,37.9548276217923,0 -75.704784668057,37.95451926922965,0 -75.71913401271212,37.95117667586288,0 -75.72104099745292,37.94706944279076,0 -75.72548549252582,37.94318072953941,0 -75.7288189381299,37.9401252246891,0 -75.73131888646326,37.935403104673,0 -75.73465212539053,37.93318106117922,0 -75.73548551825692,37.93151444105844,0 -75.73243050508997,37.92929222063791,0 -75.72992965924662,37.92901448317647,0 -75.72298514638624,37.93762519248197,0 -75.71243009419796,37.9409583987788,0 -75.70978314826085,37.94240177599914,0 -75.70985905532737,37.94285427972272,0 -75.7087145840572,37.9429849262324,0 -75.70631804420975,37.94429158058228,0 -75.70492985328494,37.94901387520173,0 -75.70302410825127,37.95091955159555,0 -75.70322536962858,37.9515676537613,0 -75.70251873873129,37.95339088198878,0 -75.70012881111811,37.95381449435858,0 -75.69965121829401,37.95429142842468,0 </coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </MultiGeometry>
+    </Placemark><Placemark id="20">
+      <name>Poc and Tang Sounds Dredge 1A (PT1A)</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html>
+<body>
+<b>Open Harvest Area</b><br />
+<b>Water: </b>Tangier Sound (TS)<br />
+<span style='color:rgb(255,0,0)'>Rotation Area 1A</span><br />
+<b>Open Harvest Season: </b>December 1, 2023 through February 29, 2024<br />
+<b>Gear License Required: </b>Dredge<br />
+Please consult VMRC Regulation <a href='http://mrc.virginia.gov/Regulations/FR720.shtm' target='_blank'>4 VAC 20-720</a> prior to harvesting.<br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/areamap.php?id=20' target='_blank'>Zoom View of Area</a><br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/OpenHarvestSeason.pdf' target='_blank'>Open Harvest Seasons by Area, Gear and Month</a><br />
+</body></html>]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampedToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates>-75.99516660318645,37.95332862091868,0 -75.99557417688227,37.95188343783856,0 -75.99535483998632,37.95085302453987,0 -75.99580843885384,37.94980631242326,0 -75.99670404538251,37.9490031704129,0 -75.99664420562392,37.94861734261799,0 -75.99684190730403,37.94761348557955,0 -75.99755445362328,37.94681112273375,0 -75.99759196202899,37.94573601574336,0 -75.99890408066562,37.94304714510476,0 -75.9980260294768,37.94135002485671,0 -75.99753217175204,37.93962460080531,0 -75.99736823607569,37.93782145755386,0 -75.99799016841108,37.93528720960157,0 -75.99780460161335,37.93260367589211,0 -75.99812622053851,37.92927456739934,0 -76.00314077896287,37.88608999277896,0 -75.9714601454189,37.84002160765717,0 -75.9604514227787,37.83185887888244,0 -75.974037315785,37.787627680625,0 -76.00123925693362,37.76985412002606,0 -75.90984048037478,37.72744724221088,0 -75.89365845744331,37.81335398020916,0 -75.94143472014241,37.80724021745753,0 -75.9427445521771,37.88761306541574,0 -75.89898061882388,37.89452282660545,0 -75.8983841687689,37.91082647088194,0 -75.95283379339028,37.90638961622567,0 -75.94462607953172,37.94600421186691,0 -75.99516660318645,37.95332862091868,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </MultiGeometry>
+    </Placemark><Placemark id="64">
+      <name>Poc and Tang Sounds Dredge 1B (PT1B)</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html>
+<body>
+<b>Open Harvest Area</b><br />
+<b>Water: </b>Pocomoke Sound (POS)<br />
+<span style='color:rgb(255,0,0)'>Rotation Area 1A</span><br />
+<b>Open Harvest Season: </b>December 1, 2023 through February 29, 2024<br />
+<b>Gear License Required: </b>Dredge<br />
+Please consult VMRC Regulation <a href='http://mrc.virginia.gov/Regulations/FR720.shtm' target='_blank'>4 VAC 20-720</a> prior to harvesting.<br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/areamap.php?id=64' target='_blank'>Zoom View of Area</a><br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/OpenHarvestSeason.pdf' target='_blank'>Open Harvest Seasons by Area, Gear and Month</a><br />
+</body></html>]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampedToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates>-75.89322666678822,37.81312520140329,0 -75.91008629854926,37.72702223771713,0 -75.85110746246021,37.72516919871839,0 -75.8153711423942,37.75530930682277,0 -75.83840564712877,37.79713478461575,0 -75.80688212843803,37.81340910055586,0 -75.78286829203878,37.80835988996094,0 -75.77675200799079,37.84877452800344,0 -75.79647719907224,37.86841628352136,0 -75.89873050182909,37.89567484819296,0 -75.89322666678822,37.81312520140329,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </MultiGeometry>
+    </Placemark><Placemark id="31">
+      <name>Rapp River Area 1 (RR1)</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html>
+<body>
+<b>Open Harvest Area</b><br />
+<b>Water: </b>Rappahannock Lower (RRL)<br />
+<span style='color:rgb(255,0,0)'>Grounds in highlighted area.</span><br />
+<b>Open Harvest Season: </b>October 15, 2023 through February 29, 2024<br />
+<b>Gear License Required: </b>Patent Tong<br />
+Please consult VMRC Regulation <a href='http://mrc.virginia.gov/Regulations/FR720.shtm' target='_blank'>4 VAC 20-720</a> prior to harvesting.<br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/areamap.php?id=31' target='_blank'>Zoom View of Area</a><br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/OpenHarvestSeason.pdf' target='_blank'>Open Harvest Seasons by Area, Gear and Month</a><br />
+</body></html>]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampedToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates>-76.291676628,37.613078863,0
+-76.289259442,37.609613684,0
+-76.274617560,37.605024488,0
+-76.270400635,37.597838298,0
+-76.263994229,37.572152122,0
+-76.268430546,37.565367097,0
+-76.269497499,37.564329989,0
+-76.279769727,37.570583094,0
+-76.295017708,37.573490692,0
+-76.305954768,37.573460457,0
+-76.317238507,37.575230415,0
+-76.317033339,37.575649995,0
+-76.318333318,37.578049995,0
+-76.324166679,37.583616657,0
+-76.328883330,37.585833323,0
+-76.354999994,37.601666673,0
+-76.355759564,37.602755933,0
+-76.350750589,37.601640419,0
+-76.345278214,37.610240308,0
+-76.341850002,37.611956832,0
+-76.335032952,37.616076059,0
+-76.340791446,37.608687356,0
+-76.341080965,37.605131849,0
+-76.335236182,37.604587214,0
+-76.326159527,37.605625895,0
+-76.325879968,37.613586932,0
+-76.321480412,37.615617280,0
+-76.315960536,37.617706160,0
+-76.310880812,37.617781608,0
+-76.307554453,37.617830873,0
+-76.291676628,37.613078863,0
+-76.299532466,37.615341805,0
+-76.292270661,37.613930419,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </MultiGeometry>
+    </Placemark><Placemark id="62">
+      <name>Rapp River Area 2 (RR2)</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html>
+<body>
+<b>Open Harvest Area</b><br />
+<b>Water: </b>Rappahannock Lower (RRL)<br />
+<span style='color:rgb(255,0,0)'>Rotation Area 2</span><br />
+<b>Open Harvest Season: </b>February 15, 2024,through February 29, 2024, Hand Scrape<br />
+<b>Gear License Required: </b>Hand Scrape<br />
+Please consult VMRC Regulation <a href='http://mrc.virginia.gov/Regulations/FR720.shtm' target='_blank'>4 VAC 20-720</a> prior to harvesting.<br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/areamap.php?id=62' target='_blank'>Zoom View of Area</a><br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/OpenHarvestSeason.pdf' target='_blank'>Open Harvest Seasons by Area, Gear and Month</a><br />
+</body></html>]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampedToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates>-76.359916661,37.608716672,0
+-76.354999994,37.601666673,0
+-76.328883330,37.585833323,0
+-76.350833344,37.582216672,0
+-76.351666665,37.581383335,0
+-76.353965219,37.575907308,0
+-76.354178465,37.575887597,0
+-76.357855343,37.575547530,0
+-76.359275088,37.575587507,0
+-76.360545331,37.575623258,0
+-76.380357025,37.576179140,0
+-76.381438143,37.576509645,0
+-76.384544705,37.577459295,0
+-76.390672818,37.579317441,0
+-76.395302162,37.581148760,0
+-76.408387172,37.585972001,0
+-76.412552099,37.586185144,0
+-76.410077337,37.591232833,0
+-76.409449993,37.591383331,0
+-76.359916661,37.608716672,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </MultiGeometry>
+    </Placemark><Placemark id="63">
+      <name>Rapp River Area 4 (RR4)</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html>
+<body>
+<b>Open Harvest Area</b><br />
+<b>Water: </b>Rappahannock Lower (RRL)<br />
+<span style='color:rgb(255,0,0)'>Rotation Area 4</span><br />
+<b>Open Harvest Season: </b>October 15, 2023 through October 31, 2023<br />
+<b>Gear License Required: </b>Hand Scrape<br />
+Please consult VMRC Regulation <a href='http://mrc.virginia.gov/Regulations/FR720.shtm' target='_blank'>4 VAC 20-720</a> prior to harvesting.<br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/areamap.php?id=63' target='_blank'>Zoom View of Area</a><br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/OpenHarvestSeason.pdf' target='_blank'>Open Harvest Seasons by Area, Gear and Month</a><br />
+</body></html>]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampedToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates>-76.476029348,37.677633382,0
+-76.474999982,37.671666663,0
+-76.476383320,37.669450009,0
+-76.475847604,37.665694632,0
+-76.473653302,37.663069696,0
+-76.464166649,37.654449991,0
+-76.461383326,37.648049998,0
+-76.459450000,37.647216674,0
+-76.454133475,37.646231083,0
+-76.449188078,37.646925694,0
+-76.448070504,37.647082600,0
+-76.447537816,37.647296225,0
+-76.445239403,37.648216475,0
+-76.444485770,37.648518203,0
+-76.443771160,37.649129225,0
+-76.442709877,37.650035193,0
+-76.442580349,37.651640915,0
+-76.442526231,37.652135393,0
+-76.442316891,37.652335892,0
+-76.440152817,37.654395757,0
+-76.438142932,37.656309733,0
+-76.435499310,37.654408624,0
+-76.437889901,37.654045571,0
+-76.440203169,37.653694231,0
+-76.441187782,37.651806533,0
+-76.440656250,37.651063241,0
+-76.435435901,37.643772932,0
+-76.433491443,37.641682953,0
+-76.431253927,37.639295608,0
+-76.430488603,37.638455121,0
+-76.424533745,37.638258186,0
+-76.423492467,37.638212037,0
+-76.420828718,37.638133595,0
+-76.419098441,37.637527970,0
+-76.417777894,37.637065923,0
+-76.415295044,37.636196867,0
+-76.413667510,37.634383406,0
+-76.413466368,37.634159918,0
+-76.418324374,37.629207336,0
+-76.422416666,37.624716664,0
+-76.500466666,37.633416670,0
+-76.499115056,37.637782412,0
+-76.491490975,37.648712791,0
+-76.490807495,37.656082278,0
+-76.490415350,37.656436699,0
+-76.488682150,37.655003416,0
+-76.488336701,37.657643524,0
+-76.488583925,37.659378337,0
+-76.489229101,37.659575288,0
+-76.485368003,37.663752999,0
+-76.486569281,37.664442501,0
+-76.487241581,37.664371684,0
+-76.486955986,37.668610440,0
+-76.483091973,37.670784252,0
+-76.482551832,37.670662177,0
+-76.482112117,37.671207004,0
+-76.481633101,37.671799425,0
+-76.481404286,37.672083441,0
+-76.479672203,37.674227000,0
+-76.476029348,37.677633382,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </MultiGeometry>
+    </Placemark><Placemark id="32">
+      <name>Rapp River Area 6 (RR6)</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html>
+<body>
+<b>Open Harvest Area</b><br />
+<b>Water: </b>Rappahannock Central (RRM)<br />
+<span style='color:rgb(255,0,0)'>Grounds in highlighted area.</span><br />
+<b>Open Harvest Season: </b>November 1, 2023 through November 30, 2023.<br />
+<b>Gear License Required: </b>Hand Scrape<br />
+Please consult VMRC Regulation <a href='http://mrc.virginia.gov/Regulations/FR720.shtm' target='_blank'>4 VAC 20-720</a> prior to harvesting.<br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/areamap.php?id=32' target='_blank'>Zoom View of Area</a><br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/OpenHarvestSeason.pdf' target='_blank'>Open Harvest Seasons by Area, Gear and Month</a><br />
+</body></html>]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampedToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates>-76.519305388,37.642236312,0
+-76.516690785,37.639864795,0
+-76.514345100,37.639553192,0
+-76.508883340,37.635833322,0
+-76.504716671,37.633883342,0
+-76.505039331,37.618585433,0
+-76.513031334,37.616281937,0
+-76.519991443,37.614874220,0
+-76.520731946,37.614850616,0
+-76.520709553,37.614783108,0
+-76.526015119,37.614702003,0
+-76.531649117,37.615120752,0
+-76.536053857,37.617554346,0
+-76.537755772,37.619830098,0
+-76.541076010,37.622048519,0
+-76.545973112,37.626810758,0
+-76.546847989,37.627661076,0
+-76.550231139,37.637466201,0
+-76.561439075,37.639683069,0
+-76.564280324,37.641087425,0
+-76.563487067,37.645324959,0
+-76.565733210,37.646472755,0
+-76.573993566,37.650435461,0
+-76.566100675,37.657522958,0
+-76.567430179,37.659458556,0
+-76.548983337,37.669299993,0
+-76.525599995,37.647216666,0
+-76.519305388,37.642236312,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </MultiGeometry>
+    </Placemark><Placemark id="28">
+      <name>Rapp River Area 7 (RR7)</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html>
+<body>
+<b>Open Harvest Area</b><br />
+<b>Water: </b>Rappahannock Central (RRM)<br />
+<span style='color:rgb(255,0,0)'>Grounds in highlighted area.</span><br />
+<b>Open Harvest Season: </b>December 1, 2023 through December 31, 2023<br />
+<b>Gear License Required: </b>Hand Scrape<br />
+Please consult VMRC Regulation <a href='http://mrc.virginia.gov/Regulations/FR720.shtm' target='_blank'>4 VAC 20-720</a> prior to harvesting.<br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/areamap.php?id=28' target='_blank'>Zoom View of Area</a><br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/OpenHarvestSeason.pdf' target='_blank'>Open Harvest Seasons by Area, Gear and Month</a><br />
+</body></html>]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampedToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates>-76.540155699,37.667781643,0
+-76.548983337,37.669299993,0
+-76.567430179,37.659458556,0
+-76.567765847,37.659947224,0
+-76.574604456,37.662683844,0
+-76.580230163,37.664934339,0
+-76.577328739,37.668766395,0
+-76.576422103,37.669961298,0
+-76.576330484,37.677378759,0
+-76.585209336,37.687021579,0
+-76.585567070,37.689358163,0
+-76.585889161,37.691468268,0
+-76.585343313,37.696671210,0
+-76.588085411,37.699288046,0
+-76.591201121,37.701052565,0
+-76.593861177,37.702558793,0
+-76.589543654,37.711464273,0
+-76.590968464,37.719604669,0
+-76.602957751,37.728508737,0
+-76.603034780,37.729257293,0
+-76.606851649,37.730266163,0
+-76.607415349,37.730472665,0
+-76.609431157,37.731863925,0
+-76.612256959,37.733814578,0
+-76.611541062,37.736457553,0
+-76.611572056,37.737779560,0
+-76.611631535,37.740314595,0
+-76.611681137,37.742431738,0
+-76.611810497,37.742631123,0
+-76.571514045,37.734963779,0
+-76.571020287,37.733952871,0
+-76.570532999,37.732861748,0
+-76.565947475,37.725161116,0
+-76.562574153,37.719495793,0
+-76.559093990,37.715307379,0
+-76.554298128,37.709535341,0
+-76.548098260,37.707128671,0
+-76.546861566,37.703219635,0
+-76.545930825,37.700277375,0
+-76.541426488,37.690895843,0
+-76.542003403,37.678555745,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </MultiGeometry>
+    </Placemark><Placemark id="29">
+      <name>Rapp River Area 8 (RR8)</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html>
+<body>
+<b>Open Harvest Area</b><br />
+<b>Water: </b>Rappahannock Central (RRM)<br />
+<span style='color:rgb(255,0,0)'>Grounds in highlighted area.</span><br />
+<b>Open Harvest Season: </b>January 1, 2024, through through February 14, 2024<br />
+<b>Gear License Required: </b>Hand Scrape<br />
+Please consult VMRC Regulation <a href='http://mrc.virginia.gov/Regulations/FR720.shtm' target='_blank'>4 VAC 20-720</a> prior to harvesting.<br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/areamap.php?id=29' target='_blank'>Zoom View of Area</a><br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/OpenHarvestSeason.pdf' target='_blank'>Open Harvest Seasons by Area, Gear and Month</a><br />
+</body></html>]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampedToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates>-76.571514045,37.734963779,0
+-76.611810497,37.742631123,0
+-76.613959613,37.745944040,0
+-76.620356482,37.751983262,0
+-76.627067638,37.753314854,0
+-76.637749636,37.755433423,0
+-76.643318611,37.755718623,0
+-76.651030737,37.756113216,0
+-76.663685771,37.756759550,0
+-76.669106331,37.757035918,0
+-76.671664173,37.757166364,0
+-76.677225591,37.763850547,0
+-76.676560677,37.766257103,0
+-76.675674724,37.769462147,0
+-76.675158695,37.771328000,0
+-76.673071485,37.778876511,0
+-76.672560390,37.779577124,0
+-76.671522334,37.779039481,0
+-76.672125326,37.780175242,0
+-76.668845292,37.784675711,0
+-76.671924639,37.786201483,0
+-76.688213847,37.795484935,0
+-76.698174114,37.815991492,0
+-76.697744808,37.815711420,0
+-76.694654893,37.813871865,0
+-76.691618892,37.812063946,0
+-76.680603475,37.810090410,0
+-76.674768339,37.808554233,0
+-76.667342429,37.807381739,0
+-76.661322315,37.803845700,0
+-76.659747579,37.800730655,0
+-76.659740551,37.796578758,0
+-76.649593197,37.782986184,0
+-76.657068717,37.776088309,0
+-76.655977099,37.775343059,0
+-76.641758129,37.784682508,0
+-76.637736531,37.783358544,0
+-76.635683000,37.780973118,0
+-76.631499067,37.781974050,0
+-76.617114353,37.771358184,0
+-76.616397525,37.770829092,0
+-76.593279119,37.764226904,0
+-76.588413389,37.764228626,0
+-76.581823559,37.753992886,0
+-76.581438015,37.754187951,0
+-76.579552119,37.751199653,0
+-76.573852336,37.738318957,0
+-76.573175765,37.738365592,0
+-76.571514045,37.734963779,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </MultiGeometry>
+    </Placemark><Placemark id="30">
+      <name>Rapp River Area 9-A (RR9A)</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html>
+<body>
+<b>Open Harvest Area</b><br />
+<b>Water: </b>Rappahannock Central (RRM)<br />
+<span style='color:rgb(255,0,0)'>Grounds in highlighted area.</span><br />
+<b>Open Harvest Season: </b>October 1, 2023 through March 31, 2024<br />
+<b>Gear License Required: </b>Hand Tong<br />
+Please consult VMRC Regulation <a href='http://mrc.virginia.gov/Regulations/FR720.shtm' target='_blank'>4 VAC 20-720</a> prior to harvesting.<br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/areamap.php?id=30' target='_blank'>Zoom View of Area</a><br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/OpenHarvestSeason.pdf' target='_blank'>Open Harvest Seasons by Area, Gear and Month</a><br />
+</body></html>]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampedToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates>-76.698174146,37.815991575,0
+-76.688213847,37.795484935,0
+-76.696462101,37.800183986,0
+-76.709921843,37.811149049,0
+-76.726786539,37.821861862,0
+-76.722364643,37.826607806,0
+-76.713680312,37.823073097,0
+-76.701305432,37.818034558,0
+-76.698174146,37.815991575,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </MultiGeometry>
+    </Placemark><Placemark id="35">
+      <name>Rapp River Area 9-B (RR9B)</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html>
+<body>
+<b>Open Harvest Area</b><br />
+<b>Water: </b>Rappahannock Central (RRM)<br />
+<span style='color:rgb(255,0,0)'>Grounds in highlighted area.</span><br />
+<b>Open Harvest Season: </b>October 1, 2023 through March 31, 2024<br />
+<b>Gear License Required: </b>Hand Tong<br />
+Please consult VMRC Regulation <a href='http://mrc.virginia.gov/Regulations/FR720.shtm' target='_blank'>4 VAC 20-720</a> prior to harvesting.<br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/areamap.php?id=35' target='_blank'>Zoom View of Area</a><br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/OpenHarvestSeason.pdf' target='_blank'>Open Harvest Seasons by Area, Gear and Month</a><br />
+</body></html>]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampedToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates>-76.73637652546174,37.82809332357233,0 -76.75214382428922,37.84229423354483,0 -76.74795269565193,37.83309495473555,0 -76.74651956934358,37.82815447390358,0 -76.74168011674655,37.82583649133958,0 -76.7324823677147,37.82293023964363,0 -76.73149265662069,37.82338108856909,0 -76.73637652546174,37.82809332357233,0 </coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </MultiGeometry>
+    </Placemark><Placemark id="36">
+      <name>Rapp River Area 9-C (RR9C)</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html>
+<body>
+<b>Open Harvest Area</b><br />
+<b>Water: </b>Rappahannock Central (RRM)<br />
+<span style='color:rgb(255,0,0)'>Grounds in highlighted area.</span><br />
+<b>Open Harvest Season: </b>October 1, 2023 through March 31, 2024<br />
+<b>Gear License Required: </b>Hand Tong<br />
+Please consult VMRC Regulation <a href='http://mrc.virginia.gov/Regulations/FR720.shtm' target='_blank'>4 VAC 20-720</a> prior to harvesting.<br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/areamap.php?id=36' target='_blank'>Zoom View of Area</a><br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/OpenHarvestSeason.pdf' target='_blank'>Open Harvest Seasons by Area, Gear and Month</a><br />
+</body></html>]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampedToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates>-76.7399567464598,37.82188745057189,0 -76.74131256888903,37.82224653563526,0 -76.74094914667906,37.82139279744813,0 -76.7399567464598,37.82188745057189,0 </coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </MultiGeometry>
+    </Placemark><Placemark id="37">
+      <name>Rapp River Area 9-D (RR9D)</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html>
+<body>
+<b>Open Harvest Area</b><br />
+<b>Water: </b>Rappahannock Central (RRM)<br />
+<span style='color:rgb(255,0,0)'>Grounds in highlighted area.</span><br />
+<b>Open Harvest Season: </b>October 1, 2023 through March 31, 2024<br />
+<b>Gear License Required: </b>Hand Tong<br />
+Please consult VMRC Regulation <a href='http://mrc.virginia.gov/Regulations/FR720.shtm' target='_blank'>4 VAC 20-720</a> prior to harvesting.<br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/areamap.php?id=37' target='_blank'>Zoom View of Area</a><br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/OpenHarvestSeason.pdf' target='_blank'>Open Harvest Seasons by Area, Gear and Month</a><br />
+</body></html>]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampedToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates>-76.73565525161477,37.8199448738421,0 -76.73668210900144,37.8207070091633,0 -76.73648836114074,37.81963483798748,0 -76.73565525161477,37.8199448738421,0 </coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </MultiGeometry>
+    </Placemark><Placemark id="38">
+      <name>Rapp River Area 9-E (RR9E)</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html>
+<body>
+<b>Open Harvest Area</b><br />
+<b>Water: </b>Rappahannock Central (RRM)<br />
+<span style='color:rgb(255,0,0)'>Grounds in highlighted area.</span><br />
+<b>Open Harvest Season: </b>October 1, 2023 through March 31, 2024<br />
+<b>Gear License Required: </b>Hand Tong<br />
+Please consult VMRC Regulation <a href='http://mrc.virginia.gov/Regulations/FR720.shtm' target='_blank'>4 VAC 20-720</a> prior to harvesting.<br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/areamap.php?id=38' target='_blank'>Zoom View of Area</a><br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/OpenHarvestSeason.pdf' target='_blank'>Open Harvest Seasons by Area, Gear and Month</a><br />
+</body></html>]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampedToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates>-76.73684976092142,37.81546307347688,0 -76.73708140570189,37.8162122188413,0 -76.73752360995969,37.81592264824044,0 -76.73684976092142,37.81546307347688,0 </coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </MultiGeometry>
+    </Placemark><Placemark id="39">
+      <name>Rapp River Area 9-F (RR9F)</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html>
+<body>
+<b>Open Harvest Area</b><br />
+<b>Water: </b>Rappahannock Central (RRM)<br />
+<span style='color:rgb(255,0,0)'>Grounds in highlighted area.</span><br />
+<b>Open Harvest Season: </b>October 1, 2023 through March 31, 2024<br />
+<b>Gear License Required: </b>Hand Tong<br />
+Please consult VMRC Regulation <a href='http://mrc.virginia.gov/Regulations/FR720.shtm' target='_blank'>4 VAC 20-720</a> prior to harvesting.<br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/areamap.php?id=39' target='_blank'>Zoom View of Area</a><br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/OpenHarvestSeason.pdf' target='_blank'>Open Harvest Seasons by Area, Gear and Month</a><br />
+</body></html>]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampedToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates>-76.72950984410458,37.81476131373357,0 -76.72984765839175,37.81548321419063,0 -76.7302021301097,37.81462192223216,0 -76.72950984410458,37.81476131373357,0 </coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </MultiGeometry>
+    </Placemark><Placemark id="40">
+      <name>Rapp River Area 9-G (RR9G)</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html>
+<body>
+<b>Open Harvest Area</b><br />
+<b>Water: </b>Rappahannock Central (RRM)<br />
+<span style='color:rgb(255,0,0)'>Grounds in highlighted area.</span><br />
+<b>Open Harvest Season: </b>October 1, 2023 through March 31, 2024<br />
+<b>Gear License Required: </b>Hand Tong<br />
+Please consult VMRC Regulation <a href='http://mrc.virginia.gov/Regulations/FR720.shtm' target='_blank'>4 VAC 20-720</a> prior to harvesting.<br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/areamap.php?id=40' target='_blank'>Zoom View of Area</a><br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/OpenHarvestSeason.pdf' target='_blank'>Open Harvest Seasons by Area, Gear and Month</a><br />
+</body></html>]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampedToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates>-76.72915887714824,37.82019495493088,0 -76.73027364018412,37.82141044831935,0 -76.7295341345954,37.81970048007792,0 -76.72915887714824,37.82019495493088,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </MultiGeometry>
+    </Placemark><Placemark id="41">
+      <name>Rapp River Area 9-H (RR9H)</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html>
+<body>
+<b>Open Harvest Area</b><br />
+<b>Water: </b>Rappahannock Central (RRM)<br />
+<span style='color:rgb(255,0,0)'>Grounds in highlighted area.</span><br />
+<b>Open Harvest Season: </b>October 1, 2023 through March 31, 2024<br />
+<b>Gear License Required: </b>Hand Tong<br />
+Please consult VMRC Regulation <a href='http://mrc.virginia.gov/Regulations/FR720.shtm' target='_blank'>4 VAC 20-720</a> prior to harvesting.<br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/areamap.php?id=41' target='_blank'>Zoom View of Area</a><br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/OpenHarvestSeason.pdf' target='_blank'>Open Harvest Seasons by Area, Gear and Month</a><br />
+</body></html>]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampedToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates>-76.72295887041119,37.80587814431743,0 -76.72420512576866,37.80617073251963,0 -76.72327019005471,37.80530496661044,0 -76.72295887041119,37.80587814431743,0 </coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </MultiGeometry>
+    </Placemark><Placemark id="42">
+      <name>Rapp River Area 9-I (RR9I)</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html>
+<body>
+<b>Open Harvest Area</b><br />
+<b>Water: </b>Rappahannock Central (RRM)<br />
+<span style='color:rgb(255,0,0)'>Grounds in highlighted area.</span><br />
+<b>Open Harvest Season: </b>October 1, 2023 through March 31, 2024<br />
+<b>Gear License Required: </b>Hand Tong<br />
+Please consult VMRC Regulation <a href='http://mrc.virginia.gov/Regulations/FR720.shtm' target='_blank'>4 VAC 20-720</a> prior to harvesting.<br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/areamap.php?id=42' target='_blank'>Zoom View of Area</a><br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/OpenHarvestSeason.pdf' target='_blank'>Open Harvest Seasons by Area, Gear and Month</a><br />
+</body></html>]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampedToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates>-76.77169514815049,37.87988459937867,0 -76.77280296277529,37.88045668537718,0 -76.77304400313008,37.87992271370197,0 -76.77169514815049,37.87988459937867,0 </coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </MultiGeometry>
+    </Placemark><Placemark id="43">
+      <name>Rapp River Area 9-J (RR9J)</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html>
+<body>
+<b>Open Harvest Area</b><br />
+<b>Water: </b>Rappahannock Central (RRM)<br />
+<span style='color:rgb(255,0,0)'>Grounds in highlighted area.</span><br />
+<b>Open Harvest Season: </b>October 1, 2023 through March 31, 2024<br />
+<b>Gear License Required: </b>Hand Tong<br />
+Please consult VMRC Regulation <a href='http://mrc.virginia.gov/Regulations/FR720.shtm' target='_blank'>4 VAC 20-720</a> prior to harvesting.<br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/areamap.php?id=43' target='_blank'>Zoom View of Area</a><br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/OpenHarvestSeason.pdf' target='_blank'>Open Harvest Seasons by Area, Gear and Month</a><br />
+</body></html>]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampedToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates>-76.77188780099809,37.8767954461912,0 -76.77169534992619,37.877138720334,0 -76.77265895603679,37.87637594196502,0 -76.77188780099809,37.8767954461912,0 </coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </MultiGeometry>
+    </Placemark><Placemark id="44">
+      <name>Rapp River Area 9-K (RR9K)</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html>
+<body>
+<b>Open Harvest Area</b><br />
+<b>Water: </b>Rappahannock Central (RRM)<br />
+<span style='color:rgb(255,0,0)'>Grounds in highlighted area.</span><br />
+<b>Open Harvest Season: </b>October 1, 2023 through March 31, 2024<br />
+<b>Gear License Required: </b>Hand Tong<br />
+Please consult VMRC Regulation <a href='http://mrc.virginia.gov/Regulations/FR720.shtm' target='_blank'>4 VAC 20-720</a> prior to harvesting.<br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/areamap.php?id=44' target='_blank'>Zoom View of Area</a><br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/OpenHarvestSeason.pdf' target='_blank'>Open Harvest Seasons by Area, Gear and Month</a><br />
+</body></html>]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampedToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates>-76.72430947492262,37.80658789285957,0 -76.73396008358316,37.81379180001834,0 -76.73740341941175,37.81216724030448,0 -76.72970193197594,37.80499005586917,0 -76.72430947492262,37.80658789285957,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </MultiGeometry>
+    </Placemark><Placemark id="45">
+      <name>Rapp River Area 9-L (RR9L)</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html>
+<body>
+<b>Open Harvest Area</b><br />
+<b>Water: </b>Rappahannock Central (RRM)<br />
+<span style='color:rgb(255,0,0)'>Grounds in highlighted area.</span><br />
+<b>Open Harvest Season: </b>October 1, 2023 through March 31, 2024<br />
+<b>Gear License Required: </b>Hand Tong<br />
+Please consult VMRC Regulation <a href='http://mrc.virginia.gov/Regulations/FR720.shtm' target='_blank'>4 VAC 20-720</a> prior to harvesting.<br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/areamap.php?id=45' target='_blank'>Zoom View of Area</a><br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/OpenHarvestSeason.pdf' target='_blank'>Open Harvest Seasons by Area, Gear and Month</a><br />
+</body></html>]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampedToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates>-76.7130105548386,37.80826257062075,0 -76.7135170498438,37.80876285895239,0 -76.71441250560891,37.80808740679156,0 -76.7130105548386,37.80826257062075,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </MultiGeometry>
+    </Placemark><Placemark id="46">
+      <name>Rapp River Area 9-M (RR9M)</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html>
+<body>
+<b>Open Harvest Area</b><br />
+<b>Water: </b>Rappahannock Central (RRM)<br />
+<span style='color:rgb(255,0,0)'>Grounds in highlighted area.</span><br />
+<b>Open Harvest Season: </b>October 1, 2023 through March 31, 2024<br />
+<b>Gear License Required: </b>Hand Tong<br />
+Please consult VMRC Regulation <a href='http://mrc.virginia.gov/Regulations/FR720.shtm' target='_blank'>4 VAC 20-720</a> prior to harvesting.<br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/areamap.php?id=46' target='_blank'>Zoom View of Area</a><br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/OpenHarvestSeason.pdf' target='_blank'>Open Harvest Seasons by Area, Gear and Month</a><br />
+</body></html>]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampedToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates>-76.70282421491828,37.79944048172389,0 -76.70213723779304,37.80058799241066,0 -76.70320879682149,37.79996712807161,0 -76.70282421491828,37.79944048172389,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </MultiGeometry>
+    </Placemark><Placemark id="47">
+      <name>Rapp River Area 9-N (RR9N)</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html>
+<body>
+<b>Open Harvest Area</b><br />
+<b>Water: </b>Rappahannock Central (RRM)<br />
+<span style='color:rgb(255,0,0)'>Grounds in highlighted area.</span><br />
+<b>Open Harvest Season: </b>October 1, 2023 through March 31, 2024<br />
+<b>Gear License Required: </b>Hand Tong<br />
+Please consult VMRC Regulation <a href='http://mrc.virginia.gov/Regulations/FR720.shtm' target='_blank'>4 VAC 20-720</a> prior to harvesting.<br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/areamap.php?id=47' target='_blank'>Zoom View of Area</a><br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/OpenHarvestSeason.pdf' target='_blank'>Open Harvest Seasons by Area, Gear and Month</a><br />
+</body></html>]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampedToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates>-76.69869481366646,37.79583235795715,0 -76.71858822114329,37.79707599587085,0 -76.71930383937436,37.79332893152655,0 -76.69351858613246,37.79344979699345,0 -76.69021329785407,37.79530111160233,0 -76.69827153823793,37.79580586001674,0 -76.69702823331491,37.79492874267984,0 -76.6983133883169,37.7953195318544,0 -76.69869481366646,37.79583235795715,0 </coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </MultiGeometry>
+    </Placemark><Placemark id="48">
+      <name>Rapp River Area 9-O (RR9O)</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html>
+<body>
+<b>Open Harvest Area</b><br />
+<b>Water: </b>Rappahannock Central (RRM)<br />
+<span style='color:rgb(255,0,0)'>Grounds in highlighted area.</span><br />
+<b>Open Harvest Season: </b>October 1, 2023 through March 31, 2024<br />
+<b>Gear License Required: </b>Hand Tong<br />
+Please consult VMRC Regulation <a href='http://mrc.virginia.gov/Regulations/FR720.shtm' target='_blank'>4 VAC 20-720</a> prior to harvesting.<br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/areamap.php?id=48' target='_blank'>Zoom View of Area</a><br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/OpenHarvestSeason.pdf' target='_blank'>Open Harvest Seasons by Area, Gear and Month</a><br />
+</body></html>]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampedToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates>-76.74280103076961,37.86331099912307,0 -76.74642153242276,37.86445169555228,0 -76.74586720360749,37.86031436645827,0 -76.74232890231457,37.86003369030436,0 -76.74280103076961,37.86331099912307,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </MultiGeometry>
+    </Placemark><Placemark id="49">
+      <name>Rapp River Area 9-P (RR9P)</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html>
+<body>
+<b>Open Harvest Area</b><br />
+<b>Water: </b>Rappahannock Central (RRM)<br />
+<span style='color:rgb(255,0,0)'>Grounds in highlighted area.</span><br />
+<b>Open Harvest Season: </b>October 1, 2023 through March 31, 2024<br />
+<b>Gear License Required: </b>Hand Tong<br />
+Please consult VMRC Regulation <a href='http://mrc.virginia.gov/Regulations/FR720.shtm' target='_blank'>4 VAC 20-720</a> prior to harvesting.<br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/areamap.php?id=49' target='_blank'>Zoom View of Area</a><br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/OpenHarvestSeason.pdf' target='_blank'>Open Harvest Seasons by Area, Gear and Month</a><br />
+</body></html>]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampedToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates>-76.73435410566603,37.84883465283312,0 -76.74242807112812,37.84895415439983,0 -76.73789517414747,37.8381255506602,0 -76.73507384207237,37.84012722679418,0 -76.73469351566168,37.8447286933898,0 -76.73435410566603,37.84883465283312,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </MultiGeometry>
+    </Placemark><Placemark id="50">
+      <name>Rapp River Area 9-Q (RR9Q)</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html>
+<body>
+<b>Open Harvest Area</b><br />
+<b>Water: </b>Rappahannock Central (RRM)<br />
+<span style='color:rgb(255,0,0)'>Grounds in highlighted area.</span><br />
+<b>Open Harvest Season: </b>October 1, 2023 through March 31, 2024<br />
+<b>Gear License Required: </b>Hand Tong<br />
+Please consult VMRC Regulation <a href='http://mrc.virginia.gov/Regulations/FR720.shtm' target='_blank'>4 VAC 20-720</a> prior to harvesting.<br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/areamap.php?id=50' target='_blank'>Zoom View of Area</a><br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/OpenHarvestSeason.pdf' target='_blank'>Open Harvest Seasons by Area, Gear and Month</a><br />
+</body></html>]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampedToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates>-76.72712831964293,37.82683904468289,0 -76.7333244048297,37.83295489962788,0 -76.73460386052241,37.83200724702179,0 -76.73054472235617,37.82656871311099,0 -76.72712831964293,37.82683904468289,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </MultiGeometry>
+    </Placemark><Placemark id="68">
+      <name>JR Area 1 A (WS)</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html>
+<body>
+<b>Open Harvest Area</b><br />
+<b>Water: </b>James River Lower (JRL)<br />
+<span style='color:rgb(255,0,0)'>All public grounds in highlighted area</span><br />
+<b>Open Harvest Season: </b>October 15, 2023, through February 29, 2024, and March 16, 2024 through March 31, 2024 Hand Scrape and March 1 through March 15, 2024, and April 1, 20<br />
+<b>Gear License Required: </b>Hand Scrape, Hand Tong<br />
+Please consult VMRC Regulation <a href='http://mrc.virginia.gov/Regulations/FR720.shtm' target='_blank'>4 VAC 20-720</a> prior to harvesting.<br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/areamap.php?id=68' target='_blank'>Zoom View of Area</a><br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/OpenHarvestSeason.pdf' target='_blank'>Open Harvest Seasons by Area, Gear and Month</a><br />
+</body></html>]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampedToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates>-76.546308899,37.039214729,0 -76.530351114,37.028540832,0 -76.5174066,37.022142048,0 -76.520956495,37.021764977,0 -76.530807333,37.020718033,0 -76.534834504,37.023885206,0 -76.539000123,37.027160858,0 -76.547853167,37.031745487,0 -76.550074678,37.032895706,0 -76.546308899,37.039214729,0 -76.546308899,37.039214729,0 </coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </MultiGeometry>
+    </Placemark><Placemark id="22">
+      <name>York River Area 1A (YR1A)</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html>
+<body>
+<b>Open Harvest Area</b><br />
+<b>Water: </b>York River Central (YRM)<br />
+<span style='color:rgb(255,0,0)'>Rotation Area 1A</span><br />
+<b>Open Harvest Season: </b>October 1, 2023 through October 31, 2023, and December 1, 2023 through March 31, 2024 Hand Tong. Hand Scrape November, Feb 15-29<br />
+<b>Gear License Required: </b>Hand Tong Hand Scrape<br />
+Please consult VMRC Regulation <a href='http://mrc.virginia.gov/Regulations/FR720.shtm' target='_blank'>4 VAC 20-720</a> prior to harvesting.<br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/areamap.php?id=22' target='_blank'>Zoom View of Area</a><br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/OpenHarvestSeason.pdf' target='_blank'>Open Harvest Seasons by Area, Gear and Month</a><br />
+</body></html>]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampedToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates>-76.596924518,37.324959481,0 -76.595258255,37.326217249,0 -76.59343566,37.320385158,0 -76.588442009,37.319472410,0 -76.577904645,37.312322808,0 -76.572525723,37.309726674,0 -76.570423623,37.308814482,0 -76.578958249,37.302726785,0 -76.588706298,37.312372048,0 -76.595633627,37.320860400,0 -76.596924518,37.324959481,0 </coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </MultiGeometry>
+    </Placemark><Placemark id="23">
+      <name>York River Area 1B (YR1B)</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html>
+<body>
+<b>Open Harvest Area</b><br />
+<b>Water: </b>York River Central (YRM)<br />
+<span style='color:rgb(255,0,0)'>Rotation Area 1B</span><br />
+<b>Open Harvest Season: </b>October 1, 2023 through October 31, 2023, and December 1, 2023 through March 31, 2024 Hand Tong. Hand Scrape November, Feb 15-29<br />
+<b>Gear License Required: </b>Hand Tong Hand Scrape<br />
+Please consult VMRC Regulation <a href='http://mrc.virginia.gov/Regulations/FR720.shtm' target='_blank'>4 VAC 20-720</a> prior to harvesting.<br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/areamap.php?id=23' target='_blank'>Zoom View of Area</a><br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/OpenHarvestSeason.pdf' target='_blank'>Open Harvest Seasons by Area, Gear and Month</a><br />
+</body></html>]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampedToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates>-76.578958249,37.302726785,0 -76.570423623,37.308814482,0 -76.569206764,37.305694384,0 -76.576018372,37.299504449,0 -76.578958249,37.302726785,0 </coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </MultiGeometry>
+    </Placemark><Placemark id="72">
+      <name>York River Hand Tong Area PG 31 (YRHTA)</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html>
+<body>
+<b>Open Harvest Area</b><br />
+<b>Water: </b><br />
+<span style='color:rgb(255,0,0)'>All public ground</span><br />
+<b>Open Harvest Season: </b>November 1, 2023 through March 31, 2024<br />
+<b>Gear License Required: </b>Hand Tong<br />
+Please consult VMRC Regulation <a href='http://mrc.virginia.gov/Regulations/FR720.shtm' target='_blank'>4 VAC 20-720</a> prior to harvesting.<br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/areamap.php?id=72' target='_blank'>Zoom View of Area</a><br />
+<a href='https://webapps.mrc.virginia.gov/public/maps/OpenHarvestSeason.pdf' target='_blank'>Open Harvest Seasons by Area, Gear and Month</a><br />
+</body></html>]]></description>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <MultiGeometry>
+        <Polygon>
+          <extrude>0</extrude><altitudeMode>clampedToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates>-76.607033265,37.343172436,0 -76.598490334,37.337702816,0 -76.596534205,37.332466459,0 -76.596444736,37.331241451,0 -76.595466092,37.331032871,0 -76.596429449,37.328371901,0 -76.595430246,37.326767455,0 -76.595258255,37.326217249,0 -76.596924518,37.324959481,0 -76.598098537,37.328686963,0 -76.601987035,37.336152889,0 -76.605534591,37.341470478,0 -76.607033265,37.343172436,0 </coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </MultiGeometry>
+    </Placemark></Folder>
+  <Style id="PolyStyle00">
+    <LabelStyle>
+      <color>00000000</color>
+      <scale>0.000000</scale>
+    </LabelStyle>
+    <LineStyle>
+      <color>FFFFFFFF</color>
+      <width>2.000000</width>
+    </LineStyle>
+    <PolyStyle>
+      <color>7F00FFFF</color>
+      <outline>1</outline>
+    </PolyStyle>
+  </Style>
+</Document>
+</kml>
