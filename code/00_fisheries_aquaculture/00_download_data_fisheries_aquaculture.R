@@ -511,14 +511,6 @@ download_list <- c(clams,
 cl <- parallel::makeCluster(spec = 12, # number of clusters wanting to create
                             type = 'PSOCK')
 
-# make sure packages within function get loaded within the cluster (have to do for any non-base libraries)
-# parallel::clusterCall(cl = cl, fun = library, package = 'dplyr', character.only = TRUE)
-
-# add variables that need to get defined out of the function to the cluster
-# parallel::clusterExport(cl = cl,
-#                         varlist = c("download_list",
-#                                     "data_dir"))
-
 work <- parallel::parLapply(cl = cl, X = download_list, fun = data_download_function, data_dir = data_dir)
 
 parallel::stopCluster(cl = cl)
