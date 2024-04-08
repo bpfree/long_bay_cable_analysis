@@ -239,25 +239,6 @@ data_download_function <- function(download_list, data_dir){
     file.remove(file.path(data_dir, file))
   }
   
-  if (grepl("octocoral_gear_restrictions", file)){
-    
-    # grab text before ".zip" and keep only text before that
-    new_dir_name <- "octocoral_gear_restrictions"
-    
-    # create new directory for data
-    new_dir <- file.path(data_dir, new_dir_name)
-    
-    file <- list.files(data_dir)[grep(pattern = "octocoral_gear_restrictions",
-                                      x = list.files(data_dir))]
-    
-    # unzip the file
-    unzip(zipfile = file.path(data_dir, file),
-          # export file to the new data directory
-          exdir = new_dir)
-    # remove original zipped file
-    file.remove(file.path(data_dir, file))
-  }
-  
   if (grepl("roller_rig_trawls_restrictions", file)){
     
     # grab text before ".zip" and keep only text before that
@@ -286,6 +267,25 @@ data_download_function <- function(download_list, data_dir){
     new_dir <- file.path(data_dir, new_dir_name)
     
     file <- list.files(data_dir)[grep(pattern = "sargassum_restrictions",
+                                      x = list.files(data_dir))]
+    
+    # unzip the file
+    unzip(zipfile = file.path(data_dir, file),
+          # export file to the new data directory
+          exdir = new_dir)
+    # remove original zipped file
+    file.remove(file.path(data_dir, file))
+  }
+  
+  if (grepl("recreational_fishing_seasons_and_closures", file)){
+    
+    # grab text before ".zip" and keep only text before that
+    new_dir_name <- "recreational_fishing_seasons_and_closures"
+    
+    # create new directory for data
+    new_dir <- file.path(data_dir, new_dir_name)
+    
+    file <- list.files(data_dir)[grep(pattern = "recreational_fishing_seasons_and_closures",
                                       x = list.files(data_dir))]
     
     # unzip the file
@@ -384,7 +384,7 @@ pound_nets <- "https://webapps.mrc.virginia.gov/public/maps/kml/PN.kmz"
 staked_gill <- "https://webapps.mrc.virginia.gov/public/maps/kml/SGN.kmz"
 
 ### VMS Demarcation Line
-vms_demarcation <- "https://www.fisheries.noaa.gov/s3/2020-04/vms_demarcation_line_20140925.zip?null"
+vms_demarcation <- "https://www.fisheries.noaa.gov/s3/2020-04/vms_demarcation_line_20140925.zip"
 
 open_harvest <- "https://webapps.mrc.virginia.gov/public/maps/kml/OpenHarvest.kmz"
 oyster_garden <- "https://webapps.mrc.virginia.gov/public/maps/kml/OyGarden.kmz"
@@ -436,6 +436,8 @@ roller_rig_trawls <- "https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0
 sargassum_restriction <- "https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:sargassum_restrictions"
 
 scup_gear <- "https://media.fisheries.noaa.gov/2020-04/scup-gear-restricted-areas-20161114-noaa-garfo.zip"
+
+recreational_fishing_season_closure <- "https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:recreational_fishing_seasons_and_closures"
 
 #####################################
 #####################################
@@ -502,7 +504,8 @@ download_list <- c(clams,
                    octocoral_gear,
                    roller_rig_trawls,
                    sargassum_restriction,
-                   scup_gear)
+                   scup_gear,
+                   recreational_fishing_season_closure)
   
 # data_download_function(download_list, data_dir)
 
