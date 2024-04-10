@@ -70,19 +70,16 @@ pacman::p_load(docxtractr,
 ### then unzips the data for use
 
 data_download_function <- function(download_list, data_dir){
-  
-  # loop function across all datasets
-  for(i in 1:length(download_list)){
     
     # designate the URL that the data are hosted on
-    url <- download_list[i]
+    url <- download_list
     
     # file will become last part of the URL, so will be the data for download
     file <- basename(url)
     
     # Download the data
     if (!file.exists(file)) {
-      options(timeout=1000)
+      options(timeout=100000)
       # download the file from the URL
       download.file(url = url,
                     # place the downloaded file in the data directory
@@ -108,9 +105,6 @@ data_download_function <- function(download_list, data_dir){
       # remove original zipped file
       file.remove(file.path(data_dir, file))
     }
-    
-    dir <- file.path(data_dir, new_dir_name)
-  }
 }
 
 #####################################
@@ -284,7 +278,20 @@ download_list <- c(
   incidents
 )
 
-data_download_function(download_list, data_dir)
+#####################################
+#####################################
+
+parallel::detectCores()
+
+cl <- parallel::makeCluster(spec = parallel::detectCores(), # number of clusters wanting to create
+                            type = 'PSOCK')
+
+work <- parallel::parLapply(cl = cl, X = download_list, fun = data_download_function, data_dir = data_dir)
+
+parallel::stopCluster(cl = cl)
+
+# list all files in data directory
+list.files(data_dir)
 
 #####################################
 #####################################
