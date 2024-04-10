@@ -71,45 +71,39 @@ pacman::p_load(docxtractr,
 
 data_download_function <- function(download_list, data_dir){
   
-  # loop function across all datasets
-  for(i in 1:length(download_list)){
+  # designate the URL that the data are hosted on
+  url <- download_list
+  
+  # file will become last part of the URL, so will be the data for download
+  file <- basename(url)
+  
+  # Download the data
+  if (!file.exists(file)) {
+    options(timeout=1000)
+    # download the file from the URL
+    download.file(url = url,
+                  # place the downloaded file in the data directory
+                  destfile = file.path(data_dir, file),
+                  mode="wb")
+  }
+  
+  # Unzip the file if the data are compressed as .zip
+  ## Examine if the filename contains the pattern ".zip"
+  ### grepl returns a logic statement when pattern ".zip" is met in the file
+  if (grepl(".zip", file)){
     
-    # designate the URL that the data are hosted on
-    url <- download_list[i]
+    # grab text before ".zip" and keep only text before that
+    new_dir_name <- sub(".zip", "", file)
     
-    # file will become last part of the URL, so will be the data for download
-    file <- basename(url)
+    # create new directory for data
+    new_dir <- file.path(data_dir, new_dir_name)
     
-    # Download the data
-    if (!file.exists(file)) {
-      options(timeout=1000)
-      # download the file from the URL
-      download.file(url = url,
-                    # place the downloaded file in the data directory
-                    destfile = file.path(data_dir, file),
-                    mode="wb")
-    }
-    
-    # Unzip the file if the data are compressed as .zip
-    ## Examine if the filename contains the pattern ".zip"
-    ### grepl returns a logic statement when pattern ".zip" is met in the file
-    if (grepl(".zip", file)){
-      
-      # grab text before ".zip" and keep only text before that
-      new_dir_name <- sub(".zip", "", file)
-      
-      # create new directory for data
-      new_dir <- file.path(data_dir, new_dir_name)
-      
-      # unzip the file
-      unzip(zipfile = file.path(data_dir, file),
-            # export file to the new data directory
-            exdir = new_dir)
-      # remove original zipped file
-      file.remove(file.path(data_dir, file))
-    }
-    
-    dir <- file.path(data_dir, new_dir_name)
+    # unzip the file
+    unzip(zipfile = file.path(data_dir, file),
+          # export file to the new data directory
+          exdir = new_dir)
+    # remove original zipped file
+    file.remove(file.path(data_dir, file))
   }
 }
 
