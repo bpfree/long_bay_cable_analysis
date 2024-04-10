@@ -512,7 +512,9 @@ download_list <- c(clams,
 #####################################
 #####################################
 
-cl <- parallel::makeCluster(spec = 12, # number of clusters wanting to create
+parallel::detectCores()
+
+cl <- parallel::makeCluster(spec = parallel::detectCores(), # number of clusters wanting to create
                             type = 'PSOCK')
 
 work <- parallel::parLapply(cl = cl, X = download_list, fun = data_download_function, data_dir = data_dir)
