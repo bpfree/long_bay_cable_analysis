@@ -467,7 +467,7 @@ data_download_function <- function(download_list, data_dir){
     file.remove(file.path(data_dir, file))
   }
   
-  if (grepl("spot", file)){
+  if (grepl("spot$", file)){
     
     # grab text before ".zip" and keep only text before that
     new_dir_name <- "spot"
@@ -475,7 +475,7 @@ data_download_function <- function(download_list, data_dir){
     # create new directory for data
     new_dir <- file.path(data_dir, new_dir_name)
     
-    file <- list.files(data_dir)[grep(pattern = "spot",
+    file <- list.files(data_dir)[grep(pattern = "spot$",
                                       x = list.files(data_dir))]
     
     # unzip the file
@@ -524,15 +524,15 @@ data_download_function <- function(download_list, data_dir){
     file.remove(file.path(data_dir, file))
   }
   
-  if (grepl("marmap", file)){
+  if (grepl("marmap_biodiv_index", file)){
     
     # grab text before ".zip" and keep only text before that
-    new_dir_name <- "marmap"
+    new_dir_name <- "marmap_biodiv_index"
     
     # create new directory for data
     new_dir <- file.path(data_dir, new_dir_name)
     
-    file <- list.files(data_dir)[grep(pattern = "marmap",
+    file <- list.files(data_dir)[grep(pattern = "marmap_biodiv_index",
                                       x = list.files(data_dir))]
     
     # unzip the file
@@ -1037,25 +1037,6 @@ data_download_function <- function(download_list, data_dir){
     file.remove(file.path(data_dir, file))
   }
   
-  if (grepl("brown_shrimp", file)){
-    
-    # grab text before ".zip" and keep only text before that
-    new_dir_name <- "brown_shrimp"
-    
-    # create new directory for data
-    new_dir <- file.path(data_dir, new_dir_name)
-    
-    file <- list.files(data_dir)[grep(pattern = "brown_shrimp",
-                                      x = list.files(data_dir))]
-    
-    # unzip the file
-    unzip(zipfile = file.path(data_dir, file),
-          # export file to the new data directory
-          exdir = new_dir)
-    # remove original zipped file
-    file.remove(file.path(data_dir, file))
-  }
-  
   if (grepl("marmap_blackfish_trap_survey_1990_2009", file)){
     
     # grab text before ".zip" and keep only text before that
@@ -1472,10 +1453,10 @@ list.files(data_dir)
 #####################################
 #####################################
 
-# file.rename(from = file.path(data_dir, list.files(data_dir,
-#                                                   # get the Southeast_Blueprint directory
-#                                                   pattern = "Southeast_Blueprint")),
-#             to = file.path(data_dir, "Southeast_Blueprint"))
+file.rename(from = file.path(data_dir, list.files(data_dir,
+                                                  # get the Southeast_Blueprint directory
+                                                  pattern = "Southeast_Blueprint")),
+            to = file.path(data_dir, "Southeast_Blueprint"))
 
 list.files(data_dir)
 
