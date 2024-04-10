@@ -70,94 +70,90 @@ pacman::p_load(docxtractr,
 ### then unzips the data for use
 
 data_download_function <- function(download_list, data_dir){
+    
+  # designate the URL that the data are hosted on
+  url <- download_list
   
-  # loop function across all datasets
-  for(i in 1:length(download_list)){
+  # file will become last part of the URL, so will be the data for download
+  file <- basename(url)
+  
+  # Download the data
+  if (!file.exists(file)) {
+    options(timeout=100000)
+    # download the file from the URL
+    download.file(url = url,
+                  # place the downloaded file in the data directory
+                  destfile = file.path(data_dir, file),
+                  mode="wb")
+  }
+  
+  # Unzip the file if the data are compressed as .zip
+  ## Examine if the filename contains the pattern ".zip"
+  ### grepl returns a logic statement when pattern ".zip" is met in the file
+  if (grepl(".zip", file)){
     
-    # designate the URL that the data are hosted on
-    url <- download_list[i]
+    # grab text before ".zip" and keep only text before that
+    new_dir_name <- sub(".zip", "", file)
     
-    # file will become last part of the URL, so will be the data for download
-    file <- basename(url)
+    # create new directory for data
+    new_dir <- file.path(data_dir, new_dir_name)
     
-    # Download the data
-    if (!file.exists(file)) {
-      options(timeout=100000)
-      # download the file from the URL
-      download.file(url = url,
-                    # place the downloaded file in the data directory
-                    destfile = file.path(data_dir, file),
-                    mode="wb")
-    }
+    # unzip the file
+    unzip(zipfile = file.path(data_dir, file),
+          # export file to the new data directory
+          exdir = new_dir)
+    # remove original zipped file
+    file.remove(file.path(data_dir, file))
+  }
+  
+  if (grepl("682786", file)){
     
-    # Unzip the file if the data are compressed as .zip
-    ## Examine if the filename contains the pattern ".zip"
-    ### grepl returns a logic statement when pattern ".zip" is met in the file
-    if (grepl(".zip", file)){
-      
-      # grab text before ".zip" and keep only text before that
-      new_dir_name <- sub(".zip", "", file)
-      
-      # create new directory for data
-      new_dir <- file.path(data_dir, new_dir_name)
-      
-      # unzip the file
-      unzip(zipfile = file.path(data_dir, file),
-            # export file to the new data directory
-            exdir = new_dir)
-      # remove original zipped file
-      file.remove(file.path(data_dir, file))
-    }
+    # grab text before ".zip" and keep only text before that
+    new_dir_name <- "nps_historic"
     
-    if (grepl("682786", file)){
-      
-      # grab text before ".zip" and keep only text before that
-      new_dir_name <- "nps_historic"
-      
-      # create new directory for data
-      new_dir <- file.path(data_dir, new_dir_name)
-      
-      # unzip the file
-      unzip(zipfile = file.path(data_dir, file),
-            # export file to the new data directory
-            exdir = new_dir)
-      # remove original zipped file
-      file.remove(file.path(data_dir, file))
-    }
+    # create new directory for data
+    new_dir <- file.path(data_dir, new_dir_name)
     
-    if (grepl(".kmz", file)){
-      
-      ## Virginia habitat permit applications (2023)
-      file.rename(from=file.path(data_dir, "Habitat23.kmz"),  # Make default download directory flexible
-                  # send to the raw data directory
-                  to=file.path(data_dir, "va_habitat.zip"))
-      
-      unzip(zipfile = file.path(data_dir, "va_habitat.zip"),
-            # export file to the new data directory
-            exdir = data_dir)
-      
-      file.rename(from=file.path(data_dir, "doc.kml"),  # Make default download directory flexible
-                  # send to the raw data directory
-                  to=file.path(data_dir, "va_habitat_permit.kml"))
-      
-      ## remove original zipped file
-      file.remove(file.path(data_dir, "va_habitat.zip"))
-    }
+    # unzip the file
+    unzip(zipfile = file.path(data_dir, file),
+          # export file to the new data directory
+          exdir = new_dir)
+    # remove original zipped file
+    file.remove(file.path(data_dir, file))
+  }
+  
+  if (grepl(".kmz", file)){
     
-    if (grepl("open", file)){
-      
-      new_dir_name <- "nps_historic"
-      
-      # create new directory for data
-      new_dir <- file.path(data_dir, new_dir_name)
-      
-      # unzip the file
-      unzip(zipfile = file.path(data_dir, file),
-            # export file to the new data directory
-            exdir = new_dir)
-      # remove original zipped file
-      file.remove(file.path(data_dir, file))
-    }
+    ## Virginia habitat permit applications (2023)
+    file.rename(from=file.path(data_dir, "Habitat23.kmz"),  # Make default download directory flexible
+                # send to the raw data directory
+                to=file.path(data_dir, "va_habitat.zip"))
+    
+    unzip(zipfile = file.path(data_dir, "va_habitat.zip"),
+          # export file to the new data directory
+          exdir = data_dir)
+    
+    file.rename(from=file.path(data_dir, "doc.kml"),  # Make default download directory flexible
+                # send to the raw data directory
+                to=file.path(data_dir, "va_habitat_permit.kml"))
+    
+    ## remove original zipped file
+    file.remove(file.path(data_dir, "va_habitat.zip"))
+  }
+  
+  if (grepl("open", file)){
+    
+    new_dir_name <- "nps_historic"
+    
+    # create new directory for data
+    new_dir <- file.path(data_dir, new_dir_name)
+    
+    # unzip the file
+    unzip(zipfile = file.path(data_dir, file),
+          # export file to the new data directory
+          exdir = new_dir)
+    # remove original zipped file
+    file.remove(file.path(data_dir, file))
   }
 }
 
@@ -269,7 +265,20 @@ download_list <- c(
   southeast_blueprint
 )
 
-data_download_function(download_list, data_dir)
+#####################################
+#####################################
+
+parallel::detectCores()
+
+cl <- parallel::makeCluster(spec = parallel::detectCores(), # number of clusters wanting to create
+                            type = 'PSOCK')
+
+work <- parallel::parLapply(cl = cl, X = download_list, fun = data_download_function, data_dir = data_dir)
+
+parallel::stopCluster(cl = cl)
+
+# list all files in data directory
+list.files(data_dir)
 
 #####################################
 #####################################
