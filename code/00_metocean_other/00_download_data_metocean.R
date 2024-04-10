@@ -71,225 +71,221 @@ pacman::p_load(docxtractr,
 
 data_download_function <- function(download_list, data_dir){
   
-  # loop function across all datasets
-  for(i in 1:length(download_list)){
+  # designate the URL that the data are hosted on
+  url <- download_list
+  
+  # file will become last part of the URL, so will be the data for download
+  file <- basename(url)
+  
+  # Download the data
+  if (!file.exists(file)) {
+    options(timeout=100000)
+    # download the file from the URL
+    download.file(url = url,
+                  # place the downloaded file in the data directory
+                  destfile = file.path(data_dir, file),
+                  mode="wb")
+  }
+  
+  if (grepl("southeast_bathymetry_meters", file)){
     
-    # designate the URL that the data are hosted on
-    url <- download_list[i]
+    # grab text before ".zip" and keep only text before that
+    new_dir_name <- "southeast_bathymetry_meters"
     
-    # file will become last part of the URL, so will be the data for download
-    file <- basename(url)
+    # create new directory for data
+    new_dir <- file.path(data_dir, new_dir_name)
     
-    # Download the data
-    if (!file.exists(file)) {
-      options(timeout=1000000)
-      # download the file from the URL
-      download.file(url = url,
-                    # place the downloaded file in the data directory
-                    destfile = file.path(data_dir, file),
-                    mode="wb")
-    }
+    file <- list.files(data_dir)[grep(pattern = "southeast_bathymetry_meters",
+                                      x = list.files(data_dir))]
     
-    if (grepl("southeast_bathymetry_meters", file)){
-      
-      # grab text before ".zip" and keep only text before that
-      new_dir_name <- "southeast_bathymetry_meters"
-      
-      # create new directory for data
-      new_dir <- file.path(data_dir, new_dir_name)
-      
-      file <- list.files(data_dir)[grep(pattern = "southeast_bathymetry_meters",
-                                        x = list.files(data_dir))]
-      
-      # unzip the file
-      unzip(zipfile = file.path(data_dir, file),
-            # export file to the new data directory
-            exdir = new_dir)
-      # remove original zipped file
-      file.remove(file.path(data_dir, file))
-    }
+    # unzip the file
+    unzip(zipfile = file.path(data_dir, file),
+          # export file to the new data directory
+          exdir = new_dir)
+    # remove original zipped file
+    file.remove(file.path(data_dir, file))
+  }
+  
+  if (grepl("undersea_features", file)){
     
-    if (grepl("undersea_features", file)){
-      
-      # grab text before ".zip" and keep only text before that
-      new_dir_name <- "undersea_features"
-      
-      # create new directory for data
-      new_dir <- file.path(data_dir, new_dir_name)
-      
-      file <- list.files(data_dir)[grep(pattern = "undersea_features",
-                                        x = list.files(data_dir))]
-      
-      # unzip the file
-      unzip(zipfile = file.path(data_dir, file),
-            # export file to the new data directory
-            exdir = new_dir)
-      # remove original zipped file
-      file.remove(file.path(data_dir, file))
-    }
+    # grab text before ".zip" and keep only text before that
+    new_dir_name <- "undersea_features"
     
-    if (grepl("limit_of_ocsla_8g_zone", file)){
-      
-      # grab text before ".zip" and keep only text before that
-      new_dir_name <- "limit_of_ocsla_8g_zone"
-      
-      # create new directory for data
-      new_dir <- file.path(data_dir, new_dir_name)
-      
-      file <- list.files(data_dir)[grep(pattern = "limit_of_ocsla_8g_zone",
-                                        x = list.files(data_dir))]
-      
-      # unzip the file
-      unzip(zipfile = file.path(data_dir, file),
-            # export file to the new data directory
-            exdir = new_dir)
-      # remove original zipped file
-      file.remove(file.path(data_dir, file))
-    }
+    # create new directory for data
+    new_dir <- file.path(data_dir, new_dir_name)
     
-    if (grepl("submerged_land_acts_boundary_3_nm", file)){
-      
-      # grab text before ".zip" and keep only text before that
-      new_dir_name <- "submerged_land_acts_boundary_3_nm"
-      
-      # create new directory for data
-      new_dir <- file.path(data_dir, new_dir_name)
-      
-      file <- list.files(data_dir)[grep(pattern = "submerged_land_acts_boundary_3_nm",
-                                        x = list.files(data_dir))]
-      
-      # unzip the file
-      unzip(zipfile = file.path(data_dir, file),
-            # export file to the new data directory
-            exdir = new_dir)
-      # remove original zipped file
-      file.remove(file.path(data_dir, file))
-    }
+    file <- list.files(data_dir)[grep(pattern = "undersea_features",
+                                      x = list.files(data_dir))]
     
-    if (grepl("dod_wind", file)){
-      
-      # grab text before ".zip" and keep only text before that
-      new_dir_name <- "dod_wind"
-      
-      # create new directory for data
-      new_dir <- file.path(data_dir, new_dir_name)
-      
-      file <- list.files(data_dir)[grep(pattern = "dod_wind",
-                                        x = list.files(data_dir))]
-      
-      # unzip the file
-      unzip(zipfile = file.path(data_dir, file),
-            # export file to the new data directory
-            exdir = new_dir)
-      # remove original zipped file
-      file.remove(file.path(data_dir, file))
-    }
+    # unzip the file
+    unzip(zipfile = file.path(data_dir, file),
+          # export file to the new data directory
+          exdir = new_dir)
+    # remove original zipped file
+    file.remove(file.path(data_dir, file))
+  }
+  
+  if (grepl("limit_of_ocsla_8g_zone", file)){
     
-    if (grepl("shrimp_vms", file)){
-      
-      # grab text before ".zip" and keep only text before that
-      new_dir_name <- "shrimp_vms"
-      
-      # create new directory for data
-      new_dir <- file.path(data_dir, new_dir_name)
-      
-      file <- list.files(data_dir)[grep(pattern = "shrimp_vms",
-                                        x = list.files(data_dir))]
-      
-      # unzip the file
-      unzip(zipfile = file.path(data_dir, file),
-            # export file to the new data directory
-            exdir = new_dir)
-      # remove original zipped file
-      file.remove(file.path(data_dir, file))
-    }
+    # grab text before ".zip" and keep only text before that
+    new_dir_name <- "limit_of_ocsla_8g_zone"
     
-    if (grepl("ShellBase-NC", file)){
-      
-      # grab text before ".zip" and keep only text before that
-      new_dir_name <- "ShellBase-NC"
-      
-      # create new directory for data
-      new_dir <- file.path(data_dir, new_dir_name)
-      
-      file <- list.files(data_dir)[grep(pattern = "ShellBase-NC",
-                                        x = list.files(data_dir))]
-      
-      # unzip the file
-      unzip(zipfile = file.path(data_dir, file),
-            # export file to the new data directory
-            exdir = new_dir)
-      # remove original zipped file
-      file.remove(file.path(data_dir, file))
-    }
+    # create new directory for data
+    new_dir <- file.path(data_dir, new_dir_name)
     
-    if (grepl("ShellBase-SC", file)){
-      
-      # grab text before ".zip" and keep only text before that
-      new_dir_name <- "ShellBase-SC"
-      
-      # create new directory for data
-      new_dir <- file.path(data_dir, new_dir_name)
-      
-      file <- list.files(data_dir)[grep(pattern = "ShellBase-SC",
-                                        x = list.files(data_dir))]
-      
-      # unzip the file
-      unzip(zipfile = file.path(data_dir, file),
-            # export file to the new data directory
-            exdir = new_dir)
-      # remove original zipped file
-      file.remove(file.path(data_dir, file))
-    }
+    file <- list.files(data_dir)[grep(pattern = "limit_of_ocsla_8g_zone",
+                                      x = list.files(data_dir))]
     
-    # Unzip the file if the data are compressed as .zip
-    ## Examine if the filename contains the pattern ".zip"
-    ### grepl returns a logic statement when pattern ".zip" is met in the file
-    if (grepl(".zip", file)){
-      
-      # grab text before ".zip" and keep only text before that
-      new_dir_name <- sub(".zip", "", file)
-      
-      # create new directory for data
-      new_dir <- file.path(data_dir, new_dir_name)
-      
-      # unzip the file
-      unzip(zipfile = file.path(data_dir, file),
-            # export file to the new data directory
-            exdir = new_dir)
-      # remove original zipped file
-      file.remove(file.path(data_dir, file))
-    }
+    # unzip the file
+    unzip(zipfile = file.path(data_dir, file),
+          # export file to the new data directory
+          exdir = new_dir)
+    # remove original zipped file
+    file.remove(file.path(data_dir, file))
+  }
+  
+  if (grepl("submerged_land_acts_boundary_3_nm", file)){
     
-    if (grepl("698044", file)){
-      
-      new_dir_name <- "nps_boundaries"
-      
-      # create new directory for data
-      new_dir <- file.path(data_dir, new_dir_name)
-      
-      # unzip the file
-      unzip(zipfile = file.path(data_dir, file),
-            # export file to the new data directory
-            exdir = new_dir)
-      # remove original zipped file
-      file.remove(file.path(data_dir, file))
-    }
+    # grab text before ".zip" and keep only text before that
+    new_dir_name <- "submerged_land_acts_boundary_3_nm"
     
-    if (grepl("NREL-HourlyWind", file)){
-      
-      new_dir_name <- "nrel_wind"
-      
-      # create new directory for data
-      new_dir <- file.path(data_dir, new_dir_name)
-      
-      # unzip the file
-      unzip(zipfile = file.path(data_dir, file),
-            # export file to the new data directory
-            exdir = new_dir)
-      # remove original zipped file
-      file.remove(file.path(data_dir, file))
-    }
+    # create new directory for data
+    new_dir <- file.path(data_dir, new_dir_name)
+    
+    file <- list.files(data_dir)[grep(pattern = "submerged_land_acts_boundary_3_nm",
+                                      x = list.files(data_dir))]
+    
+    # unzip the file
+    unzip(zipfile = file.path(data_dir, file),
+          # export file to the new data directory
+          exdir = new_dir)
+    # remove original zipped file
+    file.remove(file.path(data_dir, file))
+  }
+  
+  if (grepl("dod_wind", file)){
+    
+    # grab text before ".zip" and keep only text before that
+    new_dir_name <- "dod_wind"
+    
+    # create new directory for data
+    new_dir <- file.path(data_dir, new_dir_name)
+    
+    file <- list.files(data_dir)[grep(pattern = "dod_wind",
+                                      x = list.files(data_dir))]
+    
+    # unzip the file
+    unzip(zipfile = file.path(data_dir, file),
+          # export file to the new data directory
+          exdir = new_dir)
+    # remove original zipped file
+    file.remove(file.path(data_dir, file))
+  }
+  
+  if (grepl("shrimp_vms", file)){
+    
+    # grab text before ".zip" and keep only text before that
+    new_dir_name <- "shrimp_vms"
+    
+    # create new directory for data
+    new_dir <- file.path(data_dir, new_dir_name)
+    
+    file <- list.files(data_dir)[grep(pattern = "shrimp_vms",
+                                      x = list.files(data_dir))]
+    
+    # unzip the file
+    unzip(zipfile = file.path(data_dir, file),
+          # export file to the new data directory
+          exdir = new_dir)
+    # remove original zipped file
+    file.remove(file.path(data_dir, file))
+  }
+  
+  if (grepl("ShellBase-NC", file)){
+    
+    # grab text before ".zip" and keep only text before that
+    new_dir_name <- "ShellBase-NC"
+    
+    # create new directory for data
+    new_dir <- file.path(data_dir, new_dir_name)
+    
+    file <- list.files(data_dir)[grep(pattern = "ShellBase-NC",
+                                      x = list.files(data_dir))]
+    
+    # unzip the file
+    unzip(zipfile = file.path(data_dir, file),
+          # export file to the new data directory
+          exdir = new_dir)
+    # remove original zipped file
+    file.remove(file.path(data_dir, file))
+  }
+  
+  if (grepl("ShellBase-SC", file)){
+    
+    # grab text before ".zip" and keep only text before that
+    new_dir_name <- "ShellBase-SC"
+    
+    # create new directory for data
+    new_dir <- file.path(data_dir, new_dir_name)
+    
+    file <- list.files(data_dir)[grep(pattern = "ShellBase-SC",
+                                      x = list.files(data_dir))]
+    
+    # unzip the file
+    unzip(zipfile = file.path(data_dir, file),
+          # export file to the new data directory
+          exdir = new_dir)
+    # remove original zipped file
+    file.remove(file.path(data_dir, file))
+  }
+  
+  # Unzip the file if the data are compressed as .zip
+  ## Examine if the filename contains the pattern ".zip"
+  ### grepl returns a logic statement when pattern ".zip" is met in the file
+  if (grepl(".zip", file)){
+    
+    # grab text before ".zip" and keep only text before that
+    new_dir_name <- sub(".zip", "", file)
+    
+    # create new directory for data
+    new_dir <- file.path(data_dir, new_dir_name)
+    
+    # unzip the file
+    unzip(zipfile = file.path(data_dir, file),
+          # export file to the new data directory
+          exdir = new_dir)
+    # remove original zipped file
+    file.remove(file.path(data_dir, file))
+  }
+  
+  if (grepl("698044", file)){
+    
+    new_dir_name <- "nps_boundaries"
+    
+    # create new directory for data
+    new_dir <- file.path(data_dir, new_dir_name)
+    
+    # unzip the file
+    unzip(zipfile = file.path(data_dir, file),
+          # export file to the new data directory
+          exdir = new_dir)
+    # remove original zipped file
+    file.remove(file.path(data_dir, file))
+  }
+  
+  if (grepl("NREL-HourlyWind", file)){
+    
+    new_dir_name <- "nrel_wind"
+    
+    # create new directory for data
+    new_dir <- file.path(data_dir, new_dir_name)
+    
+    # unzip the file
+    unzip(zipfile = file.path(data_dir, file),
+          # export file to the new data directory
+          exdir = new_dir)
+    # remove original zipped file
+    file.remove(file.path(data_dir, file))
   }
 }
 
@@ -482,7 +478,20 @@ download_list <- c(
   shellbase_sc
 )
 
-data_download_function(download_list, data_dir)
+#####################################
+#####################################
+
+parallel::detectCores()
+
+cl <- parallel::makeCluster(spec = parallel::detectCores(), # number of clusters wanting to create
+                            type = 'PSOCK')
+
+work <- parallel::parLapply(cl = cl, X = download_list, fun = data_download_function, data_dir = data_dir)
+
+parallel::stopCluster(cl = cl)
+
+# list all files in data directory
+list.files(data_dir)
 
 #####################################
 #####################################
