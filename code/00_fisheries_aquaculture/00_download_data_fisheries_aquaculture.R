@@ -79,7 +79,7 @@ data_download_function <- function(download_list, data_dir){
   
   # Download the data
   if (!file.exists(file)) {
-    options(timeout=1000)
+    options(timeout=100000)
     # download the file from the URL
     download.file(url = url,
                   # place the downloaded file in the data directory
@@ -506,8 +506,6 @@ download_list <- c(clams,
                    sargassum_restriction,
                    scup_gear,
                    recreational_fishing_season_closure)
-  
-# data_download_function(download_list, data_dir)
 
 #####################################
 #####################################
