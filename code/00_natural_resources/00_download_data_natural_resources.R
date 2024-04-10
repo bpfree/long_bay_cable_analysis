@@ -87,16 +87,14 @@ data_download_function <- function(download_list, data_dir){
                   mode="wb")
   }
   
+  # unzip and prepare data hosted on AXDS's GSAA server
   if (grepl("gsaa", file)){
     
-    # grab text before ".zip" and keep only text before that
+    # grab unique file name portion
     new_dir_name <- unlist(strsplit(file, split=':', fixed=TRUE))[2]
     
     # create new directory for data
     new_dir <- file.path(data_dir, new_dir_name)
-    
-    # file <- list.files(data_dir)[grep(pattern = new_dir_name,
-    #                                   x = list.files(data_dir))]
     
     # unzip the file
     unzip(zipfile = file.path(data_dir, file),
@@ -106,17 +104,15 @@ data_download_function <- function(download_list, data_dir){
     file.remove(file.path(data_dir, file))
   }
   
+  # unzip and prepare data hosted on AXDS's SECOORA server
   if (grepl("secoora", file)){
     
-    # grab text before ".zip" and keep only text before that
+    # grab unique file name portion
     new_dir_name <- unlist(strsplit(file, split=':', fixed=TRUE))[2]
     
     # create new directory for data
     new_dir <- file.path(data_dir, new_dir_name)
-    
-    # file <- list.files(data_dir)[grep(pattern = new_dir_name,
-    #                                   x = list.files(data_dir))]
-    
+
     # unzip the file
     unzip(zipfile = file.path(data_dir, file),
           # export file to the new data directory
@@ -144,6 +140,7 @@ data_download_function <- function(download_list, data_dir){
     file.remove(file.path(data_dir, file))
   }
   
+  # change .kmz files to .kml files
   if (grepl(".kmz", file)){
     
     ## clam grounds
@@ -431,6 +428,13 @@ file.rename(from = file.path(data_dir, list.files(data_dir,
                                                   # get the Southeast_Blueprint directory
                                                   pattern = "Southeast_Blueprint")),
             to = file.path(data_dir, "Southeast_Blueprint"))
+
+list.files(data_dir)
+
+file.rename(from = file.path(data_dir, list.files(data_dir,
+                                                  # get shorebird directory
+                                                  pattern = "NA")),
+            to = file.path(data_dir, "shorebird_nests"))
 
 list.files(data_dir)
 
