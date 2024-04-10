@@ -1,6 +1,6 @@
-##############################################
+#############################################
 ### 0. Download Data -- natural resources ###
-##############################################
+#############################################
 
 # clear environment
 rm(list = ls())
@@ -69,102 +69,264 @@ pacman::p_load(docxtractr,
 ### The function downloads the desired data from the URL provided and
 ### then unzips the data for use
 
-i <- 1
-download_list <- c("https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:coastmigpelhapc")
-
 data_download_function <- function(download_list, data_dir){
   
-  # loop function across all datasets
-  for(i in 1:length(download_list)){
+  # designate the URL that the data are hosted on
+  url <- download_list[i]
+  
+  # file will become last part of the URL, so will be the data for download
+  file <- basename(url)
+  
+  # Download the data
+  if (!file.exists(file)) {
+    options(timeout=100000)
+    # download the file from the URL
+    download.file(url = url,
+                  # place the downloaded file in the data directory
+                  destfile = file.path(data_dir, file),
+                  mode="wb")
+  }
+  
+  if (grepl("coralhapc", file)){
     
-    # designate the URL that the data are hosted on
-    url <- download_list[i]
+    # grab text before ".zip" and keep only text before that
+    new_dir_name <- "coralhapc"
     
-    # file will become last part of the URL, so will be the data for download
-    file <- basename(url)
+    # create new directory for data
+    new_dir <- file.path(data_dir, new_dir_name)
     
-    # Download the data
-    if (!file.exists(file)) {
-      options(timeout=100000)
-      # download the file from the URL
-      download.file(url = url,
-                    # place the downloaded file in the data directory
-                    destfile = file.path(data_dir, file),
-                    mode="wb")
-    }
+    file <- list.files(data_dir)[grep(pattern = "coralhapc",
+                                      x = list.files(data_dir))]
     
-    if (grepl("coastmigpelhapc", file)){
-      
-      # grab text before ".zip" and keep only text before that
-      new_dir_name <- "coastmigpelhapc"
-      
-      # create new directory for data
-      new_dir <- file.path(data_dir, new_dir_name)
-      
-      file <- list.files(data_dir)[grep(pattern = "coastmigpelhapc",
-                                        x = list.files(data_dir))]
-      
-      # unzip the file
-      unzip(zipfile = file.path(data_dir, file),
-            # export file to the new data directory
-            exdir = new_dir)
-      # remove original zipped file
-      file.remove(file.path(data_dir, file))
-    }
+    # unzip the file
+    unzip(zipfile = file.path(data_dir, file),
+          # export file to the new data directory
+          exdir = new_dir)
+    # remove original zipped file
+    file.remove(file.path(data_dir, file))
+  }
+  
+  if (grepl("coastmigpelhapc", file)){
     
-    # Unzip the file if the data are compressed as .zip
-    ## Examine if the filename contains the pattern ".zip"
-    ### grepl returns a logic statement when pattern ".zip" is met in the file
-    if (grepl(".zip", file)){
-      
-      # grab text before ".zip" and keep only text before that
-      new_dir_name <- sub(".zip", "", file)
-      
-      # create new directory for data
-      new_dir <- file.path(data_dir, new_dir_name)
-      
-      # unzip the file
-      unzip(zipfile = file.path(data_dir, file),
-            # export file to the new data directory
-            exdir = new_dir)
-      # remove original zipped file
-      file.remove(file.path(data_dir, file))
-    }
+    # grab text before ".zip" and keep only text before that
+    new_dir_name <- "coastmigpelhapc"
     
-    if (grepl("682786", file)){
-      
-      # grab text before ".zip" and keep only text before that
-      new_dir_name <- "nps_historic"
-      
-      # create new directory for data
-      new_dir <- file.path(data_dir, new_dir_name)
-      
-      # unzip the file
-      unzip(zipfile = file.path(data_dir, file),
-            # export file to the new data directory
-            exdir = new_dir)
-      # remove original zipped file
-      file.remove(file.path(data_dir, file))
-    }
+    # create new directory for data
+    new_dir <- file.path(data_dir, new_dir_name)
     
-    if (grepl(".kmz", file)){
-      
-      ## Virginia habitat permit applications (2023)
-      file.rename(from=file.path(data_dir, file),  # Make default download directory flexible
-                  # send to the raw data directory
-                  to=file.path(data_dir, "va_habitat.zip"))
-      
-      unzip(zipfile = file.path(data_dir, "va_habitat.zip"),
-            # export file to the new data directory
-            exdir = data_dir)
-      
-      file.rename(from=file.path(data_dir, "doc.kml"),  # Make default download directory flexible
-                  # send to the raw data directory
-                  to=file.path(data_dir, "va_habitat_permit.kml"))
-      
-      ## remove original zipped file
-      file.remove(file.path(data_dir, "va_habitat.zip"))
-    }
+    file <- list.files(data_dir)[grep(pattern = "coastmigpelhapc",
+                                      x = list.files(data_dir))]
+    
+    # unzip the file
+    unzip(zipfile = file.path(data_dir, file),
+          # export file to the new data directory
+          exdir = new_dir)
+    # remove original zipped file
+    file.remove(file.path(data_dir, file))
+  }
+  
+  if (grepl("dolphin_wahoo_efh_hapc", file)){
+    
+    # grab text before ".zip" and keep only text before that
+    new_dir_name <- "dolphin_wahoo_efh_hapc"
+    
+    # create new directory for data
+    new_dir <- file.path(data_dir, new_dir_name)
+    
+    file <- list.files(data_dir)[grep(pattern = "dolphin_wahoo_efh_hapc",
+                                      x = list.files(data_dir))]
+    
+    # unzip the file
+    unzip(zipfile = file.path(data_dir, file),
+          # export file to the new data directory
+          exdir = new_dir)
+    # remove original zipped file
+    file.remove(file.path(data_dir, file))
+  }
+  
+  if (grepl("snapper_grouper_efh_hapc", file)){
+    
+    # grab text before ".zip" and keep only text before that
+    new_dir_name <- "snapper_grouper_efh_hapc"
+    
+    # create new directory for data
+    new_dir <- file.path(data_dir, new_dir_name)
+    
+    file <- list.files(data_dir)[grep(pattern = "snapper_grouper_efh_hapc",
+                                      x = list.files(data_dir))]
+    
+    # unzip the file
+    unzip(zipfile = file.path(data_dir, file),
+          # export file to the new data directory
+          exdir = new_dir)
+    # remove original zipped file
+    file.remove(file.path(data_dir, file))
+  }
+  
+  if (grepl("tilefish_efh_hapc", file)){
+    
+    # grab text before ".zip" and keep only text before that
+    new_dir_name <- "tilefish_efh_hapc"
+    
+    # create new directory for data
+    new_dir <- file.path(data_dir, new_dir_name)
+    
+    file <- list.files(data_dir)[grep(pattern = "tilefish_efh_hapc",
+                                      x = list.files(data_dir))]
+    
+    # unzip the file
+    unzip(zipfile = file.path(data_dir, file),
+          # export file to the new data directory
+          exdir = new_dir)
+    # remove original zipped file
+    file.remove(file.path(data_dir, file))
+  }
+  
+  if (grepl("shrimpefh", file)){
+    
+    # grab text before ".zip" and keep only text before that
+    new_dir_name <- "shrimpefh"
+    
+    # create new directory for data
+    new_dir <- file.path(data_dir, new_dir_name)
+    
+    file <- list.files(data_dir)[grep(pattern = "shrimpefh",
+                                      x = list.files(data_dir))]
+    
+    # unzip the file
+    unzip(zipfile = file.path(data_dir, file),
+          # export file to the new data directory
+          exdir = new_dir)
+    # remove original zipped file
+    file.remove(file.path(data_dir, file))
+  }
+  
+  if (grepl("dolphin_wahoo_efh", file)){
+    
+    # grab text before ".zip" and keep only text before that
+    new_dir_name <- "dolphin_wahoo_efh"
+    
+    # create new directory for data
+    new_dir <- file.path(data_dir, new_dir_name)
+    
+    file <- list.files(data_dir)[grep(pattern = "dolphin_wahoo_efh",
+                                      x = list.files(data_dir))]
+    
+    # unzip the file
+    unzip(zipfile = file.path(data_dir, file),
+          # export file to the new data directory
+          exdir = new_dir)
+    # remove original zipped file
+    file.remove(file.path(data_dir, file))
+  }
+  
+  if (grepl("spinylobsterefh", file)){
+    
+    # grab text before ".zip" and keep only text before that
+    new_dir_name <- "spinylobsterefh"
+    
+    # create new directory for data
+    new_dir <- file.path(data_dir, new_dir_name)
+    
+    file <- list.files(data_dir)[grep(pattern = "spinylobsterefh",
+                                      x = list.files(data_dir))]
+    
+    # unzip the file
+    unzip(zipfile = file.path(data_dir, file),
+          # export file to the new data directory
+          exdir = new_dir)
+    # remove original zipped file
+    file.remove(file.path(data_dir, file))
+  }
+  
+  spiny_lobster <- "https://data.axds.co/gs/secoora/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=secoora:"
+  golden_crab <- "https://data.axds.co/gs/secoora/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=secoora:goldencrabefh"
+  deepwater_coral <- "https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:deepwater_coral_hapcs"
+  critical_habitat <- "https://ecos.fws.gov/docs/crithab/crithab_all/crithab_all_layers.zip"
+  
+  shorebird_nests <- "https://data.axds.co/gs/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa_shorebirds"
+  seamap_loggerhead <- "https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:seamap_turtle"
+  kemp_ridley_seaturtle <- "https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:in_water_kemps"
+  
+  coral_mounds <- "https://data.axds.co/gs/secoora/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=secoora:coral_mounds"
+  se_atl_artificial_reef <- "https://data.axds.co/gs/secoora/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=secoora:artificial_reefs"
+  na_right_whale_sighting <- "https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:north_american_right_whale"
+  piping_plover <- "https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:pipingplover_se"
+  weakfish <- "https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:weakfish"
+  sharpnose_shark <- "https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:atlantic_sharpnose_shark"
+  croaker <- "https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:atlantic_croaker"
+  spot <- "https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:spot"
+  bluefish <- "https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:bluefish"
+  southern_kingfish <- "https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:southern_kingfish"
+  
+  marmap <- "https://data.axds.co/gs/secoora/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=secoora:marmap_biodiv_index"
+  vermillion_snapper_trap <- "https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:trap_vermillion_snapper"
+  snow_grouper_short_bottom_ll  <- "https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:short_bottom_longline_snowy_grouper"
+  scup_trap <- "https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:trap_scup"
+  scamp_grouper_trap <- "https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:trap_scamp_grouper"
+  blackbelly_rosefish_short_bottom_ll <- "https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:short_bottom_longline_blackbelly_rosefish"
+  red_grouper_trap <- "https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:trap_red_grouper"
+  scamp_grouper_short_bottom_ll <- "https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:short_bottom_longline_scamp_grouper"
+  sand_perch_trap <- "https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:trap_sand_perch"
+  red_porgy_trap <- "https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:trap_red_porgy"
+  red_snapper_trap <- "https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:trap_red_snapper"
+  red_grouper_short_bottom_ll <- "https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:short_bottom_longline_red_grouper"
+  knobbed_porgy_trap <- "https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:trap_knobbed_porgy"
+  white_grunt_trap <- "https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:trap_white_grunt"
+  snow_grouper_long_bottom_ll <- "https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:long_bottom_longline_snowy_grouper"
+  gag_grouper_trap <- "https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:trap_gag_grouper"
+  golden_tilefish_short_bottom_ll <- "https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:short_bottom_longline_golden_tilefish"
+  bank_sea_bass_trap <- "https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:trap_banksea_bass"
+  black_sea_bass_trap <- "https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:trap_blacksea_bass"
+  grey_triggerfish_trap <- "https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:trap_grey_triggerfish"
+  tomtate_trap <- "https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:trap_tomtate"
+  moray_eel_trap <- "https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:trap_spotted_moray_eel"
+  spottail_pinfish_trap <- "https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:trap_spottail_pinfish"
+  golden_tilefish_long_bottom_ll <- "https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:long_bottom_longline_golden_tilefish"
+  white_shrimp <- "https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:white_shrimp"
+  brown_shrimp <- "https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:brown_shrimp"
+  blackfish_trap <- "https://data.axds.co/gs/secoora/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=secoora:marmap_blackfish_trap_survey_1990_2009"
+  bottom_longline <- "https://data.axds.co/gs/secoora/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=secoora:marmap_bottom_longline_1990_2009_"
+  isaacs_kidd <- "https://data.axds.co/gs/secoora/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=secoora:marmap_isaacs_kidd_midwater_trawl_1990_2009"
+  kali_pole <- "https://data.axds.co/gs/secoora/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=secoora:marmap_kali_pole_1990_2009"
+  short_bottom_longline <- "https://data.axds.co/gs/secoora/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=secoora:marmap_short_bottom_longline_1990_2009"
+  yankee_trawl <- "https://data.axds.co/gs/secoora/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=secoora:marmap_yankee_trawl_1990_2009"
+  # Unzip the file if the data are compressed as .zip
+  ## Examine if the filename contains the pattern ".zip"
+  ### grepl returns a logic statement when pattern ".zip" is met in the file
+  if (grepl(".zip", file)){
+    
+    # grab text before ".zip" and keep only text before that
+    new_dir_name <- sub(".zip", "", file)
+    
+    # create new directory for data
+    new_dir <- file.path(data_dir, new_dir_name)
+    
+    # unzip the file
+    unzip(zipfile = file.path(data_dir, file),
+          # export file to the new data directory
+          exdir = new_dir)
+    # remove original zipped file
+    file.remove(file.path(data_dir, file))
+  }
+  
+  if (grepl(".kmz", file)){
+    
+    ## clam grounds
+    file.rename(from=file.path(data_dir, file),  # Make default download directory flexible
+                # send to the raw data directory
+                to=file.path(data_dir, paste0(sub(".kmz", "", file), ".zip")))
+    
+    unzip(zipfile = file.path(data_dir, paste0(sub(".kmz", "", file), ".zip")),
+          # export file to the new data directory
+          exdir = data_dir)
+    
+    file.rename(from=file.path(data_dir, "doc.kml"),  # Make default download directory flexible
+                # send to the raw data directory
+                to=file.path(data_dir, paste0(sub(".kmz", "", file), ".kml")))
+    
+    ## remove original zipped file
+    file.remove(file.path(data_dir, paste0(sub(".kmz", "", file), ".zip")))
   }
 }
 
@@ -180,224 +342,120 @@ data_dir <- "data/a_raw_data/natural_resources"
 
 # download data
 ## natural resources
-"https://ncnhde.natureserve.org/system/files/nhna_NaturalArea_2024-01.zip"
-"https://ncnhde.natureserve.org/system/files/Biodiversity_and_Habitat_Assessment_2022-07_0.zip"
-"https://ncnhde.natureserve.org/system/files/marea_ManagedArea_2024-01.zip"
 
-
-
-
-
-
-
-
-
-
-
-
-"https://media.fisheries.noaa.gov/2023-09/summer-flounder-fishery-sea-turtle-protection-area-20140501-1.zip"
-
-"https://media.fisheries.noaa.gov/2020-04/bdtrp_n_nc_po.zip"
-"https://media.fisheries.noaa.gov/2020-04/bdtrp_sc_fl_po_0.zip"
-
-
-
-
-"https://response.restoration.noaa.gov/sites/default/files/esimaps/gisdata/SCarolina_1996_GDB.zip"
-
-"https://response.restoration.noaa.gov/sites/default/files/esimaps/gisdata/SCarolina_2015_GDB.zip"
-
-"https://response.restoration.noaa.gov/sites/default/files/esimaps/gisdata/NCarolina_2016_GDB.zip"
-
-"https://response.restoration.noaa.gov/sites/default/files/esimaps/gisdata/NCarolina_2011_GDB.zip"
-
-"https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:coralhapc"
-"https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:coastmigpelhapc"
-"https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:dolphin_wahoo_efh_hapc"
-"https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:snapper_grouper_efh_hapc"
-"https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:tilefish_efh_hapc"
-"https://data.axds.co/gs/secoora/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=secoora:snapper_grouper_efh"
-"https://data.axds.co/gs/secoora/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=secoora:shrimpefh"
-"https://data.axds.co/gs/secoora/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=secoora:dolphin_wahoo_efh"
-"https://data.axds.co/gs/secoora/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=secoora:spinylobsterefh"
-"https://data.axds.co/gs/secoora/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=secoora:goldencrabefh"
-"https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:deepwater_coral_hapcs"
-"https://ecos.fws.gov/docs/crithab/crithab_all/crithab_all_layers.zip"
-"https://data.axds.co/gs/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa_shorebirds"
-"https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:seamap_turtle"
-
-"https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:in_water_kemps"
-"https://marinecadastre.gov/downloads/data/mc/CoastalCriticalHabitat.zip"
-"https://marinecadastre.gov/downloads/data/mc/EFHHighlyMigratorySpecies.zip"
-"http://cetsound.noaa.gov/Assets/cetsound/data/CetMap_BIA_WGS84.zip"
-"https://marinecadastre.gov/downloads/data/mc/AudubonImportantBirdArea.zip"
-"https://marinecadastre.gov/downloads/data/mc/ProtectedArea.zip"
-"https://marinecadastre.gov/downloads/data/mc/DeepSeaCoralObservation.zip"
-"https://marinecadastre.gov/downloads/data/mc/DeepSeaCoralHabitatSuitability.zip"
-"https://marinecadastre.gov/downloads/data/mc/CoastalBarrierResourceAreas.zip"
-
-
-
-
-
-
-"https://webapps.mrc.virginia.gov/public/maps/kml/prfcWeb.kml"
-"https://webapps.mrc.virginia.gov/public/maps/kml/State.kmz"
-"https://webapps.mrc.virginia.gov/public/maps/kml/VIMS_SAV_2023_p1.kmz"
-
-"https://dwr.virginia.gov/-/gis-data/VDGIF_Wildlife_Management_Area_WMA_Boundaries.zip"
-"https://dwr.virginia.gov/-/gis-data/pca_shapefile.zip"
-"https://dwr.virginia.gov/-/gis-data/veva_shapefile.zip"
-"https://dwr.virginia.gov/-/gis-data/Tier1_EssHab.zip"
-"https://dwr.virginia.gov/-/gis-data/EssHabTier1_2.zip"
-"https://portal.midatlanticocean.org/static/data_manager/data-download/Zip_Files/Fishing/ArtificialReefs2023FebUpdate.zip"
-
-"https://sanctuaries.noaa.gov/media/gis/mbpr_py.zip"
-"https://marinecadastre.gov/downloads/data/mc/NationalEstuarineResearchReserveSystem.zip"
-"https://marinecadastre.gov/downloads/data/mc/CoastalWetland.zip"
-
-
-"https://media.fisheries.noaa.gov/2020-04/frank_r_lautenberg_deep_sea_coral_protection_areas_20180409.zip"
-"https://media.fisheries.noaa.gov/2020-04/hptrp_mid-atlantic_regulated_and_exempted_waters_20140915.zip"
-"https://response.restoration.noaa.gov/sites/default/files/esimaps/gisdata/ChesapeakeBay_2016_GDB.zip"
-
-
-
-
-
-
-"https://marinecadastre.gov/downloads/data/mc/Seagrass.zip"
-"https://data.axds.co/gs/secoora/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=secoora:coral_mounds"
-"https://data.axds.co/gs/secoora/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=secoora:artificial_reefs"
-"https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:north_american_right_whale"
-"https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:pipingplover_se"
-
-"https://media.fisheries.noaa.gov/2020-04/shapefile-cape-lookout-orig-ext.zip"
-
-"https://media.fisheries.noaa.gov/2020-04/capefear.zip"
-"https://media.fisheries.noaa.gov/2020-04/stetson_miami.zip"
-"https://media.fisheries.noaa.gov/2020-04/blakeridge.zip"
-"https://www.sciencebase.gov/catalog/file/get/64f8da38d34ed30c20546a6a?name=Southeast_Blueprint_2023_Data_Download.zip"
-
-
-
-
-
-
-"https://marinecadastre.gov/downloads/data/mc/NorthAtlanticRightWhaleSMA.zip"
-
-"https://media.fisheries.noaa.gov/2020-04/mpas.zip"
-"https://www.fisheries.noaa.gov/s3/2020-04/sa_eez_off_states.zip"
-"https://media.fisheries.noaa.gov/2020-04/comm_permits_sa_sg.zip"
-"https://media.fisheries.noaa.gov/2020-04/seabass_potid.zip"
-
-"https://media.fisheries.noaa.gov/2020-04/ll_prohibareas_n_s.zip"
-"https://media.fisheries.noaa.gov/2020-04/spawning_smzs.zip"
-"https://media.fisheries.noaa.gov/2020-04/bsb_pot_nov_apr.zip"
-"https://media.fisheries.noaa.gov/2020-04/bsb_pot_dec_mar.zip"
-"https://media.fisheries.noaa.gov/2020-04/sa_shrimp_cold_weather.zip"
-"https://media.fisheries.noaa.gov/2020-04/octocoral.zip"
-"https://media.fisheries.noaa.gov/2020-04/goldencrab.zip"
-"https://media.fisheries.noaa.gov/2020-04/pelagicll_charleston.zip"
-"https://media.fisheries.noaa.gov/2020-04/pelagic_sargassum.zip"
-"https://media.fisheries.noaa.gov/2020-04/king_mackerel.zip"
-"https://media.fisheries.noaa.gov/2020-04/spanish_mackerel_.zip"
-"https://media.fisheries.noaa.gov/2020-04/cobia.zip"
-
-
-
-
-
-
-
-
-
-"https://webapps.mrc.virginia.gov/public/maps/kml/crabs.kml"
-"https://webapps.mrc.virginia.gov/public/maps/kml/OpenHarvest.kmz"
-"https://webapps.mrc.virginia.gov/public/maps/kml/OyGarden.kmz"
-"https://webapps.mrc.virginia.gov/public/maps/kml/LeaseApplications.kmz"
-"https://webapps.mrc.virginia.gov/public/maps/kml/oyster_sanctuaries.kml"
-"https://webapps.mrc.virginia.gov/public/maps/kml/PrivateLeases.kmz"
-"https://apps.vdh.virginia.gov/kml/CondemnationZones_sim.kmz"
-"https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:bottom_longlines_restrictions"
-"https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:fish_traps_restrictions"
-"https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:octocoral_gear_restrictions"
-"https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:recreational_fishing_seasons_and_closures"
-"https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:roller_rig_trawls_restrictions"
-"https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:sargassum_restrictions"
-
-
-
-
-
-
-
-
-
-
-
-"https://media.fisheries.noaa.gov/2020-04/scup-gear-restricted-areas-20161114-noaa-garfo.zip"
-
-
-"https://media.fisheries.noaa.gov/2023-09/summer-flounder-fishery-sea-turtle-protection-area-20140501-1.zip"
-"https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:weakfish"
-"https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:atlantic_sharpnose_shark"
-"https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:atlantic_croaker"
-"https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:spot"
-"https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:bluefish"
-"https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:southern_kingfish"
-
-
-
-
-
-"https://media.fisheries.noaa.gov/2020-04/lobster_gear_areas_20160501.zip"
-"https://media.fisheries.noaa.gov/2020-04/illex_fishery_mesh_exemption_area_20140501.zip"
-"https://media.fisheries.noaa.gov/2020-04/atlantic-red-drum-fishery-harvest-or-possession-prohibition-area-20140915-noaa-garfo.zip"
-"https://media.fisheries.noaa.gov/2020-04/sne-dogfish-gillnet-exemption-area-20150315-noaa-garfo.zip"
-"https://media.fisheries.noaa.gov/2020-04/sne-regulated-mesh-area-20150315-noaa-garfo.zip"
-"https://media.fisheries.noaa.gov/2020-04/skate-management-unit-20140501-noaa-garfo.zip"
-"https://media.fisheries.noaa.gov/2020-04/sne_exemption_area_20150315.zip"
-"https://media.fisheries.noaa.gov/2020-04/management-units-sf-scup-bsb-20140501-noaa-garfo.zip"
-"https://media.fisheries.noaa.gov/2020-04/scup-transfer-at-sea-20140501-noaa-garfo.zip"
-"https://media.fisheries.noaa.gov/2020-04/sne_monkfish_and_skate_trawl_exemption_area_20150315.zip"
-"https://media.fisheries.noaa.gov/2020-04/sne_monkfish_and_skate_gillnet_exemption_area_20150315.zip"
-"https://media.fisheries.noaa.gov/2023-04/Scallop-Rotational-Areas-20230419.zip"
-"https://media.fisheries.noaa.gov/2022-05/Virginia_Pound_Net_Regulated_Areas_2022523.zip"
-
-"https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:fish_traps_restrictions"
-"https://data.axds.co/gs/secoora/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=secoora:marmap_biodiv_index"
-"https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:trap_vermillion_snapper"
-"https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:short_bottom_longline_snowy_grouper"
-"https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:trap_scup"
-"https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:trap_scamp_grouper"
-"https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:short_bottom_longline_blackbelly_rosefish"
-"https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:trap_red_grouper"
-"https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:short_bottom_longline_scamp_grouper"
-"https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:trap_sand_perch"
-"https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:trap_red_porgy"
-"https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:trap_red_snapper"
-"https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:short_bottom_longline_red_grouper"
-"https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:trap_knobbed_porgy"
-"https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:trap_white_grunt"
-"https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:long_bottom_longline_snowy_grouper"
-"https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:trap_gag_grouper"
-"https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:short_bottom_longline_golden_tilefish"
-"https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:trap_banksea_bass"
-"https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:trap_blacksea_bass"
-"https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:trap_grey_triggerfish"
-"https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:trap_tomtate"
-"https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:trap_spotted_moray_eel"
-"https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:trap_spottail_pinfish"
-"https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:long_bottom_longline_golden_tilefish"
-"https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:white_shrimp"
-"https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:brown_shrimp"
-"https://data.axds.co/gs/secoora/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=secoora:marmap_blackfish_trap_survey_1990_2009"
-"https://data.axds.co/gs/secoora/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=secoora:marmap_bottom_longline_1990_2009_"
-"https://data.axds.co/gs/secoora/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=secoora:marmap_isaacs_kidd_midwater_trawl_1990_2009"
-"https://data.axds.co/gs/secoora/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=secoora:marmap_kali_pole_1990_2009"
-"https://data.axds.co/gs/secoora/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=secoora:marmap_short_bottom_longline_1990_2009"
-"https://data.axds.co/gs/secoora/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=secoora:marmap_yankee_trawl_1990_2009"
+nhpna <- "https://ncnhde.natureserve.org/system/files/nhna_NaturalArea_2024-01.zip"
+marea <- "https://ncnhde.natureserve.org/system/files/marea_ManagedArea_2024-01.zip"
+
+summer_flounder <- "https://media.fisheries.noaa.gov/2023-09/summer-flounder-fishery-sea-turtle-protection-area-20140501-1.zip"
+bottlenose_dolphin_n_ncar <- "https://media.fisheries.noaa.gov/2020-04/bdtrp_n_nc_po.zip"
+bottlenose_dolphin_s_ncar <- "https://media.fisheries.noaa.gov/2020-04/bdtrp_s_nc_po.zip"
+bottlenose_dolphin_sc_ga_fl <- "https://media.fisheries.noaa.gov/2020-04/bdtrp_sc_fl_po_0.zip"
+
+sc_esi_1996 <- "https://response.restoration.noaa.gov/sites/default/files/esimaps/gisdata/SCarolina_1996_GDB.zip"
+sc_esi_2015 <- "https://response.restoration.noaa.gov/sites/default/files/esimaps/gisdata/SCarolina_2015_GDB.zip"
+nc_esi_2016 <- "https://response.restoration.noaa.gov/sites/default/files/esimaps/gisdata/NCarolina_2016_GDB.zip"
+nc_esi_2011 <- "https://response.restoration.noaa.gov/sites/default/files/esimaps/gisdata/NCarolina_2011_GDB.zip"
+
+coral_hapc <- "https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:coralhapc"
+coast_mig_pelagic <- "https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:coastmigpelhapc"
+dolphin_wahoo_efh_hapc <- "https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:dolphin_wahoo_efh_hapc"
+snapper_grouper <- "https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:snapper_grouper_efh_hapc"
+tilefish <- "https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:tilefish_efh_hapc"
+
+shrimp <- "https://data.axds.co/gs/secoora/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=secoora:shrimpefh"
+dolphin_wahoo_efh <- "https://data.axds.co/gs/secoora/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=secoora:dolphin_wahoo_efh"
+spiny_lobster <- "https://data.axds.co/gs/secoora/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=secoora:spinylobsterefh"
+golden_crab <- "https://data.axds.co/gs/secoora/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=secoora:goldencrabefh"
+deepwater_coral <- "https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:deepwater_coral_hapcs"
+critical_habitat <- "https://ecos.fws.gov/docs/crithab/crithab_all/crithab_all_layers.zip"
+
+shorebird_nests <- "https://data.axds.co/gs/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa_shorebirds"
+seamap_loggerhead <- "https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:seamap_turtle"
+kemp_ridley_seaturtle <- "https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:in_water_kemps"
+coastal_critical_habitat <- "https://marinecadastre.gov/downloads/data/mc/CoastalCriticalHabitat.zip"
+highly_migratory_species <- "https://marinecadastre.gov/downloads/data/mc/EFHHighlyMigratorySpecies.zip"
+cetacean_bia <- "http://cetsound.noaa.gov/Assets/cetsound/data/CetMap_BIA_WGS84.zip"
+audubon_bird_areas <- "https://marinecadastre.gov/downloads/data/mc/AudubonImportantBirdArea.zip"
+protected_areas <- "https://marinecadastre.gov/downloads/data/mc/ProtectedArea.zip"
+deepsea_coral_observations <- "https://marinecadastre.gov/downloads/data/mc/DeepSeaCoralObservation.zip"
+
+deepsea_coral_habitat_suitability <- "https://marinecadastre.gov/downloads/data/mc/DeepSeaCoralHabitatSuitability.zip"
+coastal_barrier <- "https://marinecadastre.gov/downloads/data/mc/CoastalBarrierResourceAreas.zip"
+
+va_jones_shore <- "https://webapps.mrc.virginia.gov/public/maps/kml/prfcWeb.kml"
+va_state_marsh <- "https://webapps.mrc.virginia.gov/public/maps/kml/State.kmz"
+va_submerged_aquatic <- "https://webapps.mrc.virginia.gov/public/maps/kml/VIMS_SAV_2023_p1.kmz"
+va_es_submerged <- "https://webapps.mrc.virginia.gov/public/maps/kml/sav.kml"
+va_wma <- "https://dwr.virginia.gov/-/gis-data/VDGIF_Wildlife_Management_Area_WMA_Boundaries.zip"
+va_priority_conservation <- "https://dwr.virginia.gov/-/gis-data/pca_shapefile.zip"
+veva <- "https://dwr.virginia.gov/-/gis-data/veva_shapefile.zip"
+mid_atl_artificial_reefs <- "https://portal.midatlanticocean.org/static/data_manager/data-download/Zip_Files/Fishing/ArtificialReefs2023FebUpdate.zip"
+
+mallow_bay <- "https://sanctuaries.noaa.gov/media/gis/mbpr_py.zip"
+national_estuarine_researche <- "https://marinecadastre.gov/downloads/data/mc/NationalEstuarineResearchReserveSystem.zip"
+coastal_wetland <- "https://marinecadastre.gov/downloads/data/mc/CoastalWetland.zip"
+
+lautenberg_coral <- "https://media.fisheries.noaa.gov/2020-04/frank_r_lautenberg_deep_sea_coral_protection_areas_20180409.zip"
+harbor_porpoise <- "https://media.fisheries.noaa.gov/2020-04/hptrp_mid-atlantic_regulated_and_exempted_waters_20140915.zip"
+cb_esi_2016 <- "https://response.restoration.noaa.gov/sites/default/files/esimaps/gisdata/ChesapeakeBay_2016_GDB.zip"
+
+seagrass <- "https://marinecadastre.gov/downloads/data/mc/Seagrass.zip"
+coral_mounds <- "https://data.axds.co/gs/secoora/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=secoora:coral_mounds"
+se_atl_artificial_reef <- "https://data.axds.co/gs/secoora/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=secoora:artificial_reefs"
+na_right_whale_sighting <- "https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:north_american_right_whale"
+piping_plover <- "https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:pipingplover_se"
+na_right_whale_season <- "https://marinecadastre.gov/downloads/data/mc/NorthAtlanticRightWhaleSMA.zip"
+
+crabs <- "https://webapps.mrc.virginia.gov/public/maps/kml/crabs.kml"
+oyster_sanctuaries <- "https://webapps.mrc.virginia.gov/public/maps/kml/oyster_sanctuaries.kml"
+
+weakfish <- "https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:weakfish"
+sharpnose_shark <- "https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:atlantic_sharpnose_shark"
+croaker <- "https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:atlantic_croaker"
+spot <- "https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:spot"
+bluefish <- "https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:bluefish"
+southern_kingfish <- "https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:southern_kingfish"
+
+marmap <- "https://data.axds.co/gs/secoora/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=secoora:marmap_biodiv_index"
+vermillion_snapper_trap <- "https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:trap_vermillion_snapper"
+snow_grouper_short_bottom_ll  <- "https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:short_bottom_longline_snowy_grouper"
+scup_trap <- "https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:trap_scup"
+scamp_grouper_trap <- "https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:trap_scamp_grouper"
+blackbelly_rosefish_short_bottom_ll <- "https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:short_bottom_longline_blackbelly_rosefish"
+red_grouper_trap <- "https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:trap_red_grouper"
+scamp_grouper_short_bottom_ll <- "https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:short_bottom_longline_scamp_grouper"
+sand_perch_trap <- "https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:trap_sand_perch"
+red_porgy_trap <- "https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:trap_red_porgy"
+red_snapper_trap <- "https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:trap_red_snapper"
+red_grouper_short_bottom_ll <- "https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:short_bottom_longline_red_grouper"
+knobbed_porgy_trap <- "https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:trap_knobbed_porgy"
+white_grunt_trap <- "https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:trap_white_grunt"
+snow_grouper_long_bottom_ll <- "https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:long_bottom_longline_snowy_grouper"
+gag_grouper_trap <- "https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:trap_gag_grouper"
+golden_tilefish_short_bottom_ll <- "https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:short_bottom_longline_golden_tilefish"
+bank_sea_bass_trap <- "https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:trap_banksea_bass"
+black_sea_bass_trap <- "https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:trap_blacksea_bass"
+grey_triggerfish_trap <- "https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:trap_grey_triggerfish"
+tomtate_trap <- "https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:trap_tomtate"
+moray_eel_trap <- "https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:trap_spotted_moray_eel"
+spottail_pinfish_trap <- "https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:trap_spottail_pinfish"
+golden_tilefish_long_bottom_ll <- "https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:long_bottom_longline_golden_tilefish"
+white_shrimp <- "https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:white_shrimp"
+brown_shrimp <- "https://data.axds.co/gs/gsaa/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=gsaa:brown_shrimp"
+blackfish_trap <- "https://data.axds.co/gs/secoora/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=secoora:marmap_blackfish_trap_survey_1990_2009"
+bottom_longline <- "https://data.axds.co/gs/secoora/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=secoora:marmap_bottom_longline_1990_2009_"
+isaacs_kidd <- "https://data.axds.co/gs/secoora/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=secoora:marmap_isaacs_kidd_midwater_trawl_1990_2009"
+kali_pole <- "https://data.axds.co/gs/secoora/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=secoora:marmap_kali_pole_1990_2009"
+short_bottom_longline <- "https://data.axds.co/gs/secoora/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=secoora:marmap_short_bottom_longline_1990_2009"
+yankee_trawl <- "https://data.axds.co/gs/secoora/wfs?service=WFS&version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=secoora:marmap_yankee_trawl_1990_2009"
+surficial_sediment_texture <- "https://marinecadastre.gov/downloads/data/mc/SurficialSedimentClassification.zip"
+
+nc_biodiversity_wildlife <- "https://ncnhde.natureserve.org/system/files/Biodiversity_and_Habitat_Assessment_2022-07_0.zip"
+va_tier_i_species <- "https://dwr.virginia.gov/-/gis-data/Tier1_EssHab.zip"
+va_tier_ii_species <- "https://dwr.virginia.gov/-/gis-data/EssHabTier1_2.zip"
+se_blueprint <- "https://www.sciencebase.gov/catalog/file/get/64f8da38d34ed30c20546a6a?name=Southeast_Blueprint_2023_Data_Download.zip"
+
+artificial_reef <- "https://marinecadastre.gov/downloads/data/mc/ArtificialReef.zip"
 
 #####################################
 #####################################
