@@ -50,19 +50,28 @@ data_dir <- "data/a_raw_data/fisheries_aquaculture"
 #####################################
 
 rest_services_function <- function(url_list, base_url, data_dir){
+  # define base URL (the service path)
   base_url <- base_url
+  
+  # define the unique dataset URL ending
   full_url <- url_list
+  
+  # combine the base with the dataset URL to create the entire data URL
   data_url <- file.path(base_url, full_url)
   
+  # pull the spatial layer from the REST server
   data <- arcpullr::get_spatial_layer(data_url)
   
+  # get the unique data name (when applicable)
   dir_name <- stringr::str_split(url_list, pattern = "/")[[1]][2]
   
   # create new directory for data
   dir_create <- dir.create(file.path(data_dir, dir_name))
   
+  # set the new pathname to export the data
   new_dir <- file.path(data_dir, dir_name)
   
+  # export the dataset
   sf::st_write(obj = data, dsn = file.path(new_dir, paste0(dir_name, ".shp")), delete_layer = F)
 }
 
