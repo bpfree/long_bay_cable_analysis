@@ -523,62 +523,6 @@ parallel::stopCluster(cl = cl)
 list.files(data_dir)
 
 #####################################
-
-# # change KMZ to KML data to get integrated with R
-# 
-# ## fyke Net
-# file.rename(from=file.path(data_dir, "fn.kmz"),  # Make default download directory flexible
-#             # send to the raw data directory
-#             to=file.path(data_dir, "fn.zip"))
-# 
-# unzip(zipfile = file.path(data_dir, "fn.zip"),
-#       # export file to the new data directory
-#       exdir = data_dir)
-# 
-# file.rename(from=file.path(data_dir, "doc.kml"),  # Make default download directory flexible
-#             # send to the raw data directory
-#             to=file.path(data_dir, "fn.kml"))
-# 
-# ## remove original zipped file
-# file.remove(file.path(data_dir, "fn.zip"))
-# 
-# #####################################
-# 
-# ## pound net
-# file.rename(from=file.path(data_dir, "pn.kmz"),  # Make default download directory flexible
-#             # send to the raw data directory
-#             to=file.path(data_dir, "pn.zip"))
-# 
-# unzip(zipfile = file.path(data_dir, "pn.zip"),
-#       # export file to the new data directory
-#       exdir = data_dir)
-# 
-# file.rename(from=file.path(data_dir, "doc.kml"),  # Make default download directory flexible
-#             # send to the raw data directory
-#             to=file.path(data_dir, "pn.kml"))
-# 
-# ## remove original zipped file
-# file.remove(file.path(data_dir, "pn.zip"))
-# 
-# #####################################
-# 
-# ## staked gill net
-# file.rename(from=file.path(data_dir, "sgn.kmz"),  # Make default download directory flexible
-#             # send to the raw data directory
-#             to=file.path(data_dir, "sgn.zip"))
-# 
-# unzip(zipfile = file.path(data_dir, "sgn.zip"),
-#       # export file to the new data directory
-#       exdir = data_dir)
-# 
-# file.rename(from=file.path(data_dir, "doc.kml"),  # Make default download directory flexible
-#             # send to the raw data directory
-#             to=file.path(data_dir, "sgn.kml"))
-# 
-# ## remove original zipped file
-# file.remove(file.path(data_dir, "sgn.zip"))
-
-#####################################
 #####################################
 
 # calculate end time and print time difference
