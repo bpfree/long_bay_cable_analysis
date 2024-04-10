@@ -186,7 +186,20 @@ download_list <- c(
   munitions_explosvies
 )
 
-data_download_function(download_list, data_dir)
+#####################################
+#####################################
+
+parallel::detectCores()
+
+cl <- parallel::makeCluster(spec = parallel::detectCores(), # number of clusters wanting to create
+                            type = 'PSOCK')
+
+work <- parallel::parLapply(cl = cl, X = download_list, fun = data_download_function, data_dir = data_dir)
+
+parallel::stopCluster(cl = cl)
+
+# list all files in data directory
+list.files(data_dir)
 
 #####################################
 #####################################
