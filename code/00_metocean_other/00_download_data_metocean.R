@@ -87,16 +87,14 @@ data_download_function <- function(download_list, data_dir){
                   mode="wb")
   }
   
-  if (grepl("southeast_bathymetry_meters", file)){
+  # unzip and prepare data hosted on AXDS's GSAA server
+  if (grepl("gsaa", file)){
     
-    # grab text before ".zip" and keep only text before that
-    new_dir_name <- "southeast_bathymetry_meters"
+    # grab unique file name portion
+    new_dir_name <- unlist(strsplit(file, split=':', fixed=TRUE))[2]
     
     # create new directory for data
     new_dir <- file.path(data_dir, new_dir_name)
-    
-    file <- list.files(data_dir)[grep(pattern = "southeast_bathymetry_meters",
-                                      x = list.files(data_dir))]
     
     # unzip the file
     unzip(zipfile = file.path(data_dir, file),
@@ -106,130 +104,14 @@ data_download_function <- function(download_list, data_dir){
     file.remove(file.path(data_dir, file))
   }
   
-  if (grepl("undersea_features", file)){
+  # unzip and prepare data hosted on AXDS's SECOORA server
+  if (grepl("secoora", file)){
     
-    # grab text before ".zip" and keep only text before that
-    new_dir_name <- "undersea_features"
-    
-    # create new directory for data
-    new_dir <- file.path(data_dir, new_dir_name)
-    
-    file <- list.files(data_dir)[grep(pattern = "undersea_features",
-                                      x = list.files(data_dir))]
-    
-    # unzip the file
-    unzip(zipfile = file.path(data_dir, file),
-          # export file to the new data directory
-          exdir = new_dir)
-    # remove original zipped file
-    file.remove(file.path(data_dir, file))
-  }
-  
-  if (grepl("limit_of_ocsla_8g_zone", file)){
-    
-    # grab text before ".zip" and keep only text before that
-    new_dir_name <- "limit_of_ocsla_8g_zone"
+    # grab unique file name portion
+    new_dir_name <- unlist(strsplit(file, split=':', fixed=TRUE))[2]
     
     # create new directory for data
     new_dir <- file.path(data_dir, new_dir_name)
-    
-    file <- list.files(data_dir)[grep(pattern = "limit_of_ocsla_8g_zone",
-                                      x = list.files(data_dir))]
-    
-    # unzip the file
-    unzip(zipfile = file.path(data_dir, file),
-          # export file to the new data directory
-          exdir = new_dir)
-    # remove original zipped file
-    file.remove(file.path(data_dir, file))
-  }
-  
-  if (grepl("submerged_land_acts_boundary_3_nm", file)){
-    
-    # grab text before ".zip" and keep only text before that
-    new_dir_name <- "submerged_land_acts_boundary_3_nm"
-    
-    # create new directory for data
-    new_dir <- file.path(data_dir, new_dir_name)
-    
-    file <- list.files(data_dir)[grep(pattern = "submerged_land_acts_boundary_3_nm",
-                                      x = list.files(data_dir))]
-    
-    # unzip the file
-    unzip(zipfile = file.path(data_dir, file),
-          # export file to the new data directory
-          exdir = new_dir)
-    # remove original zipped file
-    file.remove(file.path(data_dir, file))
-  }
-  
-  if (grepl("dod_wind", file)){
-    
-    # grab text before ".zip" and keep only text before that
-    new_dir_name <- "dod_wind"
-    
-    # create new directory for data
-    new_dir <- file.path(data_dir, new_dir_name)
-    
-    file <- list.files(data_dir)[grep(pattern = "dod_wind",
-                                      x = list.files(data_dir))]
-    
-    # unzip the file
-    unzip(zipfile = file.path(data_dir, file),
-          # export file to the new data directory
-          exdir = new_dir)
-    # remove original zipped file
-    file.remove(file.path(data_dir, file))
-  }
-  
-  if (grepl("shrimp_vms", file)){
-    
-    # grab text before ".zip" and keep only text before that
-    new_dir_name <- "shrimp_vms"
-    
-    # create new directory for data
-    new_dir <- file.path(data_dir, new_dir_name)
-    
-    file <- list.files(data_dir)[grep(pattern = "shrimp_vms",
-                                      x = list.files(data_dir))]
-    
-    # unzip the file
-    unzip(zipfile = file.path(data_dir, file),
-          # export file to the new data directory
-          exdir = new_dir)
-    # remove original zipped file
-    file.remove(file.path(data_dir, file))
-  }
-  
-  if (grepl("ShellBase-NC", file)){
-    
-    # grab text before ".zip" and keep only text before that
-    new_dir_name <- "ShellBase-NC"
-    
-    # create new directory for data
-    new_dir <- file.path(data_dir, new_dir_name)
-    
-    file <- list.files(data_dir)[grep(pattern = "ShellBase-NC",
-                                      x = list.files(data_dir))]
-    
-    # unzip the file
-    unzip(zipfile = file.path(data_dir, file),
-          # export file to the new data directory
-          exdir = new_dir)
-    # remove original zipped file
-    file.remove(file.path(data_dir, file))
-  }
-  
-  if (grepl("ShellBase-SC", file)){
-    
-    # grab text before ".zip" and keep only text before that
-    new_dir_name <- "ShellBase-SC"
-    
-    # create new directory for data
-    new_dir <- file.path(data_dir, new_dir_name)
-    
-    file <- list.files(data_dir)[grep(pattern = "ShellBase-SC",
-                                      x = list.files(data_dir))]
     
     # unzip the file
     unzip(zipfile = file.path(data_dir, file),
@@ -455,7 +337,7 @@ download_list <- c(
   submerged_land_acts,
   sc_esi_1996,
   nc_esi_2011,
-  meow,
+  # meow,
   deepwater_mpa,
   dod_wind,
   coastal_pop_places,
@@ -492,20 +374,6 @@ parallel::stopCluster(cl = cl)
 
 # list all files in data directory
 list.files(data_dir)
-
-#####################################
-#####################################
-
-# list all files in data directory
-list.files(data_dir)
-
-#####################################
-#####################################
-
-# file.rename(from = file.path(data_dir, list.files(data_dir,
-#                                                   # get the Southeast_Blueprint directory
-#                                                   pattern = "Southeast_Blueprint")),
-#             to = file.path(data_dir, "Southeast_Blueprint"))
 
 #####################################
 #####################################
