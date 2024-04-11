@@ -79,7 +79,7 @@ data_download_function <- function(download_list, data_dir){
   
   # Download the data
   if (!file.exists(file)) {
-    options(timeout=100000)
+    options(timeout=1000000)
     # download the file from the URL
     download.file(url = url,
                   # place the downloaded file in the data directory
@@ -89,13 +89,13 @@ data_download_function <- function(download_list, data_dir){
   
   # unzip and prepare data hosted on AXDS's GSAA server
   if (grepl("gsaa", file)){
-    
+
     # grab unique file name portion
     new_dir_name <- unlist(strsplit(file, split=':', fixed=TRUE))[2]
-    
+
     # create new directory for data
     new_dir <- file.path(data_dir, new_dir_name)
-    
+
     # unzip the file
     unzip(zipfile = file.path(data_dir, file),
           # export file to the new data directory
@@ -103,16 +103,16 @@ data_download_function <- function(download_list, data_dir){
     # remove original zipped file
     file.remove(file.path(data_dir, file))
   }
-  
+
   # unzip and prepare data hosted on AXDS's SECOORA server
   if (grepl("secoora", file)){
-    
+
     # grab unique file name portion
     new_dir_name <- unlist(strsplit(file, split=':', fixed=TRUE))[2]
-    
+
     # create new directory for data
     new_dir <- file.path(data_dir, new_dir_name)
-    
+
     # unzip the file
     unzip(zipfile = file.path(data_dir, file),
           # export file to the new data directory
@@ -141,12 +141,12 @@ data_download_function <- function(download_list, data_dir){
   }
   
   if (grepl("698044", file)){
-    
+
     new_dir_name <- "nps_boundaries"
-    
+
     # create new directory for data
     new_dir <- file.path(data_dir, new_dir_name)
-    
+
     # unzip the file
     unzip(zipfile = file.path(data_dir, file),
           # export file to the new data directory
@@ -154,14 +154,14 @@ data_download_function <- function(download_list, data_dir){
     # remove original zipped file
     file.remove(file.path(data_dir, file))
   }
-  
+
   if (grepl("NREL-HourlyWind", file)){
-    
+
     new_dir_name <- "nrel_wind"
-    
+
     # create new directory for data
     new_dir <- file.path(data_dir, new_dir_name)
-    
+
     # unzip the file
     unzip(zipfile = file.path(data_dir, file),
           # export file to the new data directory
@@ -359,6 +359,10 @@ download_list <- c(
   shellbase_nc,
   shellbase_sc
 )
+
+#####################################
+
+data_download_function(download_list = meow, data_dir = data_dir)
 
 #####################################
 #####################################
